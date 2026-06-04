@@ -1,0 +1,363 @@
+[
+  {
+    "id": "auto-a7468c685165",
+    "title": "Attention Is All You Need",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "type": "paper",
+    "tags": [
+      "transformers",
+      "attention",
+      "nlp",
+      "deep-learning"
+    ],
+    "description": "The foundational paper introducing the Transformer architecture, which has become the backbone of modern NLP and generative AI systems including GPT and BERT.",
+    "authors": [
+      "Ashish Vaswani",
+      "Noam Shazeer",
+      "Niki Parmar"
+    ],
+    "institution": "Google Brain",
+    "language": "en",
+    "year": 2017,
+    "added_date": "2024-01-15",
+    "added_by": "human",
+    "reviewed_by": "editorial",
+    "quality_score": 9.8,
+    "access": "open-access",
+    "archived": false
+  },
+  {
+    "id": "auto-04b09f1369c1",
+    "title": "Hugging Face Transformers Library",
+    "url": "https://huggingface.co/transformers",
+    "type": "library",
+    "tags": [
+      "transformers",
+      "nlp",
+      "pytorch",
+      "tensorflow",
+      "open-source"
+    ],
+    "description": "State-of-the-art machine learning library providing thousands of pretrained models for NLP, computer vision, audio, and multimodal tasks.",
+    "authors": [
+      "Hugging Face"
+    ],
+    "institution": "Hugging Face",
+    "language": "en",
+    "year": 2020,
+    "added_date": "2024-02-10",
+    "added_by": "human",
+    "reviewed_by": "editorial",
+    "quality_score": 9.5,
+    "access": "free",
+    "archived": false
+  },
+  {
+    "id": "auto-dd0ddd1f2761",
+    "title": "fast.ai Practical Deep Learning for Coders",
+    "url": "https://course.fast.ai",
+    "type": "course",
+    "tags": [
+      "deep-learning",
+      "pytorch",
+      "practical",
+      "beginner-friendly"
+    ],
+    "description": "A free course designed for people with some coding experience who want to learn how to apply deep learning and machine learning to practical problems.",
+    "authors": [
+      "Jeremy Howard",
+      "Rachel Thomas"
+    ],
+    "institution": "fast.ai",
+    "language": "en",
+    "year": 2023,
+    "added_date": "2024-03-01",
+    "added_by": "human",
+    "reviewed_by": "editorial",
+    "quality_score": 9.2,
+    "access": "free",
+    "archived": false
+  },
+  {
+    "id": "auto-069a60e18ccf",
+    "title": "LangChain Framework",
+    "url": "https://langchain.com",
+    "type": "framework",
+    "tags": [
+      "llm",
+      "agents",
+      "rag",
+      "chains",
+      "open-source"
+    ],
+    "description": "A framework for developing applications powered by large language models, including chains, agents, and retrieval-augmented generation pipelines.",
+    "authors": [
+      "Harrison Chase"
+    ],
+    "institution": "LangChain",
+    "language": "en",
+    "year": 2023,
+    "added_date": "2024-03-15",
+    "added_by": "agent",
+    "quality_score": 8.4,
+    "access": "free",
+    "archived": false
+  },
+  {
+    "id": "auto-4ecc1474cee8",
+    "title": "The Illustrated Transformer",
+    "url": "https://jalammar.github.io/illustrated-transformer/",
+    "type": "blog",
+    "tags": [
+      "transformers",
+      "visualization",
+      "explainer",
+      "nlp"
+    ],
+    "description": "An intuitive visual guide to understanding the Transformer model architecture, breaking down self-attention and multi-head attention with clear diagrams.",
+    "authors": [
+      "Jay Alammar"
+    ],
+    "language": "en",
+    "year": 2018,
+    "added_date": "2024-01-20",
+    "added_by": "human",
+    "reviewed_by": "editorial",
+    "quality_score": 9.0,
+    "access": "free",
+    "archived": false
+  },
+  {
+    "id": "auto-32e3f81b1d52",
+    "title": "OpenAI API",
+    "url": "https://platform.openai.com",
+    "type": "tool",
+    "tags": [
+      "gpt",
+      "llm",
+      "api",
+      "generative-ai"
+    ],
+    "description": "Access to GPT-4, DALL-E, Whisper, and other OpenAI models through a robust API platform for building AI-powered applications.",
+    "authors": [
+      "OpenAI"
+    ],
+    "institution": "OpenAI",
+    "language": "en",
+    "year": 2023,
+    "added_date": "2024-04-01",
+    "added_by": "human",
+    "quality_score": 8.8,
+    "access": "freemium",
+    "archived": false
+  },
+  {
+    "id": "auto-7cc237d3850f",
+    "title": "3Blue1Brown Neural Networks Series",
+    "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+    "type": "video",
+    "tags": [
+      "neural-networks",
+      "visualization",
+      "math",
+      "beginner-friendly"
+    ],
+    "description": "A beautifully animated video series explaining neural networks from the ground up, covering gradient descent, backpropagation, and deep learning fundamentals.",
+    "authors": [
+      "Grant Sanderson"
+    ],
+    "institution": "3Blue1Brown",
+    "language": "en",
+    "year": 2017,
+    "added_date": "2024-02-25",
+    "added_by": "agent",
+    "quality_score": 9.6,
+    "access": "free",
+    "archived": false
+  },
+  {
+    "id": "auto-4cc665313797",
+    "title": "Papers With Code",
+    "url": "https://paperswithcode.com",
+    "type": "tool",
+    "tags": [
+      "research",
+      "benchmarks",
+      "datasets",
+      "papers",
+      "code"
+    ],
+    "description": "A platform that links machine learning papers with their official code implementations, datasets, and benchmark results across thousands of tasks.",
+    "institution": "Meta AI",
+    "language": "en",
+    "year": 2018,
+    "added_date": "2024-01-10",
+    "added_by": "human",
+    "reviewed_by": "editorial",
+    "quality_score": 9.3,
+    "access": "free",
+    "archived": false
+  },
+  {
+    "id": "auto-d95936737ca3",
+    "title": "The Batch Newsletter by Andrew Ng",
+    "url": "https://www.deeplearning.ai/the-batch/",
+    "type": "newsletter",
+    "tags": [
+      "ai-news",
+      "industry",
+      "weekly",
+      "curated"
+    ],
+    "description": "A weekly newsletter covering the most important AI news, research breakthroughs, and practical insights curated by Andrew Ng and the DeepLearning.AI team.",
+    "authors": [
+      "Andrew Ng"
+    ],
+    "institution": "DeepLearning.AI",
+    "language": "en",
+    "year": 2019,
+    "added_date": "2024-05-01",
+    "added_by": "human",
+    "quality_score": 8.2,
+    "access": "free",
+    "archived": false
+  },
+  {
+    "id": "auto-567bb77e3d7f",
+    "title": "Common Crawl Dataset",
+    "url": "https://commoncrawl.org",
+    "type": "dataset",
+    "tags": [
+      "web-data",
+      "nlp",
+      "pretraining",
+      "large-scale"
+    ],
+    "description": "A massive open repository of web crawl data, widely used for training large language models. Contains petabytes of raw web page data, metadata, and text extractions.",
+    "institution": "Common Crawl Foundation",
+    "language": "en",
+    "year": 2017,
+    "added_date": "2024-06-01",
+    "added_by": "agent",
+    "quality_score": 8.0,
+    "access": "open-access",
+    "archived": false
+  },
+  {
+    "id": "auto-beee5592c1ca",
+    "title": "Practical AI Podcast",
+    "url": "https://changelog.com/practicalai",
+    "type": "podcast",
+    "tags": [
+      "ai",
+      "interviews",
+      "industry",
+      "practical"
+    ],
+    "description": "A podcast focused on making artificial intelligence practical, productive, and accessible to everyone, featuring interviews with leading AI practitioners.",
+    "authors": [
+      "Daniel Whitenack",
+      "Chris Benson"
+    ],
+    "language": "en",
+    "year": 2018,
+    "added_date": "2024-04-15",
+    "added_by": "human",
+    "quality_score": 7.8,
+    "access": "free",
+    "archived": false
+  },
+  {
+    "id": "auto-77dcccb5aa56",
+    "title": "Stanford CS229: Machine Learning",
+    "url": "https://cs229.stanford.edu",
+    "type": "tutorial",
+    "tags": [
+      "machine-learning",
+      "stanford",
+      "lecture-notes",
+      "theory"
+    ],
+    "description": "Complete lecture notes and materials from Stanford's flagship machine learning course covering supervised learning, unsupervised learning, and learning theory.",
+    "authors": [
+      "Andrew Ng"
+    ],
+    "institution": "Stanford University",
+    "language": "en",
+    "year": 2022,
+    "added_date": "2024-03-20",
+    "added_by": "human",
+    "reviewed_by": "editorial",
+    "quality_score": 9.4,
+    "access": "free",
+    "archived": false
+  },
+  {
+    "id": "auto-0e63bca9255e",
+    "title": "Andrej Karpathy: Let's Build GPT",
+    "url": "https://www.youtube.com/watch?v=kCc8FmEb1nY",
+    "type": "video",
+    "tags": [
+      "gpt",
+      "transformers",
+      "tutorial",
+      "from-scratch"
+    ],
+    "description": "A detailed 2-hour walkthrough of building a GPT language model from scratch in Python, explaining every component of the transformer architecture along the way.",
+    "authors": [
+      "Andrej Karpathy"
+    ],
+    "language": "en",
+    "year": 2023,
+    "added_date": "2024-02-14",
+    "added_by": "human",
+    "reviewed_by": "editorial",
+    "quality_score": 9.7,
+    "access": "free",
+    "archived": false
+  },
+  {
+    "id": "auto-00cd6e5f7383",
+    "title": "r/MachineLearning",
+    "url": "https://reddit.com/r/MachineLearning",
+    "type": "community",
+    "tags": [
+      "discussion",
+      "research",
+      "community",
+      "reddit"
+    ],
+    "description": "The largest machine learning community on Reddit with over 3 million members discussing papers, projects, career advice, and the latest developments in AI.",
+    "language": "en",
+    "year": 2017,
+    "added_date": "2024-05-10",
+    "added_by": "agent",
+    "quality_score": 7.5,
+    "access": "free",
+    "archived": false
+  },
+  {
+    "id": "auto-1d66f272c04b",
+    "title": "Coursera Machine Learning Specialization",
+    "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+    "type": "course",
+    "tags": [
+      "machine-learning",
+      "beginner-friendly",
+      "andrew-ng",
+      "certification"
+    ],
+    "description": "A comprehensive 3-course specialization taught by Andrew Ng, covering supervised learning, advanced algorithms, and unsupervised learning with hands-on labs.",
+    "authors": [
+      "Andrew Ng"
+    ],
+    "institution": "Stanford / DeepLearning.AI",
+    "language": "en",
+    "year": 2022,
+    "added_date": "2024-06-15",
+    "added_by": "human",
+    "quality_score": 9.1,
+    "access": "freemium",
+    "archived": false
+  }
+]

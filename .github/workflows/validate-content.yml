@@ -1,0 +1,33 @@
+name: Validate Content
+
+on:
+  pull_request:
+    paths:
+      - 'data/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install jsonschema
+
+      - name: Validate resource schema
+        run: python scripts/validate_schema.py
+
+      - name: Check for duplicates
+        run: python scripts/check_duplicates.py
+
+      - name: Verify no rejected resources
+        run: python scripts/check_not_rejected.py

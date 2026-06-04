@@ -1,0 +1,9 @@
+ollama>=0.2.0
+tavily-python>=0.3.0
+PyGithub>=2.3.0
+jsonschema>=4.22.0
+requests>=2.31.0
+python-slugify>=8.0.4
+langdetect>=1.0.9
+beautifulsoup4>=4.12.0
+lxml>=5.2.0

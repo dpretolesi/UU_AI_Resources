@@ -1,0 +1,82 @@
+name: Resource Submission
+description: Submit a new AI research resource to the hub
+title: "[Resource] "
+labels:
+  - human-submission
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Submit a Resource
+
+        Use this form to suggest a new AI research resource for inclusion in the hub.
+        All submissions are reviewed against our [Content Policy](../../CONTENT_POLICY.md) before being accepted.
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: The full URL of the resource
+      placeholder: "https://example.com/resource"
+    validations:
+      required: true
+
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: A clear, descriptive title for the resource
+      placeholder: "Attention Is All You Need"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Resource Type
+      description: Select the type that best describes this resource
+      options:
+        - paper
+        - tool
+        - dataset
+        - library
+        - framework
+        - tutorial
+        - course
+        - blog
+        - video
+        - podcast
+        - book
+        - benchmark
+        - model
+        - api
+        - community
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A brief summary of the resource and why it is valuable for AI researchers
+      placeholder: "This paper introduces the Transformer architecture, which has become the foundation for modern language models..."
+    validations:
+      required: true
+
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: Comma-separated tags (e.g., transformers, nlp, attention, deep-learning)
+      placeholder: "transformers, nlp, attention, deep-learning"
+    validations:
+      required: true
+
+  - type: input
+    id: institution
+    attributes:
+      label: Institution
+      description: The institution or organization behind this resource (if applicable)
+      placeholder: "Google Research"
+    validations:
+      required: false

@@ -1,0 +1,9 @@
+site: site
+output_path: site/pagefind
+root_selector: html
+exclude_selectors:
+  - nav
+  - footer
+  - .filter-sidebar
+force_language: en
+keep_index_url: true

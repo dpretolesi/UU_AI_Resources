@@ -1,0 +1,59 @@
+{
+  "total_resources": 15,
+  "active_resources": 15,
+  "archived_resources": 0,
+  "resource_types": 12,
+  "type_breakdown": {
+    "course": 2,
+    "tool": 2,
+    "video": 2,
+    "paper": 1,
+    "library": 1,
+    "framework": 1,
+    "blog": 1,
+    "newsletter": 1,
+    "dataset": 1,
+    "podcast": 1,
+    "tutorial": 1,
+    "community": 1
+  },
+  "unique_tags": 45,
+  "top_tags": {
+    "transformers": 4,
+    "nlp": 4,
+    "beginner-friendly": 3,
+    "deep-learning": 2,
+    "pytorch": 2,
+    "open-source": 2,
+    "practical": 2,
+    "llm": 2,
+    "visualization": 2,
+    "gpt": 2,
+    "research": 2,
+    "industry": 2,
+    "machine-learning": 2,
+    "attention": 1,
+    "tensorflow": 1
+  },
+  "access_breakdown": {
+    "free": 11,
+    "open-access": 2,
+    "freemium": 2
+  },
+  "year_breakdown": {
+    "2017": 4,
+    "2018": 3,
+    "2019": 1,
+    "2020": 1,
+    "2022": 2,
+    "2023": 4
+  },
+  "quality_scores": {
+    "average": 8.89,
+    "min": 7.5,
+    "max": 9.8,
+    "scored_count": 15
+  },
+  "contributors": 2,
+  "last_updated": "2026-06-04"
+}

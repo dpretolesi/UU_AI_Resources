@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI Research Hub — A curated repository of AI and GenAI resources for researchers, engineers, and enthusiasts.">
+  <title>AI Research Hub</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+  <!-- Pagefind (generated at build time, graceful fallback) -->
+  <link rel="stylesheet" href="/pagefind/pagefind-ui.css" onerror="this.remove()">
+
+  <!-- App Styles -->
+  <link rel="stylesheet" href="assets/style.css">
+
+  <!-- Pagefind JS (optional) -->
+  <script src="/pagefind/pagefind.js" type="module" onerror="window.__pagefindUnavailable=true"></script>
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="/" class="logo" aria-label="AI Research Hub — Home">
+        <svg class="logo-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <rect width="32" height="32" rx="8" fill="var(--accent)"/>
+          <path d="M10 22V10l6 4.5L22 10v12l-6-4.5L10 22Z" fill="var(--bg-primary)" stroke="var(--bg-primary)" stroke-width="1.5" stroke-linejoin="round"/>
+        </svg>
+        <span class="logo-text">
+          <span class="logo-title">AI Research Hub</span>
+          <span class="logo-subtitle">Curated AI &amp; GenAI Resources</span>
+        </span>
+      </a>
+
+      <nav class="header-actions" aria-label="Header actions">
+        <button class="btn btn-ghost" id="suggest-btn" aria-haspopup="dialog" aria-label="Suggest a resource">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 3v10M3 8h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <span class="btn-label">Suggest a Resource</span>
+        </button>
+        <button class="btn-icon" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <!-- Sun icon (shown in dark mode) -->
+          <svg class="icon-sun" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <circle cx="10" cy="10" r="4" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M10 2v2M10 16v2M2 10h2M16 10h2M4.93 4.93l1.41 1.41M13.66 13.66l1.41 1.41M4.93 15.07l1.41-1.41M13.66 6.34l1.41-1.41" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          <!-- Moon icon (shown in light mode) -->
+          <svg class="icon-moon" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path d="M17.09 11.18A7 7 0 0 1 8.82 2.91a7 7 0 1 0 8.27 8.27Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========== STATS BAR ========== -->
+  <section class="stats-bar" aria-label="Repository statistics">
+    <div class="stats-inner">
+      <div class="stat" id="stat-total">
+        <span class="stat-value" aria-live="polite">—</span>
+        <span class="stat-label">Resources</span>
+      </div>
+      <div class="stat-divider" aria-hidden="true"></div>
+      <div class="stat" id="stat-types">
+        <span class="stat-value" aria-live="polite">—</span>
+        <span class="stat-label">Types</span>
+      </div>
+      <div class="stat-divider" aria-hidden="true"></div>
+      <div class="stat" id="stat-updated">
+        <span class="stat-value" aria-live="polite">—</span>
+        <span class="stat-label">Last Updated</span>
+      </div>
+      <div class="stat-divider" aria-hidden="true"></div>
+      <div class="stat" id="stat-contributors">
+        <span class="stat-value" aria-live="polite">—</span>
+        <span class="stat-label">Contributors</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main class="main-content" id="main">
+    <!-- Search & Sort Bar -->
+    <div class="search-bar-wrap">
+      <div class="search-box" role="search" aria-label="Search resources">
+        <svg class="search-icon" width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+          <circle cx="7.5" cy="7.5" r="5.5" stroke="currentColor" stroke-width="1.6"/>
+          <path d="M12 12l4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+        <input
+          type="search"
+          id="search-input"
+          class="search-input"
+          placeholder="Search resources by title, description, or tags…"
+          aria-label="Search resources"
+          autocomplete="off"
+          spellcheck="false"
+        >
+        <button class="search-clear" id="search-clear" aria-label="Clear search" hidden>
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M3 3l8 8M11 3l-8 8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+
+      <div class="sort-controls">
+        <label for="sort-select" class="sr-only">Sort resources</label>
+        <div class="select-wrap">
+          <svg class="select-icon" width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+            <path d="M3 5h8M4.5 7.5h5M6 10h2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+          </svg>
+          <select id="sort-select" class="sort-select" aria-label="Sort resources">
+            <option value="newest">Newest First</option>
+            <option value="oldest">Oldest First</option>
+            <option value="quality">Quality Score</option>
+            <option value="az">A → Z</option>
+          </select>
+          <svg class="chevron-icon" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+            <path d="M3 4.5l3 3 3-3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </div>
+
+      <button class="btn-icon filter-toggle" id="filter-toggle" aria-label="Toggle filters" aria-expanded="false" aria-controls="sidebar">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+          <path d="M2 4h14M5 9h8M7 14h4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+        <span class="filter-count" id="filter-count" hidden>0</span>
+      </button>
+    </div>
+
+    <div class="content-layout">
+      <!-- Sidebar Filters -->
+      <aside class="sidebar" id="sidebar" role="complementary" aria-label="Filters">
+        <div class="sidebar-header">
+          <h2 class="sidebar-title">Filters</h2>
+          <button class="btn-text" id="clear-filters" aria-label="Clear all filters">Clear All</button>
+        </div>
+
+        <!-- Active Filters -->
+        <div class="active-filters" id="active-filters" hidden>
+          <div class="active-filters-list" id="active-filters-list" aria-label="Active filters"></div>
+        </div>
+
+        <!-- Type Filter -->
+        <fieldset class="filter-group" data-filter="type">
+          <legend class="filter-legend">
+            <button class="filter-toggle-btn" aria-expanded="true">
+              <span>Type</span>
+              <svg class="chevron" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M3 4.5l3 3 3-3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </legend>
+          <div class="filter-body" id="type-filters">
+            <!-- Populated by JS -->
+          </div>
+        </fieldset>
+
+        <!-- Access Filter -->
+        <fieldset class="filter-group" data-filter="access">
+          <legend class="filter-legend">
+            <button class="filter-toggle-btn" aria-expanded="true">
+              <span>Access</span>
+              <svg class="chevron" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M3 4.5l3 3 3-3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </legend>
+          <div class="filter-body" id="access-filters">
+            <!-- Populated by JS -->
+          </div>
+        </fieldset>
+
+        <!-- Year Range Filter -->
+        <fieldset class="filter-group" data-filter="year">
+          <legend class="filter-legend">
+            <button class="filter-toggle-btn" aria-expanded="true">
+              <span>Year</span>
+              <svg class="chevron" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M3 4.5l3 3 3-3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </legend>
+          <div class="filter-body" id="year-filter">
+            <div class="range-display">
+              <span id="year-min-display">2018</span>
+              <span>—</span>
+              <span id="year-max-display">2026</span>
+            </div>
+            <div class="range-slider">
+              <input type="range" id="year-min" min="2018" max="2026" value="2018" aria-label="Minimum year">
+              <input type="range" id="year-max" min="2018" max="2026" value="2026" aria-label="Maximum year">
+            </div>
+          </div>
+        </fieldset>
+
+        <!-- Added By Toggle -->
+        <fieldset class="filter-group" data-filter="added_by">
+          <legend class="filter-legend">
+            <button class="filter-toggle-btn" aria-expanded="true">
+              <span>Added By</span>
+              <svg class="chevron" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M3 4.5l3 3 3-3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </legend>
+          <div class="filter-body" id="added-by-filters">
+            <!-- Populated by JS -->
+          </div>
+        </fieldset>
+
+        <!-- Language Dropdown -->
+        <fieldset class="filter-group" data-filter="language">
+          <legend class="filter-legend">
+            <button class="filter-toggle-btn" aria-expanded="true">
+              <span>Language</span>
+              <svg class="chevron" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M3 4.5l3 3 3-3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </legend>
+          <div class="filter-body">
+            <div class="select-wrap select-full">
+              <select id="language-filter" class="sort-select" aria-label="Filter by language">
+                <option value="">All Languages</option>
+              </select>
+              <svg class="chevron-icon" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M3 4.5l3 3 3-3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </div>
+        </fieldset>
+
+        <!-- Tag Cloud -->
+        <fieldset class="filter-group" data-filter="tags">
+          <legend class="filter-legend">
+            <button class="filter-toggle-btn" aria-expanded="true">
+              <span>Tags</span>
+              <svg class="chevron" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M3 4.5l3 3 3-3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </legend>
+          <div class="filter-body">
+            <div class="tag-cloud" id="tag-cloud" role="group" aria-label="Filter by tag">
+              <!-- Populated by JS -->
+            </div>
+          </div>
+        </fieldset>
+      </aside>
+
+      <!-- Results Grid -->
+      <section class="results-area" aria-label="Resources">
+        <div class="results-header">
+          <p class="results-count" id="results-count" aria-live="polite">Loading resources…</p>
+        </div>
+
+        <div class="resource-grid" id="resource-grid" data-pagefind-body>
+          <!-- Populated by JS -->
+        </div>
+
+        <!-- Empty State -->
+        <div class="empty-state" id="empty-state" hidden>
+          <svg width="64" height="64" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+            <circle cx="28" cy="28" r="18" stroke="var(--text-tertiary)" stroke-width="2.5"/>
+            <path d="M42 42l12 12" stroke="var(--text-tertiary)" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M22 25h12M22 31h8" stroke="var(--text-tertiary)" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <h3 class="empty-title">No resources found</h3>
+          <p class="empty-desc">Try adjusting your search or filters to find what you're looking for.</p>
+          <button class="btn btn-ghost" id="empty-clear">Clear all filters</button>
+        </div>
+
+        <!-- Loading State -->
+        <div class="loading-state" id="loading-state">
+          <div class="loading-spinner" aria-label="Loading resources">
+            <div class="spinner"></div>
+          </div>
+        </div>
+
+        <!-- Error State -->
+        <div class="error-state" id="error-state" hidden>
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+            <circle cx="24" cy="24" r="20" stroke="var(--warning)" stroke-width="2"/>
+            <path d="M24 16v10M24 30v2" stroke="var(--warning)" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+          <h3 class="error-title">Failed to load resources</h3>
+          <p class="error-desc">Please check your connection and try again.</p>
+          <button class="btn btn-ghost" id="error-retry">Retry</button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- ========== SUBMIT MODAL ========== -->
+  <dialog class="modal" id="submit-modal" aria-labelledby="modal-title">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="modal-title">Suggest a Resource</h2>
+        <button class="btn-icon modal-close" id="modal-close" aria-label="Close modal">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M4 4l10 10M14 4L4 14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+      <form class="modal-form" id="submit-form" novalidate>
+        <div class="form-group">
+          <label for="submit-url" class="form-label">URL <span class="required" aria-hidden="true">*</span></label>
+          <input type="url" id="submit-url" class="form-input" placeholder="https://example.com/resource" required aria-required="true">
+          <span class="form-hint" id="url-error" role="alert"></span>
+        </div>
+        <div class="form-group">
+          <label for="submit-title" class="form-label">Title <span class="required" aria-hidden="true">*</span></label>
+          <input type="text" id="submit-title" class="form-input" placeholder="Resource title" required aria-required="true">
+          <span class="form-hint" id="title-error" role="alert"></span>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="submit-type" class="form-label">Type <span class="required" aria-hidden="true">*</span></label>
+            <div class="select-wrap select-full">
+              <select id="submit-type" class="form-input" required aria-required="true">
+                <option value="">Select type…</option>
+                <option value="tool">Tool</option>
+                <option value="website">Website</option>
+                <option value="tutorial">Tutorial</option>
+                <option value="blog">Blog</option>
+                <option value="video">Video</option>
+                <option value="podcast">Podcast</option>
+                <option value="presentation">Presentation</option>
+                <option value="paper">Paper</option>
+                <option value="course">Course</option>
+                <option value="dataset">Dataset</option>
+                <option value="library">Library</option>
+                <option value="framework">Framework</option>
+                <option value="newsletter">Newsletter</option>
+                <option value="community">Community</option>
+                <option value="other">Other</option>
+              </select>
+              <svg class="chevron-icon" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M3 4.5l3 3 3-3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="submit-tags" class="form-label">Tags</label>
+            <input type="text" id="submit-tags" class="form-input" placeholder="e.g. LLM, NLP, vision">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="submit-desc" class="form-label">Description</label>
+          <textarea id="submit-desc" class="form-input form-textarea" placeholder="Brief description of this resource…" rows="3"></textarea>
+        </div>
+        <div class="form-actions">
+          <button type="button" class="btn btn-ghost" id="modal-cancel">Cancel</button>
+          <button type="submit" class="btn btn-primary" id="submit-action">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M5 1v4H1M13 9v4H9M1 5a6 6 0 0 1 10.2-3M13 9A6 6 0 0 1 2.8 12" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            Open as GitHub Issue
+          </button>
+        </div>
+      </form>
+    </div>
+  </dialog>
+
+  <!-- ========== SIDEBAR OVERLAY ========== -->
+  <div class="sidebar-overlay" id="sidebar-overlay" aria-hidden="true"></div>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <p>&copy; 2026 AI Research Hub. Built with care for the research community.</p>
+    </div>
+  </footer>
+
+  <script src="assets/main.js" defer></script>
+</body>
+</html>

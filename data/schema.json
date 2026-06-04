@@ -1,0 +1,137 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://ai-research-hub.example.com/schemas/resource.json",
+  "title": "AIResearchResource",
+  "description": "Schema for an AI research resource entry in the AI Research Hub.",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "url",
+    "type",
+    "tags",
+    "description",
+    "added_date",
+    "added_by"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9\\-]{8,64}$",
+      "description": "Unique identifier for the resource, lowercase alphanumeric with hyphens, 8-64 characters."
+    },
+    "title": {
+      "type": "string",
+      "minLength": 5,
+      "maxLength": 200,
+      "description": "Human-readable title of the resource."
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Primary URL of the resource."
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "paper",
+        "course",
+        "tutorial",
+        "blog",
+        "video",
+        "tool",
+        "library",
+        "framework",
+        "dataset",
+        "book",
+        "podcast",
+        "newsletter",
+        "community",
+        "benchmark",
+        "model"
+      ],
+      "description": "Category type of the resource."
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9\\-]+$"
+      },
+      "minItems": 1,
+      "maxItems": 10,
+      "uniqueItems": true,
+      "description": "Lowercase hyphenated tags for categorization."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 30,
+      "maxLength": 800,
+      "description": "Concise description of the resource and its value."
+    },
+    "added_date": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO 8601 date when the resource was added."
+    },
+    "added_by": {
+      "type": "string",
+      "enum": [
+        "human",
+        "agent"
+      ],
+      "description": "Whether the resource was added by a human or an automated agent."
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of authors or creators of the resource."
+    },
+    "institution": {
+      "type": "string",
+      "description": "Institution or organization associated with the resource."
+    },
+    "language": {
+      "type": "string",
+      "pattern": "^[a-z]{2}$",
+      "default": "en",
+      "description": "ISO 639-1 two-character language code."
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 2017,
+      "maximum": 2030,
+      "description": "Publication or release year."
+    },
+    "reviewed_by": {
+      "type": "string",
+      "description": "Identifier of the person or agent who reviewed this resource."
+    },
+    "quality_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 10,
+      "description": "Quality score assigned during review, from 0.0 to 10.0."
+    },
+    "access": {
+      "type": "string",
+      "enum": [
+        "free",
+        "freemium",
+        "paid",
+        "open-access",
+        "unknown"
+      ],
+      "default": "unknown",
+      "description": "Access model for the resource."
+    },
+    "archived": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether the resource has been archived (soft-deleted)."
+    }
+  }
+}
