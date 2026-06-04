@@ -93,7 +93,7 @@ The AI crawl agent runs automatically on a schedule (Monday and Thursday at 08:0
    - Research blogs and institutional publications
    - Educational platforms and course aggregators
 
-3. **Candidate Evaluation** — Each discovered URL is sent to the Anthropic Claude API for evaluation against the project's [Content Policy](CONTENT_POLICY.md). The model returns:
+3. **Candidate Evaluation** — Each discovered URL is sent to the Ollama API for evaluation against the project's [Content Policy](CONTENT_POLICY.md). The model returns:
    - A quality score (0–10)
    - Extracted metadata (title, type, description, tags)
    - A justification for the score

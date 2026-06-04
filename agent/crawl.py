@@ -11,7 +11,7 @@ Environment variables:
   SEARCH_BACKEND      — tavily | serper | duckduckgo (default: tavily)
   TAVILY_API_KEY      — Tavily API key (required if backend=tavily)
   SERPER_API_KEY       — Serper API key (required if backend=serper)
-  ANTHROPIC_API_KEY   — Anthropic API key (optional, for LLM scoring)
+  OLLAMA_API_KEY      — Ollama API key (optional, for LLM scoring)
   DRY_RUN             — If "true", skip PR creation and GitHub interactions
   MIN_QUALITY_SCORE   — Minimum quality score threshold (default: 6.0)
 """

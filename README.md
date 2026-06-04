@@ -40,7 +40,7 @@ cd {repo}
 pip install -r requirements.txt
 
 # Run the crawl agent manually
-export ANTHROPIC_API_KEY="your-key"
+export OLLAMA_API_KEY="your-key"
 export TAVILY_API_KEY="your-key"
 python agent/crawl.py
 
@@ -99,7 +99,7 @@ The crawl agent runs on a scheduled GitHub Actions workflow every Monday and Thu
 
 1. **Source Discovery** — The agent uses the Tavily search API to find new AI research resources across academic preprint servers (arXiv, bioRxiv), code repositories (GitHub, HuggingFace), educational platforms, and research blogs.
 
-2. **Evaluation** — Each candidate resource is evaluated by the Anthropic Claude API against the project's [Content Policy](CONTENT_POLICY.md). The agent scores resources on relevance, recency, authority, uniqueness, and technical depth.
+2. **Evaluation** — Each candidate resource is evaluated by the Ollama API against the project's [Content Policy](CONTENT_POLICY.md). The agent scores resources on relevance, recency, authority, uniqueness, and technical depth.
 
 3. **Deduplication** — Candidate URLs are checked against `data/resources.json` (existing resources) and `data/rejected.json` (previously rejected resources) to avoid duplicates.
 

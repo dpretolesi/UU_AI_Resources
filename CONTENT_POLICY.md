@@ -109,7 +109,7 @@ Resources are scored on a scale of **0 to 10** across five dimensions. The final
 
 ### Automated Review (AI Agent)
 
-1. The agent evaluates each candidate against the scoring rubric using the Anthropic Claude API
+1. The agent evaluates each candidate against the scoring rubric using the Ollama API
 2. Resources scoring below 6.0 are automatically filtered out
 3. Deduplication checks run against `data/resources.json` and `data/rejected.json`
 4. Passing resources are submitted as a pull request for human review

@@ -3,7 +3,7 @@
 Quality filter and scoring module for the AI Research Hub crawl agent.
 
 Scores candidate resources on a 0.0-10.0 scale using hard disqualifiers,
-positive signals, and negative signals. Optionally calls the Anthropic API
+positive signals, and negative signals. Optionally calls the Ollama API
 for borderline cases.
 """
 
@@ -362,14 +362,9 @@ def _llm_score_borderline(
     current_score: float,
 ) -> Optional[float]:
     """
-    Call the Anthropic API for borderline cases (score between 5.0 and 7.0).
+    Call the Ollama API for borderline cases (score between 5.0 and 7.0).
     Returns an adjusted score or None if the API is unavailable.
     """
-    # api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if False:
-        logger.debug("ANTHROPIC_API_KEY not set; skipping LLM scoring.")
-        return None
-
     try:
         import ollama
 
