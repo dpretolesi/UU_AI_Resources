@@ -9,6 +9,7 @@ __pycache__/
 # Environment
 .env
 .env.local
+venv/
 
 # Generated site content
 site/pagefind/
