@@ -1,0 +1,24 @@
+{
+  "id": "auto-4a924c7ca0cf",
+  "title": "What I learned from looking at 900 most popular open source AI tools",
+  "url": "https://huyenchip.com/2024/03/14/ai-oss.html",
+  "type": "framework",
+  "tags": [
+    "generative-ai",
+    "llm",
+    "research",
+    "open-source",
+    "framework"
+  ],
+  "description": "Model repos, which are created by companies and researchers to share the code associated with their models. Examples of repos in this category are `CompVis/stable-diffusion`, `openai/whisper`, and `facebookresearch/llama`.\n Applications built on top of existing models. The most popular types of applications are coding, workflow automation, information aggregation, …\n\nNote: In an older version of this post, Applications was included as another layer in the stack.\n\n### AI stack over time\n\nI plotted the cumulative number of repos in each category month-over-month. There was an explosion of new toolings in 2023, after the introduction of Stable Diffusion and ChatGPT. The curve seems to flatten in September 2023 because of three potential reasons. [...] There are also AI engineering tools provi",
+  "added_date": "2026-06-04",
+  "added_by": "agent",
+  "language": "en",
+  "access": "unknown",
+  "archived": false,
+  "authors": [
+    "Chip Huyen"
+  ],
+  "year": 2026,
+  "quality_score": 7.0
+}
