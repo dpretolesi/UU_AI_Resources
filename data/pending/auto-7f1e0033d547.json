@@ -1,0 +1,20 @@
+{
+  "id": "auto-7f1e0033d547",
+  "title": "[2403.17561] A Survey on State-of-the-art Deep Learning Applications and Challenges",
+  "url": "https://arxiv.org/abs/2403.17561",
+  "type": "paper",
+  "tags": [
+    "deep-learning",
+    "rag",
+    "neural-networks",
+    "paper"
+  ],
+  "description": "Deep learning, a branch of artificial intelligence, is a data-driven method that uses multiple layers of interconnected units or neurons to learn intricate patterns and representations directly from raw input data. Empowered by this learning capability, it has become a powerful tool for solving complex problems and is the core driver of many groundbreaking technologies and innovations. Building a deep learning model is challenging due to the algorithm's complexity and the dynamic nature of real-world problems. Several studies have reviewed deep learning concepts and applications. However, the studies mostly focused on the types of deep learning models and convolutional neural network architectures, offering limited coverage of the state-of-the-art deep learning models and their application",
+  "added_date": "2026-06-04",
+  "added_by": "agent",
+  "language": "en",
+  "access": "unknown",
+  "archived": false,
+  "year": 2026,
+  "quality_score": 7.5
+}

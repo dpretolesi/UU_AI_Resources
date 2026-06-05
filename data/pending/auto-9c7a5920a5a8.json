@@ -1,0 +1,20 @@
+{
+  "id": "auto-9c7a5920a5a8",
+  "title": "Trending Papers - Hugging Face",
+  "url": "https://huggingface.co/papers/trending",
+  "type": "paper",
+  "tags": [
+    "research",
+    "open-source",
+    "rag",
+    "paper"
+  ],
+  "description": "mmGRPO, a multi-module extension of GRPO, enhances accuracy in modular AI systems by optimizing LM calls and prompts across various tasks.\n\n   Image 310\n   13 authors\n\n·Aug 6, 2025\n\n[- [x] Upvote 3](\n\nGitHub 34.8karXiv Page\n\nImage 311\n\nSubmitted by \n\nImage 312\n\n taesiri\n\n### SAM 3: Segment Anything with Concepts\n\nSegment Anything Model 3 achieves state-of-the-art performance in promptable concept segmentation and tracking by leveraging a unified model architecture with decoupled recognition and localization.\n\nImage 313: facebookAI at Meta·Published on Nov 20, 2025\n\n[- [x] Upvote 137](\n\nGitHub 10.4karXiv Page\n\nImage 314\n\nSubmitted by \n\nImage 315\n\n taesiri\n\n### SAM 3: Segment Anything with Concepts [...] [- [x] Upvote 39](\n\nGitHub 36.1karXiv Page\n\nImage 226\n\n### LightRAG: Simple and Fast Ret",
+  "added_date": "2026-06-04",
+  "added_by": "agent",
+  "language": "en",
+  "access": "unknown",
+  "archived": false,
+  "year": 2026,
+  "quality_score": 8.5
+}
