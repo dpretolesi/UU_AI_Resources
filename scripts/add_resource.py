@@ -50,7 +50,7 @@ def save_json(path: Path, data: list | dict) -> None:
 def generate_id(url: str) -> str:
     """Generate a deterministic ID from the URL using SHA-256."""
     h = hashlib.sha256(url.encode("utf-8")).hexdigest()[:16]
-    return f"res-{h}"
+    return f"auto-{h}"
 
 
 def url_hash(url: str) -> str:

@@ -31,3 +31,22 @@ jobs:
 
       - name: Verify no rejected resources
         run: python scripts/check_not_rejected.py
+
+      - name: Validate pending files
+        run: |
+          for f in data/pending/*.json; do
+            [ -f "$f" ] || continue
+            [ "$(basename $f)" = ".gitkeep" ] && continue
+            echo "Validating $f"
+            python -c "
+          import json, jsonschema
+          with open('data/schema.json') as s: schema = json.load(s)
+          with open('$f') as r: resource = json.load(r)
+          validator = jsonschema.Draft7Validator(schema)
+          errors = list(validator.iter_errors(resource))
+          if errors:
+              for e in errors: print(f'  ERROR: {e.message}')
+              exit(1)
+          print('  Valid')
+          "
+          done

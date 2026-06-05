@@ -37,7 +37,7 @@ The easiest way to submit a resource:
 For contributors comfortable with JSON:
 
 1. Fork the repository
-2. Add your resource(s) to `data/pending.json`
+2. Add your resource(s) as individual JSON files in `data/pending/`
 3. Ensure each entry matches the [resource schema](#resource-json-format)
 4. Run validation locally:
    ```bash
@@ -55,27 +55,29 @@ Each resource entry must follow this schema:
 
 ```json
 {
-  "url": "https://arxiv.org/abs/2401.12345",
+  "id": "auto-abc123def456",
   "title": "Example Paper Title",
+  "url": "https://arxiv.org/abs/2401.12345",
   "type": "paper",
-  "description": "A brief description of the resource and its value to researchers.",
   "tags": ["transformers", "nlp", "attention"],
-  "date_added": "2025-06-01",
-  "source": "human",
-  "quality_score": 8.5,
-  "metadata": {
-    "authors": ["Author One", "Author Two"],
-    "institution": "Example University",
-    "year": 2025
-  }
+  "description": "A brief description of the resource and its value to researchers.",
+  "added_date": "2025-06-01",
+  "added_by": "human",
+  "language": "en",
+  "access": "open-access",
+  "archived": false,
+  "authors": ["Author One", "Author Two"],
+  "institution": "Example University",
+  "year": 2025,
+  "quality_score": 8.5
 }
 ```
 
-**Required fields:** `url`, `title`, `type`, `description`, `tags`, `date_added`, `source`
+**Required fields:** `id`, `title`, `url`, `type`, `tags`, `description`, `added_date`, `added_by`
 
-**Optional fields:** `quality_score`, `metadata`
+**Optional fields:** `quality_score`, `authors`, `institution`, `year`, `language`, `access`, `reviewed_by`, `archived`
 
-**Valid types:** `paper`, `tool`, `dataset`, `library`, `framework`, `tutorial`, `course`, `blog`, `video`, `podcast`, `book`, `benchmark`, `model`, `api`, `community`
+**Valid types:** `paper`, `tool`, `dataset`, `library`, `framework`, `tutorial`, `course`, `blog`, `video`, `podcast`, `book`, `benchmark`, `model`, `community`, `newsletter`, `website`, `presentation`, `other`
 
 ---
 
@@ -110,7 +112,7 @@ The AI crawl agent runs automatically on a schedule (Monday and Thursday at 08:0
 
 ### Agent State
 
-The agent maintains state in `data/state.json` to track:
+The agent maintains state in `agent/state.json` to track:
 - Last crawl timestamp
 - Source-specific cursors (e.g., last arXiv ID processed)
 - Crawl statistics (resources found, accepted, rejected per run)

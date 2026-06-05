@@ -1,7 +1,7 @@
 # AI Research Hub
 
-[![Resources](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2F{owner}%2F{repo}%2Fmain%2Fdata%2Fstats.json&query=%24.total_resources&label=resources&color=blue)](data/resources.json)
-[![Last Updated](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2F{owner}%2F{repo}%2Fmain%2Fdata%2Fstats.json&query=%24.last_updated&label=last%20updated&color=green)](data/resources.json)
+[![Resources](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdpretolesi%2FUU_AI_Resources%2Fmain%2Fdata%2Fstats.json&query=%24.total_resources&label=resources&color=blue)](data/resources.json)
+[![Last Updated](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdpretolesi%2FUU_AI_Resources%2Fmain%2Fdata%2Fstats.json&query=%24.last_updated&label=last%20updated&color=green)](data/resources.json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -22,7 +22,7 @@ A curated, AI-maintained collection of high-quality artificial intelligence rese
 
 ### Browse Resources
 
-Visit the **[AI Research Hub site]** to search and browse all indexed resources.
+Visit the **[AI Research Hub site](https://dpretolesi.github.io/UU_AI_Resources/)** to search and browse all indexed resources.
 
 ### Submit a Resource
 
@@ -33,8 +33,8 @@ Visit the **[AI Research Hub site]** to search and browse all indexed resources.
 
 ```bash
 # Clone the repository
-git clone https://github.com/{owner}/{repo}.git
-cd {repo}
+git clone https://github.com/dpretolesi/UU_AI_Resources.git
+cd UU_AI_Resources
 
 # Install Python dependencies
 pip install -r requirements.txt

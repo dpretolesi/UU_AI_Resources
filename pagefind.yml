@@ -1,9 +1,9 @@
 site: site
 output_path: site/pagefind
-root_selector: html
+root_selector: "[data-pagefind-body]"
 exclude_selectors:
   - nav
   - footer
-  - .filter-sidebar
+  - ".sidebar"
 force_language: en
 keep_index_url: true

@@ -1,19 +1,21 @@
 /* ============================================================
    AI Research Hub — Main Application Script
    Handles: data loading, search (Pagefind + fallback), filters,
-   sorting, URL sync, dark mode, submit modal, and all UI state.
+   sorting, URL sync, dark mode, submit modal, owner auth, and
+   direct resource addition via GitHub API.
    ============================================================ */
 
 (function () {
   'use strict';
 
   // ─── Configuration ──────────────────────────────────────────
-  const DATA_PATH = '../data/resources.json';
-  const STATS_PATH = '../data/stats.json';
+  const DATA_PATH = 'data/resources.json';
+  const STATS_PATH = 'data/stats.json';
   const SEARCH_DEBOUNCE = 200;
   const DESC_TRUNCATE = 160;
   const MAX_TAGS_CLOUD = 50;
-  const GITHUB_REPO = 'ai-research-hub/ai-research-hub';
+  const GITHUB_REPO = 'dpretolesi/UU_AI_Resources';
+  const REPO_OWNER = 'dpretolesi';
   const STAGGER_DELAY = 50;
 
   const TYPE_COLORS = {
@@ -27,6 +29,12 @@
     free: 'Free', freemium: 'Freemium', paid: 'Paid',
     'open-access': 'Open Access', unknown: 'Unknown',
   };
+
+  const VALID_TYPES = [
+    'paper', 'course', 'tutorial', 'blog', 'video', 'tool', 'library',
+    'framework', 'dataset', 'book', 'podcast', 'newsletter', 'community',
+    'benchmark', 'model', 'website', 'presentation', 'other',
+  ];
 
   // ─── State ──────────────────────────────────────────────────
   let allResources = [];
@@ -44,6 +52,11 @@
     yearMin: 2018,
     yearMax: 2026,
   };
+
+  // Auth state
+  let authToken = null;
+  let authUser = null;
+  let isOwner = false;
 
   // ─── DOM References ─────────────────────────────────────────
   const $ = (sel, ctx = document) => ctx.querySelector(sel);
@@ -86,6 +99,22 @@
     statTypes: $('#stat-types .stat-value'),
     statUpdated: $('#stat-updated .stat-value'),
     statContributors: $('#stat-contributors .stat-value'),
+    // Auth elements
+    authBtn: $('#auth-btn'),
+    authModal: $('#auth-modal'),
+    authModalClose: $('#auth-modal-close'),
+    authTokenInput: $('#auth-token-input'),
+    authSubmit: $('#auth-submit'),
+    authError: $('#auth-error'),
+    authStatus: $('#auth-status'),
+    logoutBtn: $('#logout-btn'),
+    // Owner add resource
+    addResourceBtn: $('#add-resource-btn'),
+    addModal: $('#add-modal'),
+    addModalClose: $('#add-modal-close'),
+    addForm: $('#add-form'),
+    addCancel: $('#add-modal-cancel'),
+    addSubmitBtn: $('#add-submit-btn'),
   };
 
   // ─── Theme Management ──────────────────────────────────────
@@ -104,6 +133,30 @@
     const next = current === 'dark' ? 'light' : 'dark';
     document.documentElement.setAttribute('data-theme', next);
     localStorage.setItem('theme', next);
+  }
+
+  // ─── Toast Notifications ──────────────────────────────────
+  function showToast(message, type = 'info', duration = 4000) {
+    const toast = document.createElement('div');
+    toast.className = `toast toast-${type}`;
+    toast.innerHTML = `
+      <span class="toast-message">${escapeHtml(message)}</span>
+      <button class="toast-close" aria-label="Close">&times;</button>
+    `;
+    let container = $('#toast-container');
+    if (!container) {
+      container = document.createElement('div');
+      container.id = 'toast-container';
+      document.body.appendChild(container);
+    }
+    container.appendChild(toast);
+    requestAnimationFrame(() => toast.classList.add('visible'));
+    const dismiss = () => {
+      toast.classList.remove('visible');
+      setTimeout(() => toast.remove(), 300);
+    };
+    toast.querySelector('.toast-close').addEventListener('click', dismiss);
+    setTimeout(dismiss, duration);
   }
 
   // ─── Data Loading ──────────────────────────────────────────
@@ -704,7 +757,7 @@
     applyFilters();
   }
 
-  // ─── Submit Modal ──────────────────────────────────────────
+  // ─── Submit Modal (Suggest via GitHub Issue) ──────────────
   function openModal() {
     dom.submitModal.showModal();
   }
@@ -776,12 +829,283 @@
     dom.submitForm.querySelectorAll('.form-hint').forEach(el => el.textContent = '');
   }
 
-  function isValidUrl(str) {
+  // ─── Owner Authentication ─────────────────────────────────
+  function initAuth() {
+    // Check for saved session
+    const savedToken = sessionStorage.getItem('gh_token');
+    const savedUser = sessionStorage.getItem('gh_user');
+    if (savedToken && savedUser) {
+      authToken = savedToken;
+      authUser = savedUser;
+      isOwner = savedUser === REPO_OWNER;
+      updateAuthUI();
+    }
+  }
+
+  function updateAuthUI() {
+    if (isOwner && authUser) {
+      // Show owner UI
+      dom.authBtn.hidden = true;
+      dom.authStatus.hidden = false;
+      dom.authStatus.querySelector('.auth-username').textContent = authUser;
+      if (dom.addResourceBtn) dom.addResourceBtn.hidden = false;
+    } else {
+      // Show login button
+      dom.authBtn.hidden = false;
+      dom.authStatus.hidden = true;
+      if (dom.addResourceBtn) dom.addResourceBtn.hidden = true;
+    }
+  }
+
+  function openAuthModal() {
+    if (dom.authModal) {
+      dom.authModal.showModal();
+      dom.authError.textContent = '';
+      dom.authTokenInput.value = '';
+    }
+  }
+
+  function closeAuthModal() {
+    if (dom.authModal) {
+      dom.authModal.close();
+    }
+  }
+
+  async function handleAuthSubmit() {
+    const token = dom.authTokenInput.value.trim();
+    if (!token) {
+      dom.authError.textContent = 'Please enter a token';
+      return;
+    }
+
+    dom.authSubmit.disabled = true;
+    dom.authSubmit.textContent = 'Verifying…';
+    dom.authError.textContent = '';
+
     try {
-      const u = new URL(str);
-      return u.protocol === 'http:' || u.protocol === 'https:';
-    } catch {
-      return false;
+      const resp = await fetch('https://api.github.com/user', {
+        headers: {
+          'Authorization': `Bearer ${token}`,
+          'Accept': 'application/vnd.github.v3+json',
+        },
+      });
+
+      if (!resp.ok) {
+        throw new Error('Invalid token');
+      }
+
+      const user = await resp.json();
+      if (user.login !== REPO_OWNER) {
+        dom.authError.textContent = `Only the repository owner (${REPO_OWNER}) can add resources directly.`;
+        return;
+      }
+
+      // Success
+      authToken = token;
+      authUser = user.login;
+      isOwner = true;
+      sessionStorage.setItem('gh_token', token);
+      sessionStorage.setItem('gh_user', user.login);
+
+      updateAuthUI();
+      closeAuthModal();
+      showToast(`Welcome, ${user.login}! You can now add resources directly.`, 'success');
+
+    } catch (err) {
+      dom.authError.textContent = 'Authentication failed. Please check your token.';
+    } finally {
+      dom.authSubmit.disabled = false;
+      dom.authSubmit.textContent = 'Verify & Login';
+    }
+  }
+
+  function handleLogout() {
+    authToken = null;
+    authUser = null;
+    isOwner = false;
+    sessionStorage.removeItem('gh_token');
+    sessionStorage.removeItem('gh_user');
+    updateAuthUI();
+    showToast('Logged out successfully.', 'info');
+  }
+
+  // ─── Owner: Add Resource via GitHub API ───────────────────
+  function openAddModal() {
+    if (!isOwner || !dom.addModal) return;
+    dom.addModal.showModal();
+  }
+
+  function closeAddModal() {
+    if (dom.addModal) {
+      dom.addModal.close();
+      dom.addForm.reset();
+    }
+  }
+
+  async function handleAddResource(e) {
+    e.preventDefault();
+    if (!isOwner || !authToken) return;
+
+    const url = $('#add-url').value.trim();
+    const title = $('#add-title').value.trim();
+    const type = $('#add-type').value;
+    const tagsRaw = $('#add-tags').value.trim();
+    const desc = $('#add-desc').value.trim();
+    const year = $('#add-year').value.trim();
+    const institution = $('#add-institution').value.trim();
+    const access = $('#add-access').value;
+
+    // Validation
+    if (!url || !isValidUrl(url)) {
+      showToast('Please enter a valid URL.', 'error');
+      return;
+    }
+    if (!title || title.length < 5) {
+      showToast('Title must be at least 5 characters.', 'error');
+      return;
+    }
+    if (!type) {
+      showToast('Please select a resource type.', 'error');
+      return;
+    }
+    if (!tagsRaw) {
+      showToast('Please enter at least one tag.', 'error');
+      return;
+    }
+    if (!desc || desc.length < 30) {
+      showToast('Description must be at least 30 characters.', 'error');
+      return;
+    }
+
+    const tags = tagsRaw.split(',').map(t => t.trim().toLowerCase().replace(/\s+/g, '-')).filter(Boolean);
+    if (tags.length === 0 || tags.length > 10) {
+      showToast('Please provide 1-10 tags.', 'error');
+      return;
+    }
+
+    // Generate resource ID
+    const encoder = new TextEncoder();
+    const data = encoder.encode(url);
+    const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+    const hashArray = Array.from(new Uint8Array(hashBuffer));
+    const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+    const resourceId = `auto-${hashHex.slice(0, 12)}`;
+
+    const resource = {
+      id: resourceId,
+      title: title,
+      url: url,
+      type: type,
+      tags: tags,
+      description: desc,
+      added_date: new Date().toISOString().split('T')[0],
+      added_by: 'human',
+      language: 'en',
+      access: access || 'unknown',
+      archived: false,
+    };
+
+    if (year) resource.year = parseInt(year, 10);
+    if (institution) resource.institution = institution;
+
+    // Disable button
+    dom.addSubmitBtn.disabled = true;
+    dom.addSubmitBtn.textContent = 'Creating PR…';
+
+    try {
+      const apiBase = `https://api.github.com/repos/${GITHUB_REPO}`;
+      const headers = {
+        'Authorization': `Bearer ${authToken}`,
+        'Accept': 'application/vnd.github.v3+json',
+        'Content-Type': 'application/json',
+      };
+
+      // 1. Get default branch SHA
+      const repoResp = await fetch(apiBase, { headers });
+      const repoData = await repoResp.json();
+      const defaultBranch = repoData.default_branch;
+
+      const refResp = await fetch(`${apiBase}/git/ref/heads/${defaultBranch}`, { headers });
+      const refData = await refResp.json();
+      const baseSha = refData.object.sha;
+
+      // 2. Create a new branch
+      const branchName = `add-resource/${resourceId}`;
+      const branchResp = await fetch(`${apiBase}/git/refs`, {
+        method: 'POST',
+        headers,
+        body: JSON.stringify({
+          ref: `refs/heads/${branchName}`,
+          sha: baseSha,
+        }),
+      });
+      if (!branchResp.ok) {
+        const err = await branchResp.json();
+        throw new Error(err.message || 'Failed to create branch');
+      }
+
+      // 3. Create the pending file
+      const filePath = `data/pending/${resourceId}.json`;
+      const fileContent = btoa(unescape(encodeURIComponent(JSON.stringify(resource, null, 2))));
+      const fileResp = await fetch(`${apiBase}/contents/${filePath}`, {
+        method: 'PUT',
+        headers,
+        body: JSON.stringify({
+          message: `Add resource: ${title.slice(0, 60)}`,
+          content: fileContent,
+          branch: branchName,
+        }),
+      });
+      if (!fileResp.ok) {
+        throw new Error('Failed to create file');
+      }
+
+      // 4. Create Pull Request
+      const prBody = [
+        `## 👤 New Resource Added by Owner`,
+        ``,
+        `| Field | Value |`,
+        `|-------|-------|`,
+        `| **Title** | ${title} |`,
+        `| **URL** | ${url} |`,
+        `| **Type** | ${type} |`,
+        `| **Tags** | ${tags.join(', ')} |`,
+        `| **Access** | ${access || 'unknown'} |`,
+        year ? `| **Year** | ${year} |` : '',
+        institution ? `| **Institution** | ${institution} |` : '',
+        ``,
+        `### Description`,
+        desc,
+        ``,
+        `---`,
+        `*Added via AI Research Hub frontend*`,
+      ].filter(Boolean).join('\n');
+
+      const prResp = await fetch(`${apiBase}/pulls`, {
+        method: 'POST',
+        headers,
+        body: JSON.stringify({
+          title: `[Resource] ${title.slice(0, 80)}`,
+          body: prBody,
+          head: branchName,
+          base: defaultBranch,
+        }),
+      });
+
+      if (!prResp.ok) {
+        throw new Error('Failed to create pull request');
+      }
+
+      const prData = await prResp.json();
+      closeAddModal();
+      showToast(`Resource added! PR #${prData.number} created.`, 'success', 6000);
+
+    } catch (err) {
+      console.error('Failed to add resource:', err);
+      showToast(`Failed to add resource: ${err.message}`, 'error', 6000);
+    } finally {
+      dom.addSubmitBtn.disabled = false;
+      dom.addSubmitBtn.textContent = 'Add Resource & Create PR';
     }
   }
 
@@ -809,9 +1133,19 @@
     }
   }
 
+  function isValidUrl(str) {
+    try {
+      const u = new URL(str);
+      return u.protocol === 'http:' || u.protocol === 'https:';
+    } catch {
+      return false;
+    }
+  }
+
   // ─── Initialization ───────────────────────────────────────
   async function init() {
     initTheme();
+    initAuth();
     await initPagefind();
 
     const success = await loadResources();
@@ -864,10 +1198,37 @@
       if (e.target === dom.submitModal) closeModal();
     });
 
-    // Keyboard: ESC closes modal & sidebar
+    // Auth events
+    if (dom.authBtn) dom.authBtn.addEventListener('click', openAuthModal);
+    if (dom.authModalClose) dom.authModalClose.addEventListener('click', closeAuthModal);
+    if (dom.authSubmit) dom.authSubmit.addEventListener('click', handleAuthSubmit);
+    if (dom.logoutBtn) dom.logoutBtn.addEventListener('click', handleLogout);
+    if (dom.authModal) {
+      dom.authModal.addEventListener('click', (e) => {
+        if (e.target === dom.authModal) closeAuthModal();
+      });
+      dom.authTokenInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') handleAuthSubmit();
+      });
+    }
+
+    // Owner add resource events
+    if (dom.addResourceBtn) dom.addResourceBtn.addEventListener('click', openAddModal);
+    if (dom.addModalClose) dom.addModalClose.addEventListener('click', closeAddModal);
+    if (dom.addCancel) dom.addCancel.addEventListener('click', closeAddModal);
+    if (dom.addForm) dom.addForm.addEventListener('submit', handleAddResource);
+    if (dom.addModal) {
+      dom.addModal.addEventListener('click', (e) => {
+        if (e.target === dom.addModal) closeAddModal();
+      });
+    }
+
+    // Keyboard: ESC closes modals & sidebar
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') {
         if (dom.submitModal.open) closeModal();
+        if (dom.authModal && dom.authModal.open) closeAuthModal();
+        if (dom.addModal && dom.addModal.open) closeAddModal();
         if (dom.sidebar.classList.contains('open')) closeSidebar();
       }
     });

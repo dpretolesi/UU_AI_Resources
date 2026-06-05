@@ -14,6 +14,7 @@ venv/
 # Generated site content
 site/pagefind/
 site/resources/
+site/data/
 
 # Agent logs
 agent/logs/

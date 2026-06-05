@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import json
-import os
+import html
 import shutil
 from pathlib import Path
 
@@ -22,26 +22,37 @@ def main():
         shutil.rmtree(RESOURCES_DIR)
     RESOURCES_DIR.mkdir(parents=True, exist_ok=True)
 
+    generated = 0
     for resource in resources:
+        # Skip archived resources
+        if resource.get("archived", False):
+            continue
+
         res_id = resource.get("id")
         if not res_id:
             continue
+
+        title = html.escape(resource.get('title', ''), quote=True)
+        description = html.escape(resource.get('description', ''), quote=True)
+        res_type = html.escape(resource.get('type', ''), quote=True)
+        access = html.escape(resource.get('access', 'unknown'), quote=True)
 
         html_content = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{resource.get('title', '')}</title>
+    <title>{title}</title>
 </head>
 <body>
-    <article data-pagefind-body data-pagefind-meta="title:{resource.get('title', '')}, type:{resource.get('type', '')}">
-        <h1>{resource.get('title', '')}</h1>
-        <p>{resource.get('description', '')}</p>
-        <span data-pagefind-filter="type">{resource.get('type', '')}</span>
-        <span data-pagefind-filter="access">{resource.get('access', 'unknown')}</span>
+    <article data-pagefind-body data-pagefind-meta="title:{title}, type:{res_type}">
+        <h1>{title}</h1>
+        <p>{description}</p>
+        <span data-pagefind-filter="type">{res_type}</span>
+        <span data-pagefind-filter="access">{access}</span>
 """
         for tag in resource.get("tags", []):
-            html_content += f'        <span data-pagefind-filter="tags">{tag}</span>\n'
+            safe_tag = html.escape(tag, quote=True)
+            html_content += f'        <span data-pagefind-filter="tags">{safe_tag}</span>\n'
 
         html_content += """    </article>
 </body>
@@ -49,8 +60,9 @@ def main():
 
         with open(RESOURCES_DIR / f"{res_id}.html", "w", encoding="utf-8") as f:
             f.write(html_content)
+        generated += 1
 
-    print(f"Generated {len(resources)} static pages in site/resources/")
+    print(f"Generated {generated} static pages in site/resources/ (skipped {len(resources) - generated} archived)")
 
 if __name__ == "__main__":
     main()

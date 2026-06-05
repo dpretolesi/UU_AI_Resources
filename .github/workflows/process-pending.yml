@@ -7,6 +7,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   merge-resources:
     if: github.event.pull_request.merged == true
@@ -32,11 +35,14 @@ jobs:
       - name: Process pending resources
         run: python scripts/process_pending.py
 
+      - name: Regenerate stats
+        run: python scripts/generate_stats.py
+
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/resources.json data/rejected.json data/state.json
+          git add data/resources.json data/rejected.json data/stats.json data/pending/
           git diff --cached --quiet && echo "No changes to commit" && exit 0
           git commit -m "chore: process pending resources from PR #${{ github.event.pull_request.number }}"
           git push

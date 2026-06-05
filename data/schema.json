@@ -18,8 +18,8 @@
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^[a-z0-9\\-]{8,64}$",
-      "description": "Unique identifier for the resource, lowercase alphanumeric with hyphens, 8-64 characters."
+      "pattern": "^[a-z0-9\\-]{4,64}$",
+      "description": "Unique identifier for the resource, lowercase alphanumeric with hyphens, 4-64 characters."
     },
     "title": {
       "type": "string",
@@ -49,7 +49,10 @@
         "newsletter",
         "community",
         "benchmark",
-        "model"
+        "model",
+        "website",
+        "presentation",
+        "other"
       ],
       "description": "Category type of the resource."
     },
