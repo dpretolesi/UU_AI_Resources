@@ -359,5 +359,513 @@
     "quality_score": 9.1,
     "access": "freemium",
     "archived": false
+  },
+  {
+    "id": "self-hosting-guide",
+    "title": "Self Hosting AIs for Research",
+    "url": "https://guides.lib.usf.edu/AI/selfhosting",
+    "type": "website",
+    "tags": [
+      "ai-tools",
+      "self-hosting",
+      "privacy",
+      "research-infrastructure"
+    ],
+    "description": "A comprehensive guide from the University of South Florida Library on how to host AI models locally for privacy and research purposes.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "University of South Florida",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "claude-prompting-best-practices",
+    "title": "Claude Prompting Best Practices",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+    "type": "tutorial",
+    "tags": [
+      "prompt-engineering",
+      "claude",
+      "llm-optimization"
+    ],
+    "description": "Official documentation providing best practices for engineering effective prompts specifically for Anthropic's Claude models.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "Anthropic",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "gemini-prompt-gallery",
+    "title": "Gemini API Prompt Gallery Tutorial",
+    "url": "https://ai.google.dev/gemini-api/prompts",
+    "type": "tutorial",
+    "tags": [
+      "prompting",
+      "gemini-api",
+      "google-ai"
+    ],
+    "description": "A collection of prompt examples and tutorials for getting started with the Gemini API across various use cases.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "Google",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "consensus-ai",
+    "title": "Consensus AI",
+    "url": "https://consensus.app",
+    "type": "tool",
+    "tags": [
+      "search-engine",
+      "ai-research",
+      "academic-literature"
+    ],
+    "description": "An AI search engine that finds answers to research questions based on peer-reviewed scientific papers.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2023,
+    "access": "freemium"
+  },
+  {
+    "id": "scite-ai",
+    "title": "Scite.ai",
+    "url": "https://scite.ai",
+    "type": "tool",
+    "tags": [
+      "citation-analysis",
+      "academic-research",
+      "evidence-tracking"
+    ],
+    "description": "A citation discovery platform that uses AI to provide context on how research papers have been cited by others (supporting, contrasting, or mentioning).",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2023,
+    "access": "paid"
+  },
+  {
+    "id": "elicit-research",
+    "title": "Elicit",
+    "url": "https://elicit.com",
+    "type": "tool",
+    "tags": [
+      "ai-research-assistant",
+      "literature-review",
+      "data-extraction"
+    ],
+    "description": "An AI research assistant that automates parts of the literature review process, such as summarizing papers and extracting specific data points.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2023,
+    "access": "freemium"
+  },
+  {
+    "id": "storm-stanford",
+    "title": "STORM (Wikipedia-like report with AI)",
+    "url": "https://storm.genie.stanford.edu",
+    "type": "tool",
+    "tags": [
+      "information-retrieval",
+      "wikipedia-style",
+      "stanford-research"
+    ],
+    "description": "A system that can generate a comprehensive Wikipedia-like report on any given topic by interacting with various sources to synthesize information.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "Stanford University",
+    "language": "en",
+    "year": 2023,
+    "access": "free"
+  },
+  {
+    "id": "notebooklm",
+    "title": "NotebookLM (Google)",
+    "url": "https://notebooklm.google.com/?pli=1",
+    "type": "tool",
+    "tags": [
+      "note-taking",
+      "ai-research",
+      "knowledge-synthesis",
+      "google"
+    ],
+    "description": "A personalized AI notebook that helps you synthesize information from your own documents and notes using Gemini models.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "Google",
+    "language": "en",
+    "year": 2023,
+    "access": "free"
+  },
+  {
+    "id": "google-scholar-labs",
+    "title": "Google Scholar Labs",
+    "url": "https://scholar.google.com/scholar_labs/search?hl=en",
+    "type": "tool",
+    "tags": [
+      "academic-search",
+      "google-scholar",
+      "experimental-ai"
+    ],
+    "description": "Experimental tools from Google Scholar designed to improve how researchers find, organize, and explore academic literature.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "Google",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "research-rabbit",
+    "title": "Research Rabbit",
+    "url": "https://www.researchrabbit.ai",
+    "type": "tool",
+    "tags": [
+      "literature-mapping",
+      "visual-discovery",
+      "academic-networking"
+    ],
+    "description": "A visual discovery tool for academic papers that helps researchers map out connections between publications, citations, and authors.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2023,
+    "access": "freemium"
+  },
+  {
+    "id": "nature-ai-science-blog",
+    "title": "AI for Science - Nature News",
+    "url": "https://www.nature.com/articles/d41586-025-01069-w",
+    "type": "blog",
+    "tags": [
+      "ai-science",
+      "nature-news",
+      "scientific-discovery"
+    ],
+    "description": "A news analysis exploring the role of AI models in accelerating scientific discovery and data interpretation.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "Nature Portfolio",
+    "language": "en",
+    "year": 2025,
+    "access": "open-access"
+  },
+  {
+    "id": "promptingguide-ai",
+    "title": "Prompt Engineering Guide",
+    "url": "https://www.promptingguide.ai",
+    "type": "course",
+    "tags": [
+      "prompt-engineering",
+      "education",
+      "llm-training",
+      "open-source"
+    ],
+    "description": "A comprehensive, community-driven guide for learning prompt engineering techniques across various large language models.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "dataskeptic-podcast",
+    "title": "Dataskeptic Podcast",
+    "url": "https://dataskeptic.com",
+    "type": "podcast",
+    "tags": [
+      "data-science",
+      "ai-podcast",
+      "machine-learning"
+    ],
+    "description": "A podcast exploring the world of data science, statistics, and artificial intelligence with experts in the field.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "nature-ai-scientists-podcast",
+    "title": "AI ‘Scientists’ Accelerating Research",
+    "url": "https://www.nature.com/articles/d41586-026-01627-w",
+    "type": "podcast",
+    "tags": [
+      "ai-scientists",
+      "nature-podcast",
+      "automated-research",
+      "scientific-innovation"
+    ],
+    "description": "A discussion on how autonomous AI 'scientists' are being designed and used to accelerate the pace of research discoveries.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "Nature Portfolio",
+    "language": "en",
+    "year": 2026,
+    "access": "open-access"
+  },
+  {
+    "id": "zotero-rag-assistant",
+    "title": "RAG Assistant for Zotero",
+    "url": "https://github.com/Quiet-Signals-Lab/RAG-Assistant-for-Zotero",
+    "type": "tool",
+    "tags": [
+      "zotero",
+      "rag",
+      "llm-integration",
+      "research-management"
+    ],
+    "description": "A Retrieval-Augmented Generation (RAG) assistant for Zotero that allows users to interact with their library of research papers using LLMs.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "Quiet Signals Lab",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "anthropic-ai-fluency",
+    "title": "AI Fluency: Framework & Foundations",
+    "url": "https://anthropic.skilljar.com/ai-fluency-framework-foundations",
+    "type": "tutorial",
+    "tags": [
+      "ai-literacy",
+      "anthropic",
+      "education",
+      "frameworks"
+    ],
+    "description": "A learning path designed by Anthropic to build a foundation of AI fluency, covering concepts and frameworks for effective interaction with AI systems.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "Anthropic",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "awesome-ai-tutorials",
+    "title": "Awesome AI Tutorials",
+    "url": "https://github.com/FrancoisPorcher/awesome-ai-tutorials",
+    "type": "library",
+    "tags": [
+      "curated-list",
+      "learning-resources",
+      "machine-learning"
+    ],
+    "description": "A curated collection of high-quality tutorials covering various aspects of artificial intelligence, machine learning, and deep learning.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "GitHub",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "google-ai-research-insights",
+    "title": "AI for Research and Insights",
+    "url": "https://www.coursera.org/learn/google-ai-for-research-and-insights",
+    "type": "course",
+    "tags": [
+      "google-training",
+      "research-methods",
+      "data-analysis"
+    ],
+    "description": "A Google-led course on Coursera focused on using AI tools to gain deeper research insights and streamline the academic workflow.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "Google",
+    "language": "en",
+    "year": 2024,
+    "access": "freemium"
+  },
+  {
+    "id": "mit-ethics-of-ai",
+    "title": "Ethics of AI (MIT OCW)",
+    "url": "https://ocw.mit.edu/courses/res-10-002-ethics-of-ai-bias-spring-2023/",
+    "type": "course",
+    "tags": [
+      "ethics",
+      "bias",
+      "ai-policy",
+      "mit-ocw"
+    ],
+    "description": "A Massachusetts Institute of Technology (MIT) OpenCourseWare series exploring the ethical implications, biases, and sociotechnical challenges of AI.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "MIT",
+    "language": "en",
+    "year": 2023,
+    "access": "open-access"
+  },
+  {
+    "id": "elements-of-ai",
+    "title": "Elements of AI",
+    "url": "https://www.elementsofai.com",
+    "type": "course",
+    "tags": [
+      "intro-to-ai",
+      "foundations",
+      "non-technical"
+    ],
+    "description": "An introductory course on the fundamentals of artificial intelligence designed for non-experts to understand its impact and basics.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "University of Helsinki",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "generative-ai-for-everyone",
+    "title": "Generative AI for Everyone",
+    "url": "https://www.coursera.org/learn/generative-ai-for-everyone",
+    "type": "course",
+    "tags": [
+      "generative-ai",
+      "andrew-ng",
+      "non-technical",
+      "deeplearning-ai"
+    ],
+    "description": "A non-technical introductory course by Andrew Ng and DeepLearning.AI on the capabilities, limitations, and applications of generative AI.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "DeepLearning.AI / Coursera",
+    "language": "en",
+    "year": 2024,
+    "access": "freemium"
+  },
+  {
+    "id": "ai-for-everyone-coursera",
+    "title": "AI For Everyone (Coursera)",
+    "url": "https://www.coursera.org/learn/ai-for-everyone",
+    "type": "course",
+    "tags": [
+      "ai-literacy",
+      "andrew-ng",
+      "business-ai"
+    ],
+    "description": "A popular non-technical course by Andrew Ng providing a high-level overview of AI, machine learning, and how it's used in the real world.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "DeepLearning.AI / Coursera",
+    "language": "en",
+    "year": 2024,
+    "access": "freemium"
+  },
+  {
+    "id": "stanford-ai-academic-research",
+    "title": "AI in Academic Research: Introduction",
+    "url": "https://guides.library.stanford.edu/ai_research",
+    "type": "tutorial",
+    "tags": [
+      "stanford-lib",
+      "academic-workflow",
+      "info-science"
+    ],
+    "description": "A comprehensive guide from Stanford University Library on how to use AI tools effectively for academic research and information discovery.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "Stanford University",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "prompt-engineering-techniques",
+    "title": "Prompt Engineering Techniques",
+    "url": "https://github.com/NirDiamant/Prompt_Engineering",
+    "type": "library",
+    "tags": [
+      "prompt-engineering",
+      "templates",
+      "best-practices",
+      "github"
+    ],
+    "description": "A repository containing a comprehensive collection of prompt engineering techniques, templates, and best practices for various LLMs.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "GitHub",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "lm-studio-tutorial",
+    "title": "LM Studio Tutorial",
+    "url": "https://www.datacamp.com/tutorial/lm-studio",
+    "type": "tutorial",
+    "tags": [
+      "local-llm",
+      "lm-studio",
+      "data-science",
+      "hardware-acceleration"
+    ],
+    "description": "A detailed DataCamp guide on how to use LM Studio, an application that allows you to run LLMs locally on your own hardware.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "DataCamp",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "hai-stanford-blog",
+    "title": "HAI Stanford Blog",
+    "url": "https://hai.stanford.edu/news",
+    "type": "blog",
+    "tags": [
+      "ai-ethics",
+      "human-centered-ai",
+      "policy",
+      "research-updates"
+    ],
+    "description": "The news feed for the Stanford Institute for Human-Centered AI (HAI), featuring updates on research, ethics, and policy in AI.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "Stanford University",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "effortless-academic",
+    "title": "Effortless Academic",
+    "url": "https://effortlessacademic.com",
+    "type": "library",
+    "tags": [
+      "productivity",
+      "automation",
+      "student-tools",
+      "research-workflow"
+    ],
+    "description": "A repository of resources and tools designed to help students and academics simplify their workflow using modern technology and automation.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "explainpaper-tool",
+    "title": "ExplainPaper",
+    "url": "https://www.explainpaper.com",
+    "type": "tool",
+    "tags": [
+      "paper-summarization",
+      "research-analysis",
+      "ai-explanation"
+    ],
+    "description": "An AI-powered platform that helps researchers break down and understand complex academic papers through summaries and interactive explanations.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "freemium"
   }
 ]
