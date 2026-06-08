@@ -197,15 +197,7 @@
       dom.statContributors.textContent = '—';
     }
   }
-    try {
-      if (window.pagefind) {
-        await window.pagefind.init();
-        pagefindAvailable = true;
-      }
-    } catch {
-      pagefindAvailable = false;
-    }
-  }
+
 
   // ─── Filter Population ────────────────────────────────────
   function populateFilters() {
@@ -1420,8 +1412,6 @@
       dom.reviewModal.addEventListener('click', (e) => {
         if (e.target === dom.reviewModal) closeReviewModal();
       });
-    }
-);
     }
 
     // Keyboard: ESC closes modals & sidebar
