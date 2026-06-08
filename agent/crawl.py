@@ -216,7 +216,7 @@ def generate_dynamic_queries(reward_profile: dict[str, float], all_queries: list
         client = ollama.Client(host=os.environ.get("OLLAMA_HOST", "http://localhost:11434"), headers=headers)
 
         prompt = (
-            "You are an AI research assistant tasked with discovering new, high-quality machine learning and AI resources. "
+            "You are an AI research assistant tasked with discovering high-quality machine learning, AI and GenAI resources for academics and researchers. "
             "Based on past successes, the user is most interested in these topics/tags:\n"
             f"{', '.join(top_tag_names)}\n\n"
         )
@@ -227,7 +227,7 @@ def generate_dynamic_queries(reward_profile: dict[str, float], all_queries: list
             )
             
         prompt += (
-            "Generate 3 highly specific, novel Google search queries to find cutting-edge research papers, tools, or tutorials that align with the successful topics. "
+            "Generate 3 highly specific, novel Google search queries to find research papers, tools, blogposts, videos, podcasts or tutorials that align with the successful topics. "
             "Return ONLY a valid JSON list of strings. Example: [\"state-of-the-art transformer NLP GitHub\", \"new reinforcement learning tutorials 2024\"]\n"
             "Do not include any other text."
         )
@@ -581,8 +581,6 @@ def _infer_resource_type(url: str, title: str, description: str) -> str:
         ("book", ["book", "textbook", "ebook"]),
         ("podcast", ["podcast", "episode"]),
         ("newsletter", ["newsletter", "subscribe"]),
-        ("model", ["model", "weights", "checkpoint", "pretrained"]),
-        ("benchmark", ["benchmark", "leaderboard", "evaluation"]),
         ("community", ["community", "forum", "discord", "slack"]),
     ]
 
