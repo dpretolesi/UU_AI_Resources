@@ -78,7 +78,6 @@
     yearMax: $('#year-max'),
     yearMinDisplay: $('#year-min-display'),
     yearMaxDisplay: $('#year-max-display'),
-    addedByFilters: $('#added-by-filters'),
     languageFilter: $('#language-filter'),
     tagCloud: $('#tag-cloud'),
     resourceGrid: $('#resource-grid'),
@@ -231,15 +230,6 @@
         </label>
       `).join('');
 
-    // Added By
-    dom.addedByFilters.innerHTML = ['human', 'agent'].map(val => `
-      <label class="filter-check">
-        <input type="checkbox" value="${val}" data-filter-type="added_by">
-        <span class="filter-check-label">${capitalize(val)}</span>
-        <span class="filter-check-count">${allResources.filter(r => r.added_by === val).length}</span>
-      </label>
-    `).join('');
-
     // Languages
     const languages = [...new Set(allResources.map(r => r.language).filter(Boolean))].sort();
     dom.languageFilter.innerHTML = '<option value="">All Languages</option>' +
@@ -386,11 +376,6 @@
     const displayDesc = truncated ? desc.slice(0, DESC_TRUNCATE) + '…' : desc;
     const delay = Math.min(index * STAGGER_DELAY, 1000);
 
-    const qualityScore = resource.quality_score ?? 0;
-    const qualitySegments = Array.from({ length: 5 }, (_, i) =>
-      `<span class="quality-segment${i < Math.round(qualityScore / 2) ? ' filled' : ''}"></span>`
-    ).join('');
-
     return `
       <article class="resource-card" style="animation-delay:${delay}ms"
                
@@ -399,15 +384,11 @@
           <h3 class="card-title">
             <a href="${escapeAttr(resource.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(resource.title)}</a>
           </h3>
-          <a href="${escapeAttr(resource.url)}" target="_blank" rel="noopener noreferrer" class="card-external" aria-label="Open ${escapeAttr(resource.title)} in new tab">
-            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M5 2h7v7M12 2L6 8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M11 8.5v3a1.5 1.5 0 0 1-1.5 1.5h-7A1.5 1.5 0 0 1 1 11.5v-7A1.5 1.5 0 0 1 2.5 3H6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
-          </a>
         </div>
 
         <div class="card-badges">
           <span class="type-badge" style="background:${typeColor}15;color:${typeColor}">${capitalize(resource.type)}</span>
           ${resource.access ? `<span class="access-badge ${resource.access}">${ACCESS_LABELS[resource.access] || resource.access}</span>` : ''}
-          ${resource.added_by === 'agent' ? `<span class="agent-badge"><svg viewBox="0 0 10 10" fill="none"><circle cx="5" cy="5" r="3.5" stroke="currentColor" stroke-width="1"/><circle cx="5" cy="5" r="1" fill="currentColor"/></svg>Agent</span>` : ''}
         </div>
 
         ${desc ? `<p class="card-description" data-full="${escapeAttr(desc)}">${escapeHtml(displayDesc)}${truncated ? `<button class="expand-btn" type="button" aria-label="Show full description">more</button>` : ''}</p>` : ''}
@@ -423,10 +404,6 @@
           ${resource.year ? `<span class="card-meta-item">${resource.year}</span>` : ''}
           ${resource.institution ? `<span class="card-meta-item">${escapeHtml(resource.institution)}</span>` : ''}
           ${resource.authors?.length ? `<span class="card-meta-item">${escapeHtml(resource.authors[0])}${resource.authors.length > 1 ? ` +${resource.authors.length - 1}` : ''}</span>` : ''}
-          <span class="quality-indicator" title="Quality: ${qualityScore}/10">
-            <div class="quality-bar">${qualitySegments}</div>
-            <span>${qualityScore.toFixed(1)}</span>
-          </span>
         </div>
       </article>
     `;
