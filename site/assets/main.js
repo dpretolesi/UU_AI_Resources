@@ -39,7 +39,6 @@
   // ─── State ──────────────────────────────────────────────────
   let allResources = [];
   let filteredResources = [];
-  let pagefindAvailable = false;
 
   const state = {
     search: '',
@@ -198,13 +197,6 @@
       dom.statContributors.textContent = '—';
     }
   }
-
-  // ─── Pagefind Integration ──────────────────────────────────
-  async function initPagefind() {
-    if (window.__pagefindUnavailable) {
-      pagefindAvailable = false;
-      return;
-    }
     try {
       if (window.pagefind) {
         await window.pagefind.init();
@@ -409,8 +401,8 @@
 
     return `
       <article class="resource-card" style="animation-delay:${delay}ms"
-               data-pagefind-meta="title:${escapeAttr(resource.title)}, type:${resource.type}"
-               data-pagefind-filter="type:${resource.type}, access:${resource.access || 'unknown'}">
+               
+               >
         <div class="card-header">
           <h3 class="card-title">
             <a href="${escapeAttr(resource.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(resource.title)}</a>
@@ -1344,7 +1336,6 @@
   async function init() {
     initTheme();
     initAuth();
-    await initPagefind();
 
     const success = await loadResources();
 

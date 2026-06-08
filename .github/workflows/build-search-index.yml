@@ -28,27 +28,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install Python dependencies
-        run: pip install jsonschema
-
-      - name: Generate static resource pages
-        run: python scripts/generate_resource_pages.py
-
       - name: Generate stats
         run: python scripts/generate_stats.py
-
-      - name: Build Pagefind search index
-        run: npx -y pagefind --site site --output-path site/pagefind
 
       - name: Copy data to site directory
         run: cp -r data site/data
