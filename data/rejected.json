@@ -11,6 +11,11 @@
       "url": "https://ai.meta.com/research/reinforcement-learning",
       "reason": "Rejected via Admin UI",
       "date": "2026-06-08"
+    },
+    {
+      "url": "https://neurips.cc/virtual/2024/poster/94420",
+      "reason": "Rejected via Admin UI",
+      "date": "2026-06-08"
     }
   ]
 }
