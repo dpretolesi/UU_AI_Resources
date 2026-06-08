@@ -384,7 +384,7 @@ def _llm_score_borderline(
         )
 
         response = ollama.chat(
-            model="gemma4:e4b-mlx",
+            model="gemma4:12b-it-qat",
             messages=[{"role": "user", "content": prompt}],
         )
 
