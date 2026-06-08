@@ -1,227 +1,5 @@
 [
   {
-    "id": "auto-e6c0e099d50d",
-    "title": "Open-Sourced Training Datasets for Large Language Models (LLMs)",
-    "url": "https://kili-technology.com/blog/9-open-sourced-datasets-for-training-large-language-models",
-    "type": "paper",
-    "tags": [
-      "nlp",
-      "llm",
-      "open-source",
-      "dataset",
-      "fine-tuning",
-      "rag",
-      "paper"
-    ],
-    "description": "Additional Reading\n\n## AI Summary\n\n   A smaller model trained on high-quality open source data can outperform a larger model trained on noisy, poorly curated datasets.\n   Major open source datasets for LLMs include RefinedWeb (5T+ tokens), The Pile (800 GB), Red Pajama (1.2T tokens), and FineWeb2 for multilingual coverage.\n   Preprocessing pipelines — deduplication, URL filtering, tokenization, contamination detection — determine whether raw data becomes reliable training signal.\n   Bias typically originates from underrepresentation in training data, making systematic data governance and human-in-the-loop review essential.\n   Kili Technology enables teams to build trustworthy, high-quality datasets for training, fine-tuning, and evaluating LLMs with a free trial. [...] # Open-Sourced Train",
-    "added_date": "2026-06-08",
-    "added_by": "agent",
-    "language": "en",
-    "access": "unknown",
-    "archived": false,
-    "year": 2026,
-    "quality_score": 6.5
-  },
-  {
-    "id": "auto-4cb504cab4c8",
-    "title": "GitHub - Zjh-819/LLMDataHub: A quick guide (especially) for trending instruction finetuning datasets · GitHub",
-    "url": "https://github.com/Zjh-819/LLMDataHub",
-    "type": "tutorial",
-    "tags": [
-      "nlp",
-      "generative-ai",
-      "llm",
-      "tutorial",
-      "open-source",
-      "dataset"
-    ],
-    "description": "Large language models (LLMs), such as OpenAI's GPT series, Google's Bard, and Baidu's Wenxin Yiyan, are driving profound technological changes. Recently, with the emergence of open-source large model frameworks like LlaMa and ChatGLM, training an LLM is no longer the exclusive domain of resource-rich companies. Training LLMs by small organizations or individuals has become an important interest in the open-source community, with some notable works including Alpaca, Vicuna, and Luotuo. In addition to large model frameworks, large-scale and high-quality training corpora are also essential for training large language models. Currently, relevant open-source corpora in the community are still scattered. Therefore, the goal of this repository is to continuously collect high-quality training [...",
-    "added_date": "2026-06-08",
-    "added_by": "agent",
-    "language": "en",
-    "access": "unknown",
-    "archived": false,
-    "year": 2026,
-    "quality_score": 7.5
-  },
-  {
-    "id": "auto-288146521c70",
-    "title": "Top 7 open source LLMs for 2026 - NetApp Instaclustr",
-    "url": "https://www.instaclustr.com/education/open-source-ai/top-7-open-source-llms-for-2026",
-    "type": "tutorial",
-    "tags": [
-      "machine-learning",
-      "nlp",
-      "llm",
-      "research",
-      "open-source",
-      "dataset",
-      "tutorial"
-    ],
-    "description": "## What are open source LLMs?\n\nLarge Language Models (LLMs) are machine learning models that can understand and generate human language based on large-scale datasets. Unlike proprietary models developed by companies like OpenAI and Google, open source LLMs are licensed to be freely used, modified, and distributed by anyone. They offer transparency and flexibility, which can be particularly useful for research, development of AI agents, and customization in various applications.\n\nResearchers and developers can access the underlying code, training mechanisms, and datasets, enabling them to deeply understand and improve these models. This openness fosters a community-driven approach to innovation, which can lead to rapid advancements not possible with closed source models. [...] Training larg",
-    "added_date": "2026-06-08",
-    "added_by": "agent",
-    "language": "en",
-    "access": "unknown",
-    "archived": false,
-    "year": 2026,
-    "quality_score": 6.0
-  },
-  {
-    "id": "auto-25e971bba22d",
-    "title": "Insights from Large-Scale LLM Training Runs",
-    "url": "https://magazine.sebastianraschka.com/p/ahead-of-ai-8-the-latest-open-source",
-    "type": "paper",
-    "tags": [
-      "machine-learning",
-      "nlp",
-      "llm",
-      "research",
-      "open-source",
-      "dataset",
-      "fine-tuning",
-      "paper"
-    ],
-    "description": "(\\Dolly v2 is a finetuned Pythia 12B parameter model using the databricks-dolly-15k dataset to replicate the InstructGPT paper / ChatGPT. More on this dataset below.)\n\n### Open Source Data\n\nLast month was a particularly exciting month for open-source AI with several open-source implementations of large language models (LLMs). Now we are also seeing a big wave of open-source datasets! Databricks Dolly 15k and Open-Assistant Conversations for instruction finetuning, and RedPajama for pretraining. This is particularly commendable because data collection and cleaning make up ~90% of a real-world machine learning project, but no one likes doing this work.\n\nRedPajama Dataset for Pretraining [...] Ahead of AI\n\n# Ahead of AI\n\nAhead of AI\n\n# Insights from Large-Scale LLM Training Runs\n\n### And the ",
-    "added_date": "2026-06-08",
-    "added_by": "agent",
-    "language": "en",
-    "access": "unknown",
-    "archived": false,
-    "authors": [
-      "Sebastian Raschka",
-      "PhD"
-    ],
-    "year": 2026,
-    "quality_score": 7.0
-  },
-  {
-    "id": "auto-d735220ce541",
-    "title": "The backbone of large language models: understanding training datasets",
-    "url": "https://toloka.ai/blog/the-backbone-of-large-language-models-understanding-training-datasets",
-    "type": "dataset",
-    "tags": [
-      "nlp",
-      "generative-ai",
-      "llm",
-      "dataset"
-    ],
-    "description": "## Open vs. closed datasets\n\nThe landscape of large language Model (LLM) training datasets is broadly divided into open andclosed datasets, two categories with distinct characteristics. The choice between them depends mainly on the specific use case, available resources, and ethical or legal considerations. While open datasets are publicly accessible and emphasize transparency, the other category prioritizes exclusivity and customization.\n\nEach type offers unique advantages and challenges while training large language models. Open datasets foster accessibility and innovation, making them a key driver for the democratization of AI. Conversely, closed datasets allow organizations to tailor the data for proprietary applications or industry-specific contexts. [...] MINT-1T demonstrates how ope",
-    "added_date": "2026-06-08",
-    "added_by": "agent",
-    "language": "en",
-    "access": "unknown",
-    "archived": false,
-    "year": 2026,
-    "quality_score": 7.0
-  },
-  {
-    "id": "auto-315a649e791e",
-    "title": "Top 10 Open Datasets for LLM Safety, Toxicity & Bias Evaluation | Promptfoo",
-    "url": "https://www.promptfoo.dev/blog/top-llm-safety-bias-benchmarks",
-    "type": "dataset",
-    "tags": [
-      "nlp",
-      "llm",
-      "open-source",
-      "benchmark",
-      "dataset"
-    ],
-    "description": "Promptfoo is now part of OpenAI. Read the update →\n\n# Top 10 Open Datasets for LLM Safety, Toxicity & Bias Evaluation\n\nIan Webster\n\nIan Webster\n\nCo-founder & CEO\n\nLarge language models have tremendous capabilities, but they are broken by default. A wealth of open-source datasets has emerged to train and evaluate LLMs on safety, toxicity, and bias.\n\nBelow we highlight ten of the most important open datasets that AI developers and security engineers should know.\n\n## Understanding LLM Safety Dimensions​\n\nBefore diving into the datasets, it's important to understand the key dimensions of LLM safety evaluation:\n\nThese datasets help evaluate models across multiple critical safety dimensions, from detecting toxic outputs to measuring social biases and ensuring truthful responses. [...] ## Conclus",
-    "added_date": "2026-06-08",
-    "added_by": "agent",
-    "language": "en",
-    "access": "unknown",
-    "archived": false,
-    "year": 2026,
-    "quality_score": 7.0
-  },
-  {
-    "id": "auto-9fef9337516c",
-    "title": "LLM Training Datasets - a sugatoray Collection",
-    "url": "https://huggingface.co/collections/sugatoray/llm-training-datasets",
-    "type": "course",
-    "tags": [
-      "nlp",
-      "llm",
-      "dataset",
-      "rag",
-      "course"
-    ],
-    "description": "#### databricks/databricks-dolly-15k\n\n#### allenai/dolma\n\n#### argilla/OpenHermesPreferences\n\n#### TrustLLM/TrustLLM-dataset\n\n#### HuggingFaceH4/ultrafeedback\\_binarized\n\n#### HuggingFaceH4/ultrachat\\_200k\n\n#### TIGER-Lab/SKGInstruct\n\n#### TIGER-Lab/SKGInstruct-skg-only\n\n#### bigcode/the-stack-v2-train-full-ids\n\n#### garage-bAInd/Open-Platypus\n\n#### Training-Free Long-Context Scaling of Large Language Models\n\n#### allenai/paloma\n\n#### CohereLabs/BinaryVectorDB\n\n#### gretelai/synthetic\\_text\\_to\\_sql\n\n#### mlabonne/chatml\\_dpo\\_pairs\n\n#### argilla/distilabel-capybara-dpo-7k-binarized\n\n#### mlabonne/orpo-dpo-mix-40k\n\n#### unalignment/toxic-dpo-v0.2\n\n#### efederici/alpaca-vs-alpaca-orpo-dpo\n\n#### HuggingFaceFW/fineweb\n\n#### Anthropic/persuasion\n\n#### allenai/WildChat-1M [...] #### open-though",
-    "added_date": "2026-06-08",
-    "added_by": "agent",
-    "language": "en",
-    "access": "unknown",
-    "archived": false,
-    "year": 2026,
-    "quality_score": 7.5
-  },
-  {
-    "id": "auto-5d604cfd6bb5",
-    "title": "Common Corpus: The Largest Collection of Ethical Data for LLM Pre-Training",
-    "url": "https://arxiv.org/html/2506.01732v1",
-    "type": "paper",
-    "tags": [
-      "nlp",
-      "llm",
-      "research",
-      "dataset",
-      "paper"
-    ],
-    "description": "In this paper, we present Common Corpus, which has been an ongoing effort since 2024 (see Appendix A for the development history). It has grown to become the largest open dataset for pre-training Large Language Models at about 2 trillion tokens and the only one in its size range available in multiple languages. Thus, Common Corpus is a significant contribution to the AI Commons. Through the release of this dataset, we show that open LLM research and development is possible while meeting legal and regulatory requirements—even in the EU, where AI regulations are currently the strictest. Here, we detail the composition of Common Corpus (Section 3), as well as the data provenance, license verification, and further processing (Section 4). Next, we describe the early impact of Common Corpus on [",
-    "added_date": "2026-06-08",
-    "added_by": "agent",
-    "language": "en",
-    "access": "unknown",
-    "archived": false,
-    "year": 2026,
-    "quality_score": 8.5
-  },
-  {
-    "id": "auto-97d9bdcf7033",
-    "title": "List of large language models - Wikipedia",
-    "url": "https://en.wikipedia.org/wiki/List_of_large_language_models",
-    "type": "dataset",
-    "tags": [
-      "nlp",
-      "llm",
-      "pytorch",
-      "tensorflow",
-      "research",
-      "open-source",
-      "dataset"
-    ],
-    "description": "1.   ^In many cases, researchers release or report on multiple versions of a model having different sizes. In these cases, the size of the largest model is listed here.\n2.   ^ Jump up to: _a__b__c__d__e__f__g__h__i_This is the date that documentation describing the model's architecture was first released.\n3.   ^ Jump up to: _a__b__c__d__e__f__g__h__i_This is the license of the pre-trained model weights. In almost all cases the training code itself is open-source or can be easily replicated. LLMs may be licensed differently from the chatbots that use them; for the licenses of chatbots, see List of chatbots.\n4.   ^The smaller models including 66B are publicly available, while the 175B model is available on request. [...] | Software |  PyTorch  TensorFlow  Hugging Face  Inference engine  llam",
-    "added_date": "2026-06-08",
-    "added_by": "agent",
-    "language": "en",
-    "access": "unknown",
-    "archived": false,
-    "year": 2026,
-    "quality_score": 7.5
-  },
-  {
-    "id": "auto-25c60c6dbd7c",
-    "title": "LLM training datasets",
-    "url": "https://www.glennklockwood.com/garden/llm-training-datasets",
-    "type": "paper",
-    "tags": [
-      "nlp",
-      "llm",
-      "dataset",
-      "paper"
-    ],
-    "description": "## Glenn's Digital Garden\n\n# LLM training datasets\n\n evergreen\n artificial-intelligence\n\nThe datasets used in LLM training exist in several formats:\n\nRaw training data are text, images, audio files, that have not been wedged into a shape that the model training framework can accept. For text-based data, this is often raw HTML exactly as it was scraped from the Internet.\n\nTokenized training data is significantly smaller than raw training data and is ready to consume by the model training process. For large language models, this means tokenized text, tokenized images, and tokenized audio. [...] 1. Preprocessing tries to eliminate non-text files by removing any file over 8 MB. They also classify the programming language.\n2. Deduplication uses exact deduplication (using SHA256) followed by fuz",
-    "added_date": "2026-06-08",
-    "added_by": "agent",
-    "language": "en",
-    "access": "unknown",
-    "archived": false,
-    "year": 2026,
-    "quality_score": 7.0
-  },
-  {
     "id": "auto-b3977dfe1dd1",
     "title": "Amii Research At NeurIPS 2025: Advances in Reinforcement Learning, LLMs, and Continual Learning",
     "url": "https://www.amii.ca/updates-insights/amii-research-at-neurips-2025-advanced-in-reinforcement-learning-llms-and-continual-learning",
@@ -254,7 +32,7 @@
       "research",
       "paper"
     ],
-    "description": "#### AUTHORS\n\nWritten by\n\nRohit Patel\n\nPublisher\n\narXiv\n\nResearch Topics\n\nTheory\n\nReinforcement Learning\n\n### Related Publications\n\nMay 26, 2026\n\n#### HUMAN & MACHINE INTELLIGENCE\n\n#### THEORY\n\n#### Misalignment Between Backpropagation and the Hierarchy of Brain Responses to Images\n\nValentin Wyart, Huy V. Vo, Jean Remi King, Josephine Raugel, Jérémy Rapin, Marc Szafraniec, Max Seitzer, Patrick Labatut, Piotr Bojanowski\n\nMay 26, 2026\n\nDecember 26, 2025\n\n#### REINFORCEMENT LEARNING\n\n#### NLP\n\n#### Safety Alignment of LMs via Non-cooperative Games\n\nBrandon Amos, Anselm Paulus, Arman Zharmagambetov, Ilia Kulikov, Ivan Evtimov, Kamalika Chaudhuri, Remi Munos\n\nDecember 26, 2025\n\nDecember 01, 2025\n\n#### CONVERSATIONAL AI\n\n#### REINFORCEMENT LEARNING [...] #### CONVERSATIONAL AI\n\n#### REINFORCEMEN",
+    "description": "#### AUTHORS\n\nWritten by\n\nRohit Patel\n\nPublisher\n\narXiv\n\nResearch Topics\n\nTheory\n\nReinforcement Learning\n\n### Related Publications\n\nMay 26, 2026\n\n#### HUMAN & MACHINE INTELLIGENCE\n\n#### THEORY\n\n#### Misalignment Between Backpropagation and the Hierarchy of Brain Responses to Images\n\nValentin Wyart, Huy V. Vo, Jean Remi King, Josephine Raugel, J\u00e9r\u00e9my Rapin, Marc Szafraniec, Max Seitzer, Patrick Labatut, Piotr Bojanowski\n\nMay 26, 2026\n\nDecember 26, 2025\n\n#### REINFORCEMENT LEARNING\n\n#### NLP\n\n#### Safety Alignment of LMs via Non-cooperative Games\n\nBrandon Amos, Anselm Paulus, Arman Zharmagambetov, Ilia Kulikov, Ivan Evtimov, Kamalika Chaudhuri, Remi Munos\n\nDecember 26, 2025\n\nDecember 01, 2025\n\n#### CONVERSATIONAL AI\n\n#### REINFORCEMENT LEARNING [...] #### CONVERSATIONAL AI\n\n#### REINFORCEMEN",
     "added_date": "2026-06-08",
     "added_by": "agent",
     "language": "en",
@@ -286,7 +64,7 @@
   },
   {
     "id": "auto-50a3b5f5d7fc",
-    "title": "Key Papers in Deep RL — Spinning Up  documentation",
+    "title": "Key Papers in Deep RL \u2014 Spinning Up  documentation",
     "url": "https://spinningup.openai.com/en/latest/spinningup/keypapers.html",
     "type": "paper",
     "tags": [
@@ -297,7 +75,7 @@
       "neural-networks",
       "paper"
     ],
-    "description": "## 9. RL in the Real World¶\n\n|  |  |\n --- |\n|  | Benchmarking Reinforcement Learning Algorithms on Real-World Robots, Mahmood et al, 2018. |\n\n|  |  |\n --- |\n|  | Learning Dexterous In-Hand Manipulation, OpenAI, 2018. |\n\n|  |  |\n --- |\n|  | QT-Opt: Scalable Deep Reinforcement Learning for Vision-Based Robotic Manipulation, Kalashnikov et al, 2018. Algorithm: QT-Opt. |\n\n|  |  |\n --- |\n|  | Horizon: Facebook’s Open Source Applied Reinforcement Learning Platform, Gauci et al, 2018. |\n\n## 10. Safety¶\n\n|  |  |\n --- |\n|  | Concrete Problems in AI Safety, Amodei et al, 2016. Contribution: establishes a taxonomy of safety problems, serving as an important jumping-off point for future research. We need to solve these! | [...] |  |  |\n --- |\n|  | Neural Network Dynamics for Model-Based Deep Reinforce",
+    "description": "## 9. RL in the Real World\u00b6\n\n|  |  |\n --- |\n|  | Benchmarking Reinforcement Learning Algorithms on Real-World Robots, Mahmood et al, 2018. |\n\n|  |  |\n --- |\n|  | Learning Dexterous In-Hand Manipulation, OpenAI, 2018. |\n\n|  |  |\n --- |\n|  | QT-Opt: Scalable Deep Reinforcement Learning for Vision-Based Robotic Manipulation, Kalashnikov et al, 2018. Algorithm: QT-Opt. |\n\n|  |  |\n --- |\n|  | Horizon: Facebook\u2019s Open Source Applied Reinforcement Learning Platform, Gauci et al, 2018. |\n\n## 10. Safety\u00b6\n\n|  |  |\n --- |\n|  | Concrete Problems in AI Safety, Amodei et al, 2016. Contribution: establishes a taxonomy of safety problems, serving as an important jumping-off point for future research. We need to solve these! | [...] |  |  |\n --- |\n|  | Neural Network Dynamics for Model-Based Deep Reinforce",
     "added_date": "2026-06-08",
     "added_by": "agent",
     "language": "en",
@@ -318,7 +96,7 @@
       "neural-networks",
       "paper"
     ],
-    "description": "To handle this instability issue, recent works, such as the counterfactual multi-agent policy gradients (Foerster et al.\n2017) and the Multi-Agent Deep Deterministic Policy Gra-dient (MADDPG) (Lowe et al. 2017), proposed to utilized a centralized critic within the actor-critic learning framework to reduce the variance of policy gradient. [...] 2. Related Work Multi-agent reinforcement learning (Littman 1994) has been a long-standing ﬁeld in AI (Hu, Wellman, and others 1998; Busoniu, Babuska, and De Schutter 2008). Recent works in DRL use deep neural networks to approximately represent policy and value functions. Inspired by the success of DRL in single-agent settings, many DRL-based multi-agent learn-ing algorithms have been proposed. Forester et al. (2016b) and He et al. (2016) extended t",
+    "description": "To handle this instability issue, recent works, such as the counterfactual multi-agent policy gradients (Foerster et al.\n2017) and the Multi-Agent Deep Deterministic Policy Gra-dient (MADDPG) (Lowe et al. 2017), proposed to utilized a centralized critic within the actor-critic learning framework to reduce the variance of policy gradient. [...] 2. Related Work Multi-agent reinforcement learning (Littman 1994) has been a long-standing \ufb01eld in AI (Hu, Wellman, and others 1998; Busoniu, Babuska, and De Schutter 2008). Recent works in DRL use deep neural networks to approximately represent policy and value functions. Inspired by the success of DRL in single-agent settings, many DRL-based multi-agent learn-ing algorithms have been proposed. Forester et al. (2016b) and He et al. (2016) extended t",
     "added_date": "2026-06-08",
     "added_by": "agent",
     "language": "en",
@@ -339,31 +117,7 @@
       "research",
       "paper"
     ],
-    "description": "# Entropy-Preserving Reinforcement Learning\n\nEntropy-Preserving Reinforcement Learning\n\nAuthorsAleksei Petrenko‡, Ben Lipkin†‡\\\\, Kevin Chen, Erik Wijmans, Marco Cusumano-Towner, Raja Giryes, Philipp Krähenbühl\n\nView publication\n\nCopy Bibtex [...] Policy gradient algorithms have driven many recent advancements in language model reasoning. An appealing property is their ability to learn from exploration on their own trajectories, a process crucial for fostering diverse and creative solutions. As we show in this paper, many policy gradient algorithms naturally reduce the entropy—and thus the diversity of explored trajectories—as part of training, yielding a policy increasingly limited in its ability to explore. In this paper, we argue that entropy should be actively monitored and controlled ",
-    "added_date": "2026-06-08",
-    "added_by": "agent",
-    "language": "en",
-    "access": "unknown",
-    "archived": false,
-    "year": 2026,
-    "quality_score": 7.0
-  },
-  {
-    "id": "auto-517aa4ab0181",
-    "title": "Policy-Shaped Prediction: Avoiding Distractions in Model-Based Reinforcement Learning | Stanford HAI",
-    "url": "https://hai.stanford.edu/research/policy-shaped-prediction-avoiding-distractions-in-model-based-reinforcement-learning",
-    "type": "paper",
-    "tags": [
-      "nlp",
-      "transformers",
-      "reinforcement-learning",
-      "llm",
-      "research",
-      "benchmark",
-      "dataset",
-      "paper"
-    ],
-    "description": "Vafa et al. (2024) introduced a transformer-based econometric model, CAREER, that predicts a worker’s next job as a function of career history (an “occupation model”). CAREER was initially estimated (“pre-trained”) using a large, unrepresentative resume dataset, which served as a “foundation model,” and parameter estimation was continued (“fine-tuned”) using data from a representative survey. CAREER had better predictive performance than benchmarks. This paper considers an alternative where the resume-based foundation model is replaced by a large language model (LLM). We convert tabular data from the survey into text files that resemble resumes and fine-tune the LLMs using these text files with the objective to predict the next token (word). The resulting fine-tuned LLM is used as an [...]",
+    "description": "# Entropy-Preserving Reinforcement Learning\n\nEntropy-Preserving Reinforcement Learning\n\nAuthorsAleksei Petrenko\u2021, Ben Lipkin\u2020\u2021\\\\, Kevin Chen, Erik Wijmans, Marco Cusumano-Towner, Raja Giryes, Philipp Kr\u00e4henb\u00fchl\n\nView publication\n\nCopy Bibtex [...] Policy gradient algorithms have driven many recent advancements in language model reasoning. An appealing property is their ability to learn from exploration on their own trajectories, a process crucial for fostering diverse and creative solutions. As we show in this paper, many policy gradient algorithms naturally reduce the entropy\u2014and thus the diversity of explored trajectories\u2014as part of training, yielding a policy increasingly limited in its ability to explore. In this paper, we argue that entropy should be actively monitored and controlled ",
     "added_date": "2026-06-08",
     "added_by": "agent",
     "language": "en",
@@ -416,7 +170,7 @@
   },
   {
     "id": "auto-2f14b92c1669",
-    "title": "Computer Vision — SOTA Benchmarks, Models, Trust Grades | CodeSOTA",
+    "title": "Computer Vision \u2014 SOTA Benchmarks, Models, Trust Grades | CodeSOTA",
     "url": "https://www.codesota.com/browse/computer-vision",
     "type": "course",
     "tags": [
@@ -424,7 +178,7 @@
       "benchmark",
       "course"
     ],
-    "description": "01Optical Character Recognition114 bench831 res\n 02Scene Text Detection11 bench581 res\n 03Document Parsing3 bench149 res\n 04Document Layout Analysis5 bench133 res\n 05Scene Text Recognition11 bench127 res\n 06Table Recognition5 bench71 res\n 07General OCR Capabilities4 bench70 res\n 08Document Image Classification7 bench63 res\n 09Handwriting Recognition6 bench40 res\n 10Document Understanding3 bench28 res\n 11Semantic Segmentation2 bench24 res\n 12Video-to-Video1 bench2 res\n\nFig 01 · Showing top 12of 23tasks under Computer Vision.\n\n§ 02 · Top benchmarks\n\n## Current state of the art.\n\nLeading scores for the headline benchmarks in this area, drawn from the registry. Shaded rows mark the top result per task; follow any row into the full leaderboard. [...] | # | Task | Benchmark | Leading model | Sco",
+    "description": "01Optical Character Recognition114 bench831 res\n 02Scene Text Detection11 bench581 res\n 03Document Parsing3 bench149 res\n 04Document Layout Analysis5 bench133 res\n 05Scene Text Recognition11 bench127 res\n 06Table Recognition5 bench71 res\n 07General OCR Capabilities4 bench70 res\n 08Document Image Classification7 bench63 res\n 09Handwriting Recognition6 bench40 res\n 10Document Understanding3 bench28 res\n 11Semantic Segmentation2 bench24 res\n 12Video-to-Video1 bench2 res\n\nFig 01 \u00b7 Showing top 12of 23tasks under Computer Vision.\n\n\u00a7 02 \u00b7 Top benchmarks\n\n## Current state of the art.\n\nLeading scores for the headline benchmarks in this area, drawn from the registry. Shaded rows mark the top result per task; follow any row into the full leaderboard. [...] | # | Task | Benchmark | Leading model | Sco",
     "added_date": "2026-06-08",
     "added_by": "agent",
     "language": "en",

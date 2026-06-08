@@ -21,7 +21,7 @@
   const TYPE_COLORS = {
     tool: '#3b82f6', website: '#8b5cf6', tutorial: '#10b981', blog: '#f59e0b',
     video: '#ef4444', podcast: '#a855f7', presentation: '#06b6d4', paper: '#6366f1',
-    course: '#14b8a6', dataset: '#f97316', library: '#22c55e', framework: '#e11d48',
+    course: '#14b8a6', library: '#22c55e', framework: '#e11d48',
     newsletter: '#eab308', community: '#ec4899', other: '#64748b',
   };
 
@@ -32,7 +32,7 @@
 
   const VALID_TYPES = [
     'paper', 'course', 'tutorial', 'blog', 'video', 'tool', 'library',
-    'framework', 'dataset', 'book', 'podcast', 'newsletter', 'community',
+    'framework', 'book', 'podcast', 'newsletter', 'community',
     'benchmark', 'model', 'website', 'presentation', 'other',
   ];
 

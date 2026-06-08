@@ -26,7 +26,7 @@ The easiest way to submit a resource:
 2. Fill in the required fields:
    - **URL** — The full URL of the resource
    - **Title** — A clear, descriptive title
-   - **Type** — Select from the dropdown (paper, tool, dataset, etc.)
+   - **Type** — Select from the dropdown (paper, tool, etc.)
    - **Description** — A brief summary of the resource's value
    - **Tags** — Comma-separated relevant tags
    - **Institution** — (Optional) The organization behind the resource
@@ -77,7 +77,7 @@ Each resource entry must follow this schema:
 
 **Optional fields:** `quality_score`, `authors`, `institution`, `year`, `language`, `access`, `reviewed_by`, `archived`
 
-**Valid types:** `paper`, `tool`, `dataset`, `library`, `framework`, `tutorial`, `course`, `blog`, `video`, `podcast`, `book`, `benchmark`, `model`, `community`, `newsletter`, `website`, `presentation`, `other`
+**Valid types:** `paper`, `tool`, `library`, `framework`, `tutorial`, `course`, `blog`, `video`, `podcast`, `book`, `benchmark`, `model`, `community`, `newsletter`, `website`, `presentation`, `other`
 
 ---
 
@@ -138,7 +138,7 @@ Tags help users discover resources through search and filtering. Follow these co
 | Computer Vision | `computer-vision`, `image-classification`, `object-detection`, `segmentation`, `generative-model`, `diffusion` |
 | Reinforcement Learning | `reinforcement-learning`, `policy-gradient`, `multi-agent`, `reward-model`, `rlhf` |
 | Machine Learning Fundamentals | `optimization`, `regularization`, `generalization`, `loss-function`, `neural-architecture` |
-| Data & Infrastructure | `dataset`, `benchmark`, `distributed-training`, `mlops`, `data-pipeline` |
+| Data & Infrastructure | `benchmark`, `distributed-training`, `mlops`, `data-pipeline` |
 | Ethics & Safety | `ai-safety`, `alignment`, `fairness`, `interpretability`, `explainability`, `bias` |
 | Multimodal | `multimodal`, `vision-language`, `text-to-image`, `audio`, `speech` |
 | Agents & Reasoning | `agent`, `reasoning`, `chain-of-thought`, `tool-use`, `planning` |

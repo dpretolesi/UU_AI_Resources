@@ -176,29 +176,6 @@
     "archived": false
   },
   {
-    "id": "auto-4cc665313797",
-    "title": "Papers With Code",
-    "url": "https://paperswithcode.com",
-    "type": "tool",
-    "tags": [
-      "research",
-      "benchmarks",
-      "datasets",
-      "papers",
-      "code"
-    ],
-    "description": "A platform that links machine learning papers with their official code implementations, datasets, and benchmark results across thousands of tasks.",
-    "institution": "Meta AI",
-    "language": "en",
-    "year": 2018,
-    "added_date": "2024-01-10",
-    "added_by": "human",
-    "reviewed_by": "editorial",
-    "quality_score": 9.3,
-    "access": "free",
-    "archived": false
-  },
-  {
     "id": "auto-d95936737ca3",
     "title": "The Batch Newsletter by Andrew Ng",
     "url": "https://www.deeplearning.ai/the-batch/",
@@ -220,27 +197,6 @@
     "added_by": "human",
     "quality_score": 8.2,
     "access": "free",
-    "archived": false
-  },
-  {
-    "id": "auto-567bb77e3d7f",
-    "title": "Common Crawl Dataset",
-    "url": "https://commoncrawl.org",
-    "type": "dataset",
-    "tags": [
-      "web-data",
-      "nlp",
-      "pretraining",
-      "large-scale"
-    ],
-    "description": "A massive open repository of web crawl data, widely used for training large language models. Contains petabytes of raw web page data, metadata, and text extractions.",
-    "institution": "Common Crawl Foundation",
-    "language": "en",
-    "year": 2017,
-    "added_date": "2024-06-01",
-    "added_by": "agent",
-    "quality_score": 8.0,
-    "access": "open-access",
     "archived": false
   },
   {
@@ -593,7 +549,7 @@
   },
   {
     "id": "nature-ai-scientists-podcast",
-    "title": "AI ‘Scientists’ Accelerating Research",
+    "title": "AI \u2018Scientists\u2019 Accelerating Research",
     "url": "https://www.nature.com/articles/d41586-026-01627-w",
     "type": "podcast",
     "tags": [

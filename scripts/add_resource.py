@@ -30,7 +30,7 @@ SCHEMA_PATH = DATA_DIR / "schema.json"
 
 VALID_TYPES = [
     "paper", "course", "tutorial", "blog", "video", "tool", "library",
-    "framework", "dataset", "book", "podcast", "newsletter", "community",
+    "framework", "book", "podcast", "newsletter", "community",
     "benchmark", "model",
 ]
 
