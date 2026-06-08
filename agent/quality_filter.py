@@ -253,6 +253,7 @@ def _score_positive_signals(
     authors: list[str] | None,
     description: str,
     title: str,
+    reward_profile: dict[str, float] | None = None,
 ) -> None:
     """Add positive scoring signals."""
     # Reputable institution / domain
@@ -304,6 +305,25 @@ def _score_positive_signals(
         breakdown.add("Detailed description (engagement proxy)", 1.0)
     elif len(description) >= 100:
         breakdown.add("Moderate description detail", 0.5)
+
+    # Dynamic rewards based on past success
+    if reward_profile:
+        # Extract potential tags from title and description
+        combined_lower = f"{title} {description}".lower()
+        tag_hits = 0
+        total_reward = 0.0
+        for tag, reward in reward_profile.items():
+            if tag.replace("-", " ") in combined_lower or tag in combined_lower:
+                tag_hits += 1
+                total_reward += reward
+        
+        if total_reward > 0:
+            # Cap the maximum reward boost to 2.0 to avoid unbounded scores
+            boost = min(2.0, total_reward * 0.5)
+            breakdown.add(f"Historically successful topics ({tag_hits} matched)", boost)
+        elif total_reward < 0:
+            penalty = max(-2.0, total_reward * 0.5)
+            breakdown.add(f"Historically rejected topics ({tag_hits} matched)", penalty)
 
 
 def _score_negative_signals(
@@ -423,6 +443,7 @@ def score_resource(
     authors: list[str] | None = None,
     is_link_broken: bool = False,
     near_duplicate_count: int = 0,
+    reward_profile: dict[str, float] | None = None,
     use_llm_fallback: bool = True,
 ) -> tuple[float, ScoringBreakdown]:
     """
@@ -469,6 +490,7 @@ def score_resource(
         authors=authors,
         description=description,
         title=title,
+        reward_profile=reward_profile,
     )
 
     # --- Negative signals ---

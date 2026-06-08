@@ -162,6 +162,110 @@ def rebuild_known_hashes() -> set[str]:
     return hashes
 
 
+def compute_reward_profile() -> dict[str, float]:
+    """Compute a reward profile for tags based on accepted and rejected resources."""
+    reward_profile: dict[str, float] = {}
+
+    # Positive rewards from accepted resources added by the agent
+    resources_path = DATA_DIR / "resources.json"
+    if resources_path.exists():
+        resources = load_json(resources_path)
+        for r in resources:
+            if r.get("added_by") == "agent":
+                for tag in r.get("tags", []):
+                    reward_profile[tag] = reward_profile.get(tag, 0.0) + 1.0
+            else:
+                # Small positive signal for generally accepted topics
+                for tag in r.get("tags", []):
+                    reward_profile[tag] = reward_profile.get(tag, 0.0) + 0.1
+
+    # Negative rewards from rejected resources
+    rejected_path = DATA_DIR / "rejected.json"
+    if rejected_path.exists():
+        rejected = load_json(rejected_path)
+        for entry in rejected.get("rejections", []):
+            for tag in entry.get("tags", []):
+                reward_profile[tag] = reward_profile.get(tag, 0.0) - 1.0
+
+    return reward_profile
+
+
+def generate_dynamic_queries(reward_profile: dict[str, float], all_queries: list[str]) -> list[str]:
+    """Generate dynamic search queries using Ollama and the reward profile."""
+    # Find the top 10 most rewarded tags
+    top_tags = sorted(reward_profile.items(), key=lambda x: x[1], reverse=True)[:10]
+    top_tag_names = [t[0] for t in top_tags if t[1] > 0]
+
+    # Find the 5 most penalized tags
+    bottom_tags = sorted(reward_profile.items(), key=lambda x: x[1])[:5]
+    penalized_tags = [t[0] for t in bottom_tags if t[1] < 0]
+
+    if not top_tag_names:
+        return []
+
+    try:
+        import ollama
+        import os
+
+        # Initialize client with API key if available
+        headers = {}
+        api_key = os.environ.get("OLLAMA_API_KEY")
+        if api_key:
+            headers["Authorization"] = f"Bearer {api_key}"
+            
+        client = ollama.Client(host=os.environ.get("OLLAMA_HOST", "http://localhost:11434"), headers=headers)
+
+        prompt = (
+            "You are an AI research assistant tasked with discovering new, high-quality machine learning and AI resources. "
+            "Based on past successes, the user is most interested in these topics/tags:\n"
+            f"{', '.join(top_tag_names)}\n\n"
+        )
+        if penalized_tags:
+            prompt += (
+                "The user explicitly DISLIKES or REJECTED these topics:\n"
+                f"{', '.join(penalized_tags)}\n\n"
+            )
+            
+        prompt += (
+            "Generate 3 highly specific, novel Google search queries to find cutting-edge research papers, tools, or tutorials that align with the successful topics. "
+            "Return ONLY a valid JSON list of strings. Example: [\"state-of-the-art transformer NLP GitHub\", \"new reinforcement learning tutorials 2024\"]\n"
+            "Do not include any other text."
+        )
+
+        response = client.chat(
+            model="gemma4:12b-it-qat",
+            messages=[{"role": "user", "content": prompt}],
+        )
+
+        content = response['message']['content'].strip()
+        # Attempt to parse JSON
+        # Clean up markdown code blocks if any
+        if content.startswith("```json"):
+            content = content[7:-3].strip()
+        elif content.startswith("```"):
+            content = content[3:-3].strip()
+            
+        dynamic_queries = json.loads(content)
+        if isinstance(dynamic_queries, list) and all(isinstance(q, str) for q in dynamic_queries):
+            logger.info(f"Generated dynamic queries via LLM: {dynamic_queries}")
+            return dynamic_queries[:3]
+
+    except Exception as e:
+        logger.warning(f"Failed to generate dynamic queries with LLM: {e}")
+
+    # Fallback heuristic
+    import random
+    fallback_queries = []
+    base_suffixes = ["research papers 2024", "open source GitHub", "tutorial advanced"]
+    for i in range(min(3, len(top_tag_names))):
+        tag = random.choice(top_tag_names)
+        suffix = random.choice(base_suffixes)
+        fallback_queries.append(f"{tag.replace('-', ' ')} {suffix}")
+    
+    logger.info(f"Using heuristic dynamic queries: {fallback_queries}")
+    return fallback_queries
+
+
 def generate_resource_id(url: str) -> str:
     """Generate a deterministic resource ID from a URL."""
     h = hashlib.sha256(url.encode("utf-8")).hexdigest()[:12]
@@ -576,15 +680,24 @@ def run_crawl() -> None:
         "search_queries.json must be a non-empty list"
     )
 
-    # Select 5 queries using rotation cursor
+    # Select static queries using rotation cursor
     rotation_idx = state.get("queries_rotation_index", 0) % len(all_queries)
-    selected_queries = []
-    for i in range(5):
+    static_queries = []
+    # Use 2 static queries for exploration
+    for i in range(2):
         idx = (rotation_idx + i) % len(all_queries)
-        selected_queries.append(all_queries[idx])
-    new_rotation_idx = (rotation_idx + 5) % len(all_queries)
+        static_queries.append(all_queries[idx])
+    new_rotation_idx = (rotation_idx + 2) % len(all_queries)
     state["queries_rotation_index"] = new_rotation_idx
-    logger.info(f"Selected queries (idx {rotation_idx}-{rotation_idx + 4}): {selected_queries}")
+
+    # --- Compute reward profile and dynamic queries ---
+    reward_profile = compute_reward_profile()
+    logger.info(f"Computed reward profile for {len(reward_profile)} tags")
+    
+    dynamic_queries = generate_dynamic_queries(reward_profile, all_queries)
+    
+    selected_queries = static_queries + dynamic_queries
+    logger.info(f"Selected mixed queries: {selected_queries}")
 
     # --- Search and collect candidates ---
     all_candidates: list[dict] = []
@@ -639,6 +752,7 @@ def run_crawl() -> None:
                 title=title,
                 description=description,
                 resource_type=resource_type,
+                reward_profile=reward_profile,
                 use_llm_fallback=not DRY_RUN,
             )
         except quality_filter.QualityRejectionError as e:
