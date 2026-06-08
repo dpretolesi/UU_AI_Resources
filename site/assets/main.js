@@ -108,6 +108,14 @@
     authError: $('#auth-error'),
     authStatus: $('#auth-status'),
     logoutBtn: $('#logout-btn'),
+    // Review Suggestions
+    reviewBtn: $('#review-suggestions-btn'),
+    reviewModal: $('#review-modal'),
+    reviewModalClose: $('#review-modal-close'),
+    reviewModalBody: $('#review-modal-body'),
+    reviewLoading: $('#review-loading'),
+    reviewEmpty: $('#review-empty'),
+    reviewList: $('#review-list'),
     // Owner add resource
     addResourceBtn: $('#add-resource-btn'),
     addModal: $('#add-modal'),
@@ -849,11 +857,13 @@
       dom.authStatus.hidden = false;
       dom.authStatus.querySelector('.auth-username').textContent = authUser;
       if (dom.addResourceBtn) dom.addResourceBtn.hidden = false;
+      if (dom.reviewBtn) dom.reviewBtn.hidden = false;
     } else {
       // Show login button
       dom.authBtn.hidden = false;
       dom.authStatus.hidden = true;
       if (dom.addResourceBtn) dom.addResourceBtn.hidden = true;
+      if (dom.reviewBtn) dom.reviewBtn.hidden = true;
     }
   }
 
@@ -928,6 +938,194 @@
     updateAuthUI();
     showToast('Logged out successfully.', 'info');
   }
+
+
+  // ─── Owner: Review Suggestions ──────────────────────────────
+  let currentSuggestions = [];
+
+  async function openReviewModal() {
+    if (!isOwner || !dom.reviewModal) return;
+    dom.reviewModal.showModal();
+    dom.reviewLoading.hidden = false;
+    dom.reviewEmpty.hidden = true;
+    dom.reviewList.innerHTML = '';
+    
+    try {
+      // Try to fetch from main branch directly since site data might be cached
+      const resp = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/data/suggestions.json`, {
+        headers: {
+          'Authorization': `Bearer ${authToken}`,
+          'Accept': 'application/vnd.github.v3+json'
+        }
+      });
+      if (resp.status === 404) {
+        currentSuggestions = [];
+      } else if (!resp.ok) {
+        throw new Error('Failed to fetch suggestions');
+      } else {
+        const data = await resp.json();
+        // Support base64 encoding from GitHub API
+        const contentStr = decodeURIComponent(escape(atob(data.content)));
+        currentSuggestions = JSON.parse(contentStr);
+      }
+    } catch (e) {
+      console.error(e);
+      // Fallback to local
+      try {
+        const fallback = await fetch('data/suggestions.json');
+        currentSuggestions = fallback.ok ? await fallback.json() : [];
+      } catch (err) {
+        currentSuggestions = [];
+      }
+    }
+
+    dom.reviewLoading.hidden = true;
+    renderSuggestions();
+  }
+
+  function closeReviewModal() {
+    if (dom.reviewModal) {
+      dom.reviewModal.close();
+    }
+  }
+
+  function renderSuggestions() {
+    if (currentSuggestions.length === 0) {
+      dom.reviewEmpty.hidden = false;
+      dom.reviewList.innerHTML = '';
+      return;
+    }
+    
+    dom.reviewEmpty.hidden = true;
+    dom.reviewList.innerHTML = currentSuggestions.map((s, i) => `
+      <article class="resource-card" style="display: flex; flex-direction: column;">
+        <div class="card-header">
+          <h3 class="card-title">
+            <a href="${escapeAttr(s.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.title)}</a>
+          </h3>
+        </div>
+        <div class="card-badges" style="margin-top: 0.5rem; margin-bottom: 0.5rem;">
+          <span class="type-badge">${capitalize(s.type)}</span>
+          <span class="quality-indicator" title="Quality: ${s.quality_score ?? 0}/10">
+            Score: ${(s.quality_score ?? 0).toFixed(1)}
+          </span>
+        </div>
+        <p class="card-description" style="margin-bottom: 1rem;">${escapeHtml(s.description || '')}</p>
+        <div class="card-tags" style="margin-bottom: 1rem;">
+          ${(s.tags || []).map(t => `<span class="card-tag" style="cursor: default;">${escapeHtml(t)}</span>`).join('')}
+        </div>
+        <div style="margin-top: auto; display: flex; gap: 0.5rem;">
+          <button class="btn btn-primary" style="flex: 1; justify-content: center; padding: 0.5rem;" onclick="window.handleSuggestionAction(${i}, 'approve')">Approve</button>
+          <button class="btn btn-secondary" style="flex: 1; justify-content: center; padding: 0.5rem; background: var(--warning); color: white; border: none;" onclick="window.handleSuggestionAction(${i}, 'reject')">Reject</button>
+        </div>
+      </article>
+    `).join('');
+  }
+
+  window.handleSuggestionAction = async function(index, action) {
+    if (!isOwner || !authToken) return;
+    const suggestion = currentSuggestions[index];
+    if (!suggestion) return;
+
+    // Show loading on the card
+    const buttons = dom.reviewList.children[index].querySelectorAll('button');
+    buttons.forEach(b => { b.disabled = true; b.textContent = 'Processing...'; });
+
+    try {
+      const apiBase = `https://api.github.com/repos/${GITHUB_REPO}`;
+      const headers = {
+        'Authorization': `Bearer ${authToken}`,
+        'Accept': 'application/vnd.github.v3+json',
+        'Content-Type': 'application/json',
+      };
+
+      // Get latest main SHA
+      const refResp = await fetch(`${apiBase}/git/ref/heads/main`, { headers });
+      const refData = await refResp.json();
+      const mainSha = refData.object.sha;
+
+      // Get base commit tree
+      const commitResp = await fetch(`${apiBase}/git/commits/${mainSha}`, { headers });
+      const commitData = await commitResp.json();
+      const baseTreeSha = commitData.tree.sha;
+
+      // Prepare tree changes
+      const treeChanges = [];
+
+      // Update suggestions.json
+      currentSuggestions.splice(index, 1);
+      const newSuggestionsContent = JSON.stringify(currentSuggestions, null, 2);
+      treeChanges.push({
+        path: 'data/suggestions.json',
+        mode: '100644',
+        type: 'blob',
+        content: newSuggestionsContent
+      });
+
+      // Update resources.json or rejected.json
+      if (action === 'approve') {
+        const resResp = await fetch(`${apiBase}/contents/data/resources.json`, { headers });
+        const resData = await resResp.json();
+        const resources = JSON.parse(decodeURIComponent(escape(atob(resData.content))));
+        resources.unshift(suggestion);
+        treeChanges.push({
+          path: 'data/resources.json',
+          mode: '100644',
+          type: 'blob',
+          content: JSON.stringify(resources, null, 2)
+        });
+      } else {
+        const rejResp = await fetch(`${apiBase}/contents/data/rejected.json`, { headers });
+        const rejData = await rejResp.json();
+        const rejected = JSON.parse(decodeURIComponent(escape(atob(rejData.content))));
+        rejected.rejections = rejected.rejections || [];
+        rejected.rejections.push({ url: suggestion.url, reason: "Rejected via Admin UI", date: new Date().toISOString().split('T')[0] });
+        treeChanges.push({
+          path: 'data/rejected.json',
+          mode: '100644',
+          type: 'blob',
+          content: JSON.stringify(rejected, null, 2)
+        });
+      }
+
+      // Create new tree
+      const createTreeResp = await fetch(`${apiBase}/git/trees`, {
+        method: 'POST',
+        headers,
+        body: JSON.stringify({ base_tree: baseTreeSha, tree: treeChanges })
+      });
+      const newTreeData = await createTreeResp.json();
+
+      // Create commit
+      const createCommitResp = await fetch(`${apiBase}/git/commits`, {
+        method: 'POST',
+        headers,
+        body: JSON.stringify({
+          message: action === 'approve' ? `✅ Approve suggestion: ${suggestion.title.slice(0,50)}` : `❌ Reject suggestion: ${suggestion.title.slice(0,50)}`,
+          tree: newTreeData.sha,
+          parents: [mainSha]
+        })
+      });
+      const newCommitData = await createCommitResp.json();
+
+      // Update ref
+      await fetch(`${apiBase}/git/refs/heads/main`, {
+        method: 'PATCH',
+        headers,
+        body: JSON.stringify({ sha: newCommitData.sha })
+      });
+
+      showToast(`Suggestion ${action}d successfully.`, 'success');
+      renderSuggestions();
+
+    } catch (e) {
+      console.error(e);
+      showToast(`Failed to ${action} suggestion.`, 'error');
+      buttons.forEach(b => { b.disabled = false; });
+      buttons[0].textContent = 'Approve';
+      buttons[1].textContent = 'Reject';
+    }
+  };
 
   // ─── Owner: Add Resource via GitHub API ───────────────────
   function openAddModal() {
@@ -1212,6 +1410,7 @@
       });
     }
 
+
     // Owner add resource events
     if (dom.addResourceBtn) dom.addResourceBtn.addEventListener('click', openAddModal);
     if (dom.addModalClose) dom.addModalClose.addEventListener('click', closeAddModal);
@@ -1223,12 +1422,24 @@
       });
     }
 
+    // Review Suggestions events
+    if (dom.reviewBtn) dom.reviewBtn.addEventListener('click', openReviewModal);
+    if (dom.reviewModalClose) dom.reviewModalClose.addEventListener('click', closeReviewModal);
+    if (dom.reviewModal) {
+      dom.reviewModal.addEventListener('click', (e) => {
+        if (e.target === dom.reviewModal) closeReviewModal();
+      });
+    }
+);
+    }
+
     // Keyboard: ESC closes modals & sidebar
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') {
         if (dom.submitModal.open) closeModal();
         if (dom.authModal && dom.authModal.open) closeAuthModal();
         if (dom.addModal && dom.addModal.open) closeAddModal();
+        if (dom.reviewModal && dom.reviewModal.open) closeReviewModal();
         if (dom.sidebar.classList.contains('open')) closeSidebar();
       }
     });

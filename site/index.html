@@ -37,6 +37,12 @@
       </a>
 
       <nav class="header-actions" aria-label="Header actions">
+        <!-- Owner: Review Suggestions (hidden until authenticated) -->
+        <button class="btn btn-secondary" id="review-suggestions-btn" hidden aria-haspopup="dialog" aria-label="Review agent suggestions">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 4h12M2 8h12M2 12h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <span class="btn-label">Review Suggestions</span>
+        </button>
+
         <!-- Owner: Add Resource (hidden until authenticated) -->
         <button class="btn btn-primary" id="add-resource-btn" hidden aria-haspopup="dialog" aria-label="Add a resource directly">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 3v10M3 8h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
@@ -479,6 +485,30 @@
           </button>
         </div>
       </form>
+    </div>
+  </dialog>
+
+  <!-- ========== REVIEW SUGGESTIONS MODAL (Owner only) ========== -->
+  <dialog class="modal modal-wide" id="review-modal" aria-labelledby="review-modal-title">
+    <div class="modal-content" style="max-height: 90vh; display: flex; flex-direction: column;">
+      <div class="modal-header">
+        <h2 class="modal-title" id="review-modal-title">Review Suggestions</h2>
+        <button class="btn-icon modal-close" id="review-modal-close" aria-label="Close modal">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M4 4l10 10M14 4L4 14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+      <div class="modal-body" id="review-modal-body" style="overflow-y: auto; padding: 1.5rem;">
+        <div id="review-loading" class="loading-state">
+          <div class="loading-spinner"><div class="spinner"></div></div>
+        </div>
+        <div id="review-empty" class="empty-state" hidden>
+          <h3 class="empty-title">No suggestions</h3>
+          <p class="empty-desc">The agent hasn't found any new resources recently.</p>
+        </div>
+        <div id="review-list" class="resource-grid" style="grid-template-columns: 1fr; gap: 1rem;">
+          <!-- Populated by JS -->
+        </div>
+      </div>
     </div>
   </dialog>
 

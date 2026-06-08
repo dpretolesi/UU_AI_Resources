@@ -35,7 +35,7 @@ from typing import Any, Optional
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
 AGENT_DIR = PROJECT_ROOT / "agent"
-PENDING_DIR = DATA_DIR / "pending"
+SUGGESTIONS_FILE = DATA_DIR / "suggestions.json"
 LOG_DIR = AGENT_DIR / "logs"
 
 sys.path.insert(0, str(AGENT_DIR))
@@ -77,16 +77,14 @@ logger = logging.getLogger("crawl_agent")
 # ---------------------------------------------------------------------------
 
 BEHAVIORAL_RULES = [
-    "Never modify resources.json directly; write to data/pending/",
+    "Never modify resources.json directly; write to data/suggestions.json",
     "Always validate against schema before proposing",
     "Never propose a URL already in resources.json or rejected.json",
     "Respect rate limits between API calls",
     "Cap proposals at MAX_PROPOSALS_PER_RUN",
-    "Require MIN_PROPOSALS_TO_OPEN_PR before creating a PR",
     "Always update state.json after a run",
     "Log all decisions to agent/logs/",
     "Support DRY_RUN mode for testing",
-    "Check branch existence for idempotency",
 ]
 
 # ---------------------------------------------------------------------------
@@ -133,7 +131,7 @@ def save_state(state: dict) -> None:
 
 
 def rebuild_known_hashes() -> set[str]:
-    """Rebuild the set of known URL hashes from resources.json and rejected.json."""
+    """Rebuild the set of known URL hashes from resources.json, rejected.json, and suggestions.json."""
     hashes: set[str] = set()
 
     # From resources
@@ -151,14 +149,15 @@ def rebuild_known_hashes() -> set[str]:
             if "url" in entry:
                 hashes.add(url_hash(entry["url"]))
 
-    # From pending
-    if PENDING_DIR.exists():
-        for pending_file in PENDING_DIR.glob("*.json"):
-            try:
-                pending = load_json(pending_file)
-                hashes.add(url_hash(pending["url"]))
-            except (json.JSONDecodeError, KeyError):
-                pass
+    # From suggestions
+    if SUGGESTIONS_FILE.exists():
+        try:
+            suggestions = load_json(SUGGESTIONS_FILE)
+            for s in suggestions:
+                if "url" in s:
+                    hashes.add(url_hash(s["url"]))
+        except (json.JSONDecodeError, KeyError):
+            pass
 
     return hashes
 
@@ -493,21 +492,21 @@ def _infer_resource_type(url: str, title: str, description: str) -> str:
 
 
 # ---------------------------------------------------------------------------
-# GitHub PR creation
+# GitHub commit creation
 # ---------------------------------------------------------------------------
 
 
-def create_github_pr(proposals: list[dict], branch_name: str) -> Optional[str]:
-    """Create a GitHub PR with the proposed resources."""
+def commit_suggestions_to_main(all_suggestions: list[dict], new_count: int) -> Optional[str]:
+    """Commit the updated suggestions.json directly to the default branch."""
     if DRY_RUN:
-        logger.info("[DRY_RUN] Would create PR with %d proposals", len(proposals))
+        logger.info("[DRY_RUN] Would commit %d new proposals", new_count)
         return None
 
     token = os.environ.get("GITHUB_TOKEN")
     repo_name = os.environ.get("GITHUB_REPOSITORY")
     if not token or not repo_name:
         logger.warning(
-            "GITHUB_TOKEN or GITHUB_REPOSITORY not set; skipping PR creation"
+            "GITHUB_TOKEN or GITHUB_REPOSITORY not set; skipping GitHub commit"
         )
         return None
 
@@ -516,66 +515,34 @@ def create_github_pr(proposals: list[dict], branch_name: str) -> Optional[str]:
     gh = Github(token)
     repo = gh.get_repo(repo_name)
 
-    # Check if branch already exists (idempotency)
+    content = json.dumps(all_suggestions, indent=2, ensure_ascii=False) + "\n"
+    file_path = "data/suggestions.json"
+    commit_message = f"🤖 Add {new_count} new AI research resource suggestions"
+
     try:
-        repo.get_branch(branch_name)
-        logger.info(f"Branch '{branch_name}' already exists; skipping PR creation")
+        # Get existing file to get its SHA
+        try:
+            file_contents = repo.get_contents(file_path)
+            repo.update_file(
+                path=file_path,
+                message=commit_message,
+                content=content,
+                sha=file_contents.sha,
+            )
+        except GithubException as e:
+            if e.status == 404:
+                repo.create_file(
+                    path=file_path,
+                    message=commit_message,
+                    content=content,
+                )
+            else:
+                raise
+        logger.info(f"Committed {file_path} to repository")
+        return f"https://github.com/{repo_name}/commits/{repo.default_branch}"
+    except Exception as e:
+        logger.error(f"Failed to commit suggestions to GitHub: {e}")
         return None
-    except GithubException as e:
-        if e.status != 404:
-            raise
-
-    # Create branch from default branch
-    default_branch = repo.default_branch
-    ref = repo.get_git_ref(f"heads/{default_branch}")
-    sha = ref.object.sha
-    repo.create_git_ref(ref=f"refs/heads/{branch_name}", sha=sha)
-    logger.info(f"Created branch: {branch_name}")
-
-    # Add pending files to the branch
-    for proposal in proposals:
-        file_path = f"data/pending/{proposal['id']}.json"
-        content = json.dumps(proposal, indent=2, ensure_ascii=False)
-        repo.create_file(
-            path=file_path,
-            message=f"Add pending resource: {proposal['title'][:60]}",
-            content=content,
-            branch=branch_name,
-        )
-        logger.info(f"Added {file_path} to branch")
-
-    # Build PR body with markdown table
-    table_rows = []
-    for p in proposals:
-        tags_str = ", ".join(p.get("tags", [])[:3])
-        table_rows.append(
-            f"| [{p['title'][:50]}]({p['url']}) | {p['type']} | {tags_str} | "
-            f"{p.get('quality_score', 'N/A')} |"
-        )
-
-    pr_body = (
-        "## 🤖 AI Research Hub — New Resource Proposals\n\n"
-        f"The crawl agent discovered **{len(proposals)}** new resources.\n\n"
-        "### Proposed Resources\n\n"
-        "| Title | Type | Tags | Score |\n"
-        "|-------|------|------|-------|\n"
-        + "\n".join(table_rows)
-        + "\n\n"
-        "### Review Instructions\n\n"
-        "- **Approve & merge** to accept all proposals\n"
-        "- **Comment** `REJECT: <url> | <reason>` on any resource to reject it\n"
-        "- Rejected resources are permanently added to `data/rejected.json`\n\n"
-        f"*Generated at {datetime.now(timezone.utc).isoformat()}*"
-    )
-
-    pr = repo.create_pull(
-        title=f"🤖 Add {len(proposals)} new AI research resources",
-        body=pr_body,
-        head=branch_name,
-        base=default_branch,
-    )
-    logger.info(f"Created PR #{pr.number}: {pr.html_url}")
-    return pr.html_url
 
 
 # ---------------------------------------------------------------------------
@@ -713,26 +680,21 @@ def run_crawl() -> None:
 
     logger.info(f"Total proposals: {len(proposals)}")
 
-    # --- Write pending files ---
-    PENDING_DIR.mkdir(parents=True, exist_ok=True)
-    for proposal in proposals:
-        pending_path = PENDING_DIR / f"{proposal['id']}.json"
-        # Rule: Never modify resources.json directly; write to data/pending/
-        save_json(pending_path, proposal)
-        logger.info(f"Wrote pending: {pending_path.name}")
+    # --- Update suggestions.json ---
+    commit_url = None
+    if proposals:
+        existing_suggestions = []
+        if SUGGESTIONS_FILE.exists():
+            existing_suggestions = load_json(SUGGESTIONS_FILE)
+            if not isinstance(existing_suggestions, list):
+                existing_suggestions = []
+        
+        existing_suggestions.extend(proposals)
+        save_json(SUGGESTIONS_FILE, existing_suggestions)
+        logger.info(f"Appended {len(proposals)} proposals to suggestions.json")
 
-    # --- Create GitHub PR if enough proposals ---
-    pr_url = None
-    if len(proposals) >= MIN_PROPOSALS_TO_OPEN_PR:
-        branch_name = (
-            f"crawl/{datetime.now(timezone.utc).strftime('%Y%m%d-%H%M%S')}"
-        )
-        pr_url = create_github_pr(proposals, branch_name)
-    elif len(proposals) > 0:
-        logger.info(
-            f"Only {len(proposals)} proposals (need {MIN_PROPOSALS_TO_OPEN_PR}); "
-            f"skipping PR creation. Files saved to data/pending/."
-        )
+        # --- Commit to main ---
+        commit_url = commit_suggestions_to_main(existing_suggestions, len(proposals))
     else:
         logger.info("No proposals this run.")
 
@@ -747,7 +709,7 @@ def run_crawl() -> None:
     logger.info("=" * 60)
     logger.info("Crawl Agent Run Complete")
     logger.info(f"  Proposals: {len(proposals)}")
-    logger.info(f"  PR URL: {pr_url or 'N/A'}")
+    logger.info(f"  Commit URL: {commit_url or 'N/A'}")
     logger.info(f"  Known hashes: {len(known_hashes)}")
     logger.info(f"  Log file: {log_filepath}")
     logger.info("=" * 60)
