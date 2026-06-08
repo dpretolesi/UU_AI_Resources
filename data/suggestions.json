@@ -19,7 +19,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 7.0
+    "quality_score": 7
   },
   {
     "id": "auto-b22ca4c43d64",
@@ -32,7 +32,7 @@
       "research",
       "paper"
     ],
-    "description": "#### AUTHORS\n\nWritten by\n\nRohit Patel\n\nPublisher\n\narXiv\n\nResearch Topics\n\nTheory\n\nReinforcement Learning\n\n### Related Publications\n\nMay 26, 2026\n\n#### HUMAN & MACHINE INTELLIGENCE\n\n#### THEORY\n\n#### Misalignment Between Backpropagation and the Hierarchy of Brain Responses to Images\n\nValentin Wyart, Huy V. Vo, Jean Remi King, Josephine Raugel, J\u00e9r\u00e9my Rapin, Marc Szafraniec, Max Seitzer, Patrick Labatut, Piotr Bojanowski\n\nMay 26, 2026\n\nDecember 26, 2025\n\n#### REINFORCEMENT LEARNING\n\n#### NLP\n\n#### Safety Alignment of LMs via Non-cooperative Games\n\nBrandon Amos, Anselm Paulus, Arman Zharmagambetov, Ilia Kulikov, Ivan Evtimov, Kamalika Chaudhuri, Remi Munos\n\nDecember 26, 2025\n\nDecember 01, 2025\n\n#### CONVERSATIONAL AI\n\n#### REINFORCEMENT LEARNING [...] #### CONVERSATIONAL AI\n\n#### REINFORCEMEN",
+    "description": "#### AUTHORS\n\nWritten by\n\nRohit Patel\n\nPublisher\n\narXiv\n\nResearch Topics\n\nTheory\n\nReinforcement Learning\n\n### Related Publications\n\nMay 26, 2026\n\n#### HUMAN & MACHINE INTELLIGENCE\n\n#### THEORY\n\n#### Misalignment Between Backpropagation and the Hierarchy of Brain Responses to Images\n\nValentin Wyart, Huy V. Vo, Jean Remi King, Josephine Raugel, Jérémy Rapin, Marc Szafraniec, Max Seitzer, Patrick Labatut, Piotr Bojanowski\n\nMay 26, 2026\n\nDecember 26, 2025\n\n#### REINFORCEMENT LEARNING\n\n#### NLP\n\n#### Safety Alignment of LMs via Non-cooperative Games\n\nBrandon Amos, Anselm Paulus, Arman Zharmagambetov, Ilia Kulikov, Ivan Evtimov, Kamalika Chaudhuri, Remi Munos\n\nDecember 26, 2025\n\nDecember 01, 2025\n\n#### CONVERSATIONAL AI\n\n#### REINFORCEMENT LEARNING [...] #### CONVERSATIONAL AI\n\n#### REINFORCEMEN",
     "added_date": "2026-06-08",
     "added_by": "agent",
     "language": "en",
@@ -64,7 +64,7 @@
   },
   {
     "id": "auto-50a3b5f5d7fc",
-    "title": "Key Papers in Deep RL \u2014 Spinning Up  documentation",
+    "title": "Key Papers in Deep RL — Spinning Up  documentation",
     "url": "https://spinningup.openai.com/en/latest/spinningup/keypapers.html",
     "type": "paper",
     "tags": [
@@ -75,7 +75,7 @@
       "neural-networks",
       "paper"
     ],
-    "description": "## 9. RL in the Real World\u00b6\n\n|  |  |\n --- |\n|  | Benchmarking Reinforcement Learning Algorithms on Real-World Robots, Mahmood et al, 2018. |\n\n|  |  |\n --- |\n|  | Learning Dexterous In-Hand Manipulation, OpenAI, 2018. |\n\n|  |  |\n --- |\n|  | QT-Opt: Scalable Deep Reinforcement Learning for Vision-Based Robotic Manipulation, Kalashnikov et al, 2018. Algorithm: QT-Opt. |\n\n|  |  |\n --- |\n|  | Horizon: Facebook\u2019s Open Source Applied Reinforcement Learning Platform, Gauci et al, 2018. |\n\n## 10. Safety\u00b6\n\n|  |  |\n --- |\n|  | Concrete Problems in AI Safety, Amodei et al, 2016. Contribution: establishes a taxonomy of safety problems, serving as an important jumping-off point for future research. We need to solve these! | [...] |  |  |\n --- |\n|  | Neural Network Dynamics for Model-Based Deep Reinforce",
+    "description": "## 9. RL in the Real World¶\n\n|  |  |\n --- |\n|  | Benchmarking Reinforcement Learning Algorithms on Real-World Robots, Mahmood et al, 2018. |\n\n|  |  |\n --- |\n|  | Learning Dexterous In-Hand Manipulation, OpenAI, 2018. |\n\n|  |  |\n --- |\n|  | QT-Opt: Scalable Deep Reinforcement Learning for Vision-Based Robotic Manipulation, Kalashnikov et al, 2018. Algorithm: QT-Opt. |\n\n|  |  |\n --- |\n|  | Horizon: Facebook’s Open Source Applied Reinforcement Learning Platform, Gauci et al, 2018. |\n\n## 10. Safety¶\n\n|  |  |\n --- |\n|  | Concrete Problems in AI Safety, Amodei et al, 2016. Contribution: establishes a taxonomy of safety problems, serving as an important jumping-off point for future research. We need to solve these! | [...] |  |  |\n --- |\n|  | Neural Network Dynamics for Model-Based Deep Reinforce",
     "added_date": "2026-06-08",
     "added_by": "agent",
     "language": "en",
@@ -96,7 +96,7 @@
       "neural-networks",
       "paper"
     ],
-    "description": "To handle this instability issue, recent works, such as the counterfactual multi-agent policy gradients (Foerster et al.\n2017) and the Multi-Agent Deep Deterministic Policy Gra-dient (MADDPG) (Lowe et al. 2017), proposed to utilized a centralized critic within the actor-critic learning framework to reduce the variance of policy gradient. [...] 2. Related Work Multi-agent reinforcement learning (Littman 1994) has been a long-standing \ufb01eld in AI (Hu, Wellman, and others 1998; Busoniu, Babuska, and De Schutter 2008). Recent works in DRL use deep neural networks to approximately represent policy and value functions. Inspired by the success of DRL in single-agent settings, many DRL-based multi-agent learn-ing algorithms have been proposed. Forester et al. (2016b) and He et al. (2016) extended t",
+    "description": "To handle this instability issue, recent works, such as the counterfactual multi-agent policy gradients (Foerster et al.\n2017) and the Multi-Agent Deep Deterministic Policy Gra-dient (MADDPG) (Lowe et al. 2017), proposed to utilized a centralized critic within the actor-critic learning framework to reduce the variance of policy gradient. [...] 2. Related Work Multi-agent reinforcement learning (Littman 1994) has been a long-standing ﬁeld in AI (Hu, Wellman, and others 1998; Busoniu, Babuska, and De Schutter 2008). Recent works in DRL use deep neural networks to approximately represent policy and value functions. Inspired by the success of DRL in single-agent settings, many DRL-based multi-agent learn-ing algorithms have been proposed. Forester et al. (2016b) and He et al. (2016) extended t",
     "added_date": "2026-06-08",
     "added_by": "agent",
     "language": "en",
@@ -117,14 +117,14 @@
       "research",
       "paper"
     ],
-    "description": "# Entropy-Preserving Reinforcement Learning\n\nEntropy-Preserving Reinforcement Learning\n\nAuthorsAleksei Petrenko\u2021, Ben Lipkin\u2020\u2021\\\\, Kevin Chen, Erik Wijmans, Marco Cusumano-Towner, Raja Giryes, Philipp Kr\u00e4henb\u00fchl\n\nView publication\n\nCopy Bibtex [...] Policy gradient algorithms have driven many recent advancements in language model reasoning. An appealing property is their ability to learn from exploration on their own trajectories, a process crucial for fostering diverse and creative solutions. As we show in this paper, many policy gradient algorithms naturally reduce the entropy\u2014and thus the diversity of explored trajectories\u2014as part of training, yielding a policy increasingly limited in its ability to explore. In this paper, we argue that entropy should be actively monitored and controlled ",
+    "description": "# Entropy-Preserving Reinforcement Learning\n\nEntropy-Preserving Reinforcement Learning\n\nAuthorsAleksei Petrenko‡, Ben Lipkin†‡\\\\, Kevin Chen, Erik Wijmans, Marco Cusumano-Towner, Raja Giryes, Philipp Krähenbühl\n\nView publication\n\nCopy Bibtex [...] Policy gradient algorithms have driven many recent advancements in language model reasoning. An appealing property is their ability to learn from exploration on their own trajectories, a process crucial for fostering diverse and creative solutions. As we show in this paper, many policy gradient algorithms naturally reduce the entropy—and thus the diversity of explored trajectories—as part of training, yielding a policy increasingly limited in its ability to explore. In this paper, we argue that entropy should be actively monitored and controlled ",
     "added_date": "2026-06-08",
     "added_by": "agent",
     "language": "en",
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 7.0
+    "quality_score": 7
   },
   {
     "id": "auto-972810417422",
@@ -144,7 +144,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-59ce1a0da2c7",
@@ -166,28 +166,6 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 7.0
-  },
-  {
-    "id": "auto-2f14b92c1669",
-    "title": "Computer Vision \u2014 SOTA Benchmarks, Models, Trust Grades | CodeSOTA",
-    "url": "https://www.codesota.com/browse/computer-vision",
-    "type": "course",
-    "tags": [
-      "computer-vision",
-      "benchmark",
-      "course"
-    ],
-    "description": "01Optical Character Recognition114 bench831 res\n 02Scene Text Detection11 bench581 res\n 03Document Parsing3 bench149 res\n 04Document Layout Analysis5 bench133 res\n 05Scene Text Recognition11 bench127 res\n 06Table Recognition5 bench71 res\n 07General OCR Capabilities4 bench70 res\n 08Document Image Classification7 bench63 res\n 09Handwriting Recognition6 bench40 res\n 10Document Understanding3 bench28 res\n 11Semantic Segmentation2 bench24 res\n 12Video-to-Video1 bench2 res\n\nFig 01 \u00b7 Showing top 12of 23tasks under Computer Vision.\n\n\u00a7 02 \u00b7 Top benchmarks\n\n## Current state of the art.\n\nLeading scores for the headline benchmarks in this area, drawn from the registry. Shaded rows mark the top result per task; follow any row into the full leaderboard. [...] | # | Task | Benchmark | Leading model | Sco",
-    "added_date": "2026-06-08",
-    "added_by": "agent",
-    "language": "en",
-    "access": "unknown",
-    "archived": false,
-    "authors": [
-      "Kacper Wikiel"
-    ],
-    "year": 2026,
-    "quality_score": 6.0
+    "quality_score": 7
   }
 ]

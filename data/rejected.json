@@ -1,5 +1,11 @@
 {
   "version": 1,
   "description": "Permanent rejection log for AI Research Hub resources that were reviewed and explicitly rejected. Once a URL is added here, it will never be re-proposed by the crawl agent.",
-  "rejections": []
+  "rejections": [
+    {
+      "url": "https://www.codesota.com/browse/computer-vision",
+      "reason": "Rejected via Admin UI",
+      "date": "2026-06-08"
+    }
+  ]
 }
