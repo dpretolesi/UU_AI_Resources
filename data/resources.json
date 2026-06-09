@@ -1432,23 +1432,5 @@
     "language": "en",
     "year": 2024,
     "access": "free"
-  },
-  {
-    "id": "depaul-gen-ai-program",
-    "title": "Teaching and Learning with Generative AI",
-    "url": "https://resources.depaul.edu/teaching-commons/programs/Pages/ai-program.aspx",
-    "type": "course",
-    "tags": [
-      "syllabus-alignment",
-      "academic-integrity",
-      "course-redesign"
-    ],
-    "description": "DePaul University's program on syllabus alignment, academic integrity, and course redesign for the AI era.",
-    "added_date": "2024-05-23",
-    "added_by": "agent",
-    "institution": "DePaul University",
-    "language": "en",
-    "year": 2024,
-    "access": "free"
   }
 ]
