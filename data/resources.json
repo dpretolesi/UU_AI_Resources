@@ -128,30 +128,6 @@
     "archived": false
   },
   {
-    "id": "auto-32e3f81b1d52",
-    "title": "OpenAI API",
-    "url": "https://platform.openai.com",
-    "type": "tool",
-    "tags": [
-      "gpt",
-      "llm",
-      "api",
-      "generative-ai"
-    ],
-    "description": "Access to GPT-4, DALL-E, Whisper, and other OpenAI models through a robust API platform for building AI-powered applications.",
-    "authors": [
-      "OpenAI"
-    ],
-    "institution": "OpenAI",
-    "language": "en",
-    "year": 2023,
-    "added_date": "2024-04-01",
-    "added_by": "human",
-    "quality_score": 8.8,
-    "access": "freemium",
-    "archived": false
-  },
-  {
     "id": "auto-7cc237d3850f",
     "title": "3Blue1Brown Neural Networks Series",
     "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
