@@ -123,7 +123,7 @@
     "added_date": "2024-01-20",
     "added_by": "human",
     "reviewed_by": "editorial",
-    "quality_score": 9.0,
+    "quality_score": 9,
     "access": "free",
     "archived": false
   },
@@ -294,7 +294,7 @@
   },
   {
     "id": "auto-1d66f272c04b",
-    "title": "Coursera Machine Learning Specialization",
+    "title": "Machine Learning Specialization",
     "url": "https://www.coursera.org/specializations/machine-learning-introduction",
     "type": "course",
     "tags": [
@@ -549,7 +549,7 @@
   },
   {
     "id": "nature-ai-scientists-podcast",
-    "title": "AI \u2018Scientists\u2019 Accelerating Research",
+    "title": "AI ‘Scientists’ Accelerating Research",
     "url": "https://www.nature.com/articles/d41586-026-01627-w",
     "type": "podcast",
     "tags": [
