@@ -490,6 +490,95 @@
     </div>
   </dialog>
 
+  <!-- ========== EDIT RESOURCE MODAL (Owner only) ========== -->
+  <dialog class="modal modal-wide" id="edit-modal" aria-labelledby="edit-modal-title">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="edit-modal-title">Edit Resource</h2>
+        <button class="btn-icon modal-close" id="edit-modal-close" aria-label="Close modal">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M4 4l10 10M14 4L4 14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+      <form class="modal-form" id="edit-form" novalidate>
+        <input type="hidden" id="edit-id">
+        <div class="form-group">
+          <label for="edit-url" class="form-label">URL <span class="required" aria-hidden="true">*</span></label>
+          <input type="url" id="edit-url" class="form-input" placeholder="https://example.com/resource" required>
+        </div>
+        <div class="form-group">
+          <label for="edit-title" class="form-label">Title <span class="required" aria-hidden="true">*</span></label>
+          <input type="text" id="edit-title" class="form-input" placeholder="Resource title (5+ characters)" required minlength="5" maxlength="200">
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="edit-type" class="form-label">Type <span class="required" aria-hidden="true">*</span></label>
+            <div class="select-wrap select-full">
+              <select id="edit-type" class="form-input" required>
+                <option value="">Select type…</option>
+                <option value="paper">Paper</option>
+                <option value="tool">Tool</option>
+                <option value="library">Library</option>
+                <option value="framework">Framework</option>
+                <option value="tutorial">Tutorial</option>
+                <option value="course">Course</option>
+                <option value="blog">Blog</option>
+                <option value="video">Video</option>
+                <option value="podcast">Podcast</option>
+                <option value="book">Book</option>
+                <option value="benchmark">Benchmark</option>
+                <option value="model">Model</option>
+                <option value="community">Community</option>
+                <option value="newsletter">Newsletter</option>
+                <option value="website">Website</option>
+                <option value="presentation">Presentation</option>
+                <option value="other">Other</option>
+              </select>
+              <svg class="chevron-icon" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M3 4.5l3 3 3-3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="edit-access" class="form-label">Access</label>
+            <div class="select-wrap select-full">
+              <select id="edit-access" class="form-input">
+                <option value="unknown">Unknown</option>
+                <option value="free">Free</option>
+                <option value="open-access">Open Access</option>
+                <option value="freemium">Freemium</option>
+                <option value="paid">Paid</option>
+              </select>
+              <svg class="chevron-icon" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M3 4.5l3 3 3-3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="edit-tags" class="form-label">Tags <span class="required" aria-hidden="true">*</span></label>
+          <input type="text" id="edit-tags" class="form-input" placeholder="deep-learning, transformers, nlp (comma-separated)" required>
+        </div>
+        <div class="form-group">
+          <label for="edit-desc" class="form-label">Description <span class="required" aria-hidden="true">*</span></label>
+          <textarea id="edit-desc" class="form-input form-textarea" placeholder="A detailed description of this resource (30+ characters)…" rows="3" required minlength="30" maxlength="800"></textarea>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="edit-year" class="form-label">Year</label>
+            <input type="number" id="edit-year" class="form-input" placeholder="2025" min="2000" max="2030">
+          </div>
+          <div class="form-group">
+            <label for="edit-institution" class="form-label">Institution</label>
+            <input type="text" id="edit-institution" class="form-input" placeholder="e.g. Google Research">
+          </div>
+        </div>
+        <div class="form-actions">
+          <button type="button" class="btn btn-ghost" id="edit-modal-cancel">Cancel</button>
+          <button type="submit" class="btn btn-primary" id="edit-submit-btn">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M8 3v10M3 8h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            Save Changes
+          </button>
+        </div>
+      </form>
+    </div>
+  </dialog>
+
   <!-- ========== FOOTER ========== -->
   <footer class="site-footer" role="contentinfo">
     <div class="footer-inner">

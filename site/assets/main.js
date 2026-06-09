@@ -120,6 +120,12 @@
     addForm: $('#add-form'),
     addCancel: $('#add-modal-cancel'),
     addSubmitBtn: $('#add-submit-btn'),
+    // Admin Edit Resource
+    editModal: $('#edit-modal'),
+    editModalClose: $('#edit-modal-close'),
+    editForm: $('#edit-form'),
+    editCancel: $('#edit-modal-cancel'),
+    editSubmitBtn: $('#edit-submit-btn'),
   };
 
   // ─── Theme Management ──────────────────────────────────────
@@ -399,6 +405,7 @@
           ${resource.year ? `<span class="card-meta-item">${resource.year}</span>` : ''}
           ${resource.institution ? `<span class="card-meta-item">${escapeHtml(resource.institution)}</span>` : ''}
           ${resource.authors?.length ? `<span class="card-meta-item">${escapeHtml(resource.authors[0])}${resource.authors.length > 1 ? ` +${resource.authors.length - 1}` : ''}</span>` : ''}
+          ${isOwner ? `<button class="btn-text edit-resource-btn" data-id="${resource.id}" style="margin-left: auto; display: flex; align-items: center; gap: 4px;" onclick="window.openEditModal('${resource.id}')"><svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M11 2l3 3-9 9H2v-3l9-9z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Edit</button>` : ''}
         </div>
       </article>
     `;
@@ -820,6 +827,10 @@
       dom.authStatus.hidden = true;
       if (dom.addResourceBtn) dom.addResourceBtn.hidden = true;
       if (dom.reviewBtn) dom.reviewBtn.hidden = true;
+    }
+    // Re-render resources to show/hide edit buttons
+    if (filteredResources && filteredResources.length > 0) {
+      renderResults();
     }
   }
 
@@ -1263,6 +1274,146 @@
     }
   }
 
+  // ─── Owner: Edit Resource ──────────────────────────────────
+  window.openEditModal = function(resourceId) {
+    if (!isOwner || !dom.editModal) return;
+    const resource = allResources.find(r => r.id === resourceId);
+    if (!resource) return;
+
+    $('#edit-id').value = resource.id;
+    $('#edit-url').value = resource.url || '';
+    $('#edit-title').value = resource.title || '';
+    $('#edit-type').value = resource.type || '';
+    $('#edit-access').value = resource.access || 'unknown';
+    $('#edit-tags').value = (resource.tags || []).join(', ');
+    $('#edit-desc').value = resource.description || '';
+    $('#edit-year').value = resource.year || '';
+    $('#edit-institution').value = resource.institution || '';
+
+    dom.editModal.showModal();
+  };
+
+  function closeEditModal() {
+    if (dom.editModal) {
+      dom.editModal.close();
+      dom.editForm.reset();
+    }
+  }
+
+  async function handleEditResource(e) {
+    e.preventDefault();
+    if (!isOwner || !authToken) return;
+
+    const id = $('#edit-id').value;
+    const url = $('#edit-url').value.trim();
+    const title = $('#edit-title').value.trim();
+    const type = $('#edit-type').value;
+    const access = $('#edit-access').value;
+    const tagsRaw = $('#edit-tags').value.trim();
+    const desc = $('#edit-desc').value.trim();
+    const year = $('#edit-year').value.trim();
+    const institution = $('#edit-institution').value.trim();
+
+    if (!url || !title || !type || !tagsRaw || !desc) {
+      showToast('Please fill out all required fields.', 'error');
+      return;
+    }
+
+    const tags = tagsRaw.split(',').map(t => t.trim().toLowerCase().replace(/\s+/g, '-')).filter(Boolean);
+
+    dom.editSubmitBtn.disabled = true;
+    dom.editSubmitBtn.textContent = 'Saving…';
+
+    try {
+      const apiBase = `https://api.github.com/repos/${GITHUB_REPO}`;
+      const headers = {
+        'Authorization': `Bearer ${authToken}`,
+        'Accept': 'application/vnd.github.v3+json',
+        'Content-Type': 'application/json',
+      };
+
+      // 1. Get current data/resources.json content from main branch
+      const fileResp = await fetch(`${apiBase}/contents/data/resources.json`, { headers });
+      if (!fileResp.ok) throw new Error('Failed to fetch resources file');
+      const fileData = await fileResp.json();
+      const contentStr = decodeURIComponent(escape(atob(fileData.content)));
+      let resources = JSON.parse(contentStr);
+
+      // 2. Find and update the resource
+      const rIndex = resources.findIndex(r => r.id === id);
+      if (rIndex === -1) throw new Error('Resource not found in remote data');
+
+      resources[rIndex] = {
+        ...resources[rIndex],
+        title, url, type, access, tags, description: desc
+      };
+      if (year) resources[rIndex].year = parseInt(year, 10);
+      else delete resources[rIndex].year;
+      if (institution) resources[rIndex].institution = institution;
+      else delete resources[rIndex].institution;
+
+      const newContent = JSON.stringify(resources, null, 2);
+
+      // 3. Commit the change using the Trees API
+      const refResp = await fetch(`${apiBase}/git/ref/heads/main`, { headers });
+      const refData = await refResp.json();
+      const mainSha = refData.object.sha;
+
+      const commitResp = await fetch(`${apiBase}/git/commits/${mainSha}`, { headers });
+      const commitData = await commitResp.json();
+      const baseTreeSha = commitData.tree.sha;
+
+      const treeResp = await fetch(`${apiBase}/git/trees`, {
+        method: 'POST',
+        headers,
+        body: JSON.stringify({
+          base_tree: baseTreeSha,
+          tree: [{
+            path: 'data/resources.json',
+            mode: '100644',
+            type: 'blob',
+            content: newContent
+          }]
+        })
+      });
+      const newTreeData = await treeResp.json();
+
+      const newCommitResp = await fetch(`${apiBase}/git/commits`, {
+        method: 'POST',
+        headers,
+        body: JSON.stringify({
+          message: `📝 Edit resource: ${title.slice(0, 50)}`,
+          tree: newTreeData.sha,
+          parents: [mainSha]
+        })
+      });
+      const newCommitData = await newCommitResp.json();
+
+      await fetch(`${apiBase}/git/refs/heads/main`, {
+        method: 'PATCH',
+        headers,
+        body: JSON.stringify({ sha: newCommitData.sha })
+      });
+
+      // Update local state so changes reflect instantly
+      const localIndex = allResources.findIndex(r => r.id === id);
+      if (localIndex !== -1) {
+        allResources[localIndex] = resources[rIndex];
+      }
+      applyFilters();
+
+      closeEditModal();
+      showToast('Resource updated successfully!', 'success');
+
+    } catch (err) {
+      console.error(err);
+      showToast(`Failed to update resource: ${err.message}`, 'error');
+    } finally {
+      dom.editSubmitBtn.disabled = false;
+      dom.editSubmitBtn.textContent = 'Save Changes';
+    }
+  }
+
   // ─── Utilities ─────────────────────────────────────────────
   function capitalize(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
@@ -1386,12 +1537,23 @@
       });
     }
 
+    // Owner edit resource events
+    if (dom.editModalClose) dom.editModalClose.addEventListener('click', closeEditModal);
+    if (dom.editCancel) dom.editCancel.addEventListener('click', closeEditModal);
+    if (dom.editForm) dom.editForm.addEventListener('submit', handleEditResource);
+    if (dom.editModal) {
+      dom.editModal.addEventListener('click', (e) => {
+        if (e.target === dom.editModal) closeEditModal();
+      });
+    }
+
     // Keyboard: ESC closes modals & sidebar
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') {
         if (dom.submitModal.open) closeModal();
         if (dom.authModal && dom.authModal.open) closeAuthModal();
         if (dom.addModal && dom.addModal.open) closeAddModal();
+        if (dom.editModal && dom.editModal.open) closeEditModal();
         if (dom.reviewModal && dom.reviewModal.open) closeReviewModal();
         if (dom.sidebar.classList.contains('open')) closeSidebar();
       }
