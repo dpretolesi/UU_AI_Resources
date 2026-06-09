@@ -123,7 +123,7 @@
     "added_date": "2024-01-20",
     "added_by": "human",
     "reviewed_by": "editorial",
-    "quality_score": 9,
+    "quality_score": 9.0,
     "access": "free",
     "archived": false
   },
@@ -176,6 +176,29 @@
     "archived": false
   },
   {
+    "id": "auto-4cc665313797",
+    "title": "Papers With Code",
+    "url": "https://paperswithcode.com",
+    "type": "tool",
+    "tags": [
+      "research",
+      "benchmarks",
+      "datasets",
+      "papers",
+      "code"
+    ],
+    "description": "A platform that links machine learning papers with their official code implementations, datasets, and benchmark results across thousands of tasks.",
+    "institution": "Meta AI",
+    "language": "en",
+    "year": 2018,
+    "added_date": "2024-01-10",
+    "added_by": "human",
+    "reviewed_by": "editorial",
+    "quality_score": 9.3,
+    "access": "free",
+    "archived": false
+  },
+  {
     "id": "auto-d95936737ca3",
     "title": "The Batch Newsletter by Andrew Ng",
     "url": "https://www.deeplearning.ai/the-batch/",
@@ -197,6 +220,27 @@
     "added_by": "human",
     "quality_score": 8.2,
     "access": "free",
+    "archived": false
+  },
+  {
+    "id": "auto-567bb77e3d7f",
+    "title": "Common Crawl Dataset",
+    "url": "https://commoncrawl.org",
+    "type": "dataset",
+    "tags": [
+      "web-data",
+      "nlp",
+      "pretraining",
+      "large-scale"
+    ],
+    "description": "A massive open repository of web crawl data, widely used for training large language models. Contains petabytes of raw web page data, metadata, and text extractions.",
+    "institution": "Common Crawl Foundation",
+    "language": "en",
+    "year": 2017,
+    "added_date": "2024-06-01",
+    "added_by": "agent",
+    "quality_score": 8.0,
+    "access": "open-access",
     "archived": false
   },
   {
@@ -294,7 +338,7 @@
   },
   {
     "id": "auto-1d66f272c04b",
-    "title": "Machine Learning Specialization",
+    "title": "Coursera Machine Learning Specialization",
     "url": "https://www.coursera.org/specializations/machine-learning-introduction",
     "type": "course",
     "tags": [
@@ -642,7 +686,7 @@
   },
   {
     "id": "mit-ethics-of-ai",
-    "title": "Ethics of AI",
+    "title": "Ethics of AI (MIT OCW)",
     "url": "https://ocw.mit.edu/courses/res-10-002-ethics-of-ai-bias-spring-2023/",
     "type": "course",
     "tags": [
@@ -823,5 +867,612 @@
     "language": "en",
     "year": 2024,
     "access": "freemium"
+  },
+  {
+    "id": "researchcollab-tool",
+    "title": "ResearchCollab",
+    "url": "https://researchcollab.ai/",
+    "type": "tool",
+    "tags": [
+      "paper-insights",
+      "collaboration",
+      "academic-search"
+    ],
+    "description": "A specialized platform that utilizes AI to provide deep insights into scientific papers and foster collaboration among researchers.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "freemium"
+  },
+  {
+    "id": "moara-research-tool",
+    "title": "Moara AI",
+    "url": "https://www.moara.io/pricing",
+    "type": "tool",
+    "tags": [
+      "literature-review",
+      "academic-search",
+      "ai-discovery"
+    ],
+    "description": "An advanced AI search engine and discovery tool tailored for academic researchers to navigate vast bodies of literature efficiently.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "paid"
+  },
+  {
+    "id": "scispace-tool",
+    "title": "SciSpace",
+    "url": "https://scispace.com/",
+    "type": "tool",
+    "tags": [
+      "paper-analysis",
+      "interactive-ai",
+      "lit-review"
+    ],
+    "description": "Provides interactive PDF reading assistance and multi-source context retrieval through an AI-powered research co-pilot.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "freemium"
+  },
+  {
+    "id": "google-prompt-engineering-guide",
+    "title": "Prompt Engineering: Overview and Guide",
+    "url": "https://cloud.google.com/discover/what-is-prompt-engineering",
+    "type": "tutorial",
+    "tags": [
+      "prompt-engineering",
+      "google-cloud",
+      "llm-basics",
+      "best-practices"
+    ],
+    "description": "An official educational resource from Google Cloud explaining the core concepts, techniques, and additional learning paths for mastering prompt engineering.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "Google Cloud",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "litmaps",
+    "title": "Litmaps",
+    "url": "https://www.litmaps.com/",
+    "type": "tool",
+    "tags": [
+      "visual-mapping",
+      "citation-networks",
+      "literature-review"
+    ],
+    "description": "A visual timeline mapping tool for citation networks, helping researchers see how research evolves over time.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "freemium"
+  },
+  {
+    "id": "connected-papers",
+    "title": "Connected Papers",
+    "url": "https://www.connectedpapers.com/",
+    "type": "tool",
+    "tags": [
+      "literature-mapping",
+      "visual-discovery",
+      "research-clusters"
+    ],
+    "description": "A visual tool that discovers and maps research fields and clusters from a single starting seed paper.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "freemium"
+  },
+  {
+    "id": "open-knowledge-maps",
+    "title": "Open Knowledge Maps",
+    "url": "https://openknowledgemaps.org/",
+    "type": "tool",
+    "tags": [
+      "semantic-mapping",
+      "keyword-analysis",
+      "research-discovery"
+    ],
+    "description": "Maps keyword queries to visual clusters of semantic relevance, helping to visualize the structure of a research topic.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "freemium"
+  },
+  {
+    "id": "paperpal",
+    "title": "Paperpal",
+    "url": "https://paperpal.com/",
+    "type": "tool",
+    "tags": [
+      "academic-writing",
+      "grammar-checker",
+      "editing"
+    ],
+    "description": "A comprehensive grammar check and academic tone editing tool specifically designed for research manuscripts.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "paid"
+  },
+  {
+    "id": "r-discovery",
+    "title": "R Discovery",
+    "url": "https://discovery.researcher.life/",
+    "type": "tool",
+    "tags": [
+      "personalized-feeds",
+      "literature-search",
+      "academic-news"
+    ],
+    "description": "Curates daily personalized academic research feeds and simplifies the literature search process for active researchers.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "ollama",
+    "title": "Ollama",
+    "url": "https://ollama.com/",
+    "type": "tool",
+    "tags": [
+      "local-llm",
+      "cli",
+      "model-server"
+    ],
+    "description": "A CLI-first local model server that allows users to run LLMs locally and act as an API backend.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "lmstudio-app",
+    "title": "LM Studio (App)",
+    "url": "https://lmstudio.ai/",
+    "type": "tool",
+    "tags": [
+      "local-llm",
+      "desktop-app",
+      "gui"
+    ],
+    "description": "A highly polished local desktop application for searching and running a wide variety of local LLMs with a user-friendly interface.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "jan-ai",
+    "title": "Jan",
+    "url": "https://jan.ai/",
+    "type": "tool",
+    "tags": [
+      "local-llm",
+      "open-source",
+      "desktop-app"
+    ],
+    "description": "A fully open-source and file-over-app local LLM desktop application designed for easy installation and use.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "gpt4all",
+    "title": "GPT4All",
+    "url": "https://nomic.ai/gpt4all",
+    "type": "tool",
+    "tags": [
+      "local-llm",
+      "offline-ai",
+      "cpu-friendly"
+    ],
+    "description": "A private, offline AI application designed specifically for use on consumer laptops with CPU-only hardware.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "nextchat",
+    "title": "NextChat",
+    "url": "https://nextchat.dev/",
+    "type": "tool",
+    "tags": [
+      "llm-interface",
+      "web-ui",
+      "browser-local"
+    ],
+    "description": "A custom-masked web and desktop interface for LLMs that saves conversational logs locally in the browser.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "anythingllm",
+    "title": "AnythingLLM",
+    "url": "https://anythingllm.com/",
+    "type": "tool",
+    "tags": [
+      "rag-workspace",
+      "no-code-agents",
+      "team-admin"
+    ],
+    "description": "An all-in-one RAG workspace that supports no-code agent construction and team administration for collaborative AI work.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "gptzero",
+    "title": "GPTZero",
+    "url": "https://gptzero.me/",
+    "type": "tool",
+    "tags": [
+      "ai-detection",
+      "citation-verification",
+      "academic-integrity"
+    ],
+    "description": "An advanced AI scan tool offering writing replays and citation verification to detect machine-generated content.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "freemium"
+  },
+  {
+    "id": "sentient-syllabus",
+    "title": "The Sentient Syllabus Project",
+    "url": "http://sentientsyllabus.org/",
+    "type": "library",
+    "tags": [
+      "education",
+      "open-access",
+      "curriculum-design"
+    ],
+    "description": "A collaborative network providing open-access course syllabus templates and language for AI-integrated education.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "derek-bruff-blog",
+    "title": "Derek Bruff's Intentional Teaching Resource",
+    "url": "https://derekbruff.org/blogs/intentionalteaching/",
+    "type": "blog",
+    "tags": [
+      "education",
+      "ai-integration",
+      "pedagogy"
+    ],
+    "description": "Actionable strategies for designing class expectations around the integration of AI tools in educational settings.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "ryan-watkins-guide",
+    "title": "Ryan Watkins' Medium Guide",
+    "url": "https://medium.com/@rwatkins_7167",
+    "type": "blog",
+    "tags": [
+      "higher-education",
+      "syllabus-policy",
+      "llm-guidelines"
+    ],
+    "description": "A step-by-step primer on adapting higher education syllabus policies to account for and incorporate LLMs.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "one-useful-thing",
+    "title": "One Useful Thing",
+    "url": "https://oneusefulthing.org/",
+    "type": "newsletter",
+    "tags": [
+      "ai-essays",
+      "model-testing",
+      "strategy"
+    ],
+    "description": "Newsletter by Wharton Professor Ethan Mollick featuring hands-on model tests and strategic essays on AI application.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "critical-ai-journal",
+    "title": "Critical AI",
+    "url": "https://criticalai.org/",
+    "type": "paper",
+    "tags": [
+      "humanities",
+      "interdisciplinary",
+      "scholarship"
+    ],
+    "description": "A scholarly interdisciplinary journal investigating artificial intelligence from diverse humanities perspectives.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "unknown"
+  },
+  {
+    "id": "the-batch-newsletter",
+    "title": "The Batch",
+    "url": "https://www.deeplearning.ai/the-batch/",
+    "type": "newsletter",
+    "tags": [
+      "ai-news",
+      "business",
+      "education",
+      "policy"
+    ],
+    "description": "A weekly analytical digest covering business, education, and global policy impacts of AI.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "import-ai",
+    "title": "Import AI",
+    "url": "https://jack-clark.net/",
+    "type": "newsletter",
+    "tags": [
+      "frontier-research",
+      "governance",
+      "llm-news"
+    ],
+    "description": "Newsletter by Jack Clark tracking frontier research, AI governance, and technical developments in the field.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "ai-snake-oil",
+    "title": "AI Snake Oil",
+    "url": "https://www.normaltech.ai/",
+    "type": "newsletter",
+    "tags": [
+      "benchmarks",
+      "ai-failures",
+      "critique"
+    ],
+    "description": "A newsletter exposing benchmark anomalies and the predictive failures of current commercial AI systems.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "marcus-on-ai",
+    "title": "Marcus on AI",
+    "url": "https://garymarcus.substack.com/",
+    "type": "newsletter",
+    "tags": [
+      "cognitive-science",
+      "ai-critique",
+      "scaling-limits"
+    ],
+    "description": "Commentary from Gary Marcus focusing on the cognitive limitations of scaling modern AI models.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "grading-for-growth",
+    "title": "Grading for Growth",
+    "url": "https://gradingforgrowth.com/",
+    "type": "newsletter",
+    "tags": [
+      "pedagogy",
+      "evaluation",
+      "education-tech"
+    ],
+    "description": "Weekly articles advocating for process-centric and alternative evaluation workflows in education.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "ethics-in-ai-podcast",
+    "title": "Ethics in AI (Oxford)",
+    "url": "https://podcasts.ox.ac.uk/series/ethics-ai",
+    "type": "podcast",
+    "tags": [
+      "human-autonomy",
+      "technology-ethics",
+      "university-seminars"
+    ],
+    "description": "Oxford University's multidisciplinary seminars on human autonomy and technology ethics.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "University of Oxford",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "ethical-ai-podcast",
+    "title": "Ethical AI Podcast (IU)",
+    "url": "https://womenandtech.indiana.edu/get-started/faculty/ethical-ai/index.html",
+    "type": "podcast",
+    "tags": [
+      "bias",
+      "equity",
+      "data-policy",
+      "institutional-ethics"
+    ],
+    "description": "Indiana University faculty conversations addressing bias, equity, and institutional data policies in AI.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "Indiana University",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "on-tech-ethics-podcast",
+    "title": "On Tech Ethics",
+    "url": "https://about.citiprogram.org/blog/on-tech-ethics-podcast-impact-of-generative-ai-on-research-integrity/",
+    "type": "podcast",
+    "tags": [
+      "academic-integrity",
+      "research-ethics",
+      "llm-policy"
+    ],
+    "description": "CITI Program podcast focusing on academic integrity and research ethics in the age of LLMs.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "gen-ai-educators-vanderbilt",
+    "title": "Generative AI for Educators & Teachers",
+    "url": "https://www.coursera.org/specializations/generative-ai-for-educators-teachers",
+    "type": "course",
+    "tags": [
+      "pedagogy",
+      "classroom-safety",
+      "prompt-engineering"
+    ],
+    "description": "Vanderbilt University's training course exploring classroom prompt engineering and safety for educators.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "Vanderbilt University",
+    "language": "en",
+    "year": 2024,
+    "access": "freemium"
+  },
+  {
+    "id": "gen-ai-educators-ibm",
+    "title": "Generative AI for Educators Specialization",
+    "url": "https://www.coursera.org/specializations/generative-ai-educators",
+    "type": "course",
+    "tags": [
+      "advanced-prompting",
+      "performance-assessment",
+      "ibm-skills"
+    ],
+    "description": "IBM Skills Network course exploring advanced prompting patterns and performance assessments for educators.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "IBM",
+    "language": "en",
+    "year": 2024,
+    "access": "freemium"
+  },
+  {
+    "id": "dec-certificate-ai",
+    "title": "DEC Certificate in AI for Higher Education",
+    "url": "https://www.digitaleducationcouncil.com/digital-education-council-certificate-in-ai-for-higher-education",
+    "type": "course",
+    "tags": [
+      "governance",
+      "higher-ed",
+      "scalability"
+    ],
+    "description": "Fully scalable certificate delivering actionable institutional governance frameworks for AI in higher education.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "Digital Education Council",
+    "language": "en",
+    "year": 2024,
+    "access": "paid"
+  },
+  {
+    "id": "k12-gen-ai-vanderbilt",
+    "title": "Generative AI and ChatGPT for K-12 Educators",
+    "url": "https://www.coursera.org/specializations/generative-ai-k12-educators",
+    "type": "course",
+    "tags": [
+      "k-12",
+      "problem-solving",
+      "classroom-strategy"
+    ],
+    "description": "Vanderbilt University's program focusing on building classroom problem-solving strategies using GenAI.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "Vanderbilt University",
+    "language": "en",
+    "year": 2024,
+    "access": "freemium"
+  },
+  {
+    "id": "ai-for-educators-microsoft",
+    "title": "AI for Educators Learning Path",
+    "url": "https://learn.microsoft.com/en-us/training/paths/ai-education/",
+    "type": "course",
+    "tags": [
+      "copilot-tools",
+      "microsoft-learn",
+      "self-paced"
+    ],
+    "description": "Microsoft Learn's self-paced sequence on integrating educational Copilot tools into teaching workflows.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "Microsoft",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
+  },
+  {
+    "id": "depaul-gen-ai-program",
+    "title": "Teaching and Learning with Generative AI",
+    "url": "https://resources.depaul.edu/teaching-commons/programs/Pages/ai-program.aspx",
+    "type": "course",
+    "tags": [
+      "syllabus-alignment",
+      "academic-integrity",
+      "course-redesign"
+    ],
+    "description": "DePaul University's program on syllabus alignment, academic integrity, and course redesign for the AI era.",
+    "added_date": "2024-05-23",
+    "added_by": "agent",
+    "institution": "DePaul University",
+    "language": "en",
+    "year": 2024,
+    "access": "free"
   }
 ]
