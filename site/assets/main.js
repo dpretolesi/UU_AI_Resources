@@ -126,6 +126,7 @@
     editForm: $('#edit-form'),
     editCancel: $('#edit-modal-cancel'),
     editSubmitBtn: $('#edit-submit-btn'),
+    editDeleteBtn: $('#edit-delete-btn'),
   };
 
   // ─── Theme Management ──────────────────────────────────────
@@ -1414,6 +1415,98 @@
     }
   }
 
+  async function handleDeleteResource() {
+    if (!isOwner || !authToken) return;
+
+    const id = $('#edit-id').value;
+    const title = $('#edit-title').value.trim();
+
+    if (!confirm(`Are you sure you want to completely delete "${title}"? This action cannot be undone.`)) {
+      return;
+    }
+
+    dom.editDeleteBtn.disabled = true;
+    dom.editDeleteBtn.textContent = 'Deleting…';
+
+    try {
+      const apiBase = `https://api.github.com/repos/${GITHUB_REPO}`;
+      const headers = {
+        'Authorization': `Bearer ${authToken}`,
+        'Accept': 'application/vnd.github.v3+json',
+        'Content-Type': 'application/json',
+      };
+
+      // 1. Get current data/resources.json
+      const fileResp = await fetch(`${apiBase}/contents/data/resources.json`, { headers });
+      if (!fileResp.ok) throw new Error('Failed to fetch resources file');
+      const fileData = await fileResp.json();
+      const contentStr = decodeURIComponent(escape(atob(fileData.content)));
+      let resources = JSON.parse(contentStr);
+
+      // 2. Remove the resource
+      const initialLength = resources.length;
+      resources = resources.filter(r => r.id !== id);
+      if (resources.length === initialLength) throw new Error('Resource not found in remote data');
+
+      const newContent = JSON.stringify(resources, null, 2);
+
+      // 3. Commit the change
+      const refResp = await fetch(`${apiBase}/git/ref/heads/main`, { headers });
+      const refData = await refResp.json();
+      const mainSha = refData.object.sha;
+
+      const commitResp = await fetch(`${apiBase}/git/commits/${mainSha}`, { headers });
+      const commitData = await commitResp.json();
+      const baseTreeSha = commitData.tree.sha;
+
+      const treeResp = await fetch(`${apiBase}/git/trees`, {
+        method: 'POST',
+        headers,
+        body: JSON.stringify({
+          base_tree: baseTreeSha,
+          tree: [{
+            path: 'data/resources.json',
+            mode: '100644',
+            type: 'blob',
+            content: newContent
+          }]
+        })
+      });
+      const newTreeData = await treeResp.json();
+
+      const newCommitResp = await fetch(`${apiBase}/git/commits`, {
+        method: 'POST',
+        headers,
+        body: JSON.stringify({
+          message: `🗑️ Delete resource: ${title.slice(0, 50)}`,
+          tree: newTreeData.sha,
+          parents: [mainSha]
+        })
+      });
+      const newCommitData = await newCommitResp.json();
+
+      await fetch(`${apiBase}/git/refs/heads/main`, {
+        method: 'PATCH',
+        headers,
+        body: JSON.stringify({ sha: newCommitData.sha })
+      });
+
+      // Update local state instantly
+      allResources = allResources.filter(r => r.id !== id);
+      applyFilters();
+
+      closeEditModal();
+      showToast('Resource deleted successfully.', 'success');
+
+    } catch (err) {
+      console.error(err);
+      showToast(`Failed to delete resource: ${err.message}`, 'error');
+    } finally {
+      dom.editDeleteBtn.disabled = false;
+      dom.editDeleteBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M1 3h12M4 3V2a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1M3 3v9a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2V3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Delete';
+    }
+  }
+
   // ─── Utilities ─────────────────────────────────────────────
   function capitalize(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
@@ -1541,6 +1634,7 @@
     if (dom.editModalClose) dom.editModalClose.addEventListener('click', closeEditModal);
     if (dom.editCancel) dom.editCancel.addEventListener('click', closeEditModal);
     if (dom.editForm) dom.editForm.addEventListener('submit', handleEditResource);
+    if (dom.editDeleteBtn) dom.editDeleteBtn.addEventListener('click', handleDeleteResource);
     if (dom.editModal) {
       dom.editModal.addEventListener('click', (e) => {
         if (e.target === dom.editModal) closeEditModal();
