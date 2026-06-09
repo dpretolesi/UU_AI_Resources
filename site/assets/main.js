@@ -96,7 +96,6 @@
     statTotal: $('#stat-total .stat-value'),
     statTypes: $('#stat-types .stat-value'),
     statUpdated: $('#stat-updated .stat-value'),
-    statContributors: $('#stat-contributors .stat-value'),
     // Auth elements
     authBtn: $('#auth-btn'),
     authModal: $('#auth-modal'),
@@ -188,12 +187,10 @@
       dom.statTotal.textContent = stats.total_resources ?? allResources.length;
       dom.statTypes.textContent = stats.resource_types ?? new Set(allResources.map(r => r.type)).size;
       dom.statUpdated.textContent = stats.last_updated ? formatDate(stats.last_updated) : '—';
-      dom.statContributors.textContent = stats.contributors ?? '—';
     } catch {
       dom.statTotal.textContent = allResources.length;
       dom.statTypes.textContent = new Set(allResources.map(r => r.type)).size;
       dom.statUpdated.textContent = '—';
-      dom.statContributors.textContent = '—';
     }
   }
 
@@ -333,8 +330,6 @@
         return copy.sort((a, b) => (b.added_date || '').localeCompare(a.added_date || ''));
       case 'oldest':
         return copy.sort((a, b) => (a.added_date || '').localeCompare(b.added_date || ''));
-      case 'quality':
-        return copy.sort((a, b) => (b.quality_score ?? 0) - (a.quality_score ?? 0));
       case 'az':
         return copy.sort((a, b) => a.title.localeCompare(b.title));
       default:
