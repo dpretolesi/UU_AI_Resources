@@ -1,0 +1,19 @@
+{
+  "id": "auto-b3eebac4a397",
+  "title": "EuroEval",
+  "url": "https://euroeval.com",
+  "type": "benchmark",
+  "tags": [
+    "benchmark",
+    "llm-evaluation",
+    "model-benchmark"
+  ],
+  "description": "EuroEval is a language model benchmarking framework that supports evaluating all types of language models out there: encoders, decoders, encoder-decoders, base models, and instruction tuned models. EuroEval has been battle-tested for more than three years and are the standard evaluation benchmark for many companies, universities and organisations around Europe.",
+  "added_date": "2026-06-11",
+  "added_by": "human",
+  "language": "en",
+  "access": "free",
+  "archived": false,
+  "year": 2026,
+  "institution": "EuroEval"
+}
