@@ -1007,8 +1007,12 @@
         'Content-Type': 'application/json',
       };
 
-      // Get latest main SHA
-      const refResp = await fetch(`${apiBase}/git/ref/heads/main`, { headers });
+      // Get default branch SHA
+      const repoResp = await fetch(apiBase, { headers });
+      const repoData = await repoResp.json();
+      const defaultBranch = repoData.default_branch;
+
+      const refResp = await fetch(`${apiBase}/git/ref/heads/${defaultBranch}`, { headers });
       const refData = await refResp.json();
       const mainSha = refData.object.sha;
 
@@ -1077,7 +1081,7 @@
       const newCommitData = await createCommitResp.json();
 
       // Update ref
-      await fetch(`${apiBase}/git/refs/heads/main`, {
+      await fetch(`${apiBase}/git/refs/heads/${defaultBranch}`, {
         method: 'PATCH',
         headers,
         body: JSON.stringify({ sha: newCommitData.sha })
@@ -1143,18 +1147,42 @@
       return;
     }
 
-    const tags = tagsRaw.split(',').map(t => t.trim().toLowerCase().replace(/\s+/g, '-')).filter(Boolean);
+    if (year) {
+      const parsedYear = parseInt(year, 10);
+      if (parsedYear < 2017 || parsedYear > 2030) {
+        showToast('Year must be between 2017 and 2030.', 'error');
+        return;
+      }
+    }
+
+    // Check for duplicates
+    if (allResources.some(r => r.url.toLowerCase() === url.toLowerCase())) {
+      showToast('This resource URL already exists in the hub.', 'error');
+      return;
+    }
+
+    const tags = tagsRaw.split(',').map(t => t.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')).filter(Boolean);
     if (tags.length === 0 || tags.length > 10) {
       showToast('Please provide 1-10 tags.', 'error');
       return;
     }
 
     // Generate resource ID
-    const encoder = new TextEncoder();
-    const data = encoder.encode(url);
-    const hashBuffer = await crypto.subtle.digest('SHA-256', data);
-    const hashArray = Array.from(new Uint8Array(hashBuffer));
-    const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+    let hashHex = '';
+    if (window.crypto && window.crypto.subtle) {
+      const encoder = new TextEncoder();
+      const data = encoder.encode(url);
+      const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+      const hashArray = Array.from(new Uint8Array(hashBuffer));
+      hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+    } else {
+      let hash = 0;
+      for (let i = 0; i < url.length; i++) {
+        hash = ((hash << 5) - hash) + url.charCodeAt(i);
+        hash |= 0;
+      }
+      hashHex = Math.abs(hash).toString(16).padStart(8, '0') + Date.now().toString(16);
+    }
     const resourceId = `auto-${hashHex.slice(0, 12)}`;
 
     const resource = {
@@ -1320,7 +1348,19 @@
       return;
     }
 
-    const tags = tagsRaw.split(',').map(t => t.trim().toLowerCase().replace(/\s+/g, '-')).filter(Boolean);
+    if (year) {
+      const parsedYear = parseInt(year, 10);
+      if (parsedYear < 2017 || parsedYear > 2030) {
+        showToast('Year must be between 2017 and 2030.', 'error');
+        return;
+      }
+    }
+
+    const tags = tagsRaw.split(',').map(t => t.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')).filter(Boolean);
+    if (tags.length === 0 || tags.length > 10) {
+      showToast('Please provide 1-10 tags.', 'error');
+      return;
+    }
 
     dom.editSubmitBtn.disabled = true;
     dom.editSubmitBtn.textContent = 'Saving…';
@@ -1356,7 +1396,11 @@
       const newContent = JSON.stringify(resources, null, 2);
 
       // 3. Commit the change using the Trees API
-      const refResp = await fetch(`${apiBase}/git/ref/heads/main`, { headers });
+      const repoResp = await fetch(apiBase, { headers });
+      const repoData = await repoResp.json();
+      const defaultBranch = repoData.default_branch;
+
+      const refResp = await fetch(`${apiBase}/git/ref/heads/${defaultBranch}`, { headers });
       const refData = await refResp.json();
       const mainSha = refData.object.sha;
 
@@ -1451,7 +1495,11 @@
       const newContent = JSON.stringify(resources, null, 2);
 
       // 3. Commit the change
-      const refResp = await fetch(`${apiBase}/git/ref/heads/main`, { headers });
+      const repoResp = await fetch(apiBase, { headers });
+      const repoData = await repoResp.json();
+      const defaultBranch = repoData.default_branch;
+
+      const refResp = await fetch(`${apiBase}/git/ref/heads/${defaultBranch}`, { headers });
       const refData = await refResp.json();
       const mainSha = refData.object.sha;
 
