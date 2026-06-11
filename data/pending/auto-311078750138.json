@@ -1,0 +1,19 @@
+{
+  "id": "auto-311078750138",
+  "title": "How to Choose the Best Open Source LLM for Your Project",
+  "url": "https://huggingface.co/blog/dvilasuero/choosing-best-open-source-ai-models",
+  "type": "tutorial",
+  "tags": [
+    "open-llm",
+    "open-source",
+    "llm"
+  ],
+  "description": "Guide on how to choose open source models based on use case and needs",
+  "added_date": "2026-06-11",
+  "added_by": "human",
+  "language": "en",
+  "access": "free",
+  "archived": false,
+  "year": 2025,
+  "institution": "Hugging Face"
+}
