@@ -1,0 +1,17 @@
+{
+  "id": "auto-61c5d7feca4c",
+  "title": "Artificial Analysis",
+  "url": "https://artificialanalysis.ai",
+  "type": "benchmark",
+  "tags": [
+    "benchmark",
+    "llm-benchmark"
+  ],
+  "description": "Independent analysis of AI models to help choose the right model",
+  "added_date": "2026-06-11",
+  "added_by": "human",
+  "language": "en",
+  "access": "free",
+  "archived": false,
+  "institution": "Artificial Analysis"
+}
