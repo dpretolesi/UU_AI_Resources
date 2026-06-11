@@ -31,7 +31,7 @@ SCHEMA_PATH = DATA_DIR / "schema.json"
 VALID_TYPES = [
     "paper", "course", "tutorial", "blog", "video", "tool", "library",
     "framework", "book", "podcast", "newsletter", "community",
-    "benchmark", "model",
+    "benchmark", "model", "website", "presentation", "other",
 ]
 
 VALID_ACCESS = ["free", "freemium", "paid", "open-access", "unknown"]
