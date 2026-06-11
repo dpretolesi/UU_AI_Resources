@@ -1414,5 +1414,60 @@
     "language": "en",
     "year": 2024,
     "access": "free"
+  },
+  {
+    "id": "auto-311078750138",
+    "title": "How to Choose the Best Open Source LLM for Your Project",
+    "url": "https://huggingface.co/blog/dvilasuero/choosing-best-open-source-ai-models",
+    "type": "tutorial",
+    "tags": [
+      "open-llm",
+      "open-source",
+      "llm"
+    ],
+    "description": "Guide on how to choose open source models based on use case and needs",
+    "added_date": "2026-06-11",
+    "added_by": "human",
+    "institution": "Hugging Face",
+    "language": "en",
+    "year": 2025,
+    "access": "free",
+    "archived": false
+  },
+  {
+    "id": "auto-61c5d7feca4c",
+    "title": "Artificial Analysis",
+    "url": "https://artificialanalysis.ai",
+    "type": "benchmark",
+    "tags": [
+      "benchmark",
+      "llm-benchmark"
+    ],
+    "description": "Independent analysis of AI models to help choose the right model",
+    "added_date": "2026-06-11",
+    "added_by": "human",
+    "institution": "Artificial Analysis",
+    "language": "en",
+    "access": "free",
+    "archived": false
+  },
+  {
+    "id": "auto-b3eebac4a397",
+    "title": "EuroEval",
+    "url": "https://euroeval.com",
+    "type": "benchmark",
+    "tags": [
+      "benchmark",
+      "llm-evaluation",
+      "model-benchmark"
+    ],
+    "description": "EuroEval is a language model benchmarking framework that supports evaluating all types of language models out there: encoders, decoders, encoder-decoders, base models, and instruction tuned models. EuroEval has been battle-tested for more than three years and are the standard evaluation benchmark for many companies, universities and organisations around Europe.",
+    "added_date": "2026-06-11",
+    "added_by": "human",
+    "institution": "EuroEval",
+    "language": "en",
+    "year": 2026,
+    "access": "free",
+    "archived": false
   }
 ]
