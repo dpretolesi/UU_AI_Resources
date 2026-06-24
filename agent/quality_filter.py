@@ -107,6 +107,7 @@ OFF_TOPIC_KEYWORDS: list[str] = [
     "sports betting",
 ]
 
+UNDERREPRESENTED_TYPES: set[str] = {
     "benchmark",
     "podcast",
     "newsletter",

@@ -699,7 +699,7 @@ def run_crawl() -> None:
     all_candidates: list[dict] = []
 
     for i, query in enumerate(selected_queries):
-        logger.info(f"Searching [{i + 1}/5]: {query}")
+        logger.info(f"Searching [{i + 1}/{len(selected_queries)}]: {query}")
         try:
             results = do_search(query, max_results=10)
             logger.info(f"  -> {len(results)} results")
