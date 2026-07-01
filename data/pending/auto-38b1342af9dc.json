@@ -1,0 +1,20 @@
+{
+  "id": "auto-38b1342af9dc",
+  "title": "Most Influential ArXiv (Artificial Intelligence) Papers (2025-03 Version)",
+  "url": "https://www.paperdigest.org/2025/03/most-influential-arxiv-artificial-intelligence-papers-2025-03-version",
+  "type": "paper",
+  "tags": [
+    "deep-learning",
+    "nlp",
+    "research",
+    "paper"
+  ],
+  "description": "bottlenecks of the traditional deep learning approaches and offers a clearly explainable internal architecture that can outperform the existing methods, requires very little computational resources (no need for GPUs) and short training times (in the order of seconds)._ | Plamen Angelov; Eduardo Soares; | [...] | 2024 | 22 | A Roadmap to Pluralistic Alignment IF:3Related PapersRelated PatentsRelated GrantsRelated VenuesRelated ExpertsRelated CodeView _Highlight: However, aligning models to serve pluralistic human values remains an open research question. In this piece, we propose a roadmap to pluralistic alignment, specifically using language models as a test bed._ |  through an iterative preference learning process inspired by the successful strategy employed by AlphaZero._ | , including t",
+  "added_date": "2026-06-04",
+  "added_by": "agent",
+  "language": "en",
+  "access": "unknown",
+  "archived": false,
+  "year": 2026,
+  "quality_score": 7.0
+}

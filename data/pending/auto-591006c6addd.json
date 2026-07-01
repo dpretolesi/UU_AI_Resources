@@ -1,0 +1,23 @@
+{
+  "id": "auto-591006c6addd",
+  "title": "Open Source AI Platforms: What You Need to Know - Anaconda",
+  "url": "https://www.anaconda.com/guides/open-source-ai-platforms",
+  "type": "course",
+  "tags": [
+    "deep-learning",
+    "generative-ai",
+    "pytorch",
+    "python",
+    "research",
+    "open-source",
+    "course"
+  ],
+  "description": "Developed by Meta’s AI Research lab, PyTorch is one of the most popular deep learning frameworks among researchers and developers. Its Python-first design philosophy and dynamic computational graphs make it intuitive to use and debug, earning it widespread adoption in both academic research and production environments.\n\nKey capabilities: [...] Key capabilities:\n\nAnaconda serves as the foundation for end-to-end AI and data science workflows. Organizations use it to streamline model development across teams, ensure reproducibility from research to production, manage complex multi-library AI projects, and deploy AI applications at scale. It’s particularly valuable for enterprises that need to maintain security and compliance while giving data scientists flexibility. Teams can use best-in-clas",
+  "added_date": "2026-06-04",
+  "added_by": "agent",
+  "language": "en",
+  "access": "unknown",
+  "archived": false,
+  "year": 2026,
+  "quality_score": 7.0
+}
