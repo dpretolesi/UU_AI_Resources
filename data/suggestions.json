@@ -781,5 +781,381 @@
     "archived": false,
     "year": 2026,
     "quality_score": 8.0
+  },
+  {
+    "id": "auto-657e7e1e5bee",
+    "title": "Citing artificial intelligence (AI) - Citing Sources - LibGuides at Duke University",
+    "url": "https://guides.library.duke.edu/citing/AI",
+    "type": "tutorial",
+    "tags": [
+      "generative-ai",
+      "llm",
+      "tutorial"
+    ],
+    "description": "Per MLA guidelines, you should:\n\n1. Cite generative AI when you use its content (text, images, data, etc.)\n2. Acknowledge functional uses (e.g., editing or translation)\n3. Verify any secondary sources it cites\n\nRead more about citing AI with MLA Style: \n\n## Chicago\n\nThe University of Chicago Press recommends that you cite generative AI tools when you reproduce its words (quoted or paraphrased) and other content (e.g., images) within your own work. Conversations with generative AI tools are usually not included in a bibliography, though archived copies with author (ChatGPT), publisher (OpenAI), URL, date, and version may be cited. Any edits or adaptations to AI-generated text should also be acknowledged.\n\n|  | [...] ## IEEE\n\nIEEE includes the following guidance on citing generative AI on th",
+    "added_date": "2026-07-13",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-72ce690a4189",
+    "title": "Citing Generative AI - Citation Help - LibGuides at University at Albany",
+    "url": "https://libguides.library.albany.edu/c.php?g=838053&p=10164567",
+    "type": "tutorial",
+    "tags": [
+      "generative-ai",
+      "research",
+      "tutorial"
+    ],
+    "description": "Skip to Main Content\n\nUniversity LibrariesUniversity Libraries Research Guides\n\n# Citation Help: Citing Generative AI\n\n Citation Basics\n Citing in APA Style\n Citing in MLA Style\n Citing in Chicago Style\n Citation Management Tools \n  + Zotero\n  + EndNote\n Perma.cc\n Data Citation\n Citing Generative AI\n\n## Introduction\n\nGenerative AI (artificial intelligence) content must be cited like all other resources in scholarly work. However, unlike many other resources, generative AI is an evolving technology. The results of pending legal cases may present future implications for scholars (and society at-large) and may have an impact upon using AI-generated content in research and upon citation guidelines. [...] ## Generative AI Citation Examples\n\nCiting Generative AI Using APA Style\n\nIn APA Style, th",
+    "added_date": "2026-07-13",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-7c5dae94ee11",
+    "title": "Accelerating scientific discovery with Co-Scientist - Nature",
+    "url": "https://www.nature.com/articles/s41586-026-10644-y",
+    "type": "tool",
+    "tags": [
+      "tool"
+    ],
+    "description": "Co-Scientist represents a promising step towards AI-assisted augmentation of scientists and acceleration of scientific discovery. Its ability to think scientifically, generate testable hypotheses across diverse scientific and biomedical domains, some supported by experimental findings, along with the capacity for recursive self-improvement with increasing compute, demonstrates the promise of meaningfully accelerating scientists’ endeavours to resolve grand challenges in human health, medicine and science. This innovation opens numerous questions and opportunities. Applying the empiric and responsible approach of science to Co-Scientist itself can thereby enable safe exploration of its undoubted potential, including how collaborative and human-centred AI systems might be able to augment [..",
+    "added_date": "2026-07-13",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 10.0
+  },
+  {
+    "id": "auto-70e95698f53e",
+    "title": "ERA Accelerates Scientific Discovery with AI | Yossi Matias posted on the topic | LinkedIn",
+    "url": "https://www.linkedin.com/posts/yossimatias_accelerating-scientific-discovery-with-era-activity-7455432052633604096-vnvR",
+    "type": "tutorial",
+    "tags": [
+      "generative-ai",
+      "research",
+      "tutorial"
+    ],
+    "description": "Accelerating scientific discovery with ERA. Following our introduction of Empirical Research Assistance (ERA) last September — an AI system designed to help scientists generate expert-level empirical software — we have been working with academic collaborators to test its capabilities and explore potential applications. These efforts go beyond proof-of-concept tests to demonstrate how AI helps make computational modeling widely accessible, unlock deeper insights from data collections, and discover interpretable, mechanistically accurate solutions. Here is a look into 4 areas of progress: 🏥 Public health: When the CDC’s flu forecast challenge opened in November for the 2025–26 season, Google began submitting weekly forecasts for every U.S. state. We have also joined CDC’s live forecasts for ",
+    "added_date": "2026-07-13",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-b3951aad48c9",
+    "title": "Introducing Prism",
+    "url": "https://openai.com/index/introducing-prism",
+    "type": "tool",
+    "tags": [
+      "llm",
+      "research",
+      "tool"
+    ],
+    "description": "## From isolated tools to integrated workflows\n\nOver the past year, we’ve begun to see AI accelerate scientific work across domains. Advanced reasoning systems like GPT‑5 are helping push the frontiers⁠ of mathematics, accelerating the analysis⁠ of human immune-cell experiments, and speeding up experimental iteration⁠ in molecular biology.\n\nWe’re still early, but it’s clear that AI will play a meaningful role in how science advances. [...] ## Why this matters now\n\nIn 2025, AI changed software development forever. In 2026, we expect a comparable shift in science, as AI begins to meaningfully accelerate discovery in several ways, one of which is reducing friction in day-to-day research work. Prism is an early step toward that future.\n\nWe’re excited to learn from researchers using Prism today",
+    "added_date": "2026-07-13",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.65
+  },
+  {
+    "id": "auto-cc55d185390c",
+    "title": "How AI Is Accelerating Scientific Discovery | Stanford HAI",
+    "url": "https://hai.stanford.edu/news/how-ai-is-accelerating-scientific-discovery",
+    "type": "paper",
+    "tags": [
+      "research",
+      "paper"
+    ],
+    "description": "Now AI is removing those barriers, giving every scientist access to computational power and tireless research support unimaginable five years ago.\n\nAI doesn’t just speed up discovery. It can facilitate collaboration across disciplines, review literature, generate hypotheses, analyze data, and validate theories. In almost every field, from bioengineering to medicine to space exploration, AI is poised to help researchers find patterns in massive datasets, run studies, and interpret results at unprecedented scales.\n\nThe technology carries risks: bias, data quality issues, inequitable access. Teams must establish guardrails to ensure models provide real scientific value and that the benefits of science AI are broadly shared. [...] Biomni pulls together hundreds of specialized tools, databases,",
+    "added_date": "2026-07-13",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-5a7c527e84b4",
+    "title": "Are Scientists Sacrificing Originality for Speed With the Use of AI?",
+    "url": "https://spectrum.ieee.org/ai-science-research-flattens-discovery",
+    "type": "paper",
+    "tags": [
+      "research",
+      "rag",
+      "paper"
+    ],
+    "description": "## Could the narrowing be temporary?\n\nWhether this trend persists may depend on how the next generation of AI tools is built and deployed across scientific workflows.\n\nIn a paper published last month, Bowen Zhou and his colleagues at the Shanghai Artificial Intelligence Laboratory in China argued that the application of AI in science remains fragmented, with data, computation, and hypothesis-generation tools often deployed in a siloed and task-specific fashion, limiting knowledge transfer and blunting transformative discovery. But when those elements are integrated, AI-for-science systems help expand scientific discovery, says Zhou, a machine-learning researcher who previously served as chief scientist of the IBM Watson Group. [...] That’s the conclusion of an analysis of more than 40 mill",
+    "added_date": "2026-07-13",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-fee30ed4fd20",
+    "title": "How AI Is Accelerating Life-Saving Discovery",
+    "url": "https://gladstone.org/news/how-ai-accelerating-life-saving-discovery",
+    "type": "tool",
+    "tags": [
+      "research",
+      "tool"
+    ],
+    "description": "Sanjeev Ranade, Feiya Li, and Deepak Srivastava\n\nScientists at Gladstone are using—and more importantly, developing—AI tools in their research, paving the way to new treatments and medicines for some of the harshest diseases, from Alzheimer’s to cancer to HIV. Seen here are Sanjeev Ranade (left), Feiya Li (center), and Deepak Srivastava (right).\n\nAt its core, AI is a set of tools that scientists can use to identify complex patterns in data that are too difficult for humans to find, and to predict cause-and-effect relationships. [...] At Gladstone Institutes, a leader in this fast-moving field, researchers have been developing new AI platforms for decades. These AI tools are paving the way to new treatments and medicines for some of the harshest diseases, from Alzheimer’s to cancer to HIV.\n",
+    "added_date": "2026-07-13",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-4e5805b49008",
+    "title": "Science — Google DeepMind",
+    "url": "https://deepmind.google/science",
+    "type": "tool",
+    "tags": [
+      "research",
+      "tool"
+    ],
+    "description": "Read case study\n\n### Hunting the molecular switches behind new infectious diseases\n\nClare Bryant is using Co-Scientist to help identify the proteins that cause severe disease when pathogens like flu and COVID-19 leap from animals to humans. Iterating with the AI system, she rapidly narrowed the hunt to specific amino acids her lab will test — potentially cutting years of experimental work down to months.\n\nRead case study\n\nPowering scientific discovery with AI\n\n### Introducing Gemini for Science\n\nAccelerate your research with AI tools and resources built to support scientific endeavors\n\nLearn more\n\n## AI resources for the scientific community\n\nLife sciences and health\n\nEarth and sustainability\n\nEnergy and materials\n\nAlgorithmic foundations\n\n### AlphaFold [...] Every great scientific breakth",
+    "added_date": "2026-07-13",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-cbdb77ca6588",
+    "title": "GitHub Education",
+    "url": "https://github.com/education",
+    "type": "tool",
+    "tags": [
+      "open-source",
+      "tool"
+    ],
+    "description": "#### What is GitHub Education?\n\nGitHub Education is a community dedicated to empowering the next generation of developers through the power of open-source education. Whether you're a student eager to make your mark, an educator aiming to inspire, or an early career developer looking to sharpen your skills, GitHub Education is here to help you succeed.\n\n#### Why join GitHub Education? [...] ## Navigation Menu\n\n# Search code, repositories, users, issues, pull requests...\n\n# Provide feedback\n\nWe read every piece of feedback, and take your input very seriously.\n\n# Saved searches\n\n## Use saved searches to filter your results more quickly\n\nTo see all available qualifiers, see our documentation.\n\n# Empowering the next generation of developers\n\nGitHub Education bridges the gap between coding educa",
+    "added_date": "2026-07-13",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-f990b0fdaedf",
+    "title": "GitHub - openjournals/jose: The tracking repository for the Journal of Open Source Education · GitHub",
+    "url": "https://github.com/openjournals/jose",
+    "type": "paper",
+    "tags": [
+      "open-source",
+      "paper"
+    ],
+    "description": "\"Open-source\" implies that there are source files that are converted and rendered into a final learner-presentable form. Examples include Jupyter notebooks or plaintext/markup language documents like LaTeX, Markdown, ReStructuredText, AsciiDoc, and R Markdown. These documents should contain the lesson content and be designed to be reusable by other instructors. Lastly, the course content should make use of computation for learning with embedded or associated code snippets/programs.\n\nWe do not mean openly available slides, lecture notes, or YouTube videos, though these may be acceptable as supplementary materials. In addition, course syllabi by themselves are not suitable for submission. [...] BranchesTags\n\nOpen more actions menu\n\n## Folders and files\n\n| Name | Name | Last commit message | ",
+    "added_date": "2026-07-13",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 10.0
+  },
+  {
+    "id": "auto-6763c2d6374e",
+    "title": "Teachers - GitHub Education",
+    "url": "https://github.com/education/teachers",
+    "type": "course",
+    "tags": [
+      "tutorial",
+      "open-source",
+      "course"
+    ],
+    "description": "Explore Classroom 50\n\n### Teacher Toolbox\n\nThe Teacher Toolbox is your central go-to resource for all things GitHub. It includes helpful links, guides, learning modules, sample curriculum, use cases, videos, and articles to help teachers use GitHub in the classroom.\n\nBrowse the Teacher Toolbox\n\n### Frequently Asked Questions\n\n#### What is GitHub Education?\n\nGitHub Education is a community dedicated to empowering the next generation of developers through the power of open-source education. Whether you're a student eager to make your mark, an educator aiming to inspire, or an early career developer looking to sharpen your skills, GitHub Education is here to help you succeed.\n\nWhy Join GitHub Education? [...] ### Begin your GitHub Education journey\n\nJoin us today and take the first step towar",
+    "added_date": "2026-07-13",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-bd4cb3921298",
+    "title": "The latest from GitHub Education - The GitHub Blog",
+    "url": "https://github.blog/developer-skills/github-education",
+    "type": "course",
+    "tags": [
+      "tutorial",
+      "open-source",
+      "course"
+    ],
+    "description": "Attention all students! Make managing your virtual hackathon events even easier with the new Hackathon in the Cloud Experience.\n\n### Start your open source journey with Community Exchange\n\nAre you a student who is new to open source or just starting your maintainer journey? GitHub Global Campus’ Community Exchange can help you make that first contribution or grow your open source project.\n\n### Announcing the 2022 MLH Fellowship Cohort, powered by GitHub\n\nThe MLH Fellowship, powered by GitHub, is a 12-week internship alternative for aspiring software engineers. Meet the 2022 cohort!\n\n### Get ready for Campus TV Season 2: 🌱 New Beginnings\n\nLearn new skills, build projects and meet like-minded students with the latest shows from the GitHub Education Stream Team. [...] ### Beginner’s guide to ",
+    "added_date": "2026-07-13",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-0877d1093110",
+    "title": "GitHub - learnhouse/learnhouse: The Next-gen Open Source learning platform for everyone ✨",
+    "url": "https://github.com/learnhouse/learnhouse",
+    "type": "course",
+    "tags": [
+      "open-source",
+      "course"
+    ],
+    "description": "# learnhouse/learnhouse\n\n## Folders and files\n\n| Name | | Name | Last commit message | Last commit date |\n ---  --- \n| Latest commit   History2,204 Commits   2,204 Commits | | |\n| .github | | .github |  |  |\n| apps | | apps |  |  |\n| docker | | docker |  |  |\n| docs | | docs |  |  |\n| .dockerignore | | .dockerignore |  |  |\n| .gitignore | | .gitignore |  |  |\n| CONTRIBUTING.md | | CONTRIBUTING.md |  |  |\n| Dockerfile | | Dockerfile |  |  |\n| LICENSE | | LICENSE |  |  |\n| README.md | | README.md |  |  |\n| codecov.yml | | codecov.yml |  |  |\n| renovate.json | | renovate.json |  |  |\n| View all files | | |\n\n## Latest commit\n\n## History\n\n## Repository files navigation\n\nLearnHouse\n\nLearnHouse\n\n### The next-gen open-source platform for world-class educational content. [...] Sweave (Badr B.) — @s",
+    "added_date": "2026-07-13",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-b3d6131063e4",
+    "title": "Best Open Source Windows Education Software 2026",
+    "url": "https://sourceforge.net/directory/education",
+    "type": "course",
+    "tags": [
+      "tutorial",
+      "open-source",
+      "course"
+    ],
+    "description": "freeCodeCamp is a nonprofit educational platform that offers a self-paced curriculum for learning web development, programming, data visualization, APIs, and algorithms. It features interactive coding challenges, real-world projects, and guided progress through topic modules, culminating in certificates for completed tracks. A key aspect is that students contribute to open-source projects for nonprofits or internal tooling as part of their learning, reinforcing both technical and collaborative skills. The community includes discussion forums, local chapters, and peer support, which helps learners break through obstacles and stay motivated. The freeCodeCamp GitHub repository encompasses both the learning platform codebase (frontend, backend, challenge engine) and many support tools,",
+    "added_date": "2026-07-13",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-f0fd3ab379a3",
+    "title": "education · GitHub Topics · GitHub",
+    "url": "https://github.com/topics/education",
+    "type": "course",
+    "tags": [
+      "nlp",
+      "generative-ai",
+      "llm",
+      "open-source",
+      "course"
+    ],
+    "description": "Sponsor \n\nStar  53.4k\n\nExtracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.\n\nnlp open-source education machine-learning google awesome ai deep-learning chatbot gemini openai codex ai-agents claude llm prompt-engineering generative-ai chatgpt anthropic claude-code\n\n Updated Jul 8, 2026\n JavaScript\n\n### FreeCodeCampChina / freecodecamp.cn\n\nStar  37.7k\n\nFCC China open source codebase and curriculum. Learn to code and help nonprofits. [...] Skip to content   \n\n## Navigation Menu\n\nSign in \n\nAppearance settings\n\n# Search code, repositories, users, issues, pull requests...\n\n",
+    "added_date": "2026-07-13",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-7df4c65b75bd",
+    "title": "open-educational-resources · GitHub Topics · GitHub",
+    "url": "https://github.com/topics/open-educational-resources",
+    "type": "course",
+    "tags": [
+      "python",
+      "open-source",
+      "course"
+    ],
+    "description": "### 0voice / Awesome-CS-OpenCourse\n\nStar  606\n\n2025 精选｜全球顶尖高校计算机科学免费公开课合集！MIT、斯坦福等名校核心课全收录，从入门到进阶覆盖算法、AI、操作系统，助力高效提升技能。\n\ncomputer-science awesome algorithms data-structures software-engineering awesome-list online-courses open-educational-resources\n\n Updated Oct 27, 2025\n\njekyll\n\n### programminghistorian / jekyll\n\nStar  546\n\nJekyll-based static site for The Programming Historian\n\npython api open-source data-mining mapping scraping multi-lingual text-analysis web-scraping digital-humanities data-management data-manipulation exhibits pedagogy network-analysis linked-open-data programming-historian dh open-educational-resources r-studio\n\n Updated Jul 10, 2026\n HTML\n\n### GarethManning / education-agent-skills\n\nStar  395 [...] Sort: Most stars  \n\nSort options\n\nMost stars   Fewest stars   Most f",
+    "added_date": "2026-07-13",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-87cd95a99236",
+    "title": "GitHub - zefanja/awesome-opensource-school: awesome free and open source software (FOSS) for schools",
+    "url": "https://github.com/zefanja/awesome-opensource-school",
+    "type": "course",
+    "tags": [
+      "open-source",
+      "course"
+    ],
+    "description": "# Awesome Open Source School\n\nAwesome\n\nAwesome\n\nAwesome free and open source software (FOSS) for schools. For the classroom, but also for the \"backend\" (selfhosted solutions, infrastructure).\n\nThis is a list of Free and Open Source Software that can be used in a school.\n\nSee Contributing.\n\n## Classroom\n\n## Server\n\n## Other\n\n## About\n\nawesome free and open source software (FOSS) for schools\n\n### Topics\n\n### Resources\n\n### License\n\n### Contributing\n\n### Uh oh!\n\nThere was an error while loading. Please reload this page.\n\nThere was an error while loading. Please reload this page.\n\n### Stars\n\n### Watchers\n\n### Forks\n\n## Releases\n\n## Packages 0\n\n### Uh oh!\n\nThere was an error while loading. Please reload this page.\n\nThere was an error while loading. Please reload this page.\n\n## Contributors [...",
+    "added_date": "2026-07-13",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-9d7c3ec6160e",
+    "title": "Building a Low-Cost Local LLM Server to Run 70 Billion Parameter Models",
+    "url": "https://www.comet.com/site/blog/build-local-llm-server",
+    "type": "tutorial",
+    "tags": [
+      "llm",
+      "research",
+      "tutorial",
+      "rag"
+    ],
+    "description": "This article addresses these challenges by providing a comprehensive guide to building a low-cost local LLM server capable of running models with up to 70 billion parameters. The proposed solution leverages affordable and repurposed hardware, initially intended for Ethereum mining, combined with advanced software tools like Kubernetes and OLLAMA, to create a scalable and efficient environment for LLM development.\n\nFollowing this guide, readers will learn how to assemble the necessary hardware, configure the software environment, deploy LLMs locally and run basic LLM queries. This approach reduces the cost associated with LLM experimentation and provides greater control over the development process, making it accessible to a broader audience of developers and researchers.\n\n## Audience [...]",
+    "added_date": "2026-07-13",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "Fabrício Ceolin"
+    ],
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-e3a6526f851d",
+    "title": "Local LLMs - OpenHands Docs",
+    "url": "https://docs.openhands.dev/openhands/usage/llms/local-llms",
+    "type": "tutorial",
+    "tags": [
+      "llm",
+      "tutorial"
+    ],
+    "description": "1. Visit ` in your browser.\n\n### ​ 6. Configure OpenHands to use the LLM server\n\nOnce you open OpenHands in your browser, you’ll need to configure it to use the local LLM server you just started. When started for the first time, OpenHands will prompt you to set up the LLM provider.\n\n1. Click “see advanced settings” to open the LLM Settings page.\n\n1. Enable the “Advanced” switch at the top of the page to show all the available settings.\n2. Set the following values:\n    Custom Model: `openai/qwen/qwen3.6-35b-a3b` (the Model API identifier from LM Studio, prefixed with “openai/”)\n    Base URL: `\n    API Key: `local-llm`\n3. Click “Save Settings” to save the configuration. [...] ## ​ Advanced: Alternative LLM Backends\n\nThis section describes how to run local LLMs with OpenHands using alternativ",
+    "added_date": "2026-07-13",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
   }
 ]
