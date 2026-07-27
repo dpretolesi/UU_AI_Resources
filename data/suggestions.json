@@ -1545,5 +1545,395 @@
     "archived": false,
     "year": 2026,
     "quality_score": 8.0
+  },
+  {
+    "id": "auto-5a8316a9d58d",
+    "title": "Citation and Artificial Intelligence - Citing Your Sources - Research Guides at Southern New Hampshire University",
+    "url": "https://libguides.snhu.edu/c.php?g=92369&p=10173600",
+    "type": "paper",
+    "tags": [
+      "generative-ai",
+      "llm",
+      "research",
+      "tutorial",
+      "paper"
+    ],
+    "description": "## APA Style\n\nThe APA recently posted Citing generative AI in APA Style This link opens in a new window in their APA Style blog. The post is informative for citing generative AI tools, such as OpenAI's ChatGPT and Microsoft CoPilot, in your papers and discussion posts.\n\nAs of September 2025, APA now recommends that you cite the specific AI chat, rather than citing the AI tool only. The following examples from the APA's Style Blog This link opens in a new window demonstrate how to do that:\n\n### Citing a Specific Chat\n\n#### General Format\n\nAI Company Name. (year, month day). Title of chat in italics [Description, such as Generative AI chat]. Tool Name/Model. URL of the chat\n\n#### Reference (Full) Entry [...] #### Reference (Full) Entry\n\nOpenAI. (2025, August 21). High school grammar concepts",
+    "added_date": "2026-07-27",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-3816f1ced0fd",
+    "title": "Citing generative AI in APA Style: Part 1—Reference formats",
+    "url": "https://apastyle.apa.org/blog/cite-generative-ai-references",
+    "type": "paper",
+    "tags": [
+      "generative-ai",
+      "research",
+      "paper"
+    ],
+    "description": "Cite the AI tool in the text where appropriate, most likely in the Method section. You might have a sentence such as the following: “I used Claude 3.7 Sonnet (Anthropic, 2025), a generative artificial intelligence (AI) tool, to generate a list of grammatical concepts that high school students should know by the end of the 12th grade.” You could then elaborate on what the AI generated in the text as desired, and the reference list would include a reference for the chat as shown in the earlier examples. In addition to citing the tool or the specific chat in your text, you might also make a general mention of how AI was used in your paper’s author note. Author note policies vary by publisher. [...] Title: The title is the title of the chat (in italic sentence case) followed by a bracketed des",
+    "added_date": "2026-07-27",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-27ece8b977ab",
+    "title": "Citing Generative AI - SLS1501 Resource LibGuide - LibGuides at Palm Beach State College",
+    "url": "https://palmbeachstate.libguides.com/c.php?g=1392890&p=10302441",
+    "type": "paper",
+    "tags": [
+      "generative-ai",
+      "llm",
+      "research",
+      "tutorial",
+      "paper"
+    ],
+    "description": "Banner\n\n# SLS1501 Resource LibGuide: Citing Generative AI\n\n## Citing Generative AI\n\n### Citing Generative AI in Research Papers: Why It Matters\n\nGenerative AI tools like ChatGPT and Bard are revolutionizing research by offering assistance with tasks like literature review, data analysis, and even writing. While their benefits are undeniable, proper citation is crucial for maintaining academic integrity and ensuring transparency in research. Here's why college students need to cite generative AI use in their research papers:\n\n1. Academic Integrity and Transparency: [...] 5. Building Trust and Credibility:\n\nProper citation demonstrates a commitment to ethical research practices and builds trust with readers. It shows that the researcher is transparent about their methodology and acknowledges",
+    "added_date": "2026-07-27",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-ed2378f291cc",
+    "title": "Citation and Acknowledgement - Generative AI - Research Guides at Queen's University Library",
+    "url": "https://guides.library.queensu.ca/ai/citation",
+    "type": "paper",
+    "tags": [
+      "generative-ai",
+      "research",
+      "tutorial",
+      "paper"
+    ],
+    "description": "## Citing an AI Tool\n\nAlways cite materials or output generated from an AI tool in your assignment, journal article, etc.\n\n However, do not refer to the AI tool as the author of that material or output.\n\nRefer to the Style Guide (e.g., APA, MLA, IEEE, etc.) for the proper formatting of citations for AI tools and AI generated materials.\n\n A summary of these formats can be found in this guide.\n\nWeaver, K. D. (2024). The Artificial Intelligence Disclosure (AID) Framework: An Introduction. arXiv preprint arXiv:2408.01904. [...] Cite a generative AI tool when you paraphrase, quote, or incorporate content (e.g., text, images, data, etc.) from that tool into your work.\n Acknowledge all functional uses of the tool (such as using the tool for editing or translation) in a note, your text, or another",
+    "added_date": "2026-07-27",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-608b0034bd1f",
+    "title": "Citing artificial intelligence (AI) - Citation Style Guide - LibGuides at Dalhousie University",
+    "url": "https://dal.ca.libguides.com/CitationStyleGuide/citing-ai",
+    "type": "tutorial",
+    "tags": [
+      "generative-ai",
+      "llm",
+      "research",
+      "tutorial"
+    ],
+    "description": "#### \n\n#### Reference list: Citing an AI chat\n\nAI Company Name. (year, month day). Title of chat in italics [Description, such as Generative AI chat]. Tool Name/Model. URL of the chat\n\nExample:\n\nAnthropic. (2025, December 11). Generative AI limitations in academic research[Generative AI chat]. Claude Sonnet 4.5. \n\n#### \n\n#### In-text citations: Citing an AI tool in general\n\nIf it isn't appropriate to cite a specific chat, an AI tool may need to be cited (see the APA Style Blog for more details).\n\n In-text citation rule: (Al Company Name, year)\n Parenthetical citation: (Anthropic, 2025)\n Narrative citation: Anthropic (2025)\n\n#### \n\n#### Reference list: Citing an AI tool in general [...] ## APA Style\n\nPreviously, APA viewed quotes from a ChatGPT chat session as akin to a personal communicati",
+    "added_date": "2026-07-27",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-7decb10d0e18",
+    "title": "AI is a strategic tool to improve scientific research  - Joint Research Centre",
+    "url": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/ai-strategic-tool-improve-scientific-research-2025-10-08_en",
+    "type": "tool",
+    "tags": [
+      "research",
+      "tool"
+    ],
+    "description": "The JRC report finds that scientists employ AI tools in varied fields, tasks and disciplines, from engineering to life sciences and humanities to drive real, applicable innovations. This includes using AI tools to analyse proteins more efficiently in life-science research, an AI application proven particularly successful in medicine like more effective drug discovery.\n\n## Background\n\nDrawing on deep dives into AI technology for protein structure prediction, material discovery and computational humanities, JRC report showcases how AI is accelerating innovation and strengthening EU research. [...] ## Accelerating the adoption of AI tools in research\n\nTo accelerate the uptake of AI in science, the JRC stresses the need for shared infrastructures and open science to ensure reproducibility, wid",
+    "added_date": "2026-07-27",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-654cb691dbb4",
+    "title": "Innovative Approaches in Scientific Machine Learning",
+    "url": "https://www.linkedin.com/top-content/innovation/ai-trends-and-innovations/innovative-approaches-in-scientific-machine-learning",
+    "type": "course",
+    "tags": [
+      "deep-learning",
+      "machine-learning",
+      "research",
+      "course"
+    ],
+    "description": "Anima Anandkumar: Accelerating Scientific Discovery with AI\nAnima Anandkumar is pioneering AI-driven advancements across multiple scientific fields, using machine learning to simulate physical systems with unprecedented speed and accuracy. Her work has enabled breakthroughs in weather forecasting, medical device design, and engineering, often performing simulations millions of times faster than traditional methods.\nKey Contributions to AI and Science\n• AI-Powered Scientific Simulations: Anandkumar has developed advanced deep learning algorithms that model complex physical systems with greater efficiency than classical simulations. [...] • Transforming Multiple Industries: Anandkumar’s AI advancements are reshaping scientific research, impacting healthcare, energy, engineering, and climate ",
+    "added_date": "2026-07-27",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-59ff10a58d99",
+    "title": "Education - ASE Advanced Tutorial — Advanced Studies in England: Study Abroad in Bath",
+    "url": "https://www.studyabroadbath.org/study-abroad-programmes/tutorial-education",
+    "type": "course",
+    "tags": [
+      "research",
+      "tutorial",
+      "course"
+    ],
+    "description": "Advanced Studies in England: Study Abroad in Bath\nAdvanced Studies in England: Study Abroad in Bath\n\n# Education - ASE Advanced Tutorial\n\nTake a broad analytical look at contemporary issues in English education pedagogy and/or policy, including comparing and contrasting these with the US.\n\nExamples: Testing, Inclusion, Current Practice in Education, Contrasting US, UK and Global Systems, The National Curriculum and Creativity in the Curriculum, Gender Identities in the Classroom.\n\n#### ASE Advanced Tutorials\n\nCustomised one-on-one tutorial course, designed to suit your unique interests and credit requirements.\n\nStudents are expected to spend approximately 6-8 hours per week preparing for their Advanced Tutorial classes.\n\n## Creative Writing - ASE Advanced Tutorial [...] ## Creative Writing",
+    "added_date": "2026-07-27",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-401ad4653c0f",
+    "title": "East Harlem Tutorial Program - Childhood Special Education (Advanced Certificate) - School of Education",
+    "url": "https://education.hunter.cuny.edu/academics/fieldwork/east-harlem-tutorial-program-childhood-special-education-advanced-certificate",
+    "type": "course",
+    "tags": [
+      "tutorial",
+      "course"
+    ],
+    "description": "Hunter College Mobile\nHunter College\n\n# East Harlem Tutorial Program – Childhood Special Education (Advanced Certificate)\n\n## Clinical Experiences: Fieldwork and Learning Lab\n\n### Fieldwork\n\nAs a participant in the East Harlem Tutorial Program – Childhood Special Education Advanced Certificate program you are required to be hired as a full-time teacher in a EHTP Scholars Academy school. Fieldwork requirements can be completed in your capacity as a full-time teacher but may require you to occasionally observe or visit another classroom in your school.\n\n### Learning Lab [...] In the second year of your program you will enroll in Learning Lab. Learning Lab is a required year-long clinical experience embedded in SPED 782 and SPED 784. This lab draws on the lectures and materials from the metho",
+    "added_date": "2026-07-27",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-ce026b9d868b",
+    "title": "Introduction to Canva for Education Tutorial",
+    "url": "https://www.youtube.com/watch?v=0rIiz65_eMQ",
+    "type": "course",
+    "tags": [
+      "generative-ai",
+      "tutorial",
+      "course"
+    ],
+    "description": "open it as a regular file so we're going to go ahead and get back to home and let's just take a look again at more of the creation things that you can do so you have a banner that you can do lesson plans uh planner let's say you have a student that has been struggling with organization and you'd like to create a planner for them you could do that there beginning of the school year if you want to create a class schedule to hang in your room um and you can see here that there really is just a plethora of resources for you very specifically students will be able to come in here and they will be able to create things that they can then submit to you so we'll go to recent designs let's go to this Untitled project I didn't name this anything this is my history Club poster so let's say that I [..",
+    "added_date": "2026-07-27",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.0
+  },
+  {
+    "id": "auto-50577bc3604a",
+    "title": "Education | SNOMED International",
+    "url": "https://www.snomed.org/education",
+    "type": "course",
+    "tags": [
+      "tutorial",
+      "course"
+    ],
+    "description": "top of page\n\n# Education\n\nSNOMED International provides online courses, tutorials and learning pathways that help to extend your knowledge and understanding of SNOMED CT\n\n### SNOMED CT courses and certification\n\nSNOMED International offers a range of education courses and certification exams. Our courses provide a structured learning program for beginners through to advanced users of SNOMED CT, while our certification allow individuals to be recognized for their capabilities in specific skill areas.  \n To apply for one of our courses or register for a certification exam, please visit our SNOMED CT Course Catalog.\n\nCourse catalog\n\n### SNOMED CT e-learning services\n\nTo access these services please visit the SNOMED CT E-Learning Platform.\n\nSNOMED CT e-learning platform [...] SNOMED CT e-learn",
+    "added_date": "2026-07-27",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.0
+  },
+  {
+    "id": "auto-8551b3e86f42",
+    "title": "Exploring how tutors in higher education perceive their ...",
+    "url": "https://open-publishing.org/journals/index.php/jutlp/article/download/871/783/1513",
+    "type": "paper",
+    "tags": [
+      "paper"
+    ],
+    "description": "the weaknesses of the academic, curricular, structural and existential context in which tutoring takes place, we can advance with greater clarity and precision. Today’s performance accountability structure makes teaching staff feel they lack recognition and influence in a habitat that is increasingly competitive and aggressive in its rules (Lewis et al., 2015; Whitehead, et al., 2016). As shown by the data from this investigation, all this causes worry and uncertainty combined with feelings of frustration and failure among less resilient tutors. Tutoring that, in the predominant perspective inferred from participants’ experiences, i.e. the traditional perspective, revolves around the tutor’s authority can make tutees feel intimidated and vulnerable, and therefore the relationship does not ",
+    "added_date": "2026-07-27",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-a169bcb953c3",
+    "title": "Browse Online Courses for Educators - Google for Education - Google for Education",
+    "url": "https://edu.google.com/intl/ALL_us/learning-center/course-catalog",
+    "type": "course",
+    "tags": [
+      "generative-ai",
+      "tutorial",
+      "course"
+    ],
+    "description": "Google for Education offers training for any skill level to help you become a more effective educator. Browse our entire catalog of quick lessons and comprehensive courses to build the curriculum that's right for you. You can even learn from others by exploring community-created resources submitted by local educators like you.\n\n### Google lesson\n\nA brief, focused training from Google covering a specific topic, usually under 10 minutes.\n\n### Google course\n\nAn in-depth training from Google organized into units of short lessons. Courses take anywhere from 30 minutes to a few hours to complete.\n\n### Community-created resource\n\nA guide or video tutorial created by a local educator to share tips with you and others in the community.\n\n### Refine by\n\n#### \n\n### \n\n### Take your learning further [..",
+    "added_date": "2026-07-27",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-064c8ea8bb25",
+    "title": "Free online course list: Adult Basic Education, Digital Literacy Topics, Advanced Technology Topics, College-Type Courses, Language Courses - Learning Resources - P2PU Community",
+    "url": "https://community.p2pu.org/t/free-online-course-list-adult-basic-education-digital-literacy-topics-advanced-technology-topics-college-type-courses-language-courses/3118",
+    "type": "course",
+    "tags": [
+      "course"
+    ],
+    "description": "### Free-Online-Resources-September-2018.pdf\n\n78.24 KB\n\nAdult Basic Education\n\nDigital Literacy Topics\n\nAdvanced Technology Topics\n\nCollege-Type Experiences\n\nLanguage Learning\n\nGeneral Education\n\nFree Books\n\nThis is a very extensive list! [...] P2PU Community\n\n# Free online course list: Adult Basic Education, Digital Literacy Topics, Advanced Technology Topics, College-Type Courses, Language Courses\n\nOur course page features online courses that we’ve used collectively in learning circles. Of course, there are 1000’s of online courses on the web, but there is a wide variety of quality, technical understanding requirements, and availability. We try to feature the best that work for us all!\n\nStill, it might be helpful to see what else is out there. I stumbled across this list from GCF Learn F",
+    "added_date": "2026-07-27",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-168ea9e7194d",
+    "title": "Finding Articles - HIED 5379 - Research in Higher Education - Research Guides at Sam Houston State University",
+    "url": "https://shsulibraryguides.org/HIED5379",
+    "type": "course",
+    "tags": [
+      "research",
+      "tutorial",
+      "course"
+    ],
+    "description": "## Welcome to HIED 5379!\n\nBitmoji ImageThis guide was designed for HIED 5379 - Research in Higher Education. It contains key databases, tutorials, citation information, ILL information, and additional helpful resources. For additional assistance, please reach out using my contact information on the right. That's why I'm here and I'm always happy to help! I look forward to working with you. 😊\n\nPlease note: This guide is not exhaustive and is only intended as a starting point for students in Dr. Montelongo's HIED 5379. Although the guide may be useful for similar courses, this is not its intention.\n\n## Video Tutorials\n\n Using Quick Search\n Using Advanced Search\n Developing Search Terms\n Finding Scholarly Articles\n Checking Source Credibility\n Finding Additional Resources [...] ## Search Tool",
+    "added_date": "2026-07-27",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-62bd26a164ee",
+    "title": "PRC for Higher Education | Tutor.com",
+    "url": "https://www.tutor.com/prc/higher-ed",
+    "type": "course",
+    "tags": [
+      "research",
+      "tutorial",
+      "course"
+    ],
+    "description": "### Tutor.com Diagnostic Quizzes\n\nDownload\n\nTutor.com's Writing Support Methodology - cover\n\n### Tutor.com's Writing Support Methodology\n\nDownload\n\nStudent Success Tutoring: Study & Life Skills - cover\n\n### Student Success Tutoring: Study & Life Skills\n\nDownload\n\nThumbnail of Higher Ed subject list PDF download\n\n### Tutor.com Higher Education Subject List\n\nDownload\n\nCareer and Technical Education Subject List - cover\n\n### Career and Technical Education Subject List\n\nDownload\n\nCareer and Technical Education Subject List - cover\n\n### Tutor U F.A.Q. Sheet\n\nDownload\n\nLEO Administrator Guide - cover\n\n### LEO Administrator Guide\n\nDownload\n\nLEO Workshop Leader Guide - cover\n\n### LEO Workshop Leader Guide\n\nDownload\n\nLEO Scheduled Tutor User Guide - cover\n\n### LEO Scheduled Tutor User Guide [...] #",
+    "added_date": "2026-07-27",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-17a611cd2ede",
+    "title": "Machine Learning Tutorial – Learn Machine Learning using Python - DataFlair",
+    "url": "https://data-flair.training/blogs/machine-learning-tutorials-home",
+    "type": "course",
+    "tags": [
+      "machine-learning",
+      "python",
+      "tutorial",
+      "course"
+    ],
+    "description": "Machine Learning can prove to be a competitive advantage to any company willing to deploy it, be it a top MNC or a startup. As things that are currently being done manually and thus have a high scope of inaccuracy will be done tomorrow by machines. With the insertion of projects such as self-driving cars, and Sophia (a humanoid robot) we have already initiated a glimpse of what the future is capable of being.\n\n### Summary\n\nOur Machine Learning tutorial offers an excellent opportunity for those looking to improve their knowledge in the field and advance their careers.\n\nWith a step-by-step guide, expert instructors, and real-world projects, you’ll gain the knowledge and hands-on experience you need to become proficient in Machine Learning. [...] #### Machine Learning Advanced Concepts\n\n Mach",
+    "added_date": "2026-07-27",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-00053eca6e8f",
+    "title": "Machine Learning Courses & Tutorials | Codecademy",
+    "url": "https://www.codecademy.com/catalog/subject/machine-learning",
+    "type": "course",
+    "tags": [
+      "deep-learning",
+      "machine-learning",
+      "tensorflow",
+      "tutorial",
+      "rag",
+      "course"
+    ],
+    "description": "### Machine Learning: Introduction with Regression\n\n  Get started with machine learning and learn how to build, implement, and evaluate linear regression models.\n  + Beginner Friendly.Beginner Friendly\n\n    3 hours3 hours\n\n  \n Free course\n\n  ### Machine Learning: Artificial Intelligence Decision Making with Minimax\n\n  Teach computers how to make decisions and play games with the Minimax Algorithm!\n  + Advanced.Advanced\n\n    2 hours2 hours\n\n  \n Skill path\n\n  ### Build Deep Learning Models with TensorFlow\n\n  Use TensorFlow to build and tune deep learning models.\n  + Includes 7 CoursesIncludes 7 Courses\n  + With CertificateWith Certificate\n  + Intermediate.Intermediate\n\n    10 hours10 hours\n\n  \n Course\n\n  ### Creating AI Applications using Retrieval-Augmented Generation (RAG) [...] Free cours",
+    "added_date": "2026-07-27",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-ac7d9af56496",
+    "title": "Advanced Machine Learning",
+    "url": "https://ml2.inf.ethz.ch/courses/aml",
+    "type": "course",
+    "tags": [
+      "machine-learning",
+      "course"
+    ],
+    "description": "# Advanced Machine Learning\n\nETH Zurich, Prof. Joachim M. Buhmann, Fall Semester 2023\n\n## Course Description\n\nMachine learning algorithms are data analysis methods which search data sets for patterns and characteristic structures. Typical tasks are the classification of data, automatic regression and unsupervised model fitting. Machine learning has emerged mainly from computer science and artificial intelligence, and draws on methods from a variety of related subjects including statistics, applied mathematics and more specialized fields, such as pattern recognition and neural computation. Applications are, for example, image and speech analysis, medical imaging, bioinformatics and exploratory data analysis in natural science and engineering: [...] | Week | Lecture topics | Lecture slides |",
+    "added_date": "2026-07-27",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "2718282"
+    ],
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-996d5431208e",
+    "title": "Theoretical and Advanced Machine Learning  |  TensorFlow",
+    "url": "https://www.tensorflow.org/resources/learn-ml/theoretical-and-advanced-machine-learning",
+    "type": "paper",
+    "tags": [
+      "deep-learning",
+      "machine-learning",
+      "tensorflow",
+      "research",
+      "tutorial",
+      "neural-networks",
+      "paper"
+    ],
+    "description": "This Deep Learning textbook is a resource intended to help students and practitioners enter the field of machine learning in general, and deep learning in particular.\n\nThis book provides a theoretical background on neural networks. It does not use TensorFlow, but is a great reference for students interested in learning more.\n\n## Step 3: Read and implement papers with TensorFlow\n\nAt this point, we recommend reading papers and trying the advanced tutorials on our website, which contain implementations of a few well known publications. The best way to learn an advanced application, machine translation, or image captioning, is to read the paper linked from the tutorial. As you work through it, find the relevant sections of the code, and use them to help solidify your understanding. [...] You c",
+    "added_date": "2026-07-27",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.45
   }
 ]
