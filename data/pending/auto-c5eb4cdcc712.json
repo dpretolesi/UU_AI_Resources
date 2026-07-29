@@ -1,0 +1,22 @@
+{
+  "id": "auto-c5eb4cdcc712",
+  "title": "Apple Machine Learning Research at ICML 2025",
+  "url": "https://machinelearning.apple.com/research/icml-2025",
+  "type": "paper",
+  "tags": [
+    "machine-learning",
+    "transformers",
+    "generative-ai",
+    "research",
+    "rag",
+    "paper"
+  ],
+  "description": "In an oral presentation at ICML, Apple researchers will share Normalizing Flows are Capable Generative Models, which shows that NFs are more powerful than previously believed and can be used for high-quality image generation. The paper describes TarFlow: a simple and scalable architecture that enables highly performant NF models. TarFlow is a transformer-based variant of Masked Autoregressive Flows (MAFs): it consists of a stack of autoregressive Transformer blocks on image patches, alternating the autoregression direction between layers. Leveraging several techniques to improve sample quality, Tarflow sets new state-of-the-art results on likelihood estimation for images, beating the previous best methods by a large margin, and it can generate samples with quality and diversity comparable ",
+  "added_date": "2026-06-04",
+  "added_by": "agent",
+  "language": "en",
+  "access": "unknown",
+  "archived": false,
+  "year": 2026,
+  "quality_score": 7.0
+}

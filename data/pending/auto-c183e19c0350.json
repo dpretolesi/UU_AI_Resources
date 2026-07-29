@@ -1,0 +1,20 @@
+{
+  "id": "auto-c183e19c0350",
+  "title": "[PDF] Artificial Intelligence Index Report 2025 - AWS",
+  "url": "https://hai-production.s3.amazonaws.com/files/hai_ai_index_report_2025.pdf",
+  "type": "dataset",
+  "tags": [
+    "machine-learning",
+    "llm",
+    "research",
+    "dataset"
+  ],
+  "description": "4. The United States continues to be the leading source of notable AI models. In 2024, U.S.-based institutions produced 40 notable AI models, significantly surpassing China’s 15 and Europe’s combined total of three. In the past decade, more notable machine learning models have originated from the United States than any other country.\n5. AI models get increasingly bigger, more computationally demanding, and more energy intensive. New research finds that the training compute for notable AI models doubles approximately every five months, dataset sizes for training LLMs every eight months, and the power required for training annually. Large-scale industry investment continues to drive model scaling and performance gains. [...] 4. The United States continues to be the leading source of notable ",
+  "added_date": "2026-06-04",
+  "added_by": "agent",
+  "language": "en",
+  "access": "unknown",
+  "archived": false,
+  "year": 2026,
+  "quality_score": 7.0
+}

@@ -1,0 +1,21 @@
+{
+  "id": "auto-0912f5a0fec3",
+  "title": "Deep Research Tools Comparison: A Side-by-Side Evaluation of AI Platforms",
+  "url": "https://cbtw.tech/insights/deep-research-tools-comparison-a-side-by-side-evaluation-of-ai-platforms",
+  "type": "tool",
+  "tags": [
+    "llm",
+    "research",
+    "open-source",
+    "benchmark",
+    "tool"
+  ],
+  "description": "Google Gemini — Google’s AI search platform offers smart summarization and source attribution directly in the text. It includes a free plan with Deep Research capabilities.\n ChatGPT (OpenAI) — We tested the Pro version (GPT-4). While it provides excellent reasoning and depth, Deep Research mode is only available for paid users.\n Mistral — An open-source tool that’s becoming popular for free, particularly in technical fields.\n Perplexity.ai — Known for speed and clarity, offering Deep Research even on the free plan, with structured answers and transparent sourcing.\n Jina AI Search — A free, open-source search engine tailored for deep, customizable research. It provides reference-heavy outputs but can be more technical. [...] Jina AI delivers the most detailed results, scanning over 100 docu",
+  "added_date": "2026-06-04",
+  "added_by": "agent",
+  "language": "en",
+  "access": "unknown",
+  "archived": false,
+  "year": 2026,
+  "quality_score": 7.0
+}

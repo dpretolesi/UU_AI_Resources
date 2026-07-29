@@ -1,0 +1,21 @@
+{
+  "id": "auto-bf78c444042d",
+  "title": "Introducing Nested Learning: A new ML paradigm for continual learning",
+  "url": "https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning",
+  "type": "paper",
+  "tags": [
+    "deep-learning",
+    "machine-learning",
+    "research",
+    "optimization",
+    "paper"
+  ],
+  "description": "In our paper, “Nested Learning: The Illusion of Deep Learning Architectures”, published at NeurIPS 2025, we introduce Nested Learning, which bridges this gap. Nested Learning treats a single ML model not as one continuous process, but as a system of interconnected, multi-level learning problems that are optimized simultaneously. We argue that the model's architecture and the rules used to train it (i.e., the optimization algorithm) are fundamentally the same concepts; they are just different \"levels\" of optimization, each with its own internal flow of information (\"context flow\") and update rate. By recognizing this inherent structure, Nested Learning provides a new, previously invisible dimension for designing more capable AI, allowing us to build learning components with deeper [...] Goo",
+  "added_date": "2026-06-04",
+  "added_by": "agent",
+  "language": "en",
+  "access": "unknown",
+  "archived": false,
+  "year": 2026,
+  "quality_score": 7.0
+}

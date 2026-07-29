@@ -1,0 +1,22 @@
+{
+  "id": "auto-a3d6f733ccc6",
+  "title": "Machine Learning Research Papers | Morgan Stanley",
+  "url": "https://www.morganstanley.com/about-us/technology/machine-learning-research-papers",
+  "type": "paper",
+  "tags": [
+    "machine-learning",
+    "reinforcement-learning",
+    "generative-ai",
+    "llm",
+    "research",
+    "paper"
+  ],
+  "description": "We substantially improve on the approximation guarantee of the dynamic correlation clustering where at each time step a new node arrives.\n\nICML 2025\n\nBreaking the n 1.5 additive error barrier for private and efficient graph sparsification via private expander decomposition(opens in a new tab)\n\nGiven an input graph, we output a synthetic private graph that approximates all cuts of the original graph with error lower than n 1.5.\n\nICML 2025 Workshop on Computer Use Agents\n\nReinforcing Multi-Turn Reasoning in LLM Agents via Turn-Level Credit Assignment(opens in a new tab)\n\nThis paper investigates enhancing the reasoning capabilities of LLM agents using Reinforcement Learning, focusing on multi-turn tool-use scenarios which can be modeled as Markov Decision Processes.\n\nNeurIPS 2025 [...] Scalin",
+  "added_date": "2026-06-04",
+  "added_by": "agent",
+  "language": "en",
+  "access": "unknown",
+  "archived": false,
+  "year": 2026,
+  "quality_score": 7.0
+}
