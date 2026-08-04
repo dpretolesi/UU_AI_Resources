@@ -271,6 +271,73 @@
     `).join('');
   }
 
+  /**
+   * Refresh the entire UI after a resource mutation (add, edit, delete, approve).
+   * Updates stats bar, filter counts, tag cloud, and re-renders the grid
+   * while preserving the user's current filter selections.
+   */
+  function refreshUI() {
+    // --- Update stats bar from local data ---
+    dom.statTotal.textContent = allResources.length;
+    dom.statTypes.textContent = new Set(allResources.map(r => r.type)).size;
+    dom.statUpdated.textContent = formatDate(new Date().toISOString());
+
+    // --- Update type filter counts (preserve checked state) ---
+    const typeCounts = {};
+    allResources.forEach(r => { typeCounts[r.type] = (typeCounts[r.type] || 0) + 1; });
+    const sortedTypes = Object.entries(typeCounts).sort((a, b) => b[1] - a[1]);
+    dom.typeFilters.innerHTML = sortedTypes.map(([type, count]) => `
+      <label class="filter-check">
+        <input type="checkbox" value="${type}" data-filter-type="type"${state.types.includes(type) ? ' checked' : ''}>
+        <span class="filter-check-label">${capitalize(type)}</span>
+        <span class="filter-check-count">${count}</span>
+      </label>
+    `).join('');
+
+    // --- Update access filter counts (preserve checked state) ---
+    const accessCounts = {};
+    allResources.forEach(r => { const a = r.access || 'unknown'; accessCounts[a] = (accessCounts[a] || 0) + 1; });
+    dom.accessFilters.innerHTML = Object.entries(accessCounts)
+      .sort((a, b) => b[1] - a[1])
+      .map(([access, count]) => `
+        <label class="filter-check">
+          <input type="checkbox" value="${access}" data-filter-type="access"${state.access.includes(access) ? ' checked' : ''}>
+          <span class="filter-check-label">${ACCESS_LABELS[access] || capitalize(access)}</span>
+          <span class="filter-check-count">${count}</span>
+        </label>
+      `).join('');
+
+    // --- Update language dropdown (preserve selected) ---
+    const languages = [...new Set(allResources.map(r => r.language).filter(Boolean))].sort();
+    dom.languageFilter.innerHTML = '<option value="">All Languages</option>' +
+      languages.map(l => `<option value="${l}"${state.language === l ? ' selected' : ''}>${l}</option>`).join('');
+
+    // --- Update year range bounds (preserve user's selection if still valid) ---
+    const years = allResources.map(r => r.year).filter(Boolean);
+    if (years.length) {
+      const minYear = Math.min(...years);
+      const maxYear = Math.max(...years);
+      dom.yearMin.min = dom.yearMax.min = minYear;
+      dom.yearMin.max = dom.yearMax.max = maxYear;
+      // Only reset if current selection is out of new bounds
+      if (state.yearMin < minYear) { state.yearMin = minYear; dom.yearMin.value = minYear; dom.yearMinDisplay.textContent = minYear; }
+      if (state.yearMax > maxYear) { state.yearMax = maxYear; dom.yearMax.value = maxYear; dom.yearMaxDisplay.textContent = maxYear; }
+    }
+
+    // --- Update tag cloud (preserve active tags) ---
+    const tagCounts = {};
+    allResources.forEach(r => { (r.tags || []).forEach(t => { tagCounts[t] = (tagCounts[t] || 0) + 1; }); });
+    const topTags = Object.entries(tagCounts).sort((a, b) => b[1] - a[1]).slice(0, MAX_TAGS_CLOUD);
+    dom.tagCloud.innerHTML = topTags.map(([tag]) => {
+      const active = state.tags.includes(tag);
+      return `<button class="tag-pill${active ? ' active' : ''}" data-tag="${escapeHtml(tag)}" type="button"
+                aria-pressed="${active}" aria-label="Filter by tag: ${escapeHtml(tag)}">${escapeHtml(tag)}</button>`;
+    }).join('');
+
+    // --- Re-apply filters to re-render the grid and counts ---
+    applyFilters();
+  }
+
   // ─── Filtering & Sorting ──────────────────────────────────
   function applyFilters() {
     let results = [...allResources];
@@ -1087,6 +1154,12 @@
         body: JSON.stringify({ sha: newCommitData.sha })
       });
 
+      // Update local state if approved
+      if (action === 'approve') {
+        allResources.unshift(suggestion);
+        refreshUI();
+      }
+
       showToast(`Suggestion ${action}d successfully.`, 'success');
       renderSuggestions();
 
@@ -1280,9 +1353,9 @@
       });
       if (!updateRefResp.ok) throw new Error('Failed to update branch ref');
 
-      // 9. Update local state so the new resource appears instantly
+      // 9. Update local state and refresh entire UI
       allResources.unshift(resource);
-      applyFilters();
+      refreshUI();
 
       closeAddModal();
       showToast(`Resource "${title}" added successfully!`, 'success', 6000);
@@ -1433,12 +1506,12 @@
         body: JSON.stringify({ sha: newCommitData.sha })
       });
 
-      // Update local state so changes reflect instantly
+      // Update local state and refresh entire UI
       const localIndex = allResources.findIndex(r => r.id === id);
       if (localIndex !== -1) {
         allResources[localIndex] = resources[rIndex];
       }
-      applyFilters();
+      refreshUI();
 
       closeEditModal();
       showToast('Resource updated successfully!', 'success');
@@ -1532,9 +1605,9 @@
         body: JSON.stringify({ sha: newCommitData.sha })
       });
 
-      // Update local state instantly
+      // Update local state and refresh entire UI
       allResources = allResources.filter(r => r.id !== id);
-      applyFilters();
+      refreshUI();
 
       closeEditModal();
       showToast('Resource deleted successfully.', 'success');
