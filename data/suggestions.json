@@ -241,25 +241,6 @@
     "quality_score": 10
   },
   {
-    "id": "auto-4bb3f5bf8e2d",
-    "title": "How AI is Transforming Scientific Discovery While Keeping Humans at the Center | Stanford HAI",
-    "url": "https://hai.stanford.edu/news/how-ai-is-transforming-scientific-discovery-while-keeping-humans-at-the-center",
-    "type": "paper",
-    "tags": [
-      "nlp",
-      "llm",
-      "paper"
-    ],
-    "description": "Christin said it may be cheaper and faster to generate data with large language models than to collect it, and it may be cheaper to work with agents than to pay a postdoc or PhD student. But postdocs and PhDs are the future of science, and their education must remain a priority for academia. “AI models cannot impose logics that are not the logics of academics onto academics,” she said.\n\nThroughout the day, conference participants highlighted how AI represents a major shift in scientific discovery. The challenge facing the scientific community, they made clear, is ensuring that as AI accelerates the pace of discovery, it deepens rather than diminishes the human knowledge at science’s core.\n\nSkip Carousel Content\n\nImage 7\n\nAI+Science: Accelerating Discovery in Pictures\n\nImage 8 [...] Democra",
-    "added_date": "2026-06-29",
-    "added_by": "agent",
-    "language": "en",
-    "access": "unknown",
-    "archived": false,
-    "year": 2026,
-    "quality_score": 9
-  },
-  {
     "id": "auto-5168a8fca07f",
     "title": "Revolutionizing Scientific Discovery with AI: Inside the Science Discovery Engine | Science Data Portal",
     "url": "http://science.data.nasa.gov/learn/blog/artificial-intelligence-data-discovery",
@@ -449,43 +430,6 @@
       "tool"
     ],
     "description": "“There’s something called the infinite monkey theorem, which says that if you sit a monkey at a typewriter and it starts typing randomly for an infinite amount of time, eventually it will recreate the works of Shakespeare randomly, but it will also produce so much garbage, so much nonsense, that it will take us an infinite amount of time to sort through all that garbage,” Strohmer said. “Generative AI can create a lot of things, but a lot of it is useless and sorting through it can be extremely time-consuming.”\n\nFor generative AI to be useful for scientific discovery, computer scientists and mathematicians have to design it in close interaction with domain experts like chemists and physicists, otherwise we often will end up with essentially useless results, Strohmer said. [...] “The develo",
-    "added_date": "2026-07-06",
-    "added_by": "agent",
-    "language": "en",
-    "access": "unknown",
-    "archived": false,
-    "year": 2026,
-    "quality_score": 9
-  },
-  {
-    "id": "auto-124f1770dbb5",
-    "title": "Foundation Models for Scientific Discovery and Innovation: Opportunities Across the Department of Energy",
-    "url": "https://www.nationalacademies.org/projects/DEPS-BMSA-24-03",
-    "type": "tool",
-    "tags": [
-      "research",
-      "tool"
-    ],
-    "description": "Consensus Study Report\n\n2025\n\nFoundation models - artificial intelligence systems trained on massive data sets to perform a wide range of tasks - have the potential to transform scientific discovery and innovation. At the request of the U.S. Department of Energy (DOE), the National Academies conducted a study to consider the cap...\n\nView details\n\n## Statement of Task [...] Consensus/Advisory Activity\n\n### The Agentic AI Revolution and its Impact on the on the Planning, Assessment, Investment, and Accelerated Transition to the Field of Department of War's Materials Science & Technology Enterprise\n\nConsensus/Advisory Activity\n\n### Decadal Survey for Earth Science and Applications from Space 2028-2037 (ESAS 2028)\n\nConsensus/Advisory Activity\n\n### Strengthening Country-Led Health Surveillance:",
-    "added_date": "2026-07-06",
-    "added_by": "agent",
-    "language": "en",
-    "access": "unknown",
-    "archived": false,
-    "year": 2026,
-    "quality_score": 6.55
-  },
-  {
-    "id": "auto-9d46eb5db536",
-    "title": "DOE Explains...Machine Learning - Department of Energy",
-    "url": "https://www.energy.gov/science/doe-explainsmachine-learning",
-    "type": "tutorial",
-    "tags": [
-      "machine-learning",
-      "research",
-      "tutorial"
-    ],
-    "description": "The DOE Office of Science as a whole is committed to the use of machine learning to support scientific research. Science depends on big data, and Office of Science user facilities such as particle accelerators and X-ray light sources generate mountains of it. Using machine learning, researchers are identifying patterns or designs in data from these facilities that are difficult or impossible for humans to detect, at speeds that are hundreds to thousands of times faster than traditional data analysis techniques.\n\n## Fast Facts [...] DOE Office of Science Advanced Scientific Computing Research program\n DOE Office of Science Artificial Intelligence and Machine Learning Initiative\n DOE’s Executive Guide to Artificial Intelligence\n Report to Congress on DOE support for artificial intelligence a",
     "added_date": "2026-07-06",
     "added_by": "agent",
     "language": "en",
