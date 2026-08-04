@@ -1,5 +1,22 @@
 [
   {
+    "id": "auto-b24601ff6361",
+    "title": "AutoDiscovery",
+    "url": "https://autodiscovery.allen.ai/runs",
+    "type": "tool",
+    "tags": [
+      "discovery",
+      "analysis"
+    ],
+    "description": "Open-ended scientific discovery engine designed to explore raw datasets autonomously using Bayesian surprise.",
+    "added_date": "2026-08-04",
+    "added_by": "human",
+    "language": "en",
+    "access": "free",
+    "archived": false,
+    "institution": "Allen AI Institute"
+  },
+  {
     "id": "auto-77cbe3afd4c1",
     "title": "Zotero AI Bar",
     "url": "https://zotero.fukeke.com",
