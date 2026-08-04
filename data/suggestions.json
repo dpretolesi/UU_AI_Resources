@@ -1,26 +1,5 @@
 [
   {
-    "id": "auto-fbda9ba35db5",
-    "title": "Citation: Citing Generative AI - Research Guides",
-    "url": "https://libguides.gettysburg.edu/citation/gen-ai",
-    "type": "paper",
-    "tags": [
-      "generative-ai",
-      "llm",
-      "research",
-      "tutorial",
-      "paper"
-    ],
-    "description": "Read Chicago Style's guidance on citing generative AI.\n\nChicago treats the generative AI as the author, and the company that developed the AI as the publisher/sponsor. Chicago recommends citing AI in a footnote or parenthetical in-text citation, but not in the bibliography of your paper (see CMOS 14.112)  For Notes-Bibliography, if the prompt is not included in the text it may be added to the note.\n\nIf you do cite an AI exchange in a bibliography, it should be cited by listing the \"publisher\" or developer, not the name of the tool, and include a publicly available URL. If you cannot provide a publicly available link, such as ShareGPT or A.I. Archives, then Chicago advises not to include it in the bibliography or reference list.\n\n##### Format for Citing Generative AI in Chicago: [...] Read ",
-    "added_date": "2026-06-29",
-    "added_by": "agent",
-    "language": "en",
-    "access": "unknown",
-    "archived": false,
-    "year": 2026,
-    "quality_score": 9.0
-  },
-  {
     "id": "auto-266fb9a7b651",
     "title": "Generative AI - Citation Guide - Research Guides at Naval Postgraduate School (NPS), Dudley Knox Library (DKL)",
     "url": "https://libguides.nps.edu/citation/generativeAI",
@@ -59,7 +38,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-1f3e4af9e1e9",
@@ -79,7 +58,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-f75be5bc76ab",
@@ -99,7 +78,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-9c80df102d7a",
@@ -119,7 +98,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-c95ed67ea065",
@@ -141,7 +120,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-4e0ee3097640",
@@ -160,7 +139,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-ac6584caf4ac",
@@ -181,7 +160,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 10.0
+    "quality_score": 10
   },
   {
     "id": "auto-1734e09676cb",
@@ -201,7 +180,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-d794ab34fba4",
@@ -223,7 +202,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 10.0
+    "quality_score": 10
   },
   {
     "id": "auto-dd12609cab94",
@@ -242,7 +221,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 10.0
+    "quality_score": 10
   },
   {
     "id": "auto-0cdf29104def",
@@ -261,7 +240,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-bacf4e023c4e",
@@ -279,7 +258,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-fb5bdc18c76b",
@@ -297,7 +276,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-5c7ebe1383fd",
@@ -316,7 +295,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 10.0
+    "quality_score": 10
   },
   {
     "id": "auto-0b66a73d057a",
@@ -340,7 +319,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 10.0
+    "quality_score": 10
   },
   {
     "id": "auto-4bb3f5bf8e2d",
@@ -359,7 +338,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-5168a8fca07f",
@@ -377,7 +356,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-fbe0e6e855b7",
@@ -396,7 +375,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-727451d56b46",
@@ -439,7 +418,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-d69d73a0f544",
@@ -459,7 +438,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-63e0a72c4852",
@@ -480,7 +459,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-0ea8a5721e10",
@@ -499,7 +478,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-e71e085d35bb",
@@ -517,7 +496,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-539d47e0ef01",
@@ -538,7 +517,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-77922bb96302",
@@ -557,7 +536,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-124f1770dbb5",
@@ -594,7 +573,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-a34e3bc03180",
@@ -649,7 +628,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-b2fd05affb61",
@@ -668,7 +647,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-b0c20117bcd2",
@@ -705,7 +684,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-0b22bc2b2802",
@@ -723,7 +702,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-e1f7caec241d",
@@ -780,7 +759,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-657e7e1e5bee",
@@ -799,7 +778,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-72ce690a4189",
@@ -818,7 +797,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-7c5dae94ee11",
@@ -835,7 +814,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 10.0
+    "quality_score": 10
   },
   {
     "id": "auto-70e95698f53e",
@@ -854,7 +833,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-b3951aad48c9",
@@ -891,7 +870,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-5a7c527e84b4",
@@ -910,7 +889,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-fee30ed4fd20",
@@ -928,7 +907,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-4e5805b49008",
@@ -946,7 +925,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-cbdb77ca6588",
@@ -982,7 +961,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 10.0
+    "quality_score": 10
   },
   {
     "id": "auto-6763c2d6374e",
@@ -1057,7 +1036,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-f0fd3ab379a3",
@@ -1097,7 +1076,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-87cd95a99236",
@@ -1138,7 +1117,7 @@
       "Fabrício Ceolin"
     ],
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-e3a6526f851d",
@@ -1156,7 +1135,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-6328d5b7e8b1",
@@ -1178,7 +1157,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-249e75e971b6",
@@ -1198,7 +1177,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-d947a0a2ce78",
@@ -1216,7 +1195,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 10.0
+    "quality_score": 10
   },
   {
     "id": "auto-5d8b54c56ff2",
@@ -1237,7 +1216,7 @@
       "Luke Davies Cooke"
     ],
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-4e55c179cbbe",
@@ -1256,7 +1235,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-cd3efa947adb",
@@ -1273,7 +1252,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-612c5a5efa8e",
@@ -1294,7 +1273,7 @@
       "Jennifer Gonzalez"
     ],
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-765e24d9999c",
@@ -1332,7 +1311,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-64ab804ae360",
@@ -1350,7 +1329,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-8f8f5c493c59",
@@ -1367,7 +1346,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-2f8e69251bc6",
@@ -1385,7 +1364,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-e6df39b219c0",
@@ -1405,7 +1384,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-53020798d448",
@@ -1424,7 +1403,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-49a91d2581f8",
@@ -1484,7 +1463,7 @@
       "Abe Kazemzadeh"
     ],
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-72755d146504",
@@ -1504,7 +1483,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-c69f1b9b5102",
@@ -1544,7 +1523,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-5a8316a9d58d",
@@ -1565,7 +1544,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-3816f1ced0fd",
@@ -1584,7 +1563,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-27ece8b977ab",
@@ -1605,7 +1584,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-ed2378f291cc",
@@ -1625,7 +1604,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-608b0034bd1f",
@@ -1645,7 +1624,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-7decb10d0e18",
@@ -1663,7 +1642,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-654cb691dbb4",
@@ -1683,7 +1662,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-59ff10a58d99",
@@ -1702,7 +1681,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-401ad4653c0f",
@@ -1720,7 +1699,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-ce026b9d868b",
@@ -1739,7 +1718,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 7.0
+    "quality_score": 7
   },
   {
     "id": "auto-50577bc3604a",
@@ -1757,7 +1736,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 7.0
+    "quality_score": 7
   },
   {
     "id": "auto-8551b3e86f42",
@@ -1774,7 +1753,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-a169bcb953c3",
@@ -1793,7 +1772,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-064c8ea8bb25",
@@ -1810,7 +1789,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-168ea9e7194d",
@@ -1829,7 +1808,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-62bd26a164ee",
@@ -1848,7 +1827,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-17a611cd2ede",
@@ -1868,7 +1847,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-00053eca6e8f",
@@ -1954,7 +1933,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-997369590e58",
@@ -1974,7 +1953,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-e6c9bd04c5d4",
@@ -2012,7 +1991,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-d6945eb071a2",
@@ -2030,7 +2009,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-47da73cdc4f7",
@@ -2068,7 +2047,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-96678702f41d",
@@ -2085,7 +2064,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-85fa27ae0fc2",
@@ -2106,7 +2085,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-8a3cde9197a0",
@@ -2125,7 +2104,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-cb9fb8babb65",
@@ -2145,7 +2124,7 @@
       "Cisco Outshift"
     ],
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-be0a67e1d286",
@@ -2164,7 +2143,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-dbdcf38c85fd",
@@ -2202,7 +2181,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-08d39056143d",
@@ -2220,7 +2199,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 10.0
+    "quality_score": 10
   },
   {
     "id": "auto-b64f40d24b73",
@@ -2238,7 +2217,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-14b0c4d4f781",
@@ -2257,7 +2236,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-082c3009c598",
@@ -2276,7 +2255,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-4e86f70ecfc3",
@@ -2294,7 +2273,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-d4bece8e6cab",
@@ -2313,6 +2292,6 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   }
 ]
