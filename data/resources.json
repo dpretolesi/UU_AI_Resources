@@ -1,5 +1,23 @@
 [
   {
+    "id": "auto-0b20fcbc3ee9",
+    "title": "Ai2 Asta",
+    "url": "https://asta.allen.ai",
+    "type": "tool",
+    "tags": [
+      "literature",
+      "search",
+      "llm"
+    ],
+    "description": "Scholarly agentic search engine and literature assistant built on Semantic Scholar indexing  abstracts and  full-text papers.",
+    "added_date": "2026-08-04",
+    "added_by": "human",
+    "language": "en",
+    "access": "free",
+    "archived": false,
+    "institution": "Allen Institute for AI"
+  },
+  {
     "id": "auto-f8dcc89e2ecb",
     "title": "LLM for Zotero",
     "url": "https://yilewang.github.io/llm-for-zotero/",
