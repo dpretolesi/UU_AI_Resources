@@ -1,5 +1,22 @@
 [
   {
+    "id": "auto-77cbe3afd4c1",
+    "title": "Zotero AI Bar",
+    "url": "https://zotero.fukeke.com",
+    "type": "tool",
+    "tags": [
+      "zotero",
+      "assistant",
+      "plugin"
+    ],
+    "description": "A handy AI toolbar plugin for Zotero, putting an AI assistant right at your fingertips.",
+    "added_date": "2026-08-04",
+    "added_by": "human",
+    "language": "en",
+    "access": "free",
+    "archived": false
+  },
+  {
     "id": "auto-34f2c397a9c6",
     "title": "Napkin",
     "url": "https://www.napkin.ai",
