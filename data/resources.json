@@ -1,15 +1,15 @@
 [
   {
     "id": "auto-5c7ebe1383fd",
-    "title": "Decoding complexity through machine learning is redefining scientific discovery - Communications Physics",
+    "title": "Decoding complexity through machine learning",
     "url": "https://www.nature.com/articles/s42005-026-02676-7",
-    "type": "tool",
+    "type": "paper",
     "tags": [
       "machine-learning",
       "research",
-      "tool"
+      "complexity"
     ],
-    "description": "One of the most significant advancements in AI-driven scientific discovery is AI-Hilbert. Developed by IBM researchers, AI-Hilbert acts as an “AI scientist” that transforms existing theories and data into new, consistent mathematical models. Its goal is to accelerate scientific discovery by automating hypothesis generation and testing. AI-Hilbert helps scientists uncover new knowledge by analyzing large scientific datasets and revealing patterns overlooked by traditional methods. It also refines theories by managing conflicting data66.\"). Furthermore, Cornelio et al.67.\") have developed a new ML tool which combines axiomatic knowledge with experimental data to derive scientific models. By integrating logical reasoning and symbolic regression, it has rediscovered laws like Kepler’s third [.",
+    "description": "As scientific instruments and the literature generate ever larger volumes of data, machine learning (ML) has become essential for organizing, analyzing and interpreting complex information. This Perspective examines how ML accelerates discovery across disciplines, with examples such as brain mapping and exoplanet detection. It also considers situations with different levels of prior knowledge about the underlying phenomenon, outlining strategies to address limitations and exploit ML effectively. Although growing reliance on ML raises challenges for research practice and validation, it is reshaping scientific methods and expanding what can be studied. We also highlight foundation models as a promising route to faster, broader scientific discovery.",
     "added_date": "2026-06-29",
     "added_by": "agent",
     "language": "en",
