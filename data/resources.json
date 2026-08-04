@@ -1,5 +1,24 @@
 [
   {
+    "id": "auto-5c7ebe1383fd",
+    "title": "Decoding complexity through machine learning is redefining scientific discovery - Communications Physics",
+    "url": "https://www.nature.com/articles/s42005-026-02676-7",
+    "type": "tool",
+    "tags": [
+      "machine-learning",
+      "research",
+      "tool"
+    ],
+    "description": "One of the most significant advancements in AI-driven scientific discovery is AI-Hilbert. Developed by IBM researchers, AI-Hilbert acts as an “AI scientist” that transforms existing theories and data into new, consistent mathematical models. Its goal is to accelerate scientific discovery by automating hypothesis generation and testing. AI-Hilbert helps scientists uncover new knowledge by analyzing large scientific datasets and revealing patterns overlooked by traditional methods. It also refines theories by managing conflicting data66.\"). Furthermore, Cornelio et al.67.\") have developed a new ML tool which combines axiomatic knowledge with experimental data to derive scientific models. By integrating logical reasoning and symbolic regression, it has rediscovered laws like Kepler’s third [.",
+    "added_date": "2026-06-29",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 10
+  },
+  {
     "id": "auto-4bb3f5bf8e2d",
     "title": "How AI is Transforming Scientific Discovery While Keeping Humans at the Center | Stanford HAI",
     "url": "https://hai.stanford.edu/news/how-ai-is-transforming-scientific-discovery-while-keeping-humans-at-the-center",
