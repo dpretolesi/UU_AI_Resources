@@ -11,7 +11,7 @@ Environment variables:
   SEARCH_BACKEND      — tavily | serper | duckduckgo (default: tavily)
   TAVILY_API_KEY      — Tavily API key (required if backend=tavily)
   SERPER_API_KEY       — Serper API key (required if backend=serper)
-  OLLAMA_API_KEY      — Ollama API key (optional, for LLM scoring)
+  GEMINI_API_KEY      — Google Gemini API key (required for LLM scoring)
   DRY_RUN             — If "true", skip PR creation and GitHub interactions
   MIN_QUALITY_SCORE   — Minimum quality score threshold (default: 6.0)
 """
@@ -191,7 +191,7 @@ def compute_reward_profile() -> dict[str, float]:
 
 
 def generate_dynamic_queries(reward_profile: dict[str, float], all_queries: list[str]) -> list[str]:
-    """Generate dynamic search queries using Ollama and the reward profile."""
+    """Generate dynamic search queries using Gemini and the reward profile."""
     # Find the top 10 most rewarded tags
     top_tags = sorted(reward_profile.items(), key=lambda x: x[1], reverse=True)[:10]
     top_tag_names = [t[0] for t in top_tags if t[1] > 0]
@@ -204,16 +204,14 @@ def generate_dynamic_queries(reward_profile: dict[str, float], all_queries: list
         return []
 
     try:
-        import ollama
-        import os
+        from google import genai
 
-        # Initialize client with API key if available
-        headers = {}
-        api_key = os.environ.get("OLLAMA_API_KEY")
-        if api_key:
-            headers["Authorization"] = f"Bearer {api_key}"
-            
-        client = ollama.Client(host=os.environ.get("OLLAMA_HOST", "http://localhost:11434"), headers=headers)
+        api_key = os.environ.get("GEMINI_API_KEY")
+        if not api_key:
+            logger.warning("GEMINI_API_KEY not set; skipping dynamic query generation")
+            raise RuntimeError("GEMINI_API_KEY not set")
+
+        client = genai.Client(api_key=api_key)
 
         prompt = (
             "You are an AI research assistant tasked with discovering high-quality machine learning, AI and GenAI resources for academics and researchers. "
@@ -225,33 +223,32 @@ def generate_dynamic_queries(reward_profile: dict[str, float], all_queries: list
                 "The user explicitly DISLIKES or REJECTED these topics:\n"
                 f"{', '.join(penalized_tags)}\n\n"
             )
-            
+
         prompt += (
             "Generate 3 highly specific, novel Google search queries to find research papers, tools, blogposts, videos, podcasts or tutorials that align with the successful topics. "
-            "Return ONLY a valid JSON list of strings. Example: [\"state-of-the-art transformer NLP GitHub\", \"new reinforcement learning tutorials 2024\"]\n"
+            'Return ONLY a valid JSON list of strings. Example: ["state-of-the-art transformer NLP GitHub", "new reinforcement learning tutorials 2024"]\n'
             "Do not include any other text."
         )
 
-        response = client.chat(
-            model="gemma4:12b-it-qat",
-            messages=[{"role": "user", "content": prompt}],
+        response = client.models.generate_content(
+            model="gemini-2.5-flash-lite",
+            contents=prompt,
         )
 
-        content = response['message']['content'].strip()
-        # Attempt to parse JSON
+        content = response.text.strip()
         # Clean up markdown code blocks if any
         if content.startswith("```json"):
             content = content[7:-3].strip()
         elif content.startswith("```"):
             content = content[3:-3].strip()
-            
+
         dynamic_queries = json.loads(content)
         if isinstance(dynamic_queries, list) and all(isinstance(q, str) for q in dynamic_queries):
-            logger.info(f"Generated dynamic queries via LLM: {dynamic_queries}")
+            logger.info(f"Generated dynamic queries via Gemini: {dynamic_queries}")
             return dynamic_queries[:3]
 
     except Exception as e:
-        logger.warning(f"Failed to generate dynamic queries with LLM: {e}")
+        logger.warning(f"Failed to generate dynamic queries with Gemini: {e}")
 
     # Fallback heuristic
     import random
@@ -261,7 +258,7 @@ def generate_dynamic_queries(reward_profile: dict[str, float], all_queries: list
         tag = random.choice(top_tag_names)
         suffix = random.choice(base_suffixes)
         fallback_queries.append(f"{tag.replace('-', ' ')} {suffix}")
-    
+
     logger.info(f"Using heuristic dynamic queries: {fallback_queries}")
     return fallback_queries
 

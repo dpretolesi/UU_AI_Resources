@@ -3,7 +3,7 @@
 Quality filter and scoring module for the AI Research Hub crawl agent.
 
 Scores candidate resources on a 0.0-10.0 scale using hard disqualifiers,
-positive signals, and negative signals. Optionally calls the Ollama API
+positive signals, and negative signals. Optionally calls the Gemini API
 for borderline cases.
 """
 
@@ -381,11 +381,19 @@ def _llm_score_borderline(
     current_score: float,
 ) -> Optional[float]:
     """
-    Call the Ollama API for borderline cases (score between 5.0 and 7.0).
+    Call the Gemini API for borderline cases (score between 5.0 and 7.0).
     Returns an adjusted score or None if the API is unavailable.
     """
     try:
-        import ollama
+        import os
+        from google import genai
+
+        api_key = os.environ.get("GEMINI_API_KEY")
+        if not api_key:
+            logger.warning("GEMINI_API_KEY not set; skipping LLM scoring.")
+            return None
+
+        client = genai.Client(api_key=api_key)
 
         prompt = (
             f"You are evaluating an AI/ML resource for inclusion in a curated research hub.\n\n"
@@ -402,28 +410,28 @@ def _llm_score_borderline(
             f"Respond with ONLY a single number between 0.0 and 10.0, nothing else."
         )
 
-        response = ollama.chat(
-            model="gemma4:12b-it-qat",
-            messages=[{"role": "user", "content": prompt}],
+        response = client.models.generate_content(
+            model="gemini-2.5-flash-lite",
+            contents=prompt,
         )
 
-        response_text = response['message']['content'].strip()
+        response_text = response.text.strip()
         llm_score = float(response_text)
         llm_score = max(0.0, min(10.0, llm_score))
         logger.info(
-            f"LLM scored '{title}' at {llm_score} (heuristic was {current_score})"
+            f"Gemini scored '{title}' at {llm_score} (heuristic was {current_score})"
         )
         # Average the heuristic and LLM scores
         return round((current_score + llm_score) / 2, 2)
 
     except ImportError:
-        logger.warning("ollama package not installed; skipping LLM scoring.")
+        logger.warning("google-genai package not installed; skipping LLM scoring.")
         return None
     except (ValueError, IndexError, AttributeError) as e:
-        logger.warning(f"Failed to parse LLM score: {e}")
+        logger.warning(f"Failed to parse Gemini score: {e}")
         return None
     except Exception as e:
-        logger.warning(f"LLM scoring failed: {e}")
+        logger.warning(f"Gemini scoring failed: {e}")
         return None
 
 

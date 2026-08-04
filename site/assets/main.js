@@ -1204,7 +1204,7 @@
 
     // Disable button
     dom.addSubmitBtn.disabled = true;
-    dom.addSubmitBtn.textContent = 'Creating PR…';
+    dom.addSubmitBtn.textContent = 'Adding…';
 
     try {
       const apiBase = `https://api.github.com/repos/${GITHUB_REPO}`;
@@ -1214,7 +1214,7 @@
         'Content-Type': 'application/json',
       };
 
-      // 1. Get default branch SHA
+      // 1. Get default branch info
       const repoResp = await fetch(apiBase, { headers });
       const repoData = await repoResp.json();
       const defaultBranch = repoData.default_branch;
@@ -1223,83 +1223,76 @@
       const refData = await refResp.json();
       const baseSha = refData.object.sha;
 
-      // 2. Create a new branch
-      const branchName = `add-resource/${resourceId}`;
-      const branchResp = await fetch(`${apiBase}/git/refs`, {
+      // 2. Get current resources.json from main
+      const resResp = await fetch(`${apiBase}/contents/data/resources.json`, { headers });
+      if (!resResp.ok) throw new Error('Failed to fetch resources.json');
+      const resData = await resResp.json();
+      const resources = JSON.parse(decodeURIComponent(escape(atob(resData.content))));
+
+      // 3. Check for remote duplicates (in case another session added it)
+      if (resources.some(r => r.url.toLowerCase() === url.toLowerCase())) {
+        showToast('This resource was already added (detected on remote). Skipping.', 'error');
+        return;
+      }
+
+      // 4. Add new resource to the beginning of the array
+      resources.unshift(resource);
+      const newContent = JSON.stringify(resources, null, 2);
+
+      // 5. Get base tree for atomic commit
+      const commitResp = await fetch(`${apiBase}/git/commits/${baseSha}`, { headers });
+      const commitData = await commitResp.json();
+      const baseTreeSha = commitData.tree.sha;
+
+      // 6. Create new tree with updated resources.json
+      const treeResp = await fetch(`${apiBase}/git/trees`, {
         method: 'POST',
         headers,
         body: JSON.stringify({
-          ref: `refs/heads/${branchName}`,
-          sha: baseSha,
-        }),
+          base_tree: baseTreeSha,
+          tree: [{
+            path: 'data/resources.json',
+            mode: '100644',
+            type: 'blob',
+            content: newContent
+          }]
+        })
       });
-      if (!branchResp.ok) {
-        const err = await branchResp.json();
-        throw new Error(err.message || 'Failed to create branch');
-      }
+      const newTreeData = await treeResp.json();
 
-      // 3. Create the pending file
-      const filePath = `data/pending/${resourceId}.json`;
-      const fileContent = btoa(unescape(encodeURIComponent(JSON.stringify(resource, null, 2))));
-      const fileResp = await fetch(`${apiBase}/contents/${filePath}`, {
-        method: 'PUT',
-        headers,
-        body: JSON.stringify({
-          message: `Add resource: ${title.slice(0, 60)}`,
-          content: fileContent,
-          branch: branchName,
-        }),
-      });
-      if (!fileResp.ok) {
-        throw new Error('Failed to create file');
-      }
-
-      // 4. Create Pull Request
-      const prBody = [
-        `## 👤 New Resource Added by Owner`,
-        ``,
-        `| Field | Value |`,
-        `|-------|-------|`,
-        `| **Title** | ${title} |`,
-        `| **URL** | ${url} |`,
-        `| **Type** | ${type} |`,
-        `| **Tags** | ${tags.join(', ')} |`,
-        `| **Access** | ${access || 'unknown'} |`,
-        year ? `| **Year** | ${year} |` : '',
-        institution ? `| **Institution** | ${institution} |` : '',
-        ``,
-        `### Description`,
-        desc,
-        ``,
-        `---`,
-        `*Added via AI Research Hub frontend*`,
-      ].filter(Boolean).join('\n');
-
-      const prResp = await fetch(`${apiBase}/pulls`, {
+      // 7. Create commit directly on main
+      const newCommitResp = await fetch(`${apiBase}/git/commits`, {
         method: 'POST',
         headers,
         body: JSON.stringify({
-          title: `[Resource] ${title.slice(0, 80)}`,
-          body: prBody,
-          head: branchName,
-          base: defaultBranch,
-        }),
+          message: `➕ Add resource: ${title.slice(0, 60)}`,
+          tree: newTreeData.sha,
+          parents: [baseSha]
+        })
       });
+      const newCommitData = await newCommitResp.json();
 
-      if (!prResp.ok) {
-        throw new Error('Failed to create pull request');
-      }
+      // 8. Update the default branch ref to point to new commit
+      const updateRefResp = await fetch(`${apiBase}/git/refs/heads/${defaultBranch}`, {
+        method: 'PATCH',
+        headers,
+        body: JSON.stringify({ sha: newCommitData.sha })
+      });
+      if (!updateRefResp.ok) throw new Error('Failed to update branch ref');
 
-      const prData = await prResp.json();
+      // 9. Update local state so the new resource appears instantly
+      allResources.unshift(resource);
+      applyFilters();
+
       closeAddModal();
-      showToast(`Resource added! PR #${prData.number} created.`, 'success', 6000);
+      showToast(`Resource "${title}" added successfully!`, 'success', 6000);
 
     } catch (err) {
       console.error('Failed to add resource:', err);
       showToast(`Failed to add resource: ${err.message}`, 'error', 6000);
     } finally {
       dom.addSubmitBtn.disabled = false;
-      dom.addSubmitBtn.textContent = 'Add Resource & Create PR';
+      dom.addSubmitBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M8 3v10M3 8h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg> Add Resource';
     }
   }
 

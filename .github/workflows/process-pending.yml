@@ -1,0 +1,138 @@
+name: Process Pending Resources
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/pending/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install jsonschema
+
+      - name: Process pending resources
+        run: |
+          python3 << 'SCRIPT'
+          import json
+          import os
+          import sys
+          from pathlib import Path
+
+          DATA_DIR = Path("data")
+          PENDING_DIR = DATA_DIR / "pending"
+          RESOURCES_PATH = DATA_DIR / "resources.json"
+          SCHEMA_PATH = DATA_DIR / "schema.json"
+
+          # Load schema
+          with open(SCHEMA_PATH) as f:
+              schema = json.load(f)
+
+          # Load existing resources
+          with open(RESOURCES_PATH) as f:
+              resources = json.load(f)
+
+          existing_urls = {r["url"].rstrip("/").lower() for r in resources}
+          existing_ids = {r["id"] for r in resources}
+
+          added = []
+          skipped = []
+          errors = []
+
+          # Process each pending file
+          for pending_file in sorted(PENDING_DIR.glob("*.json")):
+              if pending_file.name == ".gitkeep":
+                  continue
+
+              try:
+                  with open(pending_file) as f:
+                      resource = json.load(f)
+
+                  # Validate against schema
+                  import jsonschema
+                  validator = jsonschema.Draft7Validator(schema)
+                  validation_errors = list(validator.iter_errors(resource))
+                  if validation_errors:
+                      errors.append(f"{pending_file.name}: Schema validation failed - {validation_errors[0].message}")
+                      continue
+
+                  # Check for duplicates (normalize URL by stripping trailing slash)
+                  normalized_url = resource["url"].rstrip("/").lower()
+                  if normalized_url in existing_urls:
+                      skipped.append(f"{pending_file.name}: Duplicate URL {resource['url']}")
+                      os.remove(pending_file)
+                      continue
+
+                  if resource["id"] in existing_ids:
+                      skipped.append(f"{pending_file.name}: Duplicate ID {resource['id']}")
+                      os.remove(pending_file)
+                      continue
+
+                  # Add to resources
+                  resources.append(resource)
+                  existing_urls.add(normalized_url)
+                  existing_ids.add(resource["id"])
+                  added.append(f"{pending_file.name}: {resource['title']}")
+
+                  # Remove pending file
+                  os.remove(pending_file)
+
+              except Exception as e:
+                  errors.append(f"{pending_file.name}: {e}")
+
+          # Summary
+          print(f"Added: {len(added)}")
+          for a in added:
+              print(f"  + {a}")
+          print(f"Skipped (duplicates): {len(skipped)}")
+          for s in skipped:
+              print(f"  ~ {s}")
+          print(f"Errors: {len(errors)}")
+          for e in errors:
+              print(f"  ! {e}")
+
+          if errors:
+              print("WARNING: Some pending files had errors and were not processed.")
+
+          # Save updated resources
+          if added:
+              with open(RESOURCES_PATH, "w") as f:
+                  json.dump(resources, f, indent=2, ensure_ascii=False)
+              print(f"Updated {RESOURCES_PATH} with {len(added)} new resources.")
+          else:
+              print("No new resources to add.")
+
+          SCRIPT
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/resources.json data/pending/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "🤖 Process pending resources into resources.json"
+            git push
+          fi
