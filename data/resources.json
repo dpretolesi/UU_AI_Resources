@@ -1,5 +1,24 @@
 [
   {
+    "id": "auto-ff20f1578f69",
+    "title": "Co-Scientist",
+    "url": "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/",
+    "type": "blog",
+    "tags": [
+      "discovery",
+      "agentic",
+      "ai",
+      "accelerate"
+    ],
+    "description": "A multi-agent system (built on Gemini) purpose-built for collaborative hypothesis generation and experimental protocol design.",
+    "added_date": "2026-08-04",
+    "added_by": "human",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "institution": "Google DeepMind"
+  },
+  {
     "id": "auto-b24601ff6361",
     "title": "AutoDiscovery",
     "url": "https://autodiscovery.allen.ai/runs",
