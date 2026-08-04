@@ -396,17 +396,18 @@ def _llm_score_borderline(
         client = genai.Client(api_key=api_key)
 
         prompt = (
-            f"You are evaluating an AI/ML resource for inclusion in a curated research hub.\n\n"
+            f"You are evaluating an AI/ML resource for inclusion in a curated research hub aimed at helping researchers and academics find useful AI resources.\n\n"
             f"Title: {title}\n"
             f"URL: {url}\n"
             f"Type: {resource_type}\n"
             f"Description: {description}\n"
             f"Current heuristic score: {current_score}/10\n\n"
             f"Rate this resource from 0-10 based on:\n"
-            f"- Educational or research value for AI/ML practitioners\n"
+            f"- Educational or research value for AI/ML practitioners and academics\n"
+            f"- Does it fit into one of these categories: Tool, Course, Tutorial, Library, Newsletter, Podcast, Blog, Paper, Video, Benchmark, or Framework?\n"
             f"- Uniqueness and quality of content\n"
             f"- Trustworthiness of the source\n"
-            f"- Practical applicability\n\n"
+            f"- Practical applicability to scientific research\n\n"
             f"Respond with ONLY a single number between 0.0 and 10.0, nothing else."
         )
 

@@ -214,7 +214,9 @@ def generate_dynamic_queries(reward_profile: dict[str, float], all_queries: list
         client = genai.Client(api_key=api_key)
 
         prompt = (
-            "You are an AI research assistant tasked with discovering high-quality machine learning, AI and GenAI resources for academics and researchers. "
+            "You are an AI research assistant. Your aim is to give researchers and academics a platform to find AI resources that might be useful to their research. "
+            "You must discover high-quality machine learning, AI, and GenAI resources that fall into one of these categories: "
+            "Tool (including products, apps, github repos), Course, Tutorial, Library, Newsletter, Podcast, Blog, Paper, Video, Benchmark, or Framework.\n"
             "Based on past successes, the user is most interested in these topics/tags:\n"
             f"{', '.join(top_tag_names)}\n\n"
         )
@@ -225,8 +227,8 @@ def generate_dynamic_queries(reward_profile: dict[str, float], all_queries: list
             )
 
         prompt += (
-            "Generate 3 highly specific, novel Google search queries to find research papers, tools, blogposts, videos, podcasts or tutorials that align with the successful topics. "
-            'Return ONLY a valid JSON list of strings. Example: ["state-of-the-art transformer NLP GitHub", "new reinforcement learning tutorials 2024"]\n'
+            "Generate 3 highly specific, novel Google search queries to find resources in the above categories that align with the successful topics. "
+            'Return ONLY a valid JSON list of strings. Example: ["state-of-the-art transformer NLP GitHub framework", "new reinforcement learning video tutorials 2024"]\n'
             "Do not include any other text."
         )
 
