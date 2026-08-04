@@ -1,5 +1,23 @@
 [
   {
+    "id": "auto-a34e3bc03180",
+    "title": "Artificial intelligence: A powerful paradigm for scientific research",
+    "url": "https://www.sciencedirect.com/science/article/pii/S2666675821001041",
+    "type": "paper",
+    "tags": [
+      "research",
+      "paper"
+    ],
+    "description": "This paper undertakes a comprehensive survey on the development and application of AI in different aspects of fundamental sciences.",
+    "added_date": "2026-07-06",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.6
+  },
+  {
     "id": "auto-ff20f1578f69",
     "title": "Co-Scientist",
     "url": "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/",

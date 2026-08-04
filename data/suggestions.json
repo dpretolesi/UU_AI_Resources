@@ -495,42 +495,6 @@
     "quality_score": 9
   },
   {
-    "id": "auto-a34e3bc03180",
-    "title": "Artificial intelligence: A powerful paradigm for scientific research",
-    "url": "https://www.sciencedirect.com/science/article/pii/S2666675821001041",
-    "type": "paper",
-    "tags": [
-      "research",
-      "paper"
-    ],
-    "description": "This paper undertakes a comprehensive survey on the development and application of AI in different aspects of fundamental sciences.",
-    "added_date": "2026-07-06",
-    "added_by": "agent",
-    "language": "en",
-    "access": "unknown",
-    "archived": false,
-    "year": 2026,
-    "quality_score": 8.6
-  },
-  {
-    "id": "auto-b7c3b11a499a",
-    "title": "Uptake of Open Access - STM Association",
-    "url": "https://stm-assoc.org/oa-dashboard/oa-dashboard-2/uptake-of-open-access",
-    "type": "paper",
-    "tags": [
-      "research",
-      "paper"
-    ],
-    "description": "In 2024, almost 1.6 million articles could have been published gold OA but were not. Eighty percent of global articles, reviews and conference papers could have been gold OA.  The number of articles for which gold OA was an option but was not selected has a CAGR of 4% over the period.   \n\n### DEFINITIONS\n\nGold represents those publications where the final published version of an article (Version of Record) is freely and permanently available online immediately on publication for anyone, anywhere to read. This includes articles in hybrid journals. See Methodology and Notes for more information. [...] The compound annual growth rate (CAGR) for all articles, reviews, and conference papers from 2014 to 2024 is 4% and the number of these has more than doubled, increasing by 53% over the decade.",
-    "added_date": "2026-07-06",
-    "added_by": "agent",
-    "language": "en",
-    "access": "unknown",
-    "archived": false,
-    "year": 2026,
-    "quality_score": 7.6
-  },
-  {
     "id": "auto-b4e2dde358f1",
     "title": "IntechOpen - Open Science Open Minds",
     "url": "https://www.intechopen.com",
@@ -548,99 +512,6 @@
     "archived": false,
     "year": 2026,
     "quality_score": 9
-  },
-  {
-    "id": "auto-b2fd05affb61",
-    "title": "Journal of Open Research Software",
-    "url": "https://openresearchsoftware.metajnl.com",
-    "type": "paper",
-    "tags": [
-      "research",
-      "open-source",
-      "paper"
-    ],
-    "description": "JORS also publishes full-length research papers that cover different aspects of creating, maintaining and evaluating open source research software. The aim of the section is to promote the dissemination of best practice and experience related to the development and maintenance of reusable, sustainable research software.\n\nWe also seek to ensure that the associated software is professionally archived, preserved, and openly available. Equally importantly, the software and the papers will be citable.\n\n## Announcements\n\n ### Call for applications for Associate Editors\n\n  Ubiquity Press calls for applications for Associate Editor positions for the Journal of Open Research Software.\n\n  Associate Editors have the primary responsibilities of: [...] Homepage image\n\nSociety Logo\n\nJournal of Open Rese",
-    "added_date": "2026-07-06",
-    "added_by": "agent",
-    "language": "en",
-    "access": "unknown",
-    "archived": false,
-    "year": 2026,
-    "quality_score": 9
-  },
-  {
-    "id": "auto-b0c20117bcd2",
-    "title": "MDPI - Publisher of Open Access Journals",
-    "url": "https://www.mdpi.com",
-    "type": "paper",
-    "tags": [
-      "research",
-      "paper"
-    ],
-    "description": "Background: Opportunistic infections remain a significant cause of morbidity among people living with HIV (PLHIV) in sub-Saharan Africa despite expanded access to antiretroviral therapy (ART). This study evaluated the association between immune status, viral load suppression, ART adherence, and the risk of opportunistic infections among HIV-positive patients receiving ART in the rural Eastern Cape, South Africa. Methods: A retrospective cross-sectional study was conducted using clinical records of HIV-positive patients attending an HIV clinic in Mthatha between January 2021 and December 2024. Demographic characteristics, CD4 counts, viral load results, ART regimens, adherence status, and documented opportunistic infections were extracted. Viral load suppression was defined according to [..",
-    "added_date": "2026-07-06",
-    "added_by": "agent",
-    "language": "en",
-    "access": "unknown",
-    "archived": false,
-    "year": 2026,
-    "quality_score": 8.15
-  },
-  {
-    "id": "auto-e453c1d5cd20",
-    "title": "Journal of Open Source Software",
-    "url": "https://joss.theoj.org",
-    "type": "paper",
-    "tags": [
-      "python",
-      "open-source",
-      "paper"
-    ],
-    "description": "published Published about 21 hours ago\n\n## MeatPy: A Python Framework for Limit Order Book Reconstruction and Analysis\n\nPython\n\n @vgreg\n\n10.21105/joss.10480\n\npublished Published about 22 hours ago\n\n## datashuttle: automated data management for experimental neuroscience\n\nPython\n\n @JoeZiminski\n\n10.21105/joss.09642\n\npublished Published 6 days ago\n\n## SpinVibe: Simulating spin-phonon coupling for molecular qubits\n\nPython Jupyter Notebook\n\n @victorchanglee\n\n10.21105/joss.09538\n\npublished Published 9 days ago\n\n## spring-batch-db-cluster-partitioning: Database-driven clustering with heartbeats and failover for Spring Batch\n\nJava\n\n @jchejarla\n\n10.21105/joss.09460\n\npublished Published 12 days ago\n\n## stylo: a lightweight nanopore assembly pipeline optimized for enteric bacteria\n\nNextflow [...] Next",
-    "added_date": "2026-07-06",
-    "added_by": "agent",
-    "language": "en",
-    "access": "unknown",
-    "archived": false,
-    "year": 2026,
-    "quality_score": 9
-  },
-  {
-    "id": "auto-0b22bc2b2802",
-    "title": "SSRN Home Page",
-    "url": "https://www.ssrn.com",
-    "type": "paper",
-    "tags": [
-      "research",
-      "paper"
-    ],
-    "description": "logoImage 1\n\n   Product & Services  \n   Subscribe\n   Submit a paper\n   Browse\n   More  \n\n\n\nCreate AccountSign In\n\n# Tomorrow's Research Today\n\nSSRN's mission is to rapidly share preprints and other early-stage research, empowering global scholars to help shape a better future. Our open research platform helps researchers solve hard problems by connecting scholars worldwide across a wide range of academic disciplines.\n\nLearn more about SSRN\n\nSearch SSRN by Title, Abstract & Keywords \n\nSearch\n\n## What we offer\n\n### Share your Research Post your research on SSRN and start getting citations and downloads for your work.\n\n### Browse the Research Find the research you need to move your work forward.\n\n### Sign up for Email alerts Get regular updates on the research topics that matter to you. [...]",
-    "added_date": "2026-07-06",
-    "added_by": "agent",
-    "language": "en",
-    "access": "unknown",
-    "archived": false,
-    "year": 2026,
-    "quality_score": 9
-  },
-  {
-    "id": "auto-e1f7caec241d",
-    "title": "Leading the future of open science publishing - PLOS",
-    "url": "https://plos.org",
-    "type": "paper",
-    "tags": [
-      "generative-ai",
-      "research",
-      "paper"
-    ],
-    "description": "PLOS logo\n\nPLOS is a non-profit organization on a mission to drive open science forward with measurable, meaningful change in research publishing, policy, and practice.\n\nBuilding on a strong legacy of pioneering innovation, PLOS continues to be a catalyst, reimagining models to meet open science principles, removing barriers and promoting inclusion in knowledge creation and sharing, and publishing research outputs that enable everyone to learn from, reuse and build upon scientific knowledge.\n\nWe believe in a better future where science is open to all, for all.\n\n# We believe in a better future where science is open to all, for all\n\n### PLOS is a non-profit organization on a mission to drive open science forward with measurable, meaningful change in research publishing, policy and practice. ",
-    "added_date": "2026-07-06",
-    "added_by": "agent",
-    "language": "en",
-    "access": "unknown",
-    "archived": false,
-    "year": 2026,
-    "quality_score": 7.55
   },
   {
     "id": "auto-ad6ee1039060",
@@ -717,23 +588,6 @@
     "archived": false,
     "year": 2026,
     "quality_score": 8
-  },
-  {
-    "id": "auto-7c5dae94ee11",
-    "title": "Accelerating scientific discovery with Co-Scientist - Nature",
-    "url": "https://www.nature.com/articles/s41586-026-10644-y",
-    "type": "tool",
-    "tags": [
-      "tool"
-    ],
-    "description": "Co-Scientist represents a promising step towards AI-assisted augmentation of scientists and acceleration of scientific discovery. Its ability to think scientifically, generate testable hypotheses across diverse scientific and biomedical domains, some supported by experimental findings, along with the capacity for recursive self-improvement with increasing compute, demonstrates the promise of meaningfully accelerating scientists’ endeavours to resolve grand challenges in human health, medicine and science. This innovation opens numerous questions and opportunities. Applying the empiric and responsible approach of science to Co-Scientist itself can thereby enable safe exploration of its undoubted potential, including how collaborative and human-centred AI systems might be able to augment [..",
-    "added_date": "2026-07-13",
-    "added_by": "agent",
-    "language": "en",
-    "access": "unknown",
-    "archived": false,
-    "year": 2026,
-    "quality_score": 10
   },
   {
     "id": "auto-70e95698f53e",
