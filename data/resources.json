@@ -3,16 +3,17 @@
     "id": "auto-fb5bdc18c76b",
     "title": "Using AI to Accelerate Scientific Discovery",
     "url": "https://www.youtube.com/watch?v=jocWJiztxYA",
-    "type": "course",
+    "type": "video",
     "tags": [
-      "rag",
-      "course"
+      "ai",
+      "science",
+      "discovery"
     ],
-    "description": "this work and other related work but specifically for drug discovery to accelerate drug discovery which we hope using computational ai methods can maybe be an order of magnitude quicker currently you know it takes an average of 10 years to go from identifying a target to a candidate drug so just to start closing then i just um you know there isn't time to go into this but it's for us it's been like a renaissance year in some sense i've been having so much fun ticking off all of the my sort of childhood dream projects uh infusion and quantum chemistry in conjectures in maths uh material science weather prediction um this has all become reality now in the last year of applying it to important problems in each of these domains and you know publishing nice uh and important work in each of [...",
+    "description": "Demis Hassabis lecture on the impact of AI on scientific discovery",
     "added_date": "2026-06-29",
     "added_by": "agent",
     "language": "en",
-    "access": "unknown",
+    "access": "free",
     "archived": false,
     "year": 2026,
     "quality_score": 8
