@@ -755,25 +755,6 @@
     "quality_score": 8
   },
   {
-    "id": "auto-b3951aad48c9",
-    "title": "Introducing Prism",
-    "url": "https://openai.com/index/introducing-prism",
-    "type": "tool",
-    "tags": [
-      "llm",
-      "research",
-      "tool"
-    ],
-    "description": "## From isolated tools to integrated workflows\n\nOver the past year, we’ve begun to see AI accelerate scientific work across domains. Advanced reasoning systems like GPT‑5 are helping push the frontiers⁠ of mathematics, accelerating the analysis⁠ of human immune-cell experiments, and speeding up experimental iteration⁠ in molecular biology.\n\nWe’re still early, but it’s clear that AI will play a meaningful role in how science advances. [...] ## Why this matters now\n\nIn 2025, AI changed software development forever. In 2026, we expect a comparable shift in science, as AI begins to meaningfully accelerate discovery in several ways, one of which is reducing friction in day-to-day research work. Prism is an early step toward that future.\n\nWe’re excited to learn from researchers using Prism today",
-    "added_date": "2026-07-13",
-    "added_by": "agent",
-    "language": "en",
-    "access": "unknown",
-    "archived": false,
-    "year": 2026,
-    "quality_score": 9.65
-  },
-  {
     "id": "auto-cc55d185390c",
     "title": "How AI Is Accelerating Scientific Discovery | Stanford HAI",
     "url": "https://hai.stanford.edu/news/how-ai-is-accelerating-scientific-discovery",
@@ -783,25 +764,6 @@
       "paper"
     ],
     "description": "Now AI is removing those barriers, giving every scientist access to computational power and tireless research support unimaginable five years ago.\n\nAI doesn’t just speed up discovery. It can facilitate collaboration across disciplines, review literature, generate hypotheses, analyze data, and validate theories. In almost every field, from bioengineering to medicine to space exploration, AI is poised to help researchers find patterns in massive datasets, run studies, and interpret results at unprecedented scales.\n\nThe technology carries risks: bias, data quality issues, inequitable access. Teams must establish guardrails to ensure models provide real scientific value and that the benefits of science AI are broadly shared. [...] Biomni pulls together hundreds of specialized tools, databases,",
-    "added_date": "2026-07-13",
-    "added_by": "agent",
-    "language": "en",
-    "access": "unknown",
-    "archived": false,
-    "year": 2026,
-    "quality_score": 9
-  },
-  {
-    "id": "auto-5a7c527e84b4",
-    "title": "Are Scientists Sacrificing Originality for Speed With the Use of AI?",
-    "url": "https://spectrum.ieee.org/ai-science-research-flattens-discovery",
-    "type": "paper",
-    "tags": [
-      "research",
-      "rag",
-      "paper"
-    ],
-    "description": "## Could the narrowing be temporary?\n\nWhether this trend persists may depend on how the next generation of AI tools is built and deployed across scientific workflows.\n\nIn a paper published last month, Bowen Zhou and his colleagues at the Shanghai Artificial Intelligence Laboratory in China argued that the application of AI in science remains fragmented, with data, computation, and hypothesis-generation tools often deployed in a siloed and task-specific fashion, limiting knowledge transfer and blunting transformative discovery. But when those elements are integrated, AI-for-science systems help expand scientific discovery, says Zhou, a machine-learning researcher who previously served as chief scientist of the IBM Watson Group. [...] That’s the conclusion of an analysis of more than 40 mill",
     "added_date": "2026-07-13",
     "added_by": "agent",
     "language": "en",
