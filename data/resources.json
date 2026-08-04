@@ -1,5 +1,23 @@
 [
   {
+    "id": "auto-1831909ba482",
+    "title": "Plotivy",
+    "url": "https://plotivy.app",
+    "type": "tool",
+    "tags": [
+      "plots",
+      "data-viz",
+      "stats"
+    ],
+    "description": "Generate journal-quality figures, perform statistical analysis, and export code that ensures your work is transparent, FAIR-compliant, and ready for publication.",
+    "added_date": "2026-08-04",
+    "added_by": "human",
+    "language": "en",
+    "access": "free",
+    "archived": false,
+    "institution": "Francesco Villasmunta"
+  },
+  {
     "id": "auto-35ed59c10c75",
     "title": "Paperguide",
     "url": "https://paperguide.ai",
