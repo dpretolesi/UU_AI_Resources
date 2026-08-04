@@ -1,5 +1,23 @@
 [
   {
+    "id": "auto-35ed59c10c75",
+    "title": "Paperguide",
+    "url": "https://paperguide.ai",
+    "type": "tool",
+    "tags": [
+      "literature",
+      "review",
+      "llm",
+      "agentic"
+    ],
+    "description": "Find, organize, and synthesize research for literature reviews, or run rigorous, auditable systematic reviews, with AI-native reference management, research agents, data extraction, and citation-grounded writing built in.",
+    "added_date": "2026-08-04",
+    "added_by": "human",
+    "language": "en",
+    "access": "freemium",
+    "archived": false
+  },
+  {
     "id": "auto-0b20fcbc3ee9",
     "title": "Ai2 Asta",
     "url": "https://asta.allen.ai",
