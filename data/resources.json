@@ -1,5 +1,21 @@
 [
   {
+    "id": "auto-34f2c397a9c6",
+    "title": "Napkin",
+    "url": "https://www.napkin.ai",
+    "type": "tool",
+    "tags": [
+      "data-viz",
+      "text-to-viz"
+    ],
+    "description": "Napkin turns text into diagrams, flowcharts, mind maps, infographics, and data charts. Write, paste, or import your content and Napkin generates visuals that make your ideas easier to understand and share.",
+    "added_date": "2026-08-04",
+    "added_by": "human",
+    "language": "en",
+    "access": "freemium",
+    "archived": false
+  },
+  {
     "id": "auto-1831909ba482",
     "title": "Plotivy",
     "url": "https://plotivy.app",
