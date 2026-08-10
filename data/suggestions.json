@@ -1763,5 +1763,387 @@
     "archived": false,
     "year": 2026,
     "quality_score": 8
+  },
+  {
+    "id": "auto-f1705e0c1978",
+    "title": "Citing Generative AI - Cite Your Sources - LibGuides at Portland State University",
+    "url": "https://guides.library.pdx.edu/cite/AI",
+    "type": "paper",
+    "tags": [
+      "generative-ai",
+      "llm",
+      "research",
+      "tutorial",
+      "paper"
+    ],
+    "description": "1. Before using content from generative AI tools like Gemini and ChatGPT in your assignments, check the course syllabus or with your professor! Each professor will have have their own policy as it relates to the use of generative AI in the course.\n2. Be prepared to document your use of AI in your assignments, such as properly citing it when using it as a source of information. Some professors might ask you to include the AI generated content as an appendix to your paper or assignment.\n3. Each discipline's professional association could issue guidance on citing generative AI in their own preferred style. Check the citing sources page on the subject guide for your discipline for any particular information that might be available. [...] 4. Verify the accuracy of AI content with lateral readin",
+    "added_date": "2026-08-10",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-f75be5bc76ab",
+    "title": "Citation and Attribution - Generative Artificial Intelligence  - LibGuides at Brown University",
+    "url": "https://libguides.brown.edu/c.php?g=1338928&p=9868287",
+    "type": "paper",
+    "tags": [
+      "nlp",
+      "generative-ai",
+      "llm",
+      "research",
+      "tutorial",
+      "paper"
+    ],
+    "description": "## APA Style\n\nWhen you cite AI-generated content using APA style, you should treat that content as the output of an algorithm, with the author of the content being the company or organization that created the model. For example, when citing ChatGPT, the author would be OpenAI, the company that created ChatGPT.\n\nHere are some guidelines for referencing AI-generated content in APA style:\n\nWhen referencing shorter passages of text, you can include that text directly in your paper. You might also include an appendix or link to an online supplement that includes the full text of long responses from a generative AI tool.\n\nFormat:\n\nAuthor. (Date). Name of tool(Version of tool) [Large language model]. URL\n\nExample:\n\nOpenAI. (2023). ChatGPT(Mar 14 version) [Large language model]. [...] Brown Univer",
+    "added_date": "2026-08-10",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-27de3533e8a9",
+    "title": "Accelerating science with AI",
+    "url": "https://www.science.org/doi/10.1126/science.aee0605",
+    "type": "tool",
+    "tags": [
+      "research",
+      "tool"
+    ],
+    "description": "Going beyond general-purpose, language-based AI, specialized models will combine the learning capabilities of AI with the physical predictive capabilities of traditional simulations, grounded in the natural laws of physics and chemistry. Crucially, these models will augment, not replace, trusted scientific models, including checkpoints to validate or correct AI-generated results against known physical models and real-world data. Coupling hybrid models with scientific agents—AI systems that autonomously coordinate some steps of research, but under human direction—promises to compress discovery timelines, as data from each AI analysis feed a self-reinforcing cycle of improvement. [...] Kemal Delic\n   Senior Fellow\n   The Open University - UK\n\nYour recent editorial Accelerating science with A",
+    "added_date": "2026-08-10",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-f04624aa1f51",
+    "title": "Towards end-to-end automation of AI research - Nature",
+    "url": "https://www.nature.com/articles/s41586-026-10265-5",
+    "type": "paper",
+    "tags": [
+      "research",
+      "benchmark",
+      "paper"
+    ],
+    "description": "## Methods\n\nOur research methodology is centred around two core automated systems: an AI scientist for generating new scientific research and an automated reviewer for rigorous evaluation. These systems work in concert to explore the potential of AI in accelerating scientific discovery.\n\n### The AI Scientist [...] paradigm shift in how research is conducted. As with any impactful new technology, there could be important risks, including taxing overwhelmed review systems and adding noise to the scientific literature. However, if developed responsibly, such autonomous systems could greatly accelerate scientific discovery. [...] ArticleADSCASPubMedGoogle Scholar\n\n9.   Langley, P. Integrated systems for computational scientific discovery. In _Proc. AAAI Conference on Artifical Intelligence_ Vo",
+    "added_date": "2026-08-10",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 10.0
+  },
+  {
+    "id": "auto-2f16f9f22616",
+    "title": "How AI is accelerating scientific discovery today and what's ahead — the OpenAI Podcast Ep. 10",
+    "url": "https://www.youtube.com/watch?v=0sNOaD9xT_4",
+    "type": "tutorial",
+    "tags": [
+      "llm",
+      "research",
+      "tutorial"
+    ],
+    "description": "# How AI is accelerating scientific discovery today and what's ahead — the OpenAI Podcast Ep. 10\n## OpenAI\n2000000 subscribers\n952 likes\n\n### Description\n37178 views\nPosted: 20 Nov 2025\nAI is beginning to change how science gets done. \n\nHead of OpenAI for Science Kevin Weil and OpenAI research scientist Alex Lupsasca talk about the early signs of acceleration researchers are seeing with GPT-5—from surfacing literature across fields and languages, to speeding up complex calculations, to designing follow-up experiments. \n\nThey unpack what’s possible today, what doesn’t work yet, and why the next few years could reshape the trajectory of scientific progress across physics, math, biology and beyond. [...] So you're running the Open AI for Science Initiative. Andrew Mayne: Could you explain wha",
+    "added_date": "2026-08-10",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-ef1f17fd6484",
+    "title": "Open Pedagogy - Open Educational Resources and Open Textbooks - Library Guides at University of Washington Libraries",
+    "url": "https://guides.lib.uw.edu/oer/openpedagogy",
+    "type": "course",
+    "tags": [
+      "tutorial",
+      "open-source",
+      "course"
+    ],
+    "description": "StoryMapJS is a free tool that allows you to create a story highlighting the locations of a series of events. You can tell stories with images and add text and other content within your map locations.\n GitBook This link opens in a new window  \n\n  Created by GitHub, GitBooks is an Open source tool created by GitHub that allows you to create a textbook that is hosted in a GitHub repository. You can create your content in Markdown or embed rich, multimedia content. Free for open source projects.\n Open Pedagogy Resources This link opens in a new window  \n\n  “Open Pedagogy Resources” by Cheryl (Cuillier) Casey is under a CC BY 4.0 International license.\n\n## Resources for Designing Open Pedagogy Assignments\n\n    The Open Pedagogy Student Toolkit   by   Jamie Witman [...] The term “open” has been",
+    "added_date": "2026-08-10",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-64b48842e3d3",
+    "title": "The Role of GitHub in Open Source Research and as a pedagogical tool in enhancing education\n\t\t\t\t\t\t\t| Library Progress International",
+    "url": "https://bpasjournals.com/library-science/index.php/journal/article/view/3753",
+    "type": "paper",
+    "tags": [
+      "generative-ai",
+      "research",
+      "open-source",
+      "rag",
+      "paper"
+    ],
+    "description": "Open-source software refers to a development model where the source code is freely accessible to the public and distributed under open-source licenses. It enables anyone to view, use, modify, and distribute the code. Research on open-source encompasses all phases of the process, including data, methods, software, results, and publications, all of which are made publicly available and accessible. GitHub is one of the largest collaborative platforms for hosting open-source projects, allowing developers, researchers, and organizations to manage, contribute to, and host projects, encouraging collaborative innovation.GitHub has as a powerful tool in education due to Its collaborative features and openness which make it ideal for active learning, and preparing students for real-world [...] for a",
+    "added_date": "2026-08-10",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-139ffde13c96",
+    "title": "GitHub for Academics: the open-source way to host, create and curate knowledge - LSE Impact",
+    "url": "https://blogs.lse.ac.uk/impactofsocialsciences/2013/06/04/github-for-academics",
+    "type": "paper",
+    "tags": [
+      "research",
+      "open-source",
+      "paper"
+    ],
+    "description": "If you are the only user working on a project from a single computer, once you’ve cloned the initial project, all you need is git add, git commit, and git push. It’s quite simple. But Git and GitHub also allow for far more involved and collaborative work.\n\nSo slap an open license on that syllabus, that assignment, that article draft, that grad school seminar paper, that primer you wrote for your students that you wish was in the textbook, and push it to GitHub! Then fork someone else’s project, make it better, and send them a pull request. Push, pull, fork — the open-source way to create and curate human knowledge.\n\nThis was originally published at Hybrid Pedagogy and is reposted with permission. [...] krisshaffer\n\nOne of the chief goals of liberal education is the creation and curation of",
+    "added_date": "2026-08-10",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "Blog Admin"
+    ],
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-e65c93067320",
+    "title": "Push, Pull, Fork: GitHub for Academics",
+    "url": "https://hybridpedagogy.org/push-pull-fork-github-for-academics",
+    "type": "course",
+    "tags": [
+      "open-source",
+      "course"
+    ],
+    "description": "Hybrid Pedagogy\n\nIn his article, “Open-source Scholarship”, Kris Shaffer argues that the open-source software model has lessons to offer the academic community. Here, Kris demonstrates how a scholar can put open-source philosophy into practice using a specific tool developed by and for the community: GitHub. [...] One of the chief goals of liberal education is the creation and curation of human knowledge. As I discussed in my previous article, this necessarily involves critiquing and building on the work of others, and doing so publicly and accessibly. How can we as a community of scholars facilitate this work? How can a scholar or pedagogue make an article, an assignment, a syllabus, a book, a database, or a website available for others in a manner that makes it easy for another to rework",
+    "added_date": "2026-08-10",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-ba7ae8857fe7",
+    "title": "[PDF] Teaching Tip Rethinking How We Teach Git: Pedagogical ...",
+    "url": "https://jise.org/Volume36/n1/JISE2025v36n1pp1-12.pdf",
+    "type": "paper",
+    "tags": [
+      "open-source",
+      "paper"
+    ],
+    "description": "teaching Git add a novel approach to IS pedagogy theory, as they challenge the traditional assumption that technical complexity requires educators to introduce contents in a particular order. Instead, we envision more effective educational strategies that are engaging and allow students to better absorb technical material. A potential implication is the possibility of expanding this approach to other areas within IS, including facets of DevOps, open-source development and rapid prototyping. By doing so, follow-up work may reinforce efforts to ground teaching of Git and other Journal of Information Systems Education, 36(1), 1-12, Winter 2025  10 software engineering topics in pedagogical theory to foster deeper understanding and better learning outcomes. Teaching resources in the IS [...] m",
+    "added_date": "2026-08-10",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-d6d0347d17bb",
+    "title": "edtech · GitHub Topics · GitHub",
+    "url": "https://github.com/topics/edtech",
+    "type": "course",
+    "tags": [
+      "generative-ai",
+      "open-source",
+      "course"
+    ],
+    "description": "Plataforma gratuita e open-source de ensino de programação\n\nvue nuxt edtech turborepo clerk\n\n Updated Apr 21, 2024\n Vue\n\n### GarethManning / education-agent-skills\n\nStar  583\n\n165 evidence-grounded AI skills for teachers, school leaders and EdTech builders—pedagogy, learning science, curriculum, assessment and regeneration. Claude, Codex and Hermes.\n\neducation edtech adaptive-learning pedagogy curriculum-design inclusive-design retrieval-practice open-educational-resources intelligent-tutoring-system project-based-learning systems-thinking ai-education prompt-engineering ai-literacy regenerative-education agentic-workflow learning-science competency-based-education evidence-based-education historical-thinking\n\n Updated Aug 4, 2026\n TypeScript\n\n### tsugiproject / tsugi\n\nStar  371 [...] ### ",
+    "added_date": "2026-08-10",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-364b3202b05d",
+    "title": "education-ai · GitHub Topics · GitHub",
+    "url": "https://github.com/topics/education-ai",
+    "type": "course",
+    "tags": [
+      "llm",
+      "python",
+      "open-source",
+      "course"
+    ],
+    "description": "### JuneYaooo / lineage-skill\n\nStar  402\n\nDistill videos, PDFs, transcripts, and notes into source-backed teacher Agent Skills.\n\nskills knowledge-distillation knowledge-management teacher knowledge-distillation-task education-ai okf course-distillation okf-format teach-skills\n\n Updated Jul 23, 2026\n Python\n\n### SirhanMacx / Claw-ED\n\nStar  54\n\nOpen source CLI agent that generates complete lesson bundles in your teaching voice. 48+ tools, zero-touch 9-file output, local-first privacy.\n\npython open-source education ai curriculum teaching edtech pedagogy k12 teaching-assistant open-source-education lesson-generator curriculum-generator llm education-ai lesson-planning ai-lesson-planner openclaw teacher-ai ai-for-teachers\n\n Updated Jun 20, 2026\n TypeScript\n\n### DaoyuanLi2816 / labelbank",
+    "added_date": "2026-08-10",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-b96a1021de02",
+    "title": "Open Source Resources - OSPO – Syracuse University",
+    "url": "https://opensource.syracuse.edu/open-source-resources",
+    "type": "tutorial",
+    "tags": [
+      "generative-ai",
+      "research",
+      "tutorial",
+      "open-source"
+    ],
+    "description": "Best Practices for Scientific Computing: A summary of best practices for writing code for your research published in PLoS Biology.\n Framework for Open and Reproducible Research Training: Provides a pedagogical infrastructure & didactic resources designed to recognize and support the teaching and mentoring of open and reproducible science.\n The Turing Way: A handbook to reproducible, ethical and collaborative data science.\n Archetypes for Research OSS Projects: A framework and guidelines for the many ways of doing OSS in science, assembled by the Chan Zuckerberg Initiative.\n Syracuse University on GitHub: Enterprise GitHub account for Syracuse University. Use this link to request access to the GitHub Organization.",
+    "added_date": "2026-08-10",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-3fed712786d0",
+    "title": "Bashar Gulumbe - The academic research tools for 2024...",
+    "url": "https://www.facebook.com/MrBasharGulumbe/posts/the-academic-research-tools-for-2024-provide-researchers-with-a-structured-and-e/122169880868053141",
+    "type": "paper",
+    "tags": [
+      "llm",
+      "research",
+      "paper"
+    ],
+    "description": "## Bashar Gulumbe's post\n\n### Bashar Gulumbe\n\n29 October 2024  ·\n\nThe academic research tools for 2024 provide researchers with a structured and efficient approach across various stages of the research process.\n\nHere’s a quick summary of these tools categorized by their functions:\n\nLiterature Search:\n\nInnovative platforms like Elicit, Connected Papers, and Research Rabbit facilitate extensive literature exploration, aiding researchers in identifying and analyzing relevant studies and research trends.\n\nWriting Assistants:\n\nAI-driven tools like ChatGPT, WordTune, and Bard assist in drafting and refining papers, while grammar and paraphrasing tools, such as Quillbot, PaperPal, and Grammarly, enhance clarity and precision.\n\nCitations: [...] Citations:\n\nReference management tools, including Zot",
+    "added_date": "2026-08-10",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.5
+  },
+  {
+    "id": "auto-8b1d607a5340",
+    "title": "[PDF] Proceedings of the 7th International Conference on Tourism ...",
+    "url": "https://papers.academic-conferences.org/index.php/ictr/issue/download/29/98",
+    "type": "paper",
+    "tags": [
+      "research",
+      "paper"
+    ],
+    "description": "2024 includes academic research papers, PhD research papers, Masters Research papers and work-in-progress papers, which have been presented and discussed at the conference. The proceedings are of an academic level appropriate to a professional research audience, including graduates, postgraduates, doctoral and post-doctoral researchers. All papers have been double-blind peer reviewed by members of the Review Committee. Topics Covered The call for papers for the ICTR conference asked for contributions that considered the following topics. In addition, the committee welcomed papers on a number of specialist mini-tracks which can be seen at the end of this list. Tourism Management and Marketing • strategies and practices involved in managing and marketing tourism destinations and businesses [",
+    "added_date": "2026-08-10",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-e780de7e5d68",
+    "title": "Comprehensive review of academic search systems: evolution, analysis, and future research directions - Social Network Analysis and Mining",
+    "url": "https://link.springer.com/article/10.1007/s13278-025-01476-1",
+    "type": "paper",
+    "tags": [
+      "research",
+      "paper"
+    ],
+    "description": "133.   Subashree S, Mahalakshmi P, Pushpa G, Senthilkumar S, Saranya E (2024) A study on efficiency of bio medical data extraction from pubmed dataset using elastic search engine. In: 2024 2nd international conference on self sustainable artificial intelligence systems (ICSSAS). IEEE, pp 1261–1265\n\n134.   Ullah I, Khusro S, Ahmad I (2021) Improving social book search using structure semantics, bibliographic descriptions and social metadata. Multimed Tools Appl 80(4):5131–5172\n\nArticleGoogle Scholar\n\n135.   Upadhyay P, Bedathur S, Chakraborty T, Ramanath M (2020) Aspect-based academic search using domain-specific kb. Adv Inf Retr 12036:418\n\nGoogle Scholar [...] To ensure the inclusion of contemporary and relevant studies, the review was limited to articles published from January 2014 to Jul",
+    "added_date": "2026-08-10",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-f79b99aa2296",
+    "title": "OCC Solicits Research on Artificial Intelligence in Banking and Finance | OCC",
+    "url": "https://www.occ.gov/news-issuances/news-releases/2024/nr-occ-2024-115.html",
+    "type": "paper",
+    "tags": [
+      "research",
+      "paper"
+    ],
+    "description": "OCC Flag\n\nAn official website of the United States government\n\nBanknet quick access\n\nOCC logo - search\nOCC logo - mobile\nclose\nU.S. flag\n\nAn official website of the United States government\n\nNews Release 2024-115\n|\nOctober 7, 2024\n\n# OCC Solicits Research on Artificial Intelligence in Banking and Finance\n\nShare This Page:\n\nWASHINGTON—The Office of the Comptroller of the Currency (OCC) is soliciting academic research papers on the use of artificial intelligence in banking and finance for submission by December 15, 2024.",
+    "added_date": "2026-08-10",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-ad4352b5d111",
+    "title": "[PDF] Call for Papers 2024 Federal Reserve Stress Testing Research ...",
+    "url": "https://www.bostonfed.org/-/media/Documents/events/2024/FR-STRC/Call_for_Papers_2024.pdf",
+    "type": "paper",
+    "tags": [
+      "research",
+      "paper"
+    ],
+    "description": "Page 1 of 2 Call for Papers 2024 Federal Reserve Stress Testing Research Conference The conference will be held in a hybrid format, at the Federal Reserve Bank of Boston as well as online, on October 10 and 11, 2024 Paper Submission Deadline: Friday, June 14, 2024 The Federal Reserve invites researchers to submit academic research papers to be considered for presentation at a conference on the topic of stress testing. The conference will provide a forum for researchers in academic and policy institutions to discuss important topics, methods, and challenges related to stress testing for financial institutions and the financial system. Background Since the financial crisis, stress testing has become a key tool for evaluating the resilience of financial institutions and the financial system. ",
+    "added_date": "2026-08-10",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-8b700038dbd9",
+    "title": "Vying for Quantum Supremacy: U.S.-China Competition in Quantum Technologies | U.S.- CHINA | ECONOMIC and SECURITY REVIEW COMMISSION",
+    "url": "https://www.uscc.gov/research/vying-quantum-supremacy-us-china-competition-quantum-technologies",
+    "type": "paper",
+    "tags": [
+      "paper"
+    ],
+    "description": "(#_ednref14) “Explore Quantum – Quantum Error Correction.” Microsoft.  Qubit,”QuEra.\n\n(#_ednref15) “Quantum Science and Engineering,” Harvard University Graduate School of Arts and Sciences.  \n\n(#_ednref16) Josh Schneider and Ian Smalley, “What Isis a QPU (Quantum Processing Unit)?” IBM. \n\n(#_ednref17) Antonia Hmaidi and Jeroen Groenewegen-Lau, “China’s Long View of Quantum Tech Hashas the US and EU Playing Catch-up,” MERICS, December 12, 2024.  \n\n(#_ednref18) Harmut Neven, “Meet Willow, Our State-of-the-Art Quantum Chip,” Google, December 9, 2024. \n\n(#_ednref19) “Quantum Versus Classical Computing and the Quantum Threat,” Quantropi.  computing-and-the-quantum-threat/. [...] (#_ednref65)Matt Swayne, “China Introduces 504-Qubit Superconducting Chip,” Quantum Insider, December 6, 2024.  Hoda",
+    "added_date": "2026-08-10",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-ac7b1babf79c",
+    "title": "Ali Alsinayyid, WVSU College of Business, Sciences, and Technology",
+    "url": "https://wvstateu.edu/college-of-business-sciences-and-technology/author/ali-alsinayyid",
+    "type": "paper",
+    "tags": [
+      "research",
+      "paper"
+    ],
+    "description": "Attended the 2023 IEEE CPS International Conference on Computational Science and Computational Intelligence (CSCI’23) – Cyber Warfare – December 13-15, 2023 in Las Vegas, where 3 Grad students their research papers. IEEE Publications.\n Attended the 2024 Springer CPS International Conference on Computational Science and Computational Intelligence (CSCI’24) – Cybersecurity and AI – December 11-13, 2024 in Las Vegas, where 5 Grad students presented their research papers. Publications\n Attended 2024 Springer CPS  International Conference of Leadership, Business, and Management (ICLBM)  – Cybersecurity in Business –  December 14-16, 2024 in San Francisco, where 9 papers were accepted and 5 students presented their research papers. [...] Publisher / DOI\n\n   Publisher year: 2026\n\n#### 2024\n\n1. Ad",
+    "added_date": "2026-08-10",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
   }
 ]
