@@ -36,6 +36,11 @@
       "url": "https://openai.com/index/introducing-prism",
       "reason": "Rejected via Admin UI",
       "date": "2026-08-04"
+    },
+    {
+      "url": "https://www.uscc.gov/research/vying-quantum-supremacy-us-china-competition-quantum-technologies",
+      "reason": "Rejected via Admin UI",
+      "date": "2026-08-12"
     }
   ]
 }

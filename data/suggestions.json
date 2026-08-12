@@ -1783,7 +1783,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-f75be5bc76ab",
@@ -1805,7 +1805,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-27de3533e8a9",
@@ -1842,7 +1842,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 10.0
+    "quality_score": 10
   },
   {
     "id": "auto-2f16f9f22616",
@@ -1861,7 +1861,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-ef1f17fd6484",
@@ -1880,7 +1880,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-64b48842e3d3",
@@ -1901,7 +1901,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 8.0
+    "quality_score": 8
   },
   {
     "id": "auto-139ffde13c96",
@@ -1923,7 +1923,7 @@
       "Blog Admin"
     ],
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-e65c93067320",
@@ -2018,7 +2018,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-3fed712786d0",
@@ -2055,7 +2055,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-e780de7e5d68",
@@ -2073,7 +2073,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-f79b99aa2296",
@@ -2091,7 +2091,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-ad4352b5d111",
@@ -2109,24 +2109,7 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
-  },
-  {
-    "id": "auto-8b700038dbd9",
-    "title": "Vying for Quantum Supremacy: U.S.-China Competition in Quantum Technologies | U.S.- CHINA | ECONOMIC and SECURITY REVIEW COMMISSION",
-    "url": "https://www.uscc.gov/research/vying-quantum-supremacy-us-china-competition-quantum-technologies",
-    "type": "paper",
-    "tags": [
-      "paper"
-    ],
-    "description": "(#_ednref14) “Explore Quantum – Quantum Error Correction.” Microsoft.  Qubit,”QuEra.\n\n(#_ednref15) “Quantum Science and Engineering,” Harvard University Graduate School of Arts and Sciences.  \n\n(#_ednref16) Josh Schneider and Ian Smalley, “What Isis a QPU (Quantum Processing Unit)?” IBM. \n\n(#_ednref17) Antonia Hmaidi and Jeroen Groenewegen-Lau, “China’s Long View of Quantum Tech Hashas the US and EU Playing Catch-up,” MERICS, December 12, 2024.  \n\n(#_ednref18) Harmut Neven, “Meet Willow, Our State-of-the-Art Quantum Chip,” Google, December 9, 2024. \n\n(#_ednref19) “Quantum Versus Classical Computing and the Quantum Threat,” Quantropi.  computing-and-the-quantum-threat/. [...] (#_ednref65)Matt Swayne, “China Introduces 504-Qubit Superconducting Chip,” Quantum Insider, December 6, 2024.  Hoda",
-    "added_date": "2026-08-10",
-    "added_by": "agent",
-    "language": "en",
-    "access": "unknown",
-    "archived": false,
-    "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   },
   {
     "id": "auto-ac7b1babf79c",
@@ -2144,6 +2127,6 @@
     "access": "unknown",
     "archived": false,
     "year": 2026,
-    "quality_score": 9.0
+    "quality_score": 9
   }
 ]
