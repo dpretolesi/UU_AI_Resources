@@ -2128,5 +2128,411 @@
     "archived": false,
     "year": 2026,
     "quality_score": 9
+  },
+  {
+    "id": "auto-db5a7ec4517f",
+    "title": "Accelerating scientific discovery with AI | Brain and Cognitive Sciences",
+    "url": "https://bcs.mit.edu/news/accelerating-scientific-discovery-ai",
+    "type": "paper",
+    "tags": [
+      "research",
+      "paper"
+    ],
+    "description": "Now, the philanthropically funded research lab FutureHouse is seeking to accelerate scientific research with an AI platform designed to automate many of the critical steps on the path toward scientific progress. The platform is made up of a series of AI agents specialized for tasks including information retrieval, information synthesis, chemical synthesis design, and data analysis.\n\nFutureHouse founders Sam Rodriques PhD ’19 and Andrew White believe that by giving every scientist access to their AI agents, they can break through the biggest bottlenecks in science and help solve some of humanity’s most pressing problems. [...] MIT\n\n# News\n\n# Accelerating scientific discovery with AI\n\nby\n\nZach Winn | MIT News\n\nImage\n\nAccelerating scientific discovery with AI\n\nFutureHouse seeks to accelerate ",
+    "added_date": "2026-08-17",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 10.0
+  },
+  {
+    "id": "auto-7c5dae94ee11",
+    "title": "Accelerating scientific discovery with Co-Scientist - Nature",
+    "url": "https://www.nature.com/articles/s41586-026-10644-y",
+    "type": "tool",
+    "tags": [
+      "tool"
+    ],
+    "description": "Co-Scientist represents a promising step towards AI-assisted augmentation of scientists and acceleration of scientific discovery. Its ability to think scientifically, generate testable hypotheses across diverse scientific and biomedical domains, some supported by experimental findings, along with the capacity for recursive self-improvement with increasing compute, demonstrates the promise of meaningfully accelerating scientists’ endeavours to resolve grand challenges in human health, medicine and science. This innovation opens numerous questions and opportunities. Applying the empiric and responsible approach of science to Co-Scientist itself can thereby enable safe exploration of its undoubted potential, including how collaborative and human-centred AI systems might be able to augment [..",
+    "added_date": "2026-08-17",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 10.0
+  },
+  {
+    "id": "auto-e9b3d7dabaf4",
+    "title": "How AI is Accelerating Discovery",
+    "url": "https://www.youtube.com/watch?v=GzE5jjSYuk0",
+    "type": "video",
+    "tags": [
+      "machine-learning",
+      "generative-ai",
+      "research",
+      "video"
+    ],
+    "description": "# How AI is Accelerating Discovery\n## Texas Science\n6610 subscribers\n3 likes\n\n### Description\n229 views\nPosted: 1 Aug 2024\nResearchers in fields as diverse as astronomy, chemistry, neuroscience, biotechnology and public health are now using AI tools to look for patterns in their data, write code, find and summarize existing scientific literature, and even design experiments. Someday, scientific discoveries might even be made entirely by AI. [...] We sat down with two guests for a bird’s eye view of how AI tools and approaches are boosting scientific discovery. Adam Klivans ( is a professor of computer science and the director of the Machine Learning Lab ( (MLL), which is a kind of umbrella organization for interdisciplinary AI research across the university. He also co-leads the Institute ",
+    "added_date": "2026-08-17",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-535c69ee98c6",
+    "title": "A Systematic Survey of Prompt Engineering in Large Language Models: Techniques and Applications",
+    "url": "https://arxiv.org/abs/2402.07927",
+    "type": "paper",
+    "tags": [
+      "nlp",
+      "llm",
+      "research",
+      "paper"
+    ],
+    "description": "Skip to main content \n\n Submitted on 5 Feb 2024 ([v1), last revised 16 Mar 2025 (this version, v2)]\n\n# Title:A Systematic Survey of Prompt Engineering in Large Language Models: Techniques and Applications\n\nAuthors:Pranab Sahoo, Ayush Kumar Singh, Sriparna Saha, Vinija Jain, Samrat Mondal, Aman Chadha\n\nView a PDF of the paper titled A Systematic Survey of Prompt Engineering in Large Language Models: Techniques and Applications, by Pranab Sahoo and 5 other authors [...] Comments:12 pages, 2 figures\nSubjects:Artificial Intelligence (cs.AI); Computation and Language (cs.CL); Human-Computer Interaction (cs.HC)\nCite as:arXiv:2402.07927 [cs.AI]\n(or arXiv:2402.07927v2 [cs.AI] for this version)\n\nFocus to learn more\n\n arXiv-issued DOI via DataCite\n\n## Submission history\n\n From: Pranab Sahoo [view em",
+    "added_date": "2026-08-17",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 10.0
+  },
+  {
+    "id": "auto-984128727bf6",
+    "title": "Introduction to Artificial Intelligence Prompt Engineering | DARIAH-Campus",
+    "url": "https://campus.dariah.eu/resources/hosted/introduction-to-ai",
+    "type": "tool",
+    "tags": [
+      "tool"
+    ],
+    "description": "## Cite as\n\nEmily Genatowski (2024). Introduction to Artificial Intelligence Prompt Engineering. Version 1.0.0. DARIAH Campus [Training module]. \n\n## Reuse conditions\n\nResources hosted on DARIAH-Campus are subjects to the DARIAH-Campus Training Materials Reuse Charter.\n\n## Full metadata\n\nTitle:\n:   Introduction to Artificial Intelligence Prompt Engineering\n\nAuthors:\n:   Emily Genatowski\n\nDomain:\n:   Social Sciences and Humanities\n\nLanguage:\n:   English\n\nPublished to DARIAH-Campus:\n:   11/09/2024\n\nContent type:\n:   Training module\n\nLicense:\n:   CC BY 4.0\n\nSources:\n:   DARIAH\n\nTopics:\n:   Artificial Intelligence\n\nVersion:\n:   1.0.0\n\nPID:\n:",
+    "added_date": "2026-08-17",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-c183310a8dfc",
+    "title": "GitHub - promptslab/Awesome-Prompt-Engineering: This repository contains a hand-curated resources for Prompt Engineering with a focus on Generative Pre-trained Transformer (GPT), ChatGPT, PaLM etc",
+    "url": "https://github.com/promptslab/awesome-prompt-engineering",
+    "type": "paper",
+    "tags": [
+      "transformers",
+      "generative-ai",
+      "llm",
+      "open-source",
+      "neural-networks",
+      "paper"
+    ],
+    "description": "## Books\n\n📖\n\n### Prompt Engineering\n\n| Title | Author(s) | Publisher | Year |\n ---  --- |\n| Prompt Engineering for LLMs | John Berryman & Albert Ziegler | O'Reilly | 2024 |\n| Prompt Engineering for Generative AI | James Phoenix & Mike Taylor | O'Reilly | 2024 |\n| Prompt Engineering for LLMs | Thomas R. Caldwell | Independent | 2025 |\n\n### LLM Application Development [...] Andrej Karpathy: \"Deep Dive into LLMs\" & \"How I Use LLMs\" [2024–2025] — Two of the most influential AI videos of 2024–2025. Comprehensive technical deep dive followed by practical usage patterns.\n Karpathy: \"Software in the Era of AI\" (YC AI Startup School)  — Coined \"vibe coding\" (Feb 2025) and championed \"context engineering\" (Jun 2025).\n Karpathy: Neural Networks: Zero to Hero [2023–2024] — Full lecture series building",
+    "added_date": "2026-08-17",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-2c012b455520",
+    "title": "ISPOR - Prompt Engineering for the Use of Generative Artificial Intelligence (AI) in Health Economic Modeling: Findings From a Targeted Literature Review",
+    "url": "https://www.ispor.org/heor-resources/presentations-database/presentation/euro2024-4014/143170",
+    "type": "paper",
+    "tags": [
+      "nlp",
+      "generative-ai",
+      "llm",
+      "research",
+      "paper"
+    ],
+    "description": "<div><p><b>OBJECTIVES: </b>As large language models (LLMs) are increasingly employed across research settings, including health economics and outcomes research (HEOR), effective prompt engineering techniques are needed to optimize LLM performance. A targeted literature search was conducted to identify prompt engineering methods and understand applications of generative artificial intelligence (AI) to health economic modeling.</p> <p><b>METHODS: </b>Targeted literature searches were conducted using the arXiv database (through 6/14/2024) to identify the types of prompt engineering methods 1) available for research and 2) used in health economic model development. Additional studies were identified through citation searching.</p> <p><b>RESULTS: </b>The searches identified 13 relevant papers. ",
+    "added_date": "2026-08-17",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-3bf7c1b90d77",
+    "title": "PromptEng 2024",
+    "url": "https://prompteng-ws.github.io/2024",
+    "type": "paper",
+    "tags": [
+      "generative-ai",
+      "rag",
+      "paper"
+    ],
+    "description": "### Accepted Articles\n\n Automatic design summary generation with generative AI by Daisuke Ikoma, Eisuke Aoki, Shinya Suzuki, Tomoki Taniguchi and Tomoko Ohkuma\n English Prompts are Better for NLI-based Zero-Shot Emotion Classification than Target-Language Prompts by Patrick Barreiß, Roman Klinger and Jeremy Barnes\n Data Augmentation for Smishing Detection: A Theory-based Prompt Engineering Approach by Ho Sung Shim, Hyoungjun Park, Kyuhan Lee, Jang-sun Park and Seonhye Kang\n Prompt-Eng: Healthcare Prompt Engineering: Revolutionizing Healthcare Applications with Precision Prompts by Awais Ahmed, Mengshu Hou, Rui Xi, Xiaoyang Zeng and Syed Attique Shah\n Dynamic Contexts for Generating Suggestion Questions in RAG Based Conversational Systems by Anuja Tayal and Aman Tyagi\n\n### Agenda [...] 1. R",
+    "added_date": "2026-08-17",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-94207dccab8f",
+    "title": "Prompt engineering in higher education: a systematic review to help inform curricula - International Journal of Educational Technology in Higher Education",
+    "url": "https://link.springer.com/article/10.1186/s41239-025-00503-7",
+    "type": "paper",
+    "tags": [
+      "generative-ai",
+      "research",
+      "tutorial",
+      "paper"
+    ],
+    "description": "Prompt engineering is an evolving skillset that should be taught to students (Aaron et al., 2024. Optimizing AI in higher education: SUNY FACT2 guide (2nd ed.). State university of New York press. \n                  \n                  \n                \"); Zawacki-Richter, 2024. New advances in artificial intelligence applications in higher education? International Journal of Educational Technology in Higher Education, 21, 32. \n                  \n                  \n                \")). However, as it is “still in its infancy” (Ali et al., 2023. Supporting self-directed learning and self-assessment using TeacherGAIA, a generative AI chatbot application: Learning approaches and prompt engineering. Learning: Research and Practice, 9(2), 135–214. [...] Knoth, N., Tolzin, A., Janson, A., & Leime",
+    "added_date": "2026-08-17",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-1ad66b6889bf",
+    "title": "Papers | Prompt Engineering Guide",
+    "url": "https://www.promptingguide.ai/papers",
+    "type": "paper",
+    "tags": [
+      "nlp",
+      "llm",
+      "research",
+      "tutorial",
+      "benchmark",
+      "fine-tuning",
+      "paper"
+    ],
+    "description": "The Prompt Report: A Systematic Survey of Prompting Techniques (opens in a new tab) (June 2024)\n Prompt Design and Engineering: Introduction and Advanced Methods (opens in a new tab) (January 2024)\n A Survey on Hallucination in Large Language Models: Principles,Taxonomy, Challenges, and Open Questions (opens in a new tab) (November 2023)\n An RL Perspective on RLHF, Prompting, and Beyond (opens in a new tab) (October 2023)\n Few-shot Fine-tuning vs. In-context Learning: A Fair Comparison and Evaluation (opens in a new tab) (May 2023)\n Jailbreaking ChatGPT via Prompt Engineering: An Empirical Study (opens in a new tab) (May 2023)\n Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond (opens in a new tab) (April 2023) [...] Enhancing Zero-Shot Chain-of-Thought Reasoning in L",
+    "added_date": "2026-08-17",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-ac5b43940d20",
+    "title": "Extracting accurate materials data from research papers with conversational language models and prompt engineering | Nature Communications",
+    "url": "https://www.nature.com/articles/s41467-024-45914-8",
+    "type": "paper",
+    "tags": [
+      "nlp",
+      "generative-ai",
+      "research",
+      "paper"
+    ],
+    "description": "Reprints and permissions\n\n## About this article\n\nCheck for updates. Verify currency and authenticity via CrossMark\n\n### Cite this article\n\nPolak, M.P., Morgan, D. Extracting accurate materials data from research papers with conversational language models and prompt engineering.\nNat Commun 15, 1569 (2024). \n\nDownload citation\n\n Received:\n Accepted:\n Published:\n Version of record:\n DOI: \n\n### Share this article\n\nAnyone you share the following link with will be able to read this content:\n\nSorry, a shareable link is not currently available for this article.\n\nProvided by the Springer Nature SharedIt content-sharing initiative\n\n### Subjects\n\n Theory and computation\n Databases [...] Skip to main content\n\nDownload PDF\n\n Article\n Open access\n Published:\n\n# Extracting accurate materials data from re",
+    "added_date": "2026-08-17",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 10.0
+  },
+  {
+    "id": "auto-7de40b8af9bc",
+    "title": "Prompt Frameworks - Prompt Engineering for Academic Research - LibGuides at New York Institute of Technology",
+    "url": "https://libguides.nyit.edu/promptengineering/promptframeworks",
+    "type": "tutorial",
+    "tags": [
+      "research",
+      "tutorial"
+    ],
+    "description": "Why it's effective: CARE provides a balanced structure, ensuring prompts are clear, specific, and actionable while incorporating examples to guide the AI’s response.\n Best Use Case: Ideal for tasks where clear guidance and contextual framing are crucial, such as user experience design, technical documentation, or precise task delegation.\n Example: \"Context: You are an AI assistant for a medical research lab. Ask: Provide a summary of the latest treatments for osteoarthritis. Rules: Keep the language simple, under 300 words. Examples: Past treatments included NSAIDs and physical therapy.\"\n\nMoran, K. (2024, May 24). CARE: Structure for crafting AI prompts. Nielsen Norman Group. \n\n## The \"CLEAR\" Framework (Clarity, Logic, Evidence, Action, Results)",
+    "added_date": "2026-08-17",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-0efcd911c18c",
+    "title": "Prompt engineering for generative artificial intelligence chatbots in health research: A practical guide for traditional, complementary, and integrative medicine researchers",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12766412",
+    "type": "paper",
+    "tags": [
+      "generative-ai",
+      "llm",
+      "research",
+      "tutorial",
+      "rag",
+      "paper"
+    ],
+    "description": "29.Kasani P.H., Cho K.H., Jang J.W., Yun C.H.. Influence of artificial intelligence and chatbots on research integrity and publication ethics. _Sci Ed_. 2024. 11:12-25.  [Google Scholar]\n   30.Dwivedi Y.K., Kshetri N., Hughes L., Slade E.L., Jeyaraj A., Kar A.K., Baabdullah A.M., Koohang A., Raghavan V., Ahuja M., Albanna H.. Opinion paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research, practice and policy. _Int J Inf Manag_. 2023. 71: [Google Scholar]\n   31.International Business Machines. What is prompt engineering? IBM Website.  Published 2025. Accessed June 25, 2025. [Google Scholar] [...] 105.Reddy S.. Generative AI in healthcare: an implementation science informed translational ",
+    "added_date": "2026-08-17",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.5
+  },
+  {
+    "id": "auto-94d80e84dc89",
+    "title": "Python Machine Learning Tutorial (Data Science)",
+    "url": "https://www.youtube.com/watch?v=7eh4d6sabA0",
+    "type": "course",
+    "tags": [
+      "machine-learning",
+      "python",
+      "tutorial",
+      "course"
+    ],
+    "description": "[Music] if you're looking for a machine learning tutorial with python and jupyter notebook this tutorial is for you you're going to learn how to solve a real world problem using machine learning and python we're going to start off with a brief introduction to machine learning then we're going to talk about the tools you need and after that we're going to jump straight into the problem we're going to solve you'll learn how to build a model that can learn and predict the kind of music people like so by the end of this one hour tutorial you will have a good understanding of machine learning basics and you'll be able to learn more intermediate to advanced level concepts you don't need any prior knowledge in machine learning but you need to know python fairly well if you don't i've got a [...] ",
+    "added_date": "2026-08-17",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.0
+  },
+  {
+    "id": "auto-2ec0333b2930",
+    "title": "Machine Learning with Python Full Course [2026] | Machine Learning - Beginner to Advanced | Edureka",
+    "url": "https://www.youtube.com/watch?v=1fcfZ_Ne8ok",
+    "type": "course",
+    "tags": [
+      "machine-learning",
+      "python",
+      "benchmark",
+      "course"
+    ],
+    "description": "🎓 Welcome to the complete Machine Learning with Python full course — absolutely free and beginner-friendly! In this in-depth course, you'll learn everything you need to get started with machine learning using Python, from the foundational concepts to advanced algorithms and real-world applications. We'll begin with a quick Python refresher and gradually move into core ML topics like supervised and unsupervised learning, model training and evaluation, data preprocessing, feature engineering, and more. You’ll work with popular Python libraries such as NumPy, Pandas, Matplotlib, Seaborn, and Scikit-learn, and by the end of the course, you’ll have hands-on experience building, testing, and even deploying machine learning models. Whether you're a student, a developer looking to pivot into [...]",
+    "added_date": "2026-08-17",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-b942ceadc390",
+    "title": "Machine Learning Full Course 2026 | Machine Learning Tutorial | Machine Learning Roadmap | Edureka",
+    "url": "https://www.youtube.com/watch?v=5oDhKQ4tHbI",
+    "type": "course",
+    "tags": [
+      "machine-learning",
+      "research",
+      "tutorial",
+      "course"
+    ],
+    "description": "models and hidden marker models. You need to have a firm understanding of probability and stats to understand these models. Just go nuts and study measure theory. And next we have advanced signal processing techniques. Now feature extraction is one of the most important parts of machine learning. Different types of problems need various solutions. You may be able to utilize really cool advanced signal processing algorithms such as wavelets, sharlets, curvelets and bandlets. You need to learn about the time frequency analysis and try to apply it in your problems. Now this skill will give you an edge over all the other skills. Now this skill will give you an edge while you're applying for a machine learning engineer job over others. Now next we have applied maths. A lot of machine learning [",
+    "added_date": "2026-08-17",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-6cd93fa0b8a6",
+    "title": "Best Advanced Machine Learning Courses & Certificates [2026] | Coursera",
+    "url": "https://www.coursera.org/courses?query=machine+learning&productDifficultyLevel=Advanced",
+    "type": "course",
+    "tags": [
+      "machine-learning",
+      "nlp",
+      "reinforcement-learning",
+      "pytorch",
+      "tensorflow",
+      "benchmark",
+      "neural-networks",
+      "course"
+    ],
+    "description": "Browse\n Machine Learning\n\n## Advanced Machine Learning Courses\n\nAdvanced Machine Learning courses can help you learn neural networks, natural language processing, and reinforcement learning techniques. You can build skills in hyperparameter tuning, model evaluation, and data preprocessing. Many courses introduce tools like TensorFlow, PyTorch, and Scikit-learn, that support implementing and optimizing machine learning models in practical applications.\n\n## Popular Advanced Machine Learning Courses and Certifications\n\n  Status: Free Trial\n\n  Free Trial\n\n  D\n\n  Duke University\n\n  ### MLOps | Machine Learning Operations [...] The original Supervised Machine Learning: Regression and Classification course is great if you want a deep, math-focused understanding of ML algorithms and don’t mind usi",
+    "added_date": "2026-08-17",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-9bdb224e6ac5",
+    "title": "Advanced Machine Learning with Python: 9781784398637: Computer Science Books @ Amazon.com",
+    "url": "https://www.amazon.com/Advanced-Machine-Learning-Python-Hearty/dp/1784398632",
+    "type": "tutorial",
+    "tags": [
+      "deep-learning",
+      "machine-learning",
+      "nlp",
+      "computer-vision",
+      "python",
+      "tutorial"
+    ],
+    "description": "This book is designed to take the reader on a guided tour of the most relevant and powerful machine learning techniques. Clear descriptions of how techniques work and detailed code examples demonstrate deep learning techniques, semi-supervised learning and more, in real world applications. We will also learn about NumPy and Theano.\n\nBy this end of this book, you will learn a set of advanced Machine Learning techniques and acquire a broad set of powerful skills in the area of feature selection & feature engineering.\n\nWhat you will learn\n\nWho this book is for: [...] The machine learning techniques covered in this book are at the forefront of commercial practice. They are applicable now for the first time in contexts such as image recognition, NLP and web search, computational creativity, and",
+    "added_date": "2026-08-17",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-354e86f07ff1",
+    "title": "Deep Learning Tutorial for Beginners [2026] | igmGuru",
+    "url": "https://www.igmguru.com/blog/deep-learning-tutorial",
+    "type": "tutorial",
+    "tags": [
+      "deep-learning",
+      "machine-learning",
+      "nlp",
+      "computer-vision",
+      "tutorial",
+      "rag",
+      "neural-networks"
+    ],
+    "description": "Q6. Is deep learning hard for beginners?\n\nWelcome to the ultimate guide on Deep Learning! This tutorial is designed to take you from core concepts to building your first model. Deep Learning (DL) is an advanced subset of Machine Learning (ML) that leverages multi-layered artificial neural networks (ANNs) to process complex data and extract insights. These powerful algorithms are the backbone of modern AI, continuously improving to provide superior outcomes in fields like computer vision and NLP. Ready to dive in? [...] The advancements in Big Data and high-performance hardware like GPUs (Graphics Processing Units) enable the successful training of these complex, layered networks. Computers can now automatically understand and respond to complex events, such as translating languages in real",
+    "added_date": "2026-08-17",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-4bc7e778e70c",
+    "title": "How to learn Machine Learning like a GENIUS and not waste time",
+    "url": "https://www.youtube.com/watch?v=_hdUddANh_o",
+    "type": "course",
+    "tags": [
+      "machine-learning",
+      "python",
+      "tutorial",
+      "course"
+    ],
+    "description": "there. And again,\nyou just want to be super comfortable with the basics before we move on to\nanything more advanced. Now, if at this point you're convinced that you do\nwant to learn machine learning, but you want to do it\nwithout wasting months stitching together random tutorials,\nthen I really recommend Datacamp. They have partnered\nwith them for this video, and that's\nbecause I've used Datacamp for years to level up my own python\nand machine learning skills. And what I like\nmost about it is how hands on it is. Now you're not just watching lectures,\nyou're learning by doing so. You're writing code in your browser, getting instant feedback, and building\nreal projects as you go. Now, if you want to complete curriculum\nthat's focused on the model development side, the best place to start [..",
+    "added_date": "2026-08-17",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
   }
 ]
