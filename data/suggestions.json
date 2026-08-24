@@ -2534,5 +2534,377 @@
     "archived": false,
     "year": 2026,
     "quality_score": 8.0
+  },
+  {
+    "id": "auto-66deecab99ab",
+    "title": "AI Generated Content - APA - Referencing Guide - Help and Support at Murdoch University",
+    "url": "https://libguides.murdoch.edu.au/APA/generativeAI",
+    "type": "paper",
+    "tags": [
+      "generative-ai",
+      "research",
+      "tutorial",
+      "paper"
+    ],
+    "description": "# APA - Referencing Guide. ## AI Generated Content. * In Text Citation Toggle Dropdown;). * Reference List Entries Toggle Dropdown;). + Reports: Government Agencies and Other Organisations. ## Information. Guidelines for citing generative AI have been given in the **APA Style Blog.**. **•**When AI is used in research or assignment preparation it must be properly credited both in-text and in the reference list. **•**If you use an AI tool in any way to help with your research or assignment, disclose how you used it in the introduction or method section. This includes using AI for editing or grammar enhancement purposes. **•**In your text, provide the prompt used and any relevant text that was generated in response. **•**It is recommended that the full AI conversation be made retrievable by i",
+    "added_date": "2026-08-24",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-2d70515edff1",
+    "title": "Referencing generative AI - IEEE Referencing - Subject and Research Guides at Macquarie University",
+    "url": "https://libguides.mq.edu.au/IEEE_referencing/generativeAI",
+    "type": "tutorial",
+    "tags": [
+      "generative-ai",
+      "research",
+      "tutorial"
+    ],
+    "description": "Title: Referencing generative AI - IEEE Referencing - Subject and Research Guides at Macquarie University\n## How to reference generative artificial intelligence (AI). At present, there is no official guidance from IEEE on how to cite AI-generated content. However, the IEEE author guidelines state that use of AI-generated content in an article submitted to the IEEE should be disclosed in the acknowledgements section, specifying the system used and the sections containing the content. Students using AI-generated output (text, images or other content) in an assignment may wish to include a reference to the AI tool in their reference list. Based on feedback from staff and students at MQ, Macquarie University Library recommends referencing the AI as software. In response to a prompt \"*prompt te",
+    "added_date": "2026-08-24",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-3b76c3428b74",
+    "title": "Artificial intelligence in scientific discovery: Challenges and opportunities: Artificial Intelligence in Science",
+    "url": "https://www.oecd.org/en/publications/artificial-intelligence-in-science_a8d820bd-en/full-report/artificial-intelligence-in-scientific-discovery-challenges-and-opportunities_4faa388a.html",
+    "type": "tool",
+    "tags": [
+      "nlp",
+      "research",
+      "tool"
+    ],
+    "description": "5.   Elicit: Language models as research tools \n           Introduction\n           What are language models?\n           Language models as research assistants today\n           Language models as research assistants in the medium-term future\n           Conclusion\n           References\n           Note\n\n    6.   Democratising artificial intelligence to accelerate scientific discovery \n           Introduction\n           Democratising AI through automation\n           Building a collective AI memory\n           Learning across scientific problems\n           The road ahead\n           Conclusion\n           References\n\n    7.   Is there a narrowing of AI research? \n           Introduction\n           The current state of play\n           Conclusion\n           References\n           Notes [...] 5.   Fro",
+    "added_date": "2026-08-24",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-2f4397b74aa9",
+    "title": "AI for Scientific Discovery | Professional Education",
+    "url": "https://professional.mit.edu/aisd",
+    "type": "tool",
+    "tags": [
+      "nlp",
+      "transformers",
+      "generative-ai",
+      "llm",
+      "research",
+      "neural-networks",
+      "optimization",
+      "tool"
+    ],
+    "description": "Learning Outcomes\n\n•    Gain a strong foundation in AI techniques, including neural networks, transformers, and generative models, with a focus on their applications in scientific research  \n•    Acquire hands-on experience with tools and methods such as predictive modeling, large language models, and Bayesian optimization for planning and conducting experiments  \n•    Explore practical applications of AI in areas like molecular discovery, materials science, and other scientific disciplines  \n•    Learn to effectively integrate AI tools into scientific workflows to accelerate innovation and enhance R&D efficiency  \n•    Understand and address ethical considerations in AI research, including issues of transparency, bias, and reproducibility [...] AI for Scientific Discovery is particularly ",
+    "added_date": "2026-08-24",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 10.0
+  },
+  {
+    "id": "auto-f44884f241da",
+    "title": "Academic Search Complete: Advanced Searching",
+    "url": "https://www.youtube.com/watch?v=bsUMDbKzHYM",
+    "type": "tutorial",
+    "tags": [
+      "research",
+      "tutorial"
+    ],
+    "description": "This tutorial demonstrates advanced search techniques in Academic Search Complete, one of the library's multidisciplinary research databases.",
+    "added_date": "2026-08-24",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-747540a9bf08",
+    "title": "Tutorial: Advanced Options, Refined Searches & Helpful Tools in Academic Databases / Web of Science",
+    "url": "https://www.youtube.com/watch?v=F32qmeaBXbg",
+    "type": "tutorial",
+    "tags": [
+      "tutorial"
+    ],
+    "description": "# Tutorial: Advanced Options, Refined Searches & Helpful Tools in Academic Databases / Web of Science\n## Rüdiger Hahn\n881 subscribers\n18 likes\n\n### Description\n1711 views\nPosted: 18 Oct 2023\nThis tutorial helps you to improve your search results in academic literature databases using the example of the Web of Science database. It gives insights into the questions of:\n- How to further refine your search results?\n- How to use some helpful tools and features of the database?\nIt helps you to arrive at improved search results for your academic literature search using the Web of Science as exemplary literature database. [...] welcome to this video here on academic literature database searches in this video I'm going to show you how to use some of the um Advanced options to refine your searches i",
+    "added_date": "2026-08-24",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-a97f35f94aaf",
+    "title": "Tutorial: Search Strategies & Boolean Operators in Academic Databases / Web of Science",
+    "url": "https://www.youtube.com/watch?v=gcN2R8E_kgQ",
+    "type": "course",
+    "tags": [
+      "tutorial",
+      "course"
+    ],
+    "description": "so what I'm going to do here is I'm going to use the web of science database the web of science is one of the most important databases for academic for published academic knowledge knowled out there um there are others as well that are also um really good databases um but the the general approach is similar in many of these databases so I'm going to use this uh web of science database here basically as a role model so let's get started um what I'm usually going to do always is I'm using this advanced search option here because this is much more powerful it gives you much more options to to actually optimize your search to arrive uh at an ideal search result so let's start here with the advanced search query Builder here um and then assume that I'm I'm I'm a management scholar I'm [...] # T",
+    "added_date": "2026-08-24",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-487abbbff3a5",
+    "title": "A-Z Databases",
+    "url": "https://libguides.coastmountaincollege.ca/az.php",
+    "type": "tutorial",
+    "tags": [
+      "tutorial"
+    ],
+    "description": "Title: A-Z Databases\nAcademic Search Complete *This link opens in a new window*. Basic Searching Tutorial | Advanced Searching Tutorial | Citing Articles Tutorial | Finding APA Style Citations in EBSCOhost | Persistent Links FAQs | Searching with Boolean Operators | My EBSCOhost Folder. Business Source Complete *This link opens in a new window*. Tutorial | Citing Articles Tutorial | Finding APA Style Citations in EBSCOhost | Persistent Links FAQs | Searching with Boolean Operators | My EBSCOhost Folder. Canadian Business & Current Affairs *This link opens in a new window*. CINAHL Complete *This link opens in a new window*. Basic Searching Tutorial | Advanced Searching Tutorial | CINAHL/MeSH Headings Tutorial | Citing Articles Tutorial | Finding APA Style Citations in EBSCOhost | Persistent",
+    "added_date": "2026-08-24",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-5c496b6749a5",
+    "title": "Tutorial: Search Strategies & Boolean Operators in Academic Databases / Web of Science",
+    "url": "https://www.youtube.com/watch?v=gcN2R8E_kgQ&pp=ygUPI3N0cmF0w6lnaWVzd2Vi",
+    "type": "tutorial",
+    "tags": [
+      "tutorial"
+    ],
+    "description": " Hahn\n771 subscribers\n112 likes\n9739 views\n18 Oct 2023\nThis tutorial helps you to improve your search results in academic literature databases using the example of the Web of Science database. It gives insights into the questions of:\n- How to optimize your search?\n- How to use and combine Boolean Operators?\n- How to use different search options?\nIt helps you to arrive at improved search results for your academic literature search using the Web of Science as exemplary literature database.\n6 comments\n",
+    "added_date": "2026-08-24",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-32d92b772dab",
+    "title": "Tutorial: Search Strategies & Boolean Operators in Academic Databases / Web of Science",
+    "url": "https://m.youtube.com/watch?v=gcN2R8E_kgQ",
+    "type": "tutorial",
+    "tags": [
+      "tutorial"
+    ],
+    "description": " Hahn\n759 subscribers\n106 likes\n9442 views\n18 Oct 2023\nThis tutorial helps you to improve your search results in academic literature databases using the example of the Web of Science database. It gives insights into the questions of:\n- How to optimize your search?\n- How to use and combine Boolean Operators?\n- How to use different search options?\nIt helps you to arrive at improved search results for your academic literature search using the Web of Science as exemplary literature database.\n6 comments\n",
+    "added_date": "2026-08-24",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-1b1e57a1b29e",
+    "title": "When Should You Use Advanced Search Techniques? , Use Boolean Operators to Control Your Search, Use Quotation Marks for Exact Phrases , Use Brackets to Group Terms, Try These Examples by Subject , Add",
+    "url": "https://intranet.abertay.ac.uk/students/study-skills/guides/researching/searching/boolean-search",
+    "type": "paper",
+    "tags": [
+      "tutorial",
+      "paper"
+    ],
+    "description": "Learn how to use Boolean logic and advanced search tools to build structured, precise, and effective academic database searches for high-level work., This page builds on the  guide. It focuses on how to search more effectively using advanced techniques like Boolean operators, phrase searching, proximity, and field-specific tools.\nThese strategies are especially useful when searching large academic databases or when you’re struggling to find relevant sources., Not every task needs advanced techniques. But they’re worth using when:\n\n\nYou get too many irrelevant results\n\n\nYou can’t find enough sources\n\n\nYou’re searching in a large or complex database\n\n\nYou need to show a structured, repeatable search strategy\n\n\nYou’re doing a dissertation, literature review, or PGR-level work\n\n, Boolean opera",
+    "added_date": "2026-08-24",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-8e5fd7adc7d0",
+    "title": "Advanced Tips for Database Searching – Graduate Student Research Institute",
+    "url": "https://sites.uw.edu/libid/foundational-research-concepts/advanced-tips-for-database-searching",
+    "type": "paper",
+    "tags": [
+      "research",
+      "tutorial",
+      "paper"
+    ],
+    "description": "The same search using the Advanced Search option in Academic Search Complete with the peer-reviewed, document type and language limits:\n\nPrevious Page\n\nNext Page\n\nSkip to toolbar\n\n Log In [...] Skip to content\n\nUniversity of Washington University of Washington\n\n UW Libraries\n UW Libraries Search\n\nGraduate Student Research Institute\n\n# Advanced Tips for Database Searching\n\n> I have really enjoyed learning how to do searches properly to get the information I need for research projects.\n\nPhD Student Nursing\n\nSearching a library database is all about combining keywords (search terms) in a way that the database can understand and that will retrieve the most relevant results. The combination of keywords is called a search statement. Keep in mind that a search statement that is fantastic in one d",
+    "added_date": "2026-08-24",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-e61244863f54",
+    "title": "Academic Search Premier - Database Tutorials - Wolfgram Subject Guides at Widener University",
+    "url": "https://widener.libguides.com/database-tutorials/asp",
+    "type": "tutorial",
+    "tags": [
+      "tutorial"
+    ],
+    "description": "## Keyword Searching\n\n### Follow these steps to search this database:\n\nIn the following example we used the keywords college students AND mental health\n\nAcademic Search Preimier advanced search page\n\nAcademic Search Preimier advanced search page\n\n## The Results List\n\n### From the results page you can:\n\nAcademic Search Premier search results list\n\nAcademic Search Premier search results list\n\n## Article Detail\n\n### The Detailed Record\n\nPDF documents are digital versions of the original print version and will look exactly the same as the print version. They include the following:\n\nAccessing the electronic versions of articles through our online databases, offers you additional features and functionality that is not available in print. The detailed record includes the following: [...] Wolfgram",
+    "added_date": "2026-08-24",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-3be3555a1d9f",
+    "title": "CALL FOR PAPERS – JOURNAL OF PEDAGOGY No. 1 / 2024 - Revista de Pedagogie",
+    "url": "https://revped.ise.ro/en/call-for-papers-no-1-2024",
+    "type": "paper",
+    "tags": [
+      "research",
+      "benchmark",
+      "paper"
+    ],
+    "description": "Title: CALL FOR PAPERS – JOURNAL OF PEDAGOGY No. 1 / 2024 - Revista de Pedagogie\n# CALL FOR PAPERS – JOURNAL OF PEDAGOGY No. 1 / 2024. REVSTA de PEDAGOGIE – JOURNAL of PEDAGOGY. National Center for Policy and Evaluation in Education – Research Unit. Journal of Pedagogy (Revista de Pedagogie) is an academic journal mainly oriented towards scientific activity in the field of education, promoting relevant theoretical, methodological and empirical analyses connected to this area:. * theoretical approaches in education (for example, fundamental research, educational policy analysis, European benchmarks, comparative research, feasibility studies);. * research results, intervention models, case studies and best practices in education;. * results of relevant projects for the education system;. * r",
+    "added_date": "2026-08-24",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "cornelio"
+    ],
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-63e127c43f45",
+    "title": "Call for Papers | Pedagogy into Practice 2024 | Lipscomb University",
+    "url": "https://digitalcollections.lipscomb.edu/jmtp_pip/cfp.html",
+    "type": "paper",
+    "tags": [
+      "research",
+      "paper"
+    ],
+    "description": "Title: Call for Papers | Pedagogy into Practice 2024 | Lipscomb University\nPedagogy into Practice 2024   Lipscomb University. # Pedagogy into Practice: Teaching Music Theory in the Twenty-First Century. University of Oklahoma, Norman, OK, May 30 – June 1, 2024. The Program Committee, in partnership with the Center and the Editorial Board of the *Journal of Music Theory Pedagogy*, invites proposals for research papers, posters, panels, and other formats listed below. Proposals may relate to any aspect of music theory pedagogy. The conference will provide a forum for all who wish to share ideas about teaching music theory. **Student presenters please note**: The best student paper/presentation will be awarded an honorarium and publication in the *Journal of Music Theory Pedagogy*. Upload pro",
+    "added_date": "2026-08-24",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-f9cf5e53a850",
+    "title": "Science Pedagogy Research Papers - Academia.edu",
+    "url": "https://www.academia.edu/Documents/in/Science_Pedagogy",
+    "type": "paper",
+    "tags": [
+      "research",
+      "paper"
+    ],
+    "description": "Title: Science Pedagogy Research Papers - Academia.edu\nScience pedagogy is the study and practice of teaching science, focusing on effective instructional strategies, curriculum development, and assessment methods to enhance student understanding and engagement in scientific concepts and processes. Science pedagogy is the study and practice of teaching science, focusing on effective instructional strategies, curriculum development, and assessment methods to enhance student understanding and engagement in scientific concepts and processes. It stresses the need for teacher understanding of the purpose of science education beyond content delivery, incorporating students’ interests and lifeworlds. The primary goal of the symposium is to promote research and developmental activities in Science ",
+    "added_date": "2026-08-24",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-9be636586dab",
+    "title": "New Media Pedagogy: Research Trends, Methodological Challenges, and Successful Implementations",
+    "url": "https://link.springer.com/book/10.1007/978-3-031-95627-0",
+    "type": "paper",
+    "tags": [
+      "research",
+      "paper"
+    ],
+    "description": "## Bibliographic Information\n\n   Book Title: New Media Pedagogy: Research Trends, Methodological Challenges, and Successful Implementations\n\n   Book Subtitle: Third International Conference, NMP 2024, Kraków, Poland, November 28–29, 2024, Revised Selected Papers\n\n   Editors: Łukasz Tomczyk\n\n   Series Title: Communications in Computer and Information Science\n\n   DOI: \n\n   Publisher: Springer Cham\n\n   eBook Packages: Education, Education (R0), Springer Nature Proceedings excluding Computer Science\n\n   Copyright Information: The Editor(s) (if applicable) and The Author(s), under exclusive license to Springer Nature Switzerland AG 2025\n\n   Softcover ISBN: 978-3-031-95626-3 Published: 29 June 2025\n\n   eBook ISBN: 978-3-031-95627-0 Published: 28 June 2025\n\n   Series ISSN:  1865-0929 [...] Buy So",
+    "added_date": "2026-08-24",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-d918e52c6e3c",
+    "title": "Participatory Pedagogy Research Papers - Academia.edu",
+    "url": "https://www.academia.edu/Documents/in/Participatory_Pedagogy",
+    "type": "paper",
+    "tags": [
+      "research",
+      "paper"
+    ],
+    "description": "Title: Participatory Pedagogy Research Papers - Academia.edu\n# Participatory Pedagogy. How can participatory action research (PAR) reshape pedagogical practice and empower learner engagement? This theme investigates the integration of Participatory Action Research (PAR) into pedagogical frameworks, focusing on how PAR challenges traditional hierarchies in education by involving learners as co-creators in the knowledge production process. Understanding PAR's role in pedagogy is critical because it offers methods to democratize education, enhance learner agency, and produce actionable knowledge that connects intellectual inquiry with social and personal flourishing. 2023, Journal of Participatory Research Methods. What roles do student voice and participatory design play in fostering democra",
+    "added_date": "2026-08-24",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-07a081975bb2",
+    "title": "Feminist Perspectives in Leadership Pedagogy: Research Guide & Papers | Education, Leadership, and Health Research | PapersFlow",
+    "url": "https://papersflow.ai/research/topics/education-leadership-and-health-research/feminist-perspectives-in-leadership-pedagogy",
+    "type": "paper",
+    "tags": [
+      "research",
+      "tutorial",
+      "paper"
+    ],
+    "description": "### Recent Advances\n\nStudy Orsini & Sunderman (2024) scoping review (9 citations) and Zulu (2022) on Black women identities (5 citations) for identity intersections.\n\n### Core Methods\n\nQualitative research (Schurink, 2003), scoping reviews (Orsini & Sunderman, 2024), narrative and case studies (Zulu, 2022; MacLaren, 2015).\n\n## How PapersFlow Helps You Research Feminist Perspectives in Leadership Pedagogy\n\n### Discover & Search\n\nResearch Agent uses searchPapers and exaSearch to find feminist leadership papers like 'Leadership identity development...intersection of marginalized social identities' by Orsini & Sunderman (2024), then citationGraph reveals connections to Zulu (2022) and Smyth (2005). findSimilarPapers expands to South African qualitative studies (Schurink, 2003). [...] ### Margi",
+    "added_date": "2026-08-24",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-be5c30edb403",
+    "title": "Innovating Pedagogy 2024: new forms of teaching, learning and assessment, to guide educators and policy makers\n | Institute of Educational Technology, The Open University",
+    "url": "https://iet.open.ac.uk/innovating-pedagogy/exploring-new-forms-of-teaching-learning-assessment",
+    "type": "tool",
+    "tags": [
+      "research",
+      "tutorial",
+      "tool"
+    ],
+    "description": "The Innovating Pedagogy reports are developed for the use of teachers, policy makers, academics, students, researchers, educational technology designers,",
+    "added_date": "2026-08-24",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
   }
 ]
