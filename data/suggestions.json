@@ -2906,5 +2906,401 @@
     "archived": false,
     "year": 2026,
     "quality_score": 7.5
+  },
+  {
+    "id": "auto-9bd7bb92571f",
+    "title": "Citing Generative AI with APA",
+    "url": "https://www.youtube.com/watch?v=Cg5yC76fBp0",
+    "type": "paper",
+    "tags": [
+      "generative-ai",
+      "llm",
+      "research",
+      "tutorial",
+      "paper"
+    ],
+    "description": "Today we're going to tackle a new and important topic. How to properly site content from generative AI tools like Chat GPT or Gemini using APA style guide. When you use information from a generative AI model, you need to site it in the body of your paper, just like any other source. For intex citations, you'll include the author, which is the company that created the model, and the year the content was generated. For example, a paraphrase sentence might look like this. The use of generative AI in academic writing is becoming more common. Open AI 2023. If you're using a direct quote, you'll still use the same format. Since there are no page numbers, you can't include a specific location. At the end of your paper, you need a full entry in your reference list. It's a specific format that [...",
+    "added_date": "2026-08-31",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-289642894369",
+    "title": "Citing Generative AI - Academic Writing and Citation - Library and Academic Services at RRC Polytech",
+    "url": "https://library.rrc.ca/academic_writing/Citing_Generative_AI",
+    "type": "course",
+    "tags": [
+      "generative-ai",
+      "tutorial",
+      "course"
+    ],
+    "description": "Title: Citing Generative AI - Academic Writing and Citation - Library and Academic Services at RRC Polytech\n# Academic Writing and Citation: Citing Generative AI. This guide provides time-tested strategies on becoming comfortable with the writing process, resources on citation styles, and information on how to avoid plagiarism. As Generative AI continues to evolve, the way we cite information from these tools will change as well. As always, please ask your instructor or look up the information about Generative AI use in your course outline. ## Citing Generative AI. Below are some resources to help you cite GenAI tools. Brown University's guide offers basic information about AI tools and making choices about using them in academic work. * How do I cite generative AI in MLA style? * Citing g",
+    "added_date": "2026-08-31",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-60810c9b5cbf",
+    "title": "Generative AI in Academic Writing: Citation Styles - Editverse",
+    "url": "https://editverse.com/how-to-cite-generative-ai-in-academic-writing-apa-mla-and-chicago",
+    "type": "paper",
+    "tags": [
+      "nlp",
+      "generative-ai",
+      "llm",
+      "research",
+      "tutorial",
+      "paper"
+    ],
+    "description": "How to Cite Generative AI in Academic Writing: APA, MLA and Chicago “Technological advances always hold the promise of transforming our understanding and practice.” – Ray Kurzweil. This idea is especially true for academic writing, where generative AI is changing how we cite sources. Generative AI in Academic Writing: Citation Styles In the rapidly evolving landscape of academic writing, Generative AI is emerging as a powerful tool for researchers, offering new possibilities in managing and generating citations. What is Generative AI in Citation Management? Generative AI in citation management refers to the use of artificial intelligence algorithms to automatically generate, format, and manage citations and bibliographies in academic writing. Citing AI Language Models: The ChatGPT Example ",
+    "added_date": "2026-08-31",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "Expert"
+    ],
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-6987c2699e19",
+    "title": "Citation Guidelines - AI in Academic Research - Guides at Stanford University",
+    "url": "https://guides.library.stanford.edu/ai_research/citation_guidelines",
+    "type": "paper",
+    "tags": [
+      "generative-ai",
+      "llm",
+      "research",
+      "tutorial",
+      "paper"
+    ],
+    "description": "#### MLA (Modern Language Association)\n\n\"How do I cite generative AI in MLA style?\" You should \"cite a generative AI tool whenever you paraphrase, quote, or incorporate into your own work any content (whether text, image, data, or other) that was created by it\" and \"acknowledge all functional uses of the tool (like editing your prose or translating words) in a note, your text, or another suitable location.\"\n\n> “Describe the symbolism of the green light in the book The Great Gatsby by F. Scott Fitzgerald” prompt. ChatGPT, 13 Feb. version, OpenAI, 8 Mar. 2023, chat.openai.com/chat.\n\n#### IEEE (Institute of Electrical and Electronics Engineers) [...] #### Chicago Manual of Style\n\n14.112: CITING AI-GENERATED CONTENT: Authors who have relied on content generated by a chatbot or similar AI tool ",
+    "added_date": "2026-08-31",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-87c0d400b1ae",
+    "title": "Generative AI - Harvard Style Guide - LibGuides at UCD Library",
+    "url": "https://libguides.ucd.ie/harvardstyle/harvardgenAI",
+    "type": "tutorial",
+    "tags": [
+      "generative-ai",
+      "tutorial"
+    ],
+    "description": "## Introduction to Citing Generative AI\n\nThis citation and referencing advice should be used only when your module coordinator or School allows the use of AI tools in the creation of academic assignments. If you have used an AI tool in the creation of an assignment, you must acknowledge this use and cite and reference the tool appropriately to ensure you are adhering to UCD's Academic Integrity Policy (see the Student Conduct website for this policy).\n\nAdvice about citing and referencing AI tools is constantly evolving, and this guide updated on 24 March 2025, will continue to be updated as further information becomes available.\n\nFor the purposes of this guidance, generative AI is defined as per Article 3(1) of the EU AI Act: [...] ###### References:\n\nEU AI Act, (2024), Chapter1, Article 3",
+    "added_date": "2026-08-31",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-cc946cde8b7b",
+    "title": "How to Cite Generative AI in Academic Writing: APA, MLA, Chicago, IEEE, Turabian, and AMA - Educational Articles For Researchers, Students And Authors - Editage Blog",
+    "url": "https://www.editage.com/blog/how-to-cite-generative-ai-in-academic-writing-apa-mla-chicago-ieee-turabian-and-ama",
+    "type": "tutorial",
+    "tags": [
+      "generative-ai",
+      "research",
+      "tutorial"
+    ],
+    "description": "Key Takeaways: Most major styles, including APA, Chicago, and Turabian, treat the AI developer, such as OpenAI or Google, as the author of AI generated content. MLA does not treat the AI tool as an author at all; it cites the tool as a source with no author, using a description of the prompt as […]",
+    "added_date": "2026-08-31",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "Marisha Rodrigues"
+    ],
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-30266c42891f",
+    "title": "AI for Scientific Research and Discovery | OpenAI",
+    "url": "https://openai.com/science",
+    "type": "paper",
+    "tags": [
+      "llm",
+      "research",
+      "paper"
+    ],
+    "description": "# Accelerating scientific discovery\n\nOur most advanced AI helps researchers explore new ideas, connect evidence, analyze data, and move from questions to answers faster across mathematics, physics, biology, chemistry, and beyond.\n\n### Pushing the frontiers of theoretical and applied science\n\nWe believe AI should help every researcher make new discoveries. That’s why we work alongside the scientific community to see how our models can contribute to meaningful scientific problems.\n\nGeometry > ArtCard > Polynomial Construction\n\n## Mathematics: Disproving a longstanding conjecture\n\nResearch\n\nnew result theoretical physics > card image\n\n## Physics: Finding a new result in particle theory\n\nResearch\n\nA near-autonomous AI chemist improves a challenging reaction [...] ### ChatGPT & ChatGPT Work\n\nBr",
+    "added_date": "2026-08-31",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 10.0
+  },
+  {
+    "id": "auto-d452bb64fe36",
+    "title": "Custom LLM Training - Clearly Local",
+    "url": "https://www.clearlyloc.com/llm-training-services",
+    "type": "tool",
+    "tags": [
+      "nlp",
+      "llm",
+      "optimization",
+      "tool"
+    ],
+    "description": "Title: Custom LLM Training - Clearly Local\n# Custom LLM Training. # Enhance LLM (Large Language Model) Performance with Custom Data. ## Tailored LLM Training for Diverse Business Needs. Fine-tuned models generate highly specialized and personalized outputs, resulting in more useful and engaging content. Ensure that generated content is specifically aligned with your goals and tailored to your industry. ## Our LLM Training & Optimization Services. ##### Custom LLM Training. **Tailored for Your Industry:** We train LLMs using data tailored to your industry, ensuring that generated outputs—whether content, translations, or other applications—are perfectly aligned with your goals. **Scalable Solutions:** Our LLM training evolves with your business, adapting to new trends and expanding market d",
+    "added_date": "2026-08-31",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-4e342268a24f",
+    "title": "Local LLM Workshop - DataNorth AI",
+    "url": "https://datanorth.ai/service/training-workshop/local-llm-training-workshop",
+    "type": "tool",
+    "tags": [
+      "llm",
+      "research",
+      "tool"
+    ],
+    "description": "# Local LLM Training & Workshop. ## Content of our Local LLM Training & Workshop. This workshop empowers professionals and teams to harness the capabilities of local LLMs for smarter, faster, and more efficient automation in research and discovery processes. ### Introduction to Artificial Intelligence and Local LLMs. Explore the basics of AI and local LLMs, including its history and various types, alongside the technological impact, benefits, and challenges. Our AI experts interview participants to gain insight into their specific opportunities and challenges, and adjust the workshop accordingly. Meet Chris, he’s an AI Expert at DataNorth and one of our trainers that give in-company workshops about Artificial Intelligence. Besides giving workshops, our Experts build and implement the most ",
+    "added_date": "2026-08-31",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-1b614f7d658f",
+    "title": "Guide to Local LLMs",
+    "url": "https://scrapfly.io/blog/posts/guide-to-local-llm",
+    "type": "tutorial",
+    "tags": [
+      "llm",
+      "python",
+      "tutorial",
+      "rag"
+    ],
+    "description": "For building local knowledge bases from entire websites, Scrapfly's Crawler API can automatically crawl domains and return LLM-ready markdown for your local RAG pipeline.\n\n## Power-Up with Scrapfly\n\nRunning a sophisticated LLM locally to extract data from unstructured data can be a very resource intensive task. Scrapfly's advanced Extraction API simplifies the data extraction process using state of the art LLMs.\n\nScrapfly's Extraction API includes a number of predefined models that can automatically extract common objects like products, reviews, articles etc.\n\nFor example, let's use the product model to extract the product data from the same page used in the example above:\n\npython [...] Blog  /  ai  /  Guide to Local LLMs  \n\n# Guide to Local LLMs\n\nby Mostafa Gouda Aug 10, 2026 16 min read\n",
+    "added_date": "2026-08-31",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-4236a5616c8c",
+    "title": "Guide to Local LLMs in 2026: Privacy, Tools & Hardware",
+    "url": "https://www.sitepoint.com/definitive-guide-local-llms-2026-privacy-tools-hardware",
+    "type": "tutorial",
+    "tags": [
+      "llm",
+      "tutorial"
+    ],
+    "description": "Limitations: Batched inference and concurrent request handling are less sophisticated than dedicated serving engines. There is no built-in GUI. Advanced serving configurations (tensor parallelism, custom scheduling) are limited.\n\nBest for: Developers who want the fastest path from zero to a working local LLM API. Prototyping, personal use, and integration into application backends.\n\n### LM Studio: The Desktop Experience\n\nLM Studio is a desktop application with a polished graphical interface for discovering, downloading, and running local models. It includes a built-in chat UI and a local server mode. [...] This guide covers everything you need to make the switch: the privacy and cost case for local inference, the current landscape of open-weight models, a detailed hardware breakdown, a hea",
+    "added_date": "2026-08-31",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-3f3c513ca610",
+    "title": "The Complete Developer's Guide to Running LLMs Locally",
+    "url": "https://www.sitepoint.com/local-llms-complete-guide",
+    "type": "tutorial",
+    "tags": [
+      "llm",
+      "tutorial",
+      "rag"
+    ],
+    "description": "7 Day Free Trial. Cancel Anytime.\n\nRunning LLMs locally has shifted from a niche hobby to a legitimate production strategy in 2025. Developers who need to keep proprietary code off third-party servers, eliminate per-token costs, or build AI features that work offline now have a mature local LLM tooling ecosystem to draw from. This guide covers the full stack: hardware sizing, model formats, a comparison of eight tools including Ollama, LM Studio, llama.cpp, and LocalAI, plus step-by-step tutorials for building a local RAG application and deploying it in Docker with GPU passthrough.\n\n## Table of Contents\n\n## Why Run LLMs Locally in 2025?\n\n### Privacy, Cost, and Control [...] ## The Local LLM Ecosystem in Motion\n\n### Trends to Watch\n\nSpeculative decoding, where a small draft model proposes t",
+    "added_date": "2026-08-31",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-d7f66e595c81",
+    "title": "Local LLM for dummies - Custom Integrations - Home Assistant Community",
+    "url": "https://community.home-assistant.io/t/local-llm-for-dummies/769407",
+    "type": "tutorial",
+    "tags": [
+      "llm",
+      "tutorial"
+    ],
+    "description": "# Local LLM for dummies\n\nYes, this guide is for dummies like me that want to run a local LLM but due to the large number of new technologies/articles/names everywhere I didn’t know where to start. I must say that development is going very fast and what will be written here could be old school tech tomorrow.  \nThis guide is intended to get your local LLM up and running asap before that happens.\n\nI have tried to get this working on Ubuntu but after a week digging through so many tutorials and typing commands in a terminal I gave up and started to look for a Windows solution. 4 hours later I had my local LLM up and running. Please note this has nothing to due with the OS but it says more about me being a dummy.\n\nBut here is a quick guide to get you started on Windows/Linux/Mac [...] Troublesh",
+    "added_date": "2026-08-31",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-181b6f5c8e13",
+    "title": "How to Run a Local LLM: Complete Guide to Setup & Best Models (2025) – n8n Blog",
+    "url": "https://blog.n8n.io/local-llm",
+    "type": "tutorial",
+    "tags": [
+      "nlp",
+      "llm",
+      "tutorial",
+      "open-source"
+    ],
+    "description": "## What is a local LLM?\n\nA local LLM is simply a large language model that runs locally, on your computer, eliminating the need to send your data to a cloud provider. This means you can harness the power of an LLM while maintaining full control over your sensitive information, ensuring privacy and security.\n\nBy running an LLM locally, you have the freedom to experiment, customize, and fine-tune the model to your specific needs without external dependencies. You can choose from a wide range of open-source models, tailor them to your specific tasks, and even experiment with different configurations to optimize performance. [...] Thanks to tools like Ollama, which make it easier to run LLMs on consumer hardware, and platforms like n8n, which help you build AI-powered applications, using LLMs ",
+    "added_date": "2026-08-31",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-e95d8b1e924a",
+    "title": "Local LLM chat agent with advanced RAG and memory - Reddit",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/18hgf17/local_llm_chat_agent_with_advanced_rag_and_memory",
+    "type": "tutorial",
+    "tags": [
+      "nlp",
+      "llm",
+      "tutorial",
+      "rag"
+    ],
+    "description": "Local LLM chat agent with advanced RAG and memory : r/LocalLLaMA. Skip to main contentLocal LLM chat agent with advanced RAG and memory : r/LocalLLaMA. Open menu Open navigationGo to Reddit Home. Log InLog in to Reddit. Subreddit to discuss AI & Llama, the large language model created by Meta AI. Local LLM chat agent with advanced RAG and memory. 2. The vector database retriever for the LLM Chain takes the whole user prompt as the query for the semantic similarity search. I would like to have the model decide when and how to query the vector database. I had a hard time finding information about how to make a local LLM Agent with advanced RAG and Memory. In my first approach I actually tried to create a Llama2 agent with Langchain Tools with one tool being the retriever for the vector datab",
+    "added_date": "2026-08-31",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-7c72a4a363c9",
+    "title": "Nidum Local Inference - LLM & RAG | NIDUM.AI",
+    "url": "https://docs.nidum.ai/nidum-ai-ecosystem/nidum-local-inference-llm-and-rag",
+    "type": "tutorial",
+    "tags": [
+      "nlp",
+      "llm",
+      "tutorial",
+      "rag"
+    ],
+    "description": "Nidum Local Inference - LLM & RAG | NIDUM.AI * Nidum Local Inference - LLM & RAG * Key Features of Nidum LLM & RAG * Step-by-Step User Guide Nidum Local Inference - LLM & RAG Nidum Local Inference, featuring Local Language Models (LLM) and Retrieval-Augmented Generation (RAG), offers a revolutionary way to execute AI-driven tasks on your local system. What makes Nidum unique is its live GUI for RAG—the first in the industry—enabling an intuitive, user-friendly experience for deploying and running AI models locally. At Nidum, we combine the power of Local Inference, Large Language Models (LLMs), and Retrieval-Augmented Generation (RAG) into a seamless framework for delivering personalized and efficient AI solutions. Key Features of Nidum LLM & RAG * **Local Inference**: Operate AI models di",
+    "added_date": "2026-08-31",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-0907123bb48f",
+    "title": "pedagogy · GitHub Topics · GitHub",
+    "url": "https://github.com/topics/pedagogy",
+    "type": "course",
+    "tags": [
+      "tutorial",
+      "open-source",
+      "course"
+    ],
+    "description": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects . License Our projects are open - source and available under the MIT License unless stated otherwise in individual repositories. The Educational Collective Open source educational materials for everyone! View My GitHub Profile Open Source / Open Access Learning Materials and Presentations This is the... Which are the best open - source edtech projects ? This list will help you: moreThanFAANGM, PageLM, classroomio, kolibri, edrys, socialpredict, and... Sharing open source code, projects , and resources to empower education technology. Explore EdTech projects , tutorials, and join the community. These projects aim to address various aspects of educatio",
+    "added_date": "2026-08-31",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-f3eee67ca098",
+    "title": "The Role of GitHub in Open Source Research and as a pedagogical tool in enhancing education. | EBSCOhost",
+    "url": "https://openurl.ebsco.com/fulltext/gcd:185632915?id=ebsco%3Agcd%3A185632915&crl=f&jrnl=09701052",
+    "type": "tool",
+    "tags": [
+      "generative-ai",
+      "research",
+      "open-source",
+      "tool"
+    ],
+    "description": "Discover this 2024 paper in Library of Progress-Library Science, Information Technology & Computer by T. V., Binu Mol focusing on: Open scholarship; Raspberry Pi; Water levels; Arduino (Microcontroller); Source code Abstract: Open-source software refers to a development model where the source code is freely accessible to the public and distributed under open-source licenses. It enables anyone to view, use, modify, and distribute the code. Research on open-source encompasses all phases of the process, including data, methods, software, results, and publications, all of which are made publicly available and accessible. GitHub is one of the largest collaborative platforms for hosting open-source projects, allowing developers, researchers, and organizations to manage, contribute to, and host p",
+    "added_date": "2026-08-31",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-57a752dd9de2",
+    "title": "(PDF) Adopting Git/Github within Teaching: A Survey of ...",
+    "url": "https://www.researchgate.net/publication/332852270_Adopting_GitGithub_within_Teaching_A_Survey_of_Tool_Support",
+    "type": "tool",
+    "tags": [
+      "open-source",
+      "benchmark",
+      "tool"
+    ],
+    "description": "Pedagogical aspects for evaluation of open source Git/Github tools. ORpSpA stands for one repository per student per assignment.",
+    "added_date": "2026-08-31",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-c7ae531d3a70",
+    "title": "Build software better, together",
+    "url": "https://github.com/topics/teaching-tools?l=typescript&o=desc&s=updated",
+    "type": "tool",
+    "tags": [
+      "generative-ai",
+      "open-source",
+      "tool"
+    ],
+    "description": "An open-source pedagogical assistant that uses generative AI to help educators create a more dynamic, inclusive, and personalized learning environment.",
+    "added_date": "2026-08-31",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
   }
 ]
