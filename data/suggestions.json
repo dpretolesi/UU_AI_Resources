@@ -3302,5 +3302,396 @@
     "archived": false,
     "year": 2026,
     "quality_score": 9.0
+  },
+  {
+    "id": "auto-dcadbc322b39",
+    "title": "How to Properly Cite AI-Generated Text in Academic Papers",
+    "url": "https://go2writers.com/how-to-properly-cite-ai-generated-text-in-academic-papers",
+    "type": "paper",
+    "tags": [
+      "research",
+      "tutorial",
+      "paper"
+    ],
+    "description": "Title: How to Properly Cite AI-Generated Text in Academic Papers\n# How to Properly Cite AI-Generated Text in Academic Papers. As thesis writers and dissertation experts increasingly encounter AI-generated content in their research, understanding how to cite these sources correctly has become essential for maintaining academic integrity. This comprehensive guide will help you navigate the complexities of citing AI-generated text in your academic work. ## **Understanding the Importance of Citing AI-Generated Content**. Whether you’re working independently or consulting with professional thesis writers, properly attributing AI-generated content is crucial. Major academic institutions and style guides have recently updated their guidelines to address this emerging need, recognizing that AI too",
+    "added_date": "2026-09-21",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "AdminAP"
+    ],
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-ed7fae496cd5",
+    "title": "Academic Integrity / AI attribution - Artificial Intelligence/Generative AI - LibGuides at St. Charles Community College",
+    "url": "https://libguides.stchas.edu/AI/academicintegrity",
+    "type": "paper",
+    "tags": [
+      "generative-ai",
+      "tutorial",
+      "paper"
+    ],
+    "description": "To maintain academic integrity while utilizing generative AI, students should:\n\n Clearly disclose if AI was involved in the creation of their work.\n Ensure that AI-generated content is properly cited.\n Use AI as a tool for assistance rather than a substitute for understanding and critical thinking.\n Adhere to their educational institution's policies on the use of AI in academic work.\n\nEducational institutions and instructors also need to be aware of the potential for AI-related academic misconduct and establish clear guidelines and policies to address these issues. Balancing the benefits of AI technology with the principles of academic integrity is essential for ethical and effective education.\n\n## Citing Generative A.I.\n\n### Citation [...] 1. #### Plagiarism: One of the most significant c",
+    "added_date": "2026-09-21",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-88627c49295b",
+    "title": "Academic Integrity / AI attribution - Artificial Intelligence/Generative AI - LibGuides at St. Charles Community College",
+    "url": "https://libguides.stchas.edu/c.php?g=1366150&p=10099204",
+    "type": "paper",
+    "tags": [
+      "generative-ai",
+      "llm",
+      "research",
+      "tutorial",
+      "paper"
+    ],
+    "description": "Title: Academic Integrity / AI attribution - Artificial Intelligence/Generative AI - LibGuides at St. Charles Community College\n# Artificial Intelligence/Generative AI. * Combating Academic Dishonesty, Part 6: ChatGPT, AI, and Academic Integrity. * ChatGPT, Artificial Intelligence, and Academic Integrity. ## Ethical Use and Academic Integrity. ### **Academic Integrity and Generative AI**. When it comes to generative AI, academic integrity is relevant in several ways:. If a student uses generative AI to create academic papers, essays, or other assignments without proper attribution or understanding of the content, it can be considered plagiarism. Plagiarism involves presenting someone else's work as your own, and when AI generates content, it may be difficult to distinguish it from the stud",
+    "added_date": "2026-09-21",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-909c9ffa74e7",
+    "title": "How to Cite AI Tools (ChatGPT, Claude) in Academic Papers: Complete 2026 Guide | Essays-Panda.com",
+    "url": "https://essays-panda.com/how-to-cite-ai-tools-academic-papers",
+    "type": "paper",
+    "tags": [
+      "llm",
+      "research",
+      "tutorial",
+      "paper"
+    ],
+    "description": "1. Always cite AI when you incorporate its output — treat it like a conversation with a human expert that you’d need to credit.\n2. Follow your style guide — APA, MLA, Chicago, and Harvard all have distinct formats; don’t guess.\n3. Include the prompt, version, and date — these elements uniquely identify the AI response you’re referencing.\n4. Verify AI-generated sources — never trust citations provided by AI without independent confirmation.\n5. Disclose AI use as required — follow your institution’s policy beyond mere citation formatting. [...] ## When Do You Actually Need to Cite AI?\n\nYou should cite an AI tool whenever you paraphrase, quote, or incorporate its generated text, images, code, or data into your own work. This aligns with standard academic practice: cite ideas that are not your",
+    "added_date": "2026-09-21",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "admin"
+    ],
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-86b8971427b9",
+    "title": "Using AI to Accelerate Scientific Discovery - NVIDIA",
+    "url": "https://resources.nvidia.com/en-us-summer-of-learning-for-students/gtcspring23-s51831?lx=GamWPw",
+    "type": "tool",
+    "tags": [
+      "tool"
+    ],
+    "description": "The past decade has seen incredible advances in artificial intelligence. DeepMind has been in the vanguard of many of these big breakthroughs, pioneering the development of self-learning systems like AlphaGo, the first program to beat the world champion at the complex game of Go. Games have proven to be a great training ground for developing and testing AI algorithms, but the aim at DeepMind has always been to build general learning systems ultimately capable of solving important problems in the real world. We're on the cusp of an exciting new era in science, with AI poised to be a powerful tool for accelerating scientific discovery itself. We recently demonstrated this potential with our AlphaFold system, a solution to the 50-year grand challenge of protein structure prediction, culminati",
+    "added_date": "2026-09-21",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-4df7e87bba6a",
+    "title": "(PDF) Scientific Machine Learning Benchmarks",
+    "url": "https://www.academia.edu/69489277/Scientific_Machine_Learning_Benchmarks",
+    "type": "tool",
+    "tags": [
+      "deep-learning",
+      "machine-learning",
+      "benchmark",
+      "rag",
+      "tool"
+    ],
+    "description": "In the upcoming decade, deep learning may revolutionize the natural sciences, enhancing our capacity to model and predict natural occurrences. This could herald a new era of scientific exploration, bringing significant advancements across sectors from drug development to renewable energy. To answer this call, we present DeepSpeed4Science initiative (deepspeed4science.ai) which aims to build unique capabilities through AI system technology innovations to help domain experts to unlock today's biggest science mysteries. By leveraging DeepSpeed's current technology pillars (training, inference and compression) as base technology enablers, DeepSpeed4Science will create a new set of AI system technologies tailored for accelerating scientific discoveries by addressing their unique complexity",
+    "added_date": "2026-09-21",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-8587fb759edc",
+    "title": "Physics Is Fun | 7 Ways Artificial Intelligence Is Accelerating Scientific Research | Facebook",
+    "url": "https://www.facebook.com/groups/physicsisfun109/posts/1046979047980939",
+    "type": "blog",
+    "tags": [
+      "research",
+      "blog"
+    ],
+    "description": "7 Ways Artificial Intelligence Is Accelerating Scientific Research\n\nArtificial Intelligence is transforming how research is conducted, allowing scientists to solve complex problems faster and with...",
+    "added_date": "2026-09-21",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-f393be6eadef",
+    "title": "How AI accelerates scientific discovery - Facebook",
+    "url": "https://www.facebook.com/livermore.lab/posts/how-can-ai-reasoning-models-accelerate-scientific-discovery-researchers-across-s/1093071686181797",
+    "type": "blog",
+    "tags": [
+      "research",
+      "blog"
+    ],
+    "description": "How can #AI reasoning models accelerate scientific discovery? Researchers across several U.S. Department of Energy National Laboratories are participating in a 1,000 scientist AI Jam Session to...",
+    "added_date": "2026-09-21",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-d272af99c505",
+    "title": "GitHub - sdil/open-production-web-projects: List of Open Source production-ready web projects · GitHub",
+    "url": "https://github.com/sdil/open-production-web-projects",
+    "type": "course",
+    "tags": [
+      "generative-ai",
+      "open-source",
+      "course"
+    ],
+    "description": "### Laravel\n\n Goodwork - Self hosted project management and collaboration tool inspired by basecamp.\n Cachet - An open source status page system for everyone.\n Webhook.site - Easily test HTTP webhooks with this handy tool that displays requests instantly.\n Guild - Guild.so is an open-source self-hosted team management solution.\n FreeScout - FreeScout is the super lightweight free open source help desk and shared inbox written in PHP7 (Laravel 5.5 framework) – self hosted clone of HelpScout\n LinkAce - Your self-hosted bookmark archive. Free and open source.\n Astral - An open source application that allows you to organize your GitHub Stars with ease\n\n### CakePHP\n\n Passbolt - Open source password manager for teams\n\n### Restler [...] ## Javascript\n\n Spectrum Chat - Simple, powerful online comm",
+    "added_date": "2026-09-21",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-814bfae79711",
+    "title": "Top 10 Most Popular Open Source Projects on GitHub",
+    "url": "https://www.dice.com/career-advice/10-popular-open-source-projects-github",
+    "type": "library",
+    "tags": [
+      "open-source",
+      "library"
+    ],
+    "description": "9. platformio/platformio-home\n    PlatformIO is an open-source ecosystem for IoT development. It provides a cross-platform build system, library manager, and debugger, supporting a wide range of microcontrollers and development boards. PlatformIO Home is the graphical user interface for PlatformIO, providing a convenient way to manage projects, libraries, and devices. Contributing to PlatformIO Home can involve improving the user interface, adding new features, fixing bugs, or contributing to the documentation. This project is built using web technologies like JavaScript and offers a chance to contribute to a popular tool in the embedded systems development community.\n10. Koenkk/zigbee2mqtt [...] ## \n\n## Conclusion\n\nBecoming involved in open-source GitHub projects is an exceptionally effec",
+    "added_date": "2026-09-21",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-1012ed1fcb17",
+    "title": "Power open source, together",
+    "url": "https://github.com/open-source",
+    "type": "tool",
+    "tags": [
+      "open-source",
+      "rag",
+      "tool"
+    ],
+    "description": "## Built to support open source\n\nGitHub supports the maintainers who keep open source moving. 280,000+ maintainers already have access to GitHub benefits—including free Copilot Pro for eligible maintainers.\n\n### Free Teams, Actions & Runners\n\nPublic repositories get unlimited Actions minutes and storage by default.\n\nRead more about benefits\n\n### Copilot for open source maintainers\n\nCopilot Pro is free for open source maintainers of popular projects and verified students — and Copilot Free is open to everyone.\n\nSign-up for Copilot\n\n### Security tools\n\nSecure open source projects with CodeQL, Dependabot, and secret scanning — free for public repositories.\n\nLearn more about GitHub Security\n\n## The people (and projects) behind the code [...] Skip to content   \n \n \n\n## Navigation Menu\n\nSign in\n",
+    "added_date": "2026-09-21",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-d74bea801753",
+    "title": "5 open source alternatives to GitHub",
+    "url": "https://opensource.com/article/20/11/open-source-alternatives-github",
+    "type": "tool",
+    "tags": [
+      "generative-ai",
+      "open-source",
+      "rag",
+      "tool"
+    ],
+    "description": "GitHub is not open source. Pragmatically, this doesn't make much of a difference to most users. The vast majority of code put onto GitHub is, presumably, encouraged to be shared by everyone, so GitHub's primary function is a sort of public backup service. Should GitHub fold or drastically change its terms of service, recovering data would be relatively simple because it's expected that you have a local copy of the code you keep on GitHub. However, some organizations have come to rely on the non-Git parts of GitHub's service offerings, making migration away from GitHub difficult. That's an awkward place to be, so for many people and organizations, insurance against vendor lock-in is a worthwhile investment. [...] If that's the position you're in, check out these five GitHub alternatives, al",
+    "added_date": "2026-09-21",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "Seth Kenlon"
+    ],
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-f149fb4d3752",
+    "title": "What is Open Source Software (OSS)? · GitHub",
+    "url": "https://github.com/resources/articles/what-is-open-source-software",
+    "type": "tool",
+    "tags": [
+      "open-source",
+      "tool"
+    ],
+    "description": "Flexibility and customization. Since you can alter the source code to meet your exact needs, OSS offers wide-ranging flexibility and freedom when it comes to building new apps or improving upon an existing solution.\n The latest technology. With its emphasis on transparency, collaboration, and decentralization, OSS fosters some of today’s most innovative projects. Many of these projects, like Linux and Apache, go on to become major industry leaders. These same open source principles now also shape the growth of open source AI models and tools.\n No vendor lock-in. No lengthy contracts with technical vendors mean more budget and bandwidth to experiment with a variety of tools and integrations. [...] Cost savings. OSS source code is free, resulting in a lower total cost of ownership compared t",
+    "added_date": "2026-09-21",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-a0d564c586ec",
+    "title": "GitHub - makalin/interesting-projects: Open Source Projects Needing Contributors: A List of Interesting Projects Actively Seeking Contributions · GitHub",
+    "url": "https://github.com/makalin/interesting-projects",
+    "type": "tutorial",
+    "tags": [
+      "open-source",
+      "tutorial"
+    ],
+    "description": "## Why Contribute to Open Source?\n\n Learn New Skills: Working on open source projects is a great way to learn new technologies and best practices.\n Build Your Portfolio: Contributions to well-known projects can enhance your resume and GitHub profile.\n Give Back to the Community: Your contributions can help improve software that is used by millions of people around the world.\n Network with Developers: Open source is a great way to connect with like-minded developers and industry professionals.\n\n## Conclusion\n\nOpen source is a powerful way to collaborate, learn, and make an impact. The projects listed above are just a starting point—there are thousands of other projects out there waiting for your contributions. So, pick a project, dive in, and start making a difference today! [...] ## 5. VSC",
+    "added_date": "2026-09-21",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-e04686326ddf",
+    "title": "GitHub - namrrac/Open-Source-Everything: A curated list of the best open source software",
+    "url": "https://github.com/namrrac/Open-Source-Everything",
+    "type": "tool",
+    "tags": [
+      "open-source",
+      "tool"
+    ],
+    "description": "A curated list of the best open source software. Contribute to namrrac/Open-Source-Everything development by creating an account on GitHub.",
+    "added_date": "2026-09-21",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-cb37643fe2a1",
+    "title": "Finding ways to contribute to open source on GitHub - GitHub Docs",
+    "url": "https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github",
+    "type": "tutorial",
+    "tags": [
+      "open-source",
+      "tutorial"
+    ],
+    "description": "## Get started\n\n# Finding ways to contribute to open source on GitHub\n\nYou can find ways to contribute to open source projects on GitHub that are relevant to you.\n\n## In this article\n\nOpen source software powers much of the technology you use daily, from the web browser on your screen to the NASA Ingenuity helicopter that flew on Mars.\n\nContributing to open source software allows you to build upon your technical expertise, boost your portfolio, help shape the future of technology, and connect with developers across the globe.\n\n## Discovering relevant projects [...] ## Discovering relevant projects\n\nWith the vast array of available open source projects spanning numerous domains and technologies, finding where to begin your contribution journey can seem overwhelming. If you have open source ",
+    "added_date": "2026-09-21",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-0e958005f5c2",
+    "title": "GitHub - nayafia/lemonade-stand: A handy guide to financial support for open source · GitHub",
+    "url": "https://github.com/nayafia/lemonade-stand",
+    "type": "tutorial",
+    "tags": [
+      "reinforcement-learning",
+      "tutorial",
+      "open-source"
+    ],
+    "description": "## Restricted license\n\nRestricted licenses (reminiscent of the older shareware movement) are not open source because they do not meet the definition of an open source license. The source code is made available (either publicly, or to customers who pay for a license), but they may limit the freedoms to redistribute and modify or to use the software commercially.\n\n#### Pros\n\n Business model aligned with something people are willing to pay for\n Potential to scale well if successful\n\n#### Cons\n\n Not actually open source (so may fail to achieve many or most of the benefits of open source)\n Can be controversial, erode community trust\n\n#### Case Studies [...] #### Case Studies\n\n Gitcoin\n GitHub Bug Bounty Program\n Google Patch Rewards\n Inkscape's \"funded development\" system\n Internet Bug Bounty\n ",
+    "added_date": "2026-09-21",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-f99481abc648",
+    "title": "Recommended Practices for Hosting and Managing Open Source Projects on GitHub",
+    "url": "https://www.linuxfoundation.org/research/hosting-os-projects-on-github",
+    "type": "tool",
+    "tags": [
+      "research",
+      "open-source",
+      "rag",
+      "tool"
+    ],
+    "description": "### Mike Dolan\n\nSenior Vice President and GM of Projects\n\nMichael Dolan is SVP and GM of Projects supporting open source projects, research, and legal programs at The Linux Foundation. He has set up and launched hundreds of open source and open standards projects covering technology segments including networking, cloud, blockchain, Internet of Things, AI/ML, security, storage, and embedded devices. Mike also runs open source legal programs for the Linux Foundation’s members’ legal counsel community which has led to collaborations on standards such as OpenChain and SPDX. [...] 2025 Napa LFMS Stephanie Hilary Nithya\n\n# Recommended Practices for Hosting and Managing Open Source Projects on GitHub\n\n Download Report\n\nGitHub is a critical platform for the development and management of open sourc",
+    "added_date": "2026-09-21",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-e85625fb94d4",
+    "title": "Proceedings of Machine Learning Research | The ...",
+    "url": "https://proceedings.mlr.press",
+    "type": "paper",
+    "tags": [
+      "deep-learning",
+      "machine-learning",
+      "nlp",
+      "research",
+      "paper"
+    ],
+    "description": "Volume 272 Proceedings of ALT 2025\n Volume 259 Proceedings or ML4H 2024\n Volume 264 Proceedings of Large Foundation Models for Educational Assessment\n Volume 260 Proceedings of ACML 2024\n Volume 265 Proceedings of the Northern Lights Deep Learning Conference 2025\n Volume 270 Proceedings of CoRL 2024\n Volume 250 Proceedings of MIDL 2024\n Volume 251 Proceedings of GRaM at ICML 2024\n Volume 262 Proceedings of Efficient Natural Language and Signal Processing Workshop at NeurIPS 2024\n Volume 263 Proceedings of CLDD 2024\n Volume 252 Proceedings of MLHC 2024\n Volume 254 Proceedings of MICCAI COMPAYL 2024\n Volume 261 Proceedings of MLCB 2024\n Volume 256 Proceedings of AutoML 2024\n Volume 255 Proceedings of ML Meets Differential Equations\n Volume 244 Proceedings of UAI 2024 [...] Volume 272 Proceed",
+    "added_date": "2026-09-21",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-8b6f01bc7bf1",
+    "title": "Apple Machine Learning Research at NeurIPS 2024 - Apple Machine Learning Research",
+    "url": "https://machinelearning.apple.com/research/neurips-2024",
+    "type": "paper",
+    "tags": [
+      "machine-learning",
+      "transformers",
+      "research",
+      "rag",
+      "paper"
+    ],
+    "description": "Apple researchers will also present Private and Personalized Frequency Estimation in a Federated Setting, which describes a new approach using Private Federated Learning to privately compute personalized frequency histograms. Personalized frequencies of words (or tokens) are useful for next-word prediction for keyboard input on user devices. This is challenging because most users have little usage data and users’ diverse vocabularies, topics, and styles lead to varied data distributions. The paper presents a new technique that discovers and leverages similar subpopulations of users, and the approach is shown to outperform existing clustering-based algorithms.\n\n## Making Multimodal Models More Capable [...] At NeurIPS, Apple researchers will present How far Can Transformers Reason? The Glob",
+    "added_date": "2026-09-21",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
   }
 ]
