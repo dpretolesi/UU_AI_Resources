@@ -4082,5 +4082,417 @@
     "archived": false,
     "year": 2026,
     "quality_score": 9.0
+  },
+  {
+    "id": "auto-535c1aceeefc",
+    "title": "Citing the Use of an Artificial Intelligence - Citing Sources - Research Guides at Columbia College Chicago Library",
+    "url": "https://libguides.colum.edu/citingsources/ai",
+    "type": "paper",
+    "tags": [
+      "generative-ai",
+      "llm",
+      "research",
+      "tutorial",
+      "paper"
+    ],
+    "description": "The Chicago Manual of Style offers the following, interim guidance for citing a generative AI in their two methods of citation (notes & author-date). See the link above for more information. \n\nAccording to their current advice, you should not include a generative AI in your bibliography or reference list. As the generated output of AI chatbots is not retrievable to others, it’s considered more like a type of personal communication. However, you must cite the use of a generative AI's output in the text of your paper in either a note or a parenthetical text reference.\n\nNumbered footnote or endnote format: \n\n> Note number. Title of the AI, Date the text was generated, Publisher of the AI, URL of AI tool. \n\n Numbered footnote or endnote example: [...] How to Cite ChatGPT This link opens in a n",
+    "added_date": "2026-10-05",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-f8be03e72608",
+    "title": "How to Cite AI - Generative Artificial Intelligence - LibGuides at University of California San Diego",
+    "url": "https://ucsd.libguides.com/c.php?g=1322935&p=9734134",
+    "type": "tutorial",
+    "tags": [
+      "generative-ai",
+      "tutorial"
+    ],
+    "description": "Skip to Main Content\n\nThe Library\n\nUC San Diego\n\n# Generative Artificial Intelligence: How to Cite AI\n\n What is Generative Artificial Intelligence?\n Challenges and Possibilities of Generative AI\n AI and Academic Integrity\n Copyright & Legal Considerations\n How to Cite AI\n Using Generative AI Tools\n Additional Resources\n Contacts\n\n## Citing Generative AI\n\n#### 3 steps for citing GenAI in your work\n\n✔️ Make sure it is ethical for you to use GenAI output (see AI and Academic Integrity).\n\n✔️ Fact-check any content you plan to use to ensure accuracy and reliability.\n\n✔️ Cite or acknowledge your use properly.\n\nSee below for guidance on how to cite/acknowledge the use of GenAI.\n\n MLA Style\n APA Style\n Chicago Style\n Other options\n\n## Citing AI in MLA style\n\n Generative AI in MLA style [...] ## Ci",
+    "added_date": "2026-10-05",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-4da497c8f138",
+    "title": "How to Cite AI - Using Generative AI - Subject Guides at University of Alberta Libraries",
+    "url": "https://guides.library.ualberta.ca/generative-ai/citation",
+    "type": "paper",
+    "tags": [
+      "generative-ai",
+      "llm",
+      "research",
+      "tutorial",
+      "paper"
+    ],
+    "description": "## Chicago (18th edition)\n\nAccording to the Chicago Manual of Style (18th ed., sec. 14.112) and an FAQ entryon the Chicago style website, you usually only need to cite genAI models like ChatGPT within the text of your paper. If you’re using the notes-bibliography system, use a footnote or endnote. For the author-date system, use a parenthetical citation. You do not need to include AI tools in a bibliography or reference list unless your instructor asks you to. The Chicago Manual does show how to format a bibliography or reference list entry in case you need one.\n\nNote: In Chicago-style citations, the AI model (e.g., ChatGPT) functions as the author, and the developing company (e.g., OpenAI) is the publisher.\n\n### Footnote or endnote (notes-bibliography system)\n\n#### Template [...] Citing g",
+    "added_date": "2026-10-05",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-0afa27ff0d8f",
+    "title": "Citing Generative AI - APA Quick Citation Guide - Library Guides at Penn State University",
+    "url": "https://guides.libraries.psu.edu/apaquickguide/generativeAI",
+    "type": "course",
+    "tags": [
+      "nlp",
+      "generative-ai",
+      "llm",
+      "tutorial",
+      "course"
+    ],
+    "description": "For guidelines on citing generative AI in APA style see the entry on Citing Generative AI in APA Style from the APA style website. When citing individual chats APA recommends including the unique URL for the chat provided through the sharing option if available.\n\nTemplate for citing an individual chat:\n\nAI Company Name. (year, month day). Title of chat in italics [Description, such as Generative AI chat]. Tool Name/Model. URL of the chat\n\nExample:\n\nIn-text citation:  \n (OpenAI, 2026)\n\nEntry in reference list:  \n OpenAI. (2026, May 6). Toxic Positivity at Work [Generative AI Chat]. ChatGPT. \n\nTemplate for citing an AI tool generally:\n\nAI Company Name. (year). Tool Name/Model in Italics and Title Case [Description; e.g., Large language model]. URL of the tool\n\nExample:\n\nIn-text citation: [..",
+    "added_date": "2026-10-05",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-99e0c1e52d62",
+    "title": "AI Research Tools: Accelerating Discovery 2025",
+    "url": "https://www.browse-ai.tools/blog/ai-research-tools-scientists-accelerating-discovery-2025?from=blog&page=1&q=hr",
+    "type": "paper",
+    "tags": [
+      "research",
+      "paper"
+    ],
+    "description": "# AI Research Tools: How Scientists Are Accelerating Discovery in 2025. From automated literature reviews to AI-powered hypothesis generation, these tools are transforming how we conduct scientific research and accelerate discovery. From automated literature reviews that process thousands of papers in minutes to AI systems that generate novel hypotheses, these tools are becoming indispensable in research labs worldwide. ### AI Research Assistants. **Best for:** Data analysis, programming assistance, research brainstorming, scientific writing **Key features:**. **Free tier:** Basic recommendations and tracking **Pro tip:** Use to discover emerging research areas and potential collaboration opportunities Iris.ai. AI writing assistant specifically designed for academic and scientific writing ",
+    "added_date": "2026-10-05",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.5
+  },
+  {
+    "id": "auto-9c09dab0c659",
+    "title": "Google’s AI Co-Scientist: How AI Is Accelerating Scientific Discovery",
+    "url": "https://www.ainews.com/p/google-s-ai-co-scientist-how-ai-is-accelerating-scientific-discovery",
+    "type": "tool",
+    "tags": [
+      "research",
+      "rag",
+      "tool"
+    ],
+    "description": "Title: Google’s AI Co-Scientist: How AI Is Accelerating Scientific Discovery\n# Google’s AI Co-Scientist: How AI Is Accelerating Scientific Discovery. # Google’s AI Co-Scientist: How AI Is Accelerating Scientific Discovery. The system is intended to assist researchers in generating new hypotheses, formulating research proposals, and accelerating scientific and biomedical discoveries. Overview of AI Co-Scientist’s Multi-Agent System and Research Process. In addition to its specialized agents, the AI co-scientist leverages web search and specialized AI models to enhance the accuracy and relevance of its generated hypotheses, ensuring they are well-grounded in existing scientific knowledge. The AI co-scientist employs test-time compute scaling to refine hypotheses through processes such as:. I",
+    "added_date": "2026-10-05",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "Alicia Shapiro"
+    ],
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-8bbf9ec5f35f",
+    "title": "AI Accelerating Scientific Discovery: DeepMind's Latest Advances | AI Daily",
+    "url": "https://ai-daily.news/articles/how-ai-is-accelerating-scientific-discovery-and-democratizin",
+    "type": "framework",
+    "tags": [
+      "research",
+      "framework"
+    ],
+    "description": "Title: AI Accelerating Scientific Discovery: DeepMind's Latest Advances | AI Daily\n# How AI Is Accelerating Scientific Discovery and Democratizing Research. DeepMind's latest advances show how AI systems like Gemini Deep Think are solving complex mathematical problems and making scientific research more accessible to researchers worldwide, reshaping the future of discovery. How AI Is Accelerating Scientific Discovery and Democratizing Research. ## The Race for AI-Powered Discovery. While major tech companies race to deploy increasingly capable AI systems, DeepMind's recent work on Gemini Deep Think demonstrates a tangible shift: AI is no longer just a research tool—it's becoming an active participant in solving problems that have long challenged human researchers. Can AI systems genuinely ",
+    "added_date": "2026-10-05",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "AI Daily"
+    ],
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-024f739acfee",
+    "title": "AI Accelerating Scientific Discovery: DeepMind's Latest Advances | AI Daily",
+    "url": "https://www.ai-daily.news/articles/how-ai-is-accelerating-scientific-discovery-and-democratizin",
+    "type": "framework",
+    "tags": [
+      "research",
+      "framework"
+    ],
+    "description": "Title: AI Accelerating Scientific Discovery: DeepMind's Latest Advances | AI Daily\n# How AI Is Accelerating Scientific Discovery and Democratizing Research. DeepMind's latest advances show how AI systems like Gemini Deep Think are solving complex mathematical problems and making scientific research more accessible to researchers worldwide, reshaping the future of discovery. How AI Is Accelerating Scientific Discovery and Democratizing Research. ## The Race for AI-Powered Discovery. While major tech companies race to deploy increasingly capable AI systems, DeepMind's recent work on Gemini Deep Think demonstrates a tangible shift: AI is no longer just a research tool—it's becoming an active participant in solving problems that have long challenged human researchers. Can AI systems genuinely ",
+    "added_date": "2026-10-05",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "AI Daily"
+    ],
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-e1c3a0770595",
+    "title": "AI for Scientific Discovery & Research Acceleration Careers – Billion Hopes",
+    "url": "https://billionhopes.ai/ai-for-scientific-discovery-research-acceleration-careers",
+    "type": "paper",
+    "tags": [
+      "research",
+      "paper"
+    ],
+    "description": "Title: AI for Scientific Discovery & Research Acceleration Careers – Billion Hopes\n# AI for Scientific Discovery & Research Acceleration Careers. Categories: AI & Jobs, AI Career Centre, AI Careers, AI for Professionals, AI Job Landscape, Future of Work, Future Skills. AI-assisted discovery in physics, chemistry, biology, and materials science; Literature mining, hypothesis generation, and experiment design, Accelerating research through intelligent tools. For centuries, scientific discovery has depended on a difficult combination of curiosity, observation, experiment, theory, patience, and sometimes accident. A scientist reads earlier work, notices a gap, forms a hypothesis, designs an experiment, collects data, interprets results, and then repeats the process many times. It is not replac",
+    "added_date": "2026-10-05",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "BH Research"
+    ],
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-a821352bf3c3",
+    "title": "How AI and Automation Are Accelerating Scientific Discovery at Berkeley Lab",
+    "url": "https://completeaitraining.com/news/how-ai-and-automation-are-accelerating-scientific-discovery",
+    "type": "tool",
+    "tags": [
+      "research",
+      "tool"
+    ],
+    "description": "Complete AI Training\n\nSign inGet started\n\nAI news ·\n\n# How AI and Automation Are Accelerating Scientific Discovery at Berkeley Lab\n\nBerkeley Lab embeds AI, automation, and data systems to speed discovery in energy, materials science, and physics. AI-driven tools optimize experiments and analyze data in real time.\n\n3 min read\n\nScience and research\n\nShare\n\nThe Department of Energy’s Lawrence Berkeley National Laboratory (Berkeley Lab) is advancing scientific research by embedding artificial intelligence (AI), automation, and data systems directly into the research process. This integration accelerates discovery across fields such as energy, materials science, and particle physics, enhancing national scientific capabilities and supporting the U.S. in global innovation efforts. [...] ### Autob",
+    "added_date": "2026-10-05",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-15a805ecb3a8",
+    "title": "How Artificial Intelligence is Accelerating Scientific Discovery Across Industries | PDF",
+    "url": "https://www.slideshare.net/slideshow/how-artificial-intelligence-is-accelerating-scientific-discovery-across-industries/287507786",
+    "type": "tool",
+    "tags": [
+      "machine-learning",
+      "research",
+      "tool"
+    ],
+    "description": "Title: How Artificial Intelligence is Accelerating Scientific Discovery Across Industries | PDF\n# How Artificial Intelligence is Accelerating Scientific Discovery Across Industries. Explore how AI enhances data analysis, healthcare, space research, and research infrastructure, transforming scientific discovery and driving innovation across multiple fields. Artificial intelligence supports faster scientific research and data analysis. Researchers use AI to process large datasets and improve accuracy. Many industries now depend on AI for research and innovation. AI tools help reduce research time across multiple fields. AI systems analyze large amounts of scientific data quickly. Machine learning models identify patterns and trends in datasets. Researchers use AI tools to improve prediction ",
+    "added_date": "2026-10-05",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-ed5a9a4e54a5",
+    "title": "AI in Scientific Research Acceleration 2026: Essential Guide - Epic Top 5",
+    "url": "https://epictop5.com/ai-scientific-research-acceleration-2026",
+    "type": "paper",
+    "tags": [
+      "research",
+      "tutorial",
+      "paper"
+    ],
+    "description": "The key benefits of AI in scientific discovery include significantly accelerated timelines, enhanced accuracy, and the ability to explore previously intractable problems, leading to more impactful breakthroughs. For instance, half of those adopting AI in biotech already report faster time-to-target, and 42% see an uplift in accuracy and hit rates with scientific models, according to the 2026 Biotech AI Report from Benchling. This directly demonstrates the power of AI in Scientific Research Acceleration 2026.\n\nHere’s the thing: AI isn’t just making existing processes faster; it’s enabling entirely new avenues of research. This translates into tangible advantages for scientists and the broader society. [...] The short answer is that AI tools are now integral to every stage of the research li",
+    "added_date": "2026-10-05",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "epictop5.com"
+    ],
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-51f4d57d9bc5",
+    "title": "Microsoft Discovery: How AI Agents Are Accelerating Scientific Discoveries – Unite.AI",
+    "url": "https://www.unite.ai/microsoft-discovery-how-ai-agents-are-accelerating-scientific-discoveries",
+    "type": "tool",
+    "tags": [
+      "research",
+      "tool"
+    ],
+    "description": "## Microsoft Discovery: Accelerating R&D with AI Agents\n\nMicrosoft Discovery is a new enterprise platform built for scientific research. It enables AI agents to work with human scientists, generating hypotheses, analyzing data, and performing experiments. Microsoft built the platform on Azure, which provides the computing power needed for simulations and data analysis.\n\nThe platform solves research challenges through three key features. First, it uses graph-based knowledge reasoning to connect information across different domains and publications. Second, it employs specialized AI agents that can focus on specific research tasks while coordinating with other agents. Third, it maintains an iterative learning cycle that adapts research strategies based on results and discoveries. [...] What ",
+    "added_date": "2026-10-05",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-c1b598b7a927",
+    "title": "New AI Tools: From Emojis to Scientific Research | AI Tools Oasis",
+    "url": "https://www.aitoolsoasis.com/en/article/new-ai-tools-from-emojis-to-scientific-research",
+    "type": "tool",
+    "tags": [
+      "research",
+      "tool"
+    ],
+    "description": "Title: New AI Tools: From Emojis to Scientific Research | AI Tools Oasis\nNew AI Tools: From Emojis to Scientific Research. \"Explore new AI tools for custom emojis and academic research, with market analysis and practical recommendations.\". The world of artificial intelligence is witnessing an incredible acceleration in the development of tools targeting diverse needs, from everyday visual expression to advanced academic research. In this article, we review five new tools added to the AI Tools Oasis platform and analyze them within a broader context to understand how AI is reshaping our work and communication methods. These tools, ranging from EmojiForge to Elicit, offer a glimpse into the diversity of applications and their potential. ## Visual Creativity Tools: Turning Text into Emojis. E",
+    "added_date": "2026-10-05",
+    "added_by": "agent",
+    "language": "ar",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-5ed0284526a5",
+    "title": "Machine Learning  |  Google for Developers",
+    "url": "https://developers.google.com/machine-learning/crash-course",
+    "type": "course",
+    "tags": [
+      "machine-learning",
+      "nlp",
+      "llm",
+      "neural-networks",
+      "course"
+    ],
+    "description": "## Machine Learning Crash Course. # Machine Learning. ### What's new in Machine Learning Crash Course? ## Course Modules. ## ML Models. These modules cover the fundamentals of building regression and classification. ### Linear Regression. ### Logistic Regression. ### Classification. ## Data. These modules cover fundamental techniques and best practices for working with machine learning data. ### Working with Numerical Data. ### Working with Categorical Data. ### Datasets, Generalization, and Overfitting. ## Advanced ML models. These modules cover advanced ML model architectures. ### Neural Networks. ### Embeddings. ### Intro to Large Language Models. ## Real-world ML. These modules cover critical considerations when building and deploying ML models in the real world, including productioniz",
+    "added_date": "2026-10-05",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-11d0dfae5491",
+    "title": "Machine Learning Specialization - DeepLearning.AI",
+    "url": "https://www.deeplearning.ai/specializations/machine-learning",
+    "type": "course",
+    "tags": [
+      "machine-learning",
+      "tensorflow",
+      "python",
+      "neural-networks",
+      "course"
+    ],
+    "description": "* Build and train machine learning models in Python using NumPy, scikit-learn, and TensorFlow, starting with linear and logistic regression and working up to neural networks. * Apply the best practices that make models generalize to real-world data and tasks, and build decision trees and ensemble methods including random forests and boosted trees. The Machine Learning Specialization is a beginner-friendly, three-course program created by DeepLearning.AI and Stanford Online and taught by Andrew Ng. It's a rebuilt and expanded version of Andrew's original machine learning course, redesigned so you can gain a deep understanding of how machine learning works without needing a heavy math background or deep coding experience. You'll start with the foundations of supervised learning, building pre",
+    "added_date": "2026-10-05",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-d2a37b984669",
+    "title": "GitHub - tirthajyoti/Machine-Learning-with-Python: Practice and tutorial-style notebooks  covering wide variety of machine learning techniques · GitHub",
+    "url": "https://github.com/tirthajyoti/Machine-Learning-with-Python",
+    "type": "course",
+    "tags": [
+      "machine-learning",
+      "python",
+      "tutorial",
+      "open-source",
+      "neural-networks",
+      "course"
+    ],
+    "description": "Tutorial-type notebooks covering regression, classification, clustering, dimensionality reduction, and some basic neural network algorithms · Regression.",
+    "added_date": "2026-10-05",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-1a88eef2a01c",
+    "title": "Advanced | AI Summer",
+    "url": "https://theaisummer.com/learn-ai/advanced",
+    "type": "blog",
+    "tags": [
+      "computer-vision",
+      "transformers",
+      "generative-ai",
+      "pytorch",
+      "blog"
+    ],
+    "description": "### Computer Vision. Attention and Transformers · Computer Vision · Pytorch. We distill all the important details you need to grasp along with reasons it can work very well given enough data for pretraining.Transformers in computer vision: ViT architectures, tips, tricks and improvements. Attention and Transformers · Computer Vision. ### Transformers in computer vision: ViT architectures, tips, tricks and improvements. ### Generative Learning. Explaining the mathematics behind generative learning and latent variable models and how Variational Autoencoders (VAE) were formulated (code included)How diffusion models work: the math from scratch. GANs in computer vision - Introduction to generative learning. Generative Adversarial Networks · Generative Learning · Computer Vision. The first artic",
+    "added_date": "2026-10-05",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "Sergios Karagiannakos"
+    ],
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-d04348b5aa58",
+    "title": "GitHub - ujjwalkarn/Machine-Learning-Tutorials: machine learning and deep learning tutorials, articles and other resources · GitHub",
+    "url": "https://github.com/ujjwalkarn/Machine-Learning-Tutorials",
+    "type": "course",
+    "tags": [
+      "deep-learning",
+      "machine-learning",
+      "nlp",
+      "python",
+      "tutorial",
+      "open-source",
+      "course"
+    ],
+    "description": "ujjwalkarn   /  **Machine-Learning-Tutorials**  Public. # Machine Learning & Deep Learning Tutorials Awesome. * This repository contains a topic-wise curated list of Machine Learning and Deep Learning tutorials, articles and other resources. * Curated list of R tutorials for Data Science, NLP and Machine Learning. * Curated list of Python tutorials for Data Science, NLP and Machine Learning. * Curated List of Machine Learning Resources. * In-depth introduction to machine learning in 15 hours of expert videos. * List of Machine Learning University Courses. * Machine Learning for Software Engineers. * A curated list of awesome Machine Learning frameworks, libraries and software. * A curated list of awesome data visualization libraries and resources. * An awesome Data Science repository to le",
+    "added_date": "2026-10-05",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-29202568e5e6",
+    "title": "The 6 Best LLM Tools To Run Models Locally",
+    "url": "https://getstream.io/blog/best-local-llm-tools",
+    "type": "tool",
+    "tags": [
+      "nlp",
+      "llm",
+      "tool"
+    ],
+    "description": "Privacy: As shown in the above preview, you can prompt local LLMs in a multi-turn manner without prompt data leaving your local host. The above example is running `deepseek-r1-distill-llama-8b` in LMStudio.\n Customization Options: Local LLMs provide advanced configurations for CPU threads, temperature, context length, GPU settings, and more, similar to OpenAI's playground.\n Support and Security: They provide support and security similar to OpenAI or Claude.\n Subscription and Cost: These tools are free and do not require a monthly subscription. For cloud services like OpenAI, each API request requires payment. Local LLMs help to save money since there are no monthly subscriptions.\n Offline Support: You can load and connect offline with large language models.",
+    "added_date": "2026-10-05",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "Amos G."
+    ],
+    "year": 2026,
+    "quality_score": 8.0
   }
 ]
