@@ -4494,5 +4494,412 @@
     ],
     "year": 2026,
     "quality_score": 8.0
+  },
+  {
+    "id": "auto-2f7fbf94de09",
+    "title": "How to Cite - Generative AI - Research Guides at University of British Columbia",
+    "url": "https://guides.library.ubc.ca/GenAI/cite",
+    "type": "paper",
+    "tags": [
+      "generative-ai",
+      "llm",
+      "research",
+      "tutorial",
+      "paper"
+    ],
+    "description": "On August 13, 2025, MLA published a post on citing generative AI, including ChatGPT, DALL-E, and Copilot, which updates its previous recommendations from March 2023. This is still the most up to date information as of June 2026. MLA's guidelines remain largely the same, with two significant changes:\n\n providing a stable, shareable URL to the AI conversation you are referring to is preferred, but a general link to the AI tool can be provided if the stable URL feature is not available in the tool you are using\n MLA recommends that the AI tool's model name or number be included in the Version element, e.g. ChatGPT, model GPT-4o.\n\nIn summary, MLA recommends: [...] when editing or organizing your own writing. Be sure to disclose in the author note or method section that you used GenAI to help p",
+    "added_date": "2026-10-12",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-82630911bb9a",
+    "title": "How do I cite generative AI in MLA style? (Updated and Revised) | MLA Style Center",
+    "url": "https://style.mla.org/citing-generative-ai-updated-revised",
+    "type": "tutorial",
+    "tags": [
+      "generative-ai",
+      "llm",
+      "tutorial"
+    ],
+    "description": "#### Title of Container\n\nUse the Title of Container element to name the AI tool (e.g., ChatGPT).\n\n#### Version\n\nName the specific AI model or model version as specifically as possible. For instance, the examples in this post were developed using the GPT-4o model of ChatGPT.\n\n#### Publisher\n\nName the company that made the tool.\n\n#### Date\n\nGive the date the content was generated.\n\n#### Location\n\nGive the stable, shareable URL for accessing the generated content (e.g., text, an image, etc.). For example, tools like OpenAI’s ChatGPT and DALL-E allow you to share a link by clicking the Share link at the top of the chat conversation. If the tool you are using doesn’t provide a stable, shareable URL, provide the general URL for the tool.\n\n### Example 1: Paraphrasing Text [...] In “Using the MLA ",
+    "added_date": "2026-10-12",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-5dd2226e14da",
+    "title": "open-source-llm · GitHub Topics · GitHub",
+    "url": "https://github.com/topics/open-source-llm?o=desc&s=stars",
+    "type": "tutorial",
+    "tags": [
+      "generative-ai",
+      "llm",
+      "tutorial",
+      "open-source",
+      "rag"
+    ],
+    "description": "### ArdaGnsrn / ollama-php\n\nThis is a PHP library for Ollama. Ollama is an open-source project that serves as a powerful and user-friendly platform for running LLMs on your local machine. It acts as a bridge between the complexities of LLM technology and the desire for an accessible and customizable AI experience.\n\n### BodhiSearch / BodhiApp\n\nRun Open Source/Open Weight LLMs locally with OpenAI compatible APIs\n\n### SAP-samples / btp-generative-ai-hub-use-cases\n\nSamples on how to build industry solution leveraging generative AI capabilities on top of SAP BTP and integrated with SAP S/4HANA Cloud.\n\n### EmbeddedLLM / embeddedllm\n\nEmbeddedLLM: API server for Embedded Device Deployment. Currently support CUDA/OpenVINO/IpexLLM/DirectML/CPU\n\n### Coherence-Daddy / use-ollama-to-enhance-claude [...",
+    "added_date": "2026-10-12",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-a7e4a2e54cd1",
+    "title": "Making sense of 50+ Open-Source Options for Local LLM ...",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1bdrmei/making_sense_of_50_opensource_options_for_local",
+    "type": "tool",
+    "tags": [
+      "llm",
+      "open-source",
+      "tool"
+    ],
+    "description": "I've created the awesome-local-llms GitHub repository to compile all available options in one streamlined place. like LLM inference engines,",
+    "added_date": "2026-10-12",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-6ce6aa943a6e",
+    "title": "GitHub - janhq/awesome-local-ai: An awesome repository of local AI tools · GitHub",
+    "url": "https://github.com/janhq/awesome-local-ai",
+    "type": "video",
+    "tags": [
+      "nlp",
+      "generative-ai",
+      "llm",
+      "open-source",
+      "fine-tuning",
+      "video"
+    ],
+    "description": "LiteLLM - Call all LLM APIs using the OpenAI format.\n Tune Studio - Playground for software developers to finetune and deploy large language models.\n Langfuse - Open-source LLM monitoring platform that helps teams collaboratively debug, analyze, and iterate on their LLM applications. #opensource\n Shell-Pilot - Interact with LLM using Ollama models(or openAI, mistralAI)via pure shell scripts on your Linux(or MacOS) system, enhancing intelligent system management without any dependencies\n code-collator: Creates a single markdown file that describes your entire codebase to language models. [...] LLM as a Chatbot Service - LLM as a Chatbot Service.\n FuLLMetalAi - Fullmetal.Ai is a distributed network of self-hosted Large Language Models (LLMs).\n Automatic1111 - Stable Diffusion web UI.\n ComfyU",
+    "added_date": "2026-10-12",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-9d0676f86bdb",
+    "title": "GitHub - bentoml/OpenLLM: Run any open-source LLMs, such as DeepSeek and Llama, as OpenAI compatible API endpoint in the cloud. · GitHub",
+    "url": "https://github.com/bentoml/openllm",
+    "type": "tutorial",
+    "tags": [
+      "llm",
+      "open-source",
+      "tutorial"
+    ],
+    "description": "```\nopenllm model list\n```\n\nTo ensure your local list of models is synchronized with the latest updates from all connected repositories, run:\n\n```\nopenllm repo update\n```\n\nTo review a model’s information, run:\n\n```\nopenllm model get llama3.2:1b\n```\n\n### Add a model to the default model repository\n\nYou can contribute to the default model repository by adding new models that others can use. This involves creating and submitting a Bento of the LLM. For more information, check out this example pull request.\n\n### Set up a custom repository [...] For the full model list, see the OpenLLM models repository.\n\n## Start an LLM server\n\nTo start an LLM server locally, use the `openllm serve` command and specify the model version.\n\nNote\n\nOpenLLM does not store model weights. A Hugging Face token (HF\\_TO",
+    "added_date": "2026-10-12",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-3dccf40fe78f",
+    "title": "Open-Source-Language-Model-Pocket/ at main · createmomo/Open-Source-Language-Model-Pocket · GitHub",
+    "url": "https://github.com/createmomo/Open-Source-Language-Model-Pocket?search=1",
+    "type": "video",
+    "tags": [
+      "llm",
+      "open-source",
+      "rag",
+      "video"
+    ],
+    "description": "This is Dot, a standalone open source app meant for easy use of local LLMs and RAG in particular to interact with documents and files similarly to Nvidia's Chat with RTX. Dot itself is completely standalone and is packaged with all dependencies including a copy of Mistral 7B, this is to ensure the app is as accessible as possible and no prior knowledge of programming or local LLMs is required to use it.\n\n### Ollama Embedding Models\n\n \n\nOllama supports embedding models, making it possible to build retrieval augmented generation (RAG) applications that combine text prompts with existing documents or other data. [...] Despite the vast repository of global medical knowledge predominantly being in English, local languages are crucial for delivering tailored healthcare services, particularly in ",
+    "added_date": "2026-10-12",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 10.0
+  },
+  {
+    "id": "auto-1c3681322f91",
+    "title": "Exploring the Best LLM GitHub Projects and Model Repos – Software – REIBuys",
+    "url": "https://software.reibuys.com/exploring-the-best-llm-github-projects-and-model-repos",
+    "type": "tutorial",
+    "tags": [
+      "nlp",
+      "llm",
+      "tutorial",
+      "open-source"
+    ],
+    "description": "In this guide, we review top open-source AI model repositories, outline step-by-step methods for running open models on developer hardware, and explain how to integrate local language models into software development pipelines.\n\n[IMAGE: List of the best LLM GitHub projects for software developers]\n\n## The Rapid Growth of Local LLM GitHub Projects\n\nThe explosion of interest in open-weights models—such as Meta’s Llama series, Mistral AI’s family of models, and Google’s Gemma models—has triggered rapid growth across open-source supporting tools. Engineers are no longer bound to centralized vendor infrastructures; instead, they can run highly capable 8B, 14B, or 70B parameter models directly on private servers or developer workstations. [...] Skip to content\n\nSoftware – REIBuys\n\n# Exploring th",
+    "added_date": "2026-10-12",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-31126b62ad21",
+    "title": "Open source large language model for efficient chain of thoughts (given k-shot examples) : r/LocalLLM",
+    "url": "https://www.reddit.com/r/LocalLLM/comments/132enqu/open_source_large_language_model_for_efficient",
+    "type": "video",
+    "tags": [
+      "nlp",
+      "llm",
+      "research",
+      "open-source",
+      "video"
+    ],
+    "description": "Title: Open source large language model for efficient chain of thoughts (given k-shot examples) : r/LocalLLM\n# Open source large language model for efficient chain of thoughts (given k-shot examples) : r/LocalLLM. Skip to main contentOpen source large language model for efficient chain of thoughts (given k-shot examples) : r/LocalLLM. Open menu Open navigationGo to Reddit Home. # Open source large language model for efficient chain of thoughts (given k-shot examples). I was trying to navigate the open source space to figure out if there are large language models which can be used for chain of thought reasoning, assuming I have several demonstrations for the chain of thought. I haven't done much research about what models are out there (I know of Llama and Vicuna but they cant be used for c",
+    "added_date": "2026-10-12",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-71a88a8db97f",
+    "title": "GitHub - 0xSojalSec/LLMs-local: list of awesome platforms, tools, and resources run for LLMs locally · GitHub",
+    "url": "https://github.com/0xSojalSec/LLMs-local",
+    "type": "tool",
+    "tags": [
+      "generative-ai",
+      "llm",
+      "research",
+      "open-source",
+      "tool"
+    ],
+    "description": "ERNIE 4.5 - a collection of large-scale multimodal models from Baidu\n Seed-OSS - a collection of LLMs developed by ByteDance's Seed Team, designed for powerful long-context, reasoning, agent and general capabilities, and versatile developer-friendly features [...] ## Inference platforms\n\n LM Studio - discover, download and run local LLMs\n \n  for each score\n\nBack to Table of Contents\n\n### Model providers\n\n Qwen - powered by Alibaba Cloud\n \n bartowski - providing GGUF versions of popular LLMs\n Beijing Academy of Artificial Intelligence - a private non-profit organization engaged in AI research and development\n Open Thoughts - a team of researchers and engineers curating the best open reasoning datasets\n\nBack to Table of Contents\n\n### Specific models\n\n#### General purpose [...] DiffusionGemma",
+    "added_date": "2026-10-12",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-a5d406dab379",
+    "title": "GitHub - langfuse/langfuse: 🪢 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform.",
+    "url": "https://github.com/langfuse/langfuse",
+    "type": "library",
+    "tags": [
+      "nlp",
+      "llm",
+      "python",
+      "open-source",
+      "library"
+    ],
+    "description": "|\n| DSPy | Library | Framework that systematically optimizes language model prompts and weights |\n| Mirascope | Library | Python toolkit for building LLM applications. |\n| Ollama | Model (local) | Easily run open source LLMs on your own machine. |\n| Amazon Bedrock | Model | Run foundation and fine-tuned models on AWS. |\n| AutoGen | Agent Framework | Open source LLM platform for building distributed agents. |\n| Flowise | Chat/Agent UI | JS/TS no-code builder for customized LLM flows. |\n| Langflow | Chat/Agent UI | Python-based UI for LangChain, designed with react-flow to provide an effortless way to experiment and prototype flows. |\n| Dify | Chat/Agent UI | Open source LLM app development platform with no-code builder. | [...] | OpenWebUI | Chat/Agent UI | Self-hosted LLM Chat web ui suppo",
+    "added_date": "2026-10-12",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 10.0
+  },
+  {
+    "id": "auto-fda2072231b0",
+    "title": "GitHub - jamesob/local-llm: Everything I know about running LLMs locally · GitHub",
+    "url": "https://github.com/jamesob/local-llm",
+    "type": "tool",
+    "tags": [
+      "llm",
+      "open-source",
+      "tool"
+    ],
+    "description": "I use a network-internal DNS server to point `clank.j.co` to the LLM machine, but you could simply do ` too.\n\n### The harness itself\n\nI created a VM and clanked up an application that basically just creates a tmux session for each directory within the VM's `~/src` tree, which then runs an `opencode` instance that backs up to the inference machine's HTTP API (`\n\nOne key to making the opensource models good is tooling them properly; a summary of my `skills/` is:\n\n camofox, kagi.com API key, and searXNG for web browsing and search,\n Telegram bot for communication and alerting,\n a local private Gitea instance for collaborating on source code.\n\nThe clanker will either work with me interactively in a session, or can be farmed off to work on Gitea issues and file PRs there. [...] | Result | Gen4 ",
+    "added_date": "2026-10-12",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-4eb46d9df9e0",
+    "title": "Top Machine Learning Journals with Impact Factor | S-Logix",
+    "url": "https://slogix.in/machine-learning/leading-journals",
+    "type": "paper",
+    "tags": [
+      "machine-learning",
+      "research",
+      "paper"
+    ],
+    "description": "Computers and Security - Elsevier Ltd | 2024 Impact Factor: 5.4 | CiteScore: 13.3 | Q1\n Robotics and Autonomous Systems - Elsevier | 2024 Impact Factor:5.2 | Cite Score:9.9 | Q1\n Journal of Machine Learning Research | 2024 Impact Factor:5.177 | Cite Score:18.8 | Q1\n IEEE-ACM Transactions on Audio Speech and Language Processing | 2024 Impact Factor:5.1 | Cite Score:12.4 | Q1\n Journal of Artificial Intelligence Research | 2024 Impact Factor:5 | Cite Score:12.8 | Q1\n Biomedical Signal Processing and Control - Elsevier Ltd | 2024 Impact Factor: 4.9 | Cite Score: 11.5 | Q1\n IEEE Transactions on Cognitive and Developmental Systems | 2024 Impact Factor:4.9 | Cite Score:9.4 | Q1\n ACM Transactions on Knowledge Discovery from Data | 2024 Impact Factor: 4.8 | Cite Score: 8.4 | Q1 [...] Foundations an",
+    "added_date": "2026-10-12",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "S-Logix"
+    ],
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-30795497f34a",
+    "title": "Research — MIT Media Lab",
+    "url": "https://www.media.mit.edu/research?filter=publications&tag=machine-learning",
+    "type": "paper",
+    "tags": [
+      "machine-learning",
+      "nlp",
+      "generative-ai",
+      "llm",
+      "research",
+      "paper"
+    ],
+    "description": "Blanchard, Lancelot\\, Perry Naseck\\, Eran Egozy, and Joseph A. Paradiso. 2024. “Developing Symbiotic Virtuosity: AI-Augmented Musical Instruments and Their Use in Live Music Performances.” An MIT Exploration of Generative AI, September. \n\nPublication\n\n## Prompting Large Language Models with Audio for General-Purpose Speech Summarization\n\nWonjune Kang and Deb Roy. \"Prompting Large Language Models with Audio for General-Purpose Speech Summarization.\" In Proc. Interspeech, pp. 1955-1959. 2024.\n\nPublication\n\n## Creative Text-to-Audio Generation via Synthesizer Programming\n\nCherep\\, M., Singh\\, N., & Shand, J. (2024, July). Creative Text-to-Audio Generation via Synthesizer Programming. International Conference on Machine Learning (ICML)\n\nPublication [...] Publication\n\n## Data Acquisition via Ex",
+    "added_date": "2026-10-12",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 10.0
+  },
+  {
+    "id": "auto-a3d6f733ccc6",
+    "title": "Machine Learning Research Papers | Morgan Stanley",
+    "url": "https://www.morganstanley.com/about-us/technology/machine-learning-research-papers",
+    "type": "paper",
+    "tags": [
+      "machine-learning",
+      "nlp",
+      "generative-ai",
+      "llm",
+      "research",
+      "paper"
+    ],
+    "description": "We propose a task-agnostic trojan detection method for NLP methods by investigating the activation pattern.\n\nICML 2024\n\nSemantic Space Informed Prompt Learning with LLM for Time Series Forecasting(opens in a new tab)\n\nWe propose a method to align the pre-trained semantic space learned by LLMs with time series embedding space to perform time series forecasting based on learned prompts from the joint space.\n\nICML 2024\n\nConstrained Exploration via Reflected Replica Exchange Stochastic Gradient Langevin Dynamics(opens in a new tab)\n\nWe propose reflected replica exchange stochastic gradient Langevin dynamics for constrained non-convex exploration, which improves naive reSGLD.\n\nICML 2024\n\nPruned pivot: correlation clustering algorithm for dynamic, parallel, and local computation models [...] ICL",
+    "added_date": "2026-10-12",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-b69b4375f9c3",
+    "title": "Machine Learning with Applications | Vol 15, March 2024",
+    "url": "https://www.sciencedirect.com/journal/machine-learning-with-applications/vol/15/suppl/C",
+    "type": "paper",
+    "tags": [
+      "machine-learning",
+      "paper"
+    ],
+    "description": "Read the latest articles of Machine Learning with Applications at ScienceDirect.com, Elsevier's leading platform of peer-reviewed scholarly literature.",
+    "added_date": "2026-10-12",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-1215536e5486",
+    "title": "[P] Noteworthy AI Research Papers of 2024 (Part One)",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1htedss/p_noteworthy_ai_research_papers_of_2024_part_one",
+    "type": "paper",
+    "tags": [
+      "llm",
+      "research",
+      "paper"
+    ],
+    "description": "Six influential AI papers from January to June, from mixture-of-experts LLMs to new LoRA variants. Research Papers of 2024",
+    "added_date": "2026-10-12",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.5
+  },
+  {
+    "id": "auto-4261bc29b9de",
+    "title": "Machine learning in materials research: Developments over the last decade and challenges for the future",
+    "url": "https://www.sciencedirect.com/science/article/pii/S135902862400055X",
+    "type": "paper",
+    "tags": [
+      "machine-learning",
+      "research",
+      "paper"
+    ],
+    "description": "Skip to main contentSkip to article\n\nImage 2: Elsevier logo\n\n   Journals & Books\n\n   Help   \n   Search \n\nMy account\n\nSign in\n\nImage 3: Current Opinion in Solid State and Materials Science\n\n## Current Opinion in Solid State and Materials Science\n\nDate:December 2024\n\nArticle:101189\n\nVolume:Volume 33\n\nView accessibility information\n\n## Part of special issue\n\nArtificial Intelligence and Machine Learning for Materials\n\nEdited by Yuebing Zheng The University of Texas at Austin, USA\n\nView special issue\n\n## Published by:Elsevier\n\n### Published by\n\nImage 4: Elsevier\n\nShow more\n\nReview article\n\nOpen access\n\nUnder a Creative Commons license\n\nGet rights and content\n\n# Machine learning in materials research: Developments over the last decade and challenges for the future [...] Author links open overlay",
+    "added_date": "2026-10-12",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-25ce47d60cd9",
+    "title": "Home | Machine Learning | Springer Nature Link",
+    "url": "https://link.springer.com/journal/10994",
+    "type": "paper",
+    "tags": [
+      "machine-learning",
+      "research",
+      "tutorial",
+      "optimization",
+      "paper"
+    ],
+    "description": "### Beyond Lipschitz: generalization and optimization analysis for adversarial training under Hölder-type conditions\n\n### SURGE: Structural Perturbation Response Field Guided Residual Distillation for Graph Unlearning\n\n### On Kernel Eigen-Alignments of KRR: Reconstruction and Generalization\n\n## Journal updates\n\n### Springer Nature Editor of Distinction Awards 2026\n\n### DS 2025\n\nSubmission Deadline: February 13, 2026\n\nGuest Editors:\n\n### Call for Papers: Special Issue on Explainable AI for Secure Applications\n\nSubmissions Open: October 15, 2024\n  \nSubmission Deadline: February 25, 2025\n\nGuest Editors:Annalisa Appice, Giuseppeina Andresini, Przemysław Biecek, Christian Wressnegger\n\n### CfP: Discovery Science 2024\n\n### Sign up for alerts\n\nGet notified when new articles are published. [...] Sp",
+    "added_date": "2026-10-12",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-607aeafc3287",
+    "title": "Explore Machine Learning With AIP Publishing - AIP Publishing LLC",
+    "url": "https://publishing.aip.org/resources/topical-portfolios/explore-machine-learning-with-aip-publishing",
+    "type": "paper",
+    "tags": [
+      "machine-learning",
+      "research",
+      "tutorial",
+      "neural-networks",
+      "paper"
+    ],
+    "description": "Journals dedicated to research in machine learning:\n\n#### APL Machine Learning coverAPL Machine Learning\n\nMachine Learning for Applied Physics  \n Applied Physics for Machine Learning\n\n Journal Impact Factor: 4.1\\\n Cited Half-Life: 2.0 Years\\\n CiteScore™: 6.5†\n Avg. Views/Article Per Year (2024-2025): 850+\n Days to 1st Decision (Avg.): 36‡\n Days to Acceptance (Avg): 92‡\n Days to Publish (Avg.): 116‡\n Topics covered: Machine learning, artificial intelligence, neural network dynamics, data mining, signal processing, robotics\n Article types: Articles, Reviews, Perspectives, Tutorials\n Access type: Gold open access\n\nBrowse Open Special Topics\n\n### Interdisciplinary Journals\n\nJournals at the intersection of machine learning and related disciplines:\n\n|  | [...] ### Highlighted Research\n\n## Brain-",
+    "added_date": "2026-10-12",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
   }
 ]
