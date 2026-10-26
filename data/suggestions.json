@@ -5301,5 +5301,395 @@
     ],
     "year": 2026,
     "quality_score": 8.0
+  },
+  {
+    "id": "auto-7aae1c44cccf",
+    "title": "Understanding Prompt Management in GitHub Repositories: A Call for Best Practices",
+    "url": "https://arxiv.org/html/2509.12421v2",
+    "type": "paper",
+    "tags": [
+      "open-source",
+      "paper"
+    ],
+    "description": "GitHub, as the leading collaboration platform for software development, has naturally emerged as a popular open-source choice for prompt management. However, as a Git-based platform, GitHub has fundamental limitations in managing prompt assets. First, in contrast to source code, prompts are unstructured or semi-structured at best. Second, there seems to be an impedance mismatch between prompts and GitHub’s focus on source files as the unit of work and their respective lines as the unit of management. Finally, while GitHub offers a set of gatekeeping tools (e.g., GitHub Actions) to control the quality of the integrated source code, the same does not exist to ensure the quality of prompts. Despite these limitations, GitHub remains the de facto standard for open-source prompt management due [",
+    "added_date": "2026-10-26",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-de3b79b24961",
+    "title": "prompt-generator · GitHub Topics · GitHub",
+    "url": "https://github.com/topics/prompt-generator",
+    "type": "video",
+    "tags": [
+      "transformers",
+      "generative-ai",
+      "llm",
+      "open-source",
+      "video"
+    ],
+    "description": "### mufeedvh / code2prompt\n\nStar  7.7k\n\nA CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting.\n\nrust cli ai command-line prompt prompt-toolkit command-line-tool gpt claude llm prompt-engineering prompt-generator chatgpt\n\n Updated Sep 25, 2026\n Rust\n\n### promptslab / Awesome-Prompt-Engineering\n\nStar  6.4k\n\nThis repository contains a hand-curated resources for Prompt Engineering with a focus on Generative Pre-trained Transformer (GPT), ChatGPT, PaLM etc\n\nmachine-learning text-to-speech deep-learning prompt openai prompt-toolkit gpt text-to-image few-shot-learning text-to-video gpt-3 prompt-learning prompt-tuning prompt-engineering prompt-generator promptengineering prompt-based-learning chatgpt chatgpt-api [...] Updated Oct 5, 20",
+    "added_date": "2026-10-26",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-85c90ebbc79f",
+    "title": "Analyzing 16,193 LLM Papers for Fun and Profits",
+    "url": "https://arxiv.org/html/2504.08619v2",
+    "type": "paper",
+    "tags": [
+      "machine-learning",
+      "nlp",
+      "computer-vision",
+      "llm",
+      "research",
+      "paper"
+    ],
+    "description": "Insight #1. In the AI field, LLM-related research exhibits a dominance in NLP (>> 60%), substantial presence in ML (>> 20%), and rising tractions in computer vision (∼\\sim10%). Conferences focused on NLP, such as ACL, EMNLP, and NAACL, show the highest proportion of LLM-related papers, with values exceeding 60% by 2024. Machine learning conferences, including NeurIPS, ICLR, and ICML, and information retrieval conferences, including SIGIR and WWW, also observe a steady increase, reaching around 20% LLM-related papers by 2024. Besides, computer vision conferences like CVPR and ECCV in 2024 show an increase in the proportion of LLM-related papers, highlighting the growing popularity of multi-modal LLMs. [...] By 2024, THU, NTU, Zhejiang University (ZJU), and HKUST established themselves as le",
+    "added_date": "2026-10-26",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 10.0
+  },
+  {
+    "id": "auto-ec9c1d683402",
+    "title": "Local LLM - Ijrpr",
+    "url": "https://ijrpr.com/uploads/V6ISSUE12/IJRPR57240.pdf",
+    "type": "paper",
+    "tags": [
+      "llm",
+      "research",
+      "tutorial",
+      "benchmark",
+      "optimization",
+      "paper"
+    ],
+    "description": "Devices — arXiv preprint:   M. Zhang, “Efficient LLM Inference via Collaborative Edge Computing,” arXiv preprint arXiv:2405.14371, 2024..  “How to Run a Local LLM for Inference with an Offline-First Approach” (2024) — a practical guide explaining considerations and steps to deploy LLMs locally for privacy-first usage..  S. S. Girija, “Optimizing LLMs for Resource-Constrained Environments,” arXiv preprint arXiv:2505.02309, 2025.  H. Chen, “Inference Performance Evaluation for LLMs on Edge,” arXiv preprint arXiv:2508.11269, 2025  FlexQuant: Elastic Quantization Framework for Locally Hosted LLM on Edge Devices — arXiv preprint: [...] need for privacy-preserving AI systems that operate without dependency on cloud services. Advances in model optimization enable LLMs to run locally with improved",
+    "added_date": "2026-10-26",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-ecbce2e743eb",
+    "title": "LLM Research Papers: The 2024 List",
+    "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-the-2024-list",
+    "type": "paper",
+    "tags": [
+      "nlp",
+      "llm",
+      "research",
+      "rag",
+      "paper"
+    ],
+    "description": "3 Sep, OLMoE: Open Mixture-of-Experts Language Models, \n 3 Sep 2024, In Defense of RAG in the Era of Long-Context Language Models, \n 5 Sep, Attention Heads of Large Language Models: A Survey, \n 5 Sep, LongCite: Enabling LLMs to Generate Fine-grained Citations in Long-context QA, \n 5 Sep, How Do Your Code LLMs Perform? Empowering Code Instruction Tuning with High-Quality Data, \n 6 Sep, Theory, Analysis, and Best Practices for Sigmoid Self-Attention, \n 10 Sep, LLaMA-Omni: Seamless Speech Interaction with Large Language Models, \n 10 Sep, What is the Role of Small Models in the LLM Era: A Survey, \n 11 Sep, Policy Filtration in RLHF to Fine-Tune LLM for Code Generation, \n 16 Sep, RetrievalAttention: Accelerating Long-Context LLM Inference via Vector Retrieval, [...] 1 Nov, Adding Error Bars to ",
+    "added_date": "2026-10-26",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "Sebastian Raschka",
+      "PhD"
+    ],
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-8d7823a6c8c0",
+    "title": "Qualitative text analysis with local LLMs: Part I â Mark Andrews",
+    "url": "https://www.mjandrews.org/notes/text_analysis_with_llms/part1.html",
+    "type": "paper",
+    "tags": [
+      "nlp",
+      "llm",
+      "research",
+      "paper"
+    ],
+    "description": "Khan, A. H., Kegalle, H., D’Silva, R., Watt, N., Whelan-Shamy, D., Ghahremanlou, L., & Magee, L. (2024). Automating thematic analysis: How LLMs analyse controversial topics. arXiv. .\n Leça, M. d. M., Valença, L., Santos, R., & Santos, R. de S. (2024). Applications and implications of large language models in qualitative analysis: A new frontier for empirical software engineering. arXiv. .\n Mellon, J., Bailey, J., Scott, R., Breckwoldt, J., Miori, M., & Schmedeman, P. (2024). Do AIs know what the most important issue is? Using language models to code open-text social survey responses at scale. Research & Politics, 11(1). [...] Barros, C. F., Azevedo, B. B., Graciano Neto, V. V., Kassab, M., Kalinowski, M., do Nascimento, H. A. D., & Bandeira, M. C. G. S. P. (2024). Large language model for ",
+    "added_date": "2026-10-26",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "Mark Andrews"
+    ],
+    "year": 2026,
+    "quality_score": 8.5
+  },
+  {
+    "id": "auto-84a5d224a8b1",
+    "title": "Democratizing AI Development: Local LLM Deployment for India’s Developer Ecosystem in the Era of Tokenized APIs",
+    "url": "https://arxiv.org/html/2508.16684v1",
+    "type": "paper",
+    "tags": [
+      "llm",
+      "paper"
+    ],
+    "description": "## 2. Related Work\n\n### 2.1. Local LLM Deployment and Technical Foundations\n\nRecent advances in local LLM deployment demonstrate its viability for resource-constrained environments. Bendi-Ouis et al. (Bendi-Ouis et al., 2024) established technical feasibility through performance analysis of models like Mistral and LLaMA across GPU configurations, showing consumer hardware suffices for educational use despite throughput limitations. Extending this, Zhang et al. (Zhang et al., 2023) identified four key advantages: enhanced privacy, reduced latency, cost elimination, and offline availability—factors critical for India’s data sovereignty concerns and economic constraints. [...] ### 2.4. Multilingual and Agentic AI Requirements\n\nModern AI applications demand multilingual capabilities and comple",
+    "added_date": "2026-10-26",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 10.0
+  },
+  {
+    "id": "auto-9fe7bbb31329",
+    "title": "Industrial applications of large language models | Scientific Reports",
+    "url": "https://www.nature.com/articles/s41598-025-98483-1",
+    "type": "paper",
+    "tags": [
+      "nlp",
+      "llm",
+      "research",
+      "fine-tuning",
+      "paper"
+    ],
+    "description": "McKinzie, B. et al. Mm1: Methods, analysis \\& insights from multimodal llm pre-training. arXiv Prepr. arXiv2403.09611 (2024).\n\nAbbasiantaeb, Z., Yuan, Y., Kanoulas, E. & Aliannejadi, M. Let the llms talk: Simulating human-to-human conversational qa via zero-shot llm-to-llm interactions. in Proceedings of the 17th ACM International Conference on Web Search and Data Mining 8–17 (2024).\n\nLin, X. et al. Data-efficient Fine-tuning for LLM-based Recommendation. in Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval 365–374 (2024). [...] Lukasik, M., Narasimhan, H., Menon, A. K., Yu, F. & Kumar, S. Metric-aware LLM inference. arXiv Prepr. arXiv2403.04182 (2024).\n\nWolters, C., Yang, X., Schlichtmann, U. & Suzumura, T. Memory Is All You Ne",
+    "added_date": "2026-10-26",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 10.0
+  },
+  {
+    "id": "auto-dcc1964c3e14",
+    "title": "Large language model - Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Large_language_model",
+    "type": "paper",
+    "tags": [
+      "nlp",
+      "llm",
+      "research",
+      "paper"
+    ],
+    "description": "015. 1 2 Movva, Rajiv; Balachandar, Sidhika; Peng, Kenny; Agostini, Gabriel; Garg, Nikhil; Pierson, Emma (2024). \"Topics, Authors, and Institutions in Large Language Model Research: Trends from 17K arXiv Papers\". Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers). pp. 1223–1243. arXiv\"):2307.10700. doi\"):10.18653/v1/2024.naacl-long.67. Retrieved 8 December 2024.\n016. ↑ Hern, Alex (14 February 2019). \"New AI fake text generator may be too dangerous to release, say creators\". The Guardian. Archived from the original on 14 February 2019. Retrieved 20 January 2024. [...] 142. ↑ Wang, Yongge (20 June 2024). \"Encryption Based Covert Channel for Large Language Models\" (PDF). IACR eP",
+    "added_date": "2026-10-26",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-c4410599df27",
+    "title": "Artificial Intelligence & Deep Learning | LLM Research Papers: The 2024 List (Sebastian Raschka, December 2024) | Facebook",
+    "url": "https://www.facebook.com/groups/DeepNetGroup/posts/2367306640328871",
+    "type": "paper",
+    "tags": [
+      "deep-learning",
+      "llm",
+      "research",
+      "paper"
+    ],
+    "description": "LLM Research Papers: The 2024 List (Sebastian Raschka, December 2024)\n\n\"It’s been a very eventful and exciting year in AI research. This is especially true if you are interested in LLMs.\n\nI had big...",
+    "added_date": "2026-10-26",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.5
+  },
+  {
+    "id": "auto-bb516024b7f7",
+    "title": "OpenClaw | Hermes Agent | Grokbot | automation power users | 😱 ARE LOCAL LLMs REALLY THAT STUPID | Facebook",
+    "url": "https://www.facebook.com/groups/3796897670606718/posts/3869704296659388",
+    "type": "paper",
+    "tags": [
+      "llm",
+      "paper"
+    ],
+    "description": "😱 ARE LOCAL LLMs REALLY THAT STUPID? \nOver the weekend, for less than $20 of burned electricity, the local AI cluster I'm using and is called by some \"experts\" from LinkedIn, X, FB...\n- Macs are too...",
+    "added_date": "2026-10-26",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.5
+  },
+  {
+    "id": "auto-604a281b98d9",
+    "title": "I need to set up a local LLM model to classify Abstracts of ...",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1dzvo53/i_need_to_set_up_a_local_llm_model_to_classify",
+    "type": "paper",
+    "tags": [
+      "llm",
+      "research",
+      "paper"
+    ],
+    "description": "I need to set up a local LLM model to classify Abstracts of research papers. ... reReddit: Top posts of 2024.",
+    "added_date": "2026-10-26",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.5
+  },
+  {
+    "id": "auto-a6380ea3579f",
+    "title": "Education (EDUC) < University of Pennsylvania",
+    "url": "https://catalog.upenn.edu/courses/educ",
+    "type": "course",
+    "tags": [
+      "course"
+    ],
+    "description": "This Advanced Tutoring Principles builds on the introductory course, empowering students to delve deeper into their tutoring skill set, cultivating advanced tutoring techniques and leadership attributes that can be applied to their own learning and to support students in small group and one-on-one training. This program offers students designing specialized tutoring strategies for diverse learners, demonstrating a deeper understanding of pedagogy, fostering leadership skills by cultivating students’ skills in leading tutoring sessions, managing group dynamics, and driving positive change. Students gain systemic knowledge, understanding how systems impact learning, providing them with an edge in comprehending complex academic concepts and real-world applications, delving into [...] 1 Course",
+    "added_date": "2026-10-26",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-bfca28913e18",
+    "title": "Title: Advanced Research in Education Tutorial and Quiz Abstract",
+    "url": "https://www.learntechlib.org/primary/d/33863",
+    "type": "tutorial",
+    "tags": [
+      "research",
+      "tutorial"
+    ],
+    "description": "Title: Advanced Research in Education Tutorial and Quiz ... Library collaborated with the teacher education department to develop a tutorial on advanced.",
+    "added_date": "2026-10-26",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-ce1f89fad778",
+    "title": "Graduate Information Literacy Advanced Tutorial(Chinese ...",
+    "url": "https://www.amazon.com/Information-Literacy-Education-Graduate-Advanced/dp/7811304678",
+    "type": "tutorial",
+    "tags": [
+      "tutorial"
+    ],
+    "description": "Book details ; Language Chinese ; Publisher Jiangsu University Press ; Publication date. April 1, 2013 ; ISBN-13 978-7811304671.",
+    "added_date": "2026-10-26",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 6.15
+  },
+  {
+    "id": "auto-b3f8fedc50f1",
+    "title": "Google Docs Full Course Tutorial (2026)",
+    "url": "https://www.youtube.com/watch?v=sRIZF6nJr10",
+    "type": "paper",
+    "tags": [
+      "tutorial",
+      "paper"
+    ],
+    "description": "[1:01:39] But now in this advanced, we're going to enhance [snorts] it and beautify it. So, if you want to write a book with a lot of graphics and a lot of pictures and so\n[1:01:47] on and so forth and charts and all that thing, we're going to show you exactly how to do that. So, what are we going to cover today? We're going to talk about\n[1:01:56] working with styles. Don't know what styles are?\n[1:02:00] Stick with us here. How to make lists and tables and how to use them and how to manipulate them. How to make a chart.\n[1:02:07] How to automatically make a chart from a spreadsheet. How to work with breaks and columns. how to add footnotes and table of contents, which is really, really [...] [58:40] You, you know, only the people that have that. Um you can also copy the link and so on an",
+    "added_date": "2026-10-26",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.65
+  },
+  {
+    "id": "auto-2280c758a2d0",
+    "title": "Google for Education",
+    "url": "https://www.youtube.com/@GoogleforEducation",
+    "type": "video",
+    "tags": [
+      "video"
+    ],
+    "description": "Dedicated to the art of teaching and the science of learning, Google for Education is here to innovate and build brighter futures. Join us to explore new possibilities in the classroom with powerful tools like Gemini, Google Classroom and more. \n\nHit subscribe for inspiring product insights and news, game-changing resources, and creative ideas shaping education worldwide!",
+    "added_date": "2026-10-26",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-748259007a2e",
+    "title": "Preparing High School Students For Advanced Classes Guide | K12 Tutoring",
+    "url": "https://tutoring.k12.com/resources/learning/advanced-students/prep-for-advanced-courses/preparing-high-school-students-for-advanced-classes-guide",
+    "type": "course",
+    "tags": [
+      "tutorial",
+      "course"
+    ],
+    "description": "Learn how preparing high school students for advanced classes with practical tips for parents and expert-backed guidance.",
+    "added_date": "2026-10-26",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "K12 Tutoring Team"
+    ],
+    "year": 2026,
+    "quality_score": 6.1
+  },
+  {
+    "id": "auto-e8b5cce7a746",
+    "title": "Best Online Higher Education Courses and Programs | edX",
+    "url": "https://www.edx.org/learn/higher-education",
+    "type": "course",
+    "tags": [
+      "research",
+      "course"
+    ],
+    "description": "Start building the knowledge you need to work in the higher education field with edX. From accelerated boot camps to comprehensive programs that allow you to earn a bachelor’s degree or (for more advanced learners) a master’s program, there are many different learning formats available to fit your needs. Busy professionals can even take advantage of executive education courses. Find the right course for you.\n\n## Explore higher education jobs\n\nThe education field offers a variety of career opportunities. However, it is important that those interested in the field research the qualifications needed to serve in different positions. If you do choose to pursue a career in this field, expertise in higher education subjects can open up a number of professional roles, including: [...] Educator: Te",
+    "added_date": "2026-10-26",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-24f9cf04178e",
+    "title": "Resources - Every Learner Everywhere®",
+    "url": "https://www.everylearnereverywhere.org/resources",
+    "type": "tutorial",
+    "tags": [
+      "tutorial"
+    ],
+    "description": "Social Justice Education cover\n\nDecember 2023\n\nAdvancing social justice in education requires establishing educational spaces that foster students’ critical consciousness and ability to analyze systems, policies, and practices that lead to inequitable and unjust experiences and outcomes. A social justice approach to education involves two strategies that will be featured in this guide: anti-racist teaching and abolitionist teaching.\n\nDigital Learning Equity Analysis Project\n\nDigital Learning Equity Analysis Cover Page\n\nDecember 2023",
+    "added_date": "2026-10-26",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
   }
 ]
