@@ -5691,5 +5691,399 @@
     "archived": false,
     "year": 2026,
     "quality_score": 8.0
+  },
+  {
+    "id": "auto-f3f3b7b836d8",
+    "title": "Agentic AI for Scientific Discovery: A Survey of Progress, Challenges, and Future Directions",
+    "url": "https://arxiv.org/html/2503.08979v1",
+    "type": "paper",
+    "tags": [
+      "nlp",
+      "llm",
+      "research",
+      "paper"
+    ],
+    "description": "The rapid advancements of Large Language Models (LLMs) (Touvron et al., 2023; Anil et al., 2023; Achiam et al., 2023) have opened a new era in scientific discovery, with Agentic AI systems  (Kim et al., 2024; Guo et al., 2023; Wang et al., 2024; Abramovich et al., 2024) emerging as powerful tools for automating complex research workflows. Unlike traditional AI, Agentic AI systems are designed to operate with a high degree of autonomy, allowing them to independently perform tasks such as hypothesis generation, literature review, experimental design, and data analysis. These systems have the potential to significantly accelerate scientific research, reduce costs, and expand access to advanced tools across various fields, including chemistry, biology, and materials science. [...] The scope of",
+    "added_date": "2026-11-02",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 10.0
+  },
+  {
+    "id": "auto-636f4514e19b",
+    "title": "AI acceleration of science – a personal reflection - Wellcome Sanger Institute Blog",
+    "url": "https://sangerinstitute.blog/2026/11/02/ai-acceleration-of-science-a-personal-reflection",
+    "type": "tool",
+    "tags": [
+      "tool"
+    ],
+    "description": "Current, and presumably future, AI technologies are well recognised to be ‘jagged’, that is their performance on different tasks appears to vary hugely in competence, relative to external expectations of difficulty. Although one could also say that evolution has equipped humans with highly jagged capabilities across different domains of cognition.\n\nTherefore, AI tools are likely to dramatically accelerate some tasks within a scientific pipeline much more than others. And because scientific pipelines are different, AI will accelerate some kinds of scientific projects much more than others. The AI revolution currently happening in mathematics is one example of the acceleration that is possible when many of the tasks are readily catalysed by AI tools. [...] We have at least an initial underst",
+    "added_date": "2026-11-02",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "Rachael Smith"
+    ],
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-103cb2fa4b0b",
+    "title": "How GPT-5 is accelerating scientific discovery: new research | OpenAI posted on the topic | LinkedIn",
+    "url": "https://www.linkedin.com/posts/openai_how-ai-is-accelerating-scientific-discovery-activity-7397339194789961729-BW8F",
+    "type": "paper",
+    "tags": [
+      "llm",
+      "research",
+      "rag",
+      "paper"
+    ],
+    "description": "We’re releasing new research on how GPT-5 is accelerating scientific discovery. In collaboration with researchers at universities and national laboratories, the paper brings together early experiments offering the first signs of how GPT-5 can strengthen research across mathematics, physics, biology, computer science, astronomy, and materials science. The case studies highlight where GPT-5 can contribute today—synthesizing scattered results, surfacing mechanisms, navigating literature conceptually, accelerating tough computations, and even helping generate new proofs of unsolved propositions. These are early signals with well-defined limits. But the direction is encouraging: faster exploration, stronger workflows, and a path toward deeper, reliable AI-assisted discovery as capabilities [...",
+    "added_date": "2026-11-02",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-d9b187c67cd1",
+    "title": "How to Run an LLM Locally to Interact with Your Documents",
+    "url": "https://www.freecodecamp.org/news/run-an-llm-locally-to-interact-with-your-documents",
+    "type": "paper",
+    "tags": [
+      "llm",
+      "python",
+      "tutorial",
+      "paper"
+    ],
+    "description": "In this tutorial, you’ll learn how to run an LLM locally and privately, so you can search and chat with sensitive journals and business docs on your own machine. We’ll install Ollama and OpenWebUI, pick a model that fits your hardware, enable private document search with nomic-embed-text, and create a local knowledge base so everything stays on-disk.\n\n## Table of Contents\n\n Settings for Documents\n How to Upload Your Documents\n\n  + (Optional) Adding a system prompt\n How to Run Your LLM Locally\n Conclusion\n\n## Prerequisites\n\nYou’ll need a terminal (all systems—Windows, Mac, Linux—include one, and you can find yours with a quick search), and either Python and pip or Docker, depending on your preferred installation method for OpenWebUI.\n\n## Installation [...] On Coursera Build a Local AI Assis",
+    "added_date": "2026-11-02",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-3a344661df14",
+    "title": "Install an AI LLM on Your Computer: A Step-by-Step Guide (Updated Oct 2025)",
+    "url": "https://www.adventuresincre.com/how-to-install-llm-locally",
+    "type": "tutorial",
+    "tags": [
+      "llm",
+      "tutorial"
+    ],
+    "description": "5. Wait for the Model to Download and Install. The download and installation process can take anywhere from a few minutes to several hours, depending on the model size and your internet speed. Be patient while Jan.AI sets everything up.\n6. Enable GPU Acceleration (If Available). While the model is downloading, go to Settings > Advanced Settings and turn on GPU Acceleration if your system supports it. This can significantly speed up the model’s performance.\n7. Install the Cortex Extension. Next, navigate to Settings > Cortex and install the Cortex extension. This extension ensures the tool works properly. [...] Go to Settings > Advanced Settings to enable GPU (optional)\n\nInstall the Cortex extension via Settings > Cortex\n\nOnce installed, start chatting in the Jan interface\n\nWhich tool is be",
+    "added_date": "2026-11-02",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "Spencer Burton"
+    ],
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-015cca5fb4ea",
+    "title": "Local LLMs Explained: Benefits, Internet Access & Uses",
+    "url": "https://localxpose.io/blog/unleashing-the-power-of-local-llms",
+    "type": "tutorial",
+    "tags": [
+      "nlp",
+      "llm",
+      "tutorial"
+    ],
+    "description": "These tools cater to different levels of technical expertise, making local LLMs accessible to a wide range of users.\n\n## How to access local LLM from the internet using LocalXpose?\n\nWhile local LLMs offer numerous advantages, accessing them remotely can be challenging. LocalXpose provides a solution by allowing you to securely expose your local LLM to the internet via its secure tunneling service. Here’s a basic guide using Ollama and Open WebUI:\n\n1. Set up Ollama and Open WebUI on your local machine.\n2. Install LocalXpose on your system.\n3. Start your local LLM instance using Ollama.\n4. Launch Open WebUI and connect it to your Ollama instance.\n5. Use LocalXpose to create a secure tunnel to your Open WebUI interface: [...] ## What is LLM?\n\nLarge Language Models (LLMs) are advanced artifici",
+    "added_date": "2026-11-02",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-2069ead85553",
+    "title": "Local LLM: What It Is, Best Models & Hardware (2026)",
+    "url": "https://iternal.ai/local-llm",
+    "type": "tutorial",
+    "tags": [
+      "nlp",
+      "llm",
+      "tutorial"
+    ],
+    "description": "TL;DR\n\n## Local LLM, Summarized\n\nA local LLM (local large language model) is an AI model that runs directly on your own device or on-premises server instead of a cloud API. Because inference happens on-device, your prompts and data never leave your machine — making local AI private, fully offline-capable, and free of per-token usage fees. You download an open-weight model once (Llama, Qwen, Gemma, Mistral, DeepSeek), run it with a tool like Ollama or LM Studio, and own the whole stack. For regulated enterprises, turnkey local AI like AirgapAI runs 100% air-gapped on Intel NPU laptops for a one-time $697 license — no subscription, no cloud. [...] # Local LLM: What It Is, Best Models & Hardware\n\nA local LLM is a large language model that runs entirely on your own hardware — private, offline,",
+    "added_date": "2026-11-02",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "John Byron Hanby IV"
+    ],
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-3eb6ebbf60f9",
+    "title": "How to Run LLMs Locally - Full Guide",
+    "url": "https://www.youtube.com/watch?v=km5-0jhv0JI",
+    "type": "course",
+    "tags": [
+      "llm",
+      "tutorial",
+      "course"
+    ],
+    "description": "[6:35] System messages are ones that tell the model what it should be doing and give it additional context, whereas user messages are ones that will actually be responded to directly.\n[6:44] I then send a Post request to this endpoint, and then I'm able to get the response and grab the message and the content.\n[6:49] So if I come here and I type you've run and now this is in a llama local and then main.py, it will take a second here because it is sending the network request.\n[6:58] And then we should get the response okay. And you can see that we get the response here. 500 words about the fall of Rome directly inside my terminal. [...] [9:58] So settings I enable Docker Docker model runner and then enable the host side TCP support and change course to say oh,\n[10:07] now if for some reason",
+    "added_date": "2026-11-02",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.75
+  },
+  {
+    "id": "auto-bb88c6eb4983",
+    "title": "GitHub - afrise/academic-search-mcp-server: Academic Paper Search MCP Server for Claude Desktop integration. Allows Claude to access data from Semantic Scholar and Crossref. · GitHub",
+    "url": "https://github.com/afrise/academic-search-mcp-server",
+    "type": "paper",
+    "tags": [
+      "python",
+      "research",
+      "open-source",
+      "paper"
+    ],
+    "description": "1. Restart Claude Desktop\n\nThis server is built using:\n\n Python MCP SDK\n FastMCP for simplified server implementation\n httpx for API requests\n\n## API Sources\n\n Semantic Scholar API\n Crossref API\n\nThis project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). This license ensures that:\n\n You can freely use, modify, and distribute this software\n Any modifications must be open-sourced under the same license\n Anyone providing network services using this software must make the source code available\n Commercial use is allowed, but the software and any derivatives must remain free and open source\n\nSee the LICENSE file for the full license text.\n\nContributions are welcome! Here's how you can help: [...] + Parameters:\n    - `paper_id` (str): Paper identifier (DOI or Semantic ",
+    "added_date": "2026-11-02",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-c4f701cb6b1e",
+    "title": "academic-search · GitHub Topics · GitHub",
+    "url": "https://github.com/topics/academic-search?l=typescript&o=desc&s=stars",
+    "type": "paper",
+    "tags": [
+      "research",
+      "open-source",
+      "paper"
+    ],
+    "description": "### cyanheads / openalex-mcp-server\n\nSponsor \n\nStar  16\n\nAccess the OpenAlex academic research catalog — 270M+ publications — via MCP. STDIO or Streamable HTTP.\n\ntypescript mcp bibliometrics citation-analysis literature-search academic-research scholarly-data academic-search openalex model-context-protocol mcp-server scholarly-research cyanheads\n\n Updated Oct 18, 2026\n TypeScript\n\n### Magiciangel / open-literature-search\n\nStar  5\n\nOpen-source academic literature search across open scholarly sources.\n\ndocker open-source typescript nextjs pubmed open-access arxiv crossref semantic-scholar literature-search academic-search openalex\n\n Updated Jun 15, 2026\n TypeScript\n\n### Liozhang / z-search\n\nStar  4 [...] open-source typescript mcp self-hosted search-api metasearch ai-agents github-search web",
+    "added_date": "2026-11-02",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 10.0
+  },
+  {
+    "id": "auto-6b61e53573a5",
+    "title": "GitHub - openags/paper-search-mcp: MCP, CLI, Skills for searching and downloading academic papers from multiple sources like arXiv, PubMed, bioRxiv, etc. · GitHub",
+    "url": "https://github.com/openags/paper-search-mcp",
+    "type": "paper",
+    "tags": [
+      "llm",
+      "research",
+      "open-source",
+      "paper"
+    ],
+    "description": "## Project Principles\n\n Free-First: Public and open sources are the default roadmap. Paid or restricted sources are not the core direction of this project.\n Optional API Keys: API keys are supported only when they improve stability, rate limits, or metadata quality. The MCP should still be usable without them whenever possible.\n LLM-Friendly Retrieval: Search results should be standardized, deduplicated, and as complete as possible for downstream LLM workflows.\n Source Transparency: Different sources have different strengths. The MCP should make those tradeoffs explicit instead of pretending every source supports full-text retrieval.\n\n## MCP Authorization Compatibility [...] ### Development Tasks\n\n [√] Fix Async search bugs and ensure reliable fast MCP events\n [√] End-to-End full pipeline ",
+    "added_date": "2026-11-02",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 10.0
+  },
+  {
+    "id": "auto-411bd30455b3",
+    "title": "GitHub - Future-Scholars/paperlib: An open-source academic paper management tool. · GitHub",
+    "url": "https://github.com/Future-Scholars/paperlib",
+    "type": "paper",
+    "tags": [
+      "llm",
+      "research",
+      "open-source",
+      "paper"
+    ],
+    "description": "That is Paperlib.\n\n## Highlights\n\n Scrape paper’s metadata with many scrapers. Support writing your metadata scrapers. Tailored for many disciplines.\n Fulltext and advanced search.\n Smart filter.\n Rating, flag, tag, folder and markdown/plain text note.\n RSS feed subscription to follow the newest publications on your research topic.\n Locate and download PDF files from the web.\n macOS spotlight-like plugin to copy-paste references easily when writing a draft paper. Also supports MS Word.\n Cloud sync, supports macOS, Linux, and Windows.\n Beautiful and clean UI.\n Extensible. You can write your own extensions.\n\n### With Extensions, you have: [...] ### With Extensions, you have:\n\n Show citation counts.\n Summarize papers by LLMs.\n Automatically tag papers by LLMs.\n Semantically search your librar",
+    "added_date": "2026-11-02",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 10.0
+  },
+  {
+    "id": "auto-008c34fe249c",
+    "title": "GitHub - afrise/academic-search-mcp-server",
+    "url": "https://www.reddit.com/r/mcp/comments/1ik7u8t/github_afriseacademicsearchmcpserver",
+    "type": "paper",
+    "tags": [
+      "research",
+      "open-source",
+      "paper"
+    ],
+    "description": "Academic Paper Search MCP Server for Claude Desktop integration. Allows Claude to access data from Semantic Scholar and Crossref.",
+    "added_date": "2026-11-02",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-e98b8b41849c",
+    "title": "GitHub - opensearch-project/OpenSearch: 🔎 Open source distributed and RESTful search engine. · GitHub",
+    "url": "https://github.com/opensearch-project/opensearch",
+    "type": "tutorial",
+    "tags": [
+      "open-source",
+      "tutorial"
+    ],
+    "description": "| SECURITY.md | SECURITY.md |  |  |\n| TESTING.md | TESTING.md |  |  |\n| TRIAGING.md | TRIAGING.md |  |  |\n| build.gradle | build.gradle |  |  |\n| codecov.yml | codecov.yml |  |  |\n| gradle.properties | gradle.properties |  |  |\n| gradlew | gradlew |  |  |\n| gradlew.bat | gradlew.bat |  |  |\n| settings.gradle | settings.gradle |  |  |\n| whitesource.config | whitesource.config |  |  |\n|  | [...] | .dir-locals.el | .dir-locals.el |  |  |\n| .editorconfig | .editorconfig |  |  |\n| .gitattributes | .gitattributes |  |  |\n| .gitignore | .gitignore |  |  |\n| .lychee.excludes | .lychee.excludes |  |  |\n| .whitesource | .whitesource |  |  |\n| ADMINS.md | ADMINS.md |  |  |\n| AGENTS.md | AGENTS.md |  |  |\n| CHANGELOG.md | CHANGELOG.md |  |  |\n| CODE\\_OF\\_CONDUCT.md | CODE\\_OF\\_CONDUCT.md |  |  |\n| CON",
+    "added_date": "2026-11-02",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-a85fb89fdb05",
+    "title": "GitHub - federicodeponte/opendraft: Free & open-source AI research-paper writer: 19 agents draft 20k-word academic papers in ~10 min with citations verified against CrossRef/OpenAlex/arXiv. Export PDF",
+    "url": "https://github.com/federicodeponte/opendraft",
+    "type": "paper",
+    "tags": [
+      "llm",
+      "research",
+      "open-source",
+      "paper"
+    ],
+    "description": "## OpenDraft vs ChatGPT\n\n| Question | ChatGPT | OpenDraft |\n --- \n| Does it hallucinate citations? | Yes (often) | Verified against real databases |\n| Can it write 20,000+ words? | No (hits limits) | Yes |\n| Does it search real papers? | No | Yes (CrossRef, OpenAlex, Semantic Scholar, arXiv) |\n| Academic structure? | Generic | Chapters & sections |\n| Export to PDF/Word? | No | Yes |\n| Free? | Limited | 100% free (self-host) |\n| Open source? | No | Yes (MIT license) |\n| Hosted SaaS? | ChatGPT Plus $20/mo | OpenPaper.dev — free to generate & read |\n\nBottom line: If you need an AI for academic writing with real citations, OpenDraft is a free, open-source alternative to ChatGPT.\n\n## How It Works\n\nOpenDraft uses 19 specialized AI agents that work like a research team: [...] ## Try it free — no ",
+    "added_date": "2026-11-02",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 10.0
+  },
+  {
+    "id": "auto-afcfd6eb7b58",
+    "title": "research-tool · GitHub Topics · GitHub",
+    "url": "https://github.com/topics/research-tool",
+    "type": "paper",
+    "tags": [
+      "nlp",
+      "generative-ai",
+      "research",
+      "open-source",
+      "paper"
+    ],
+    "description": "nlp github-pages machine-learning computer-vision deep-learning acl research-tool awesome-list paper-writing teaser aaai cvpr iclr icml academic-writing neurips research-tools scientific-figures paper-figures figure-gallery\n\n Updated Oct 31, 2026\n JavaScript\n\n### opensemanticsearch / open-semantic-search\n\nStar  1.2k\n\nOpen Source research tool to search, browse, analyze and explore large document collections by Semantic Search Engine and Open Source Text Mining & Text Analytics platform (Integrates ETL for document processing, OCR for images & PDF, named entity recognition for persons, organizations & locations, metadata management by thesaurus & ontologies, … [...] java ocr latex ai jabref bibtex biblatex bibliography javafx citation research-tool javafx-application academic-publications h",
+    "added_date": "2026-11-02",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 10.0
+  },
+  {
+    "id": "auto-37fe87ad716c",
+    "title": "We built a search engine for GitHub open source repositories",
+    "url": "https://www.reddit.com/r/coding/comments/1f2j0j8/we_built_a_search_engine_for_github_open_source",
+    "type": "tool",
+    "tags": [
+      "open-source",
+      "tool"
+    ],
+    "description": "We built a search engine for GitHub open source repositories. Find and evaluate projects faster with real-time insights, advanced filters, and",
+    "added_date": "2026-11-02",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-7d0a5f62fbf4",
+    "title": "GitHub - mwmbl/mwmbl: An open source, non-profit web search engine · GitHub",
+    "url": "https://github.com/mwmbl/mwmbl",
+    "type": "community",
+    "tags": [
+      "open-source",
+      "community"
+    ],
+    "description": "| Name | Name | Last commit message | Last commit date |\n ---  --- |\n| .claude | .claude |  |  |\n| .github | .github |  |  |\n| .vscode | .vscode |  |  |\n| analyse | analyse |  |  |\n| devdata | devdata |  |  |\n| docs | docs |  |  |\n| front-end | front-end |  |  |\n| mwmbl | mwmbl |  |  |\n| mwmbl\\_rank | mwmbl\\_rank |  |  |\n| notes | notes |  |  |\n| scripts | scripts |  |  |\n| test | test |  |  |\n| .dockerignore | .dockerignore |  |  |\n| .gcloudignore | .gcloudignore |  |  |\n| .git-blame-ignore-revs | .git-blame-ignore-revs |  |  |\n| .gitignore | .gitignore |  |  |\n| .pre-commit-config.yaml | .pre-commit-config.yaml |  |  |\n| AGENTS.md | AGENTS.md |  |  |\n| CLAUDE.md | CLAUDE.md |  |  |\n| CODE\\_OF\\_CONDUCT.md | CODE\\_OF\\_CONDUCT.md |  |  |\n| CONTRIBUTING.md | CONTRIBUTING.md |  |  | [...] ## ",
+    "added_date": "2026-11-02",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 10.0
+  },
+  {
+    "id": "auto-e9c37192ce03",
+    "title": "LibGuides: Start Your Research - A Self-Guided Tutorial: Advanced Search",
+    "url": "https://iu.libguides.com/startyourresearch/advancedsearch",
+    "type": "tutorial",
+    "tags": [
+      "research",
+      "tutorial"
+    ],
+    "description": "A tutorial to take you through the research process. In this lesson, you will learn: What are subject headings and how to use them How to field",
+    "added_date": "2026-11-02",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-7e5e2c3586be",
+    "title": "An advanced self-tutorial for better understanding medical research",
+    "url": "https://healthjournalism.org/blog/2016/08/an-advanced-self-tutorial-for-better-understanding-medical-research",
+    "type": "paper",
+    "tags": [
+      "research",
+      "tutorial",
+      "paper"
+    ],
+    "description": "If you’re relatively new to reporting on medical studies or looking for a refresher as you dive back in after a long hiatus, Sharon Begley’s blog piece earlier this year and this quick-and-dirty refresher at AHCJ’s Medical Studies core topic area are great places to start. But as you spend more time reporting on research, you need to learn more of the nuts and bolts and drill down into specifics of study design, drug approval, and related topics. You need a Medical Research 201 rather than a 101. Here’s one way to conduct a self-guided tutorial if you already feel comfortable with the basics.",
+    "added_date": "2026-11-02",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "AHCJ Staff"
+    ],
+    "year": 2026,
+    "quality_score": 7.5
   }
 ]
