@@ -6085,5 +6085,390 @@
     ],
     "year": 2026,
     "quality_score": 7.5
+  },
+  {
+    "id": "auto-1a725cb19c97",
+    "title": "Citing Generative AI Models - Generative Artificial Intelligence (AI) - LibGuides at Arizona State University",
+    "url": "https://libguides.asu.edu/generativeai/citation",
+    "type": "course",
+    "tags": [
+      "generative-ai",
+      "research",
+      "tutorial",
+      "course"
+    ],
+    "description": "LibApps staff login\n\n# Generative Artificial Intelligence (AI)\n\n Home\n Citing Generative AI Models\n Acknowledging AI Usage\n Uses of Generative AI in the Research Process\n\n## Citing Generative AI Models\n\nBefore using generative AI in a course or research project, consult with your professor/instructor and the ASU Provost's Academic Integrity webpage.\n\nIf you are permitted to use generative AI and you reuse or paraphrase information from a generative AI program you will need to cite it as you would any other source. For other uses of an AI tool (such as fine-tune your writing, brainstorming ideas, troubleshooting code, creating images for presentations) you should be prepared (and might be required) to acknowledge this fact. [...] Chicago Style - Generative AI  \n\n  (as of 8/16/2023)\n\nIEEE ha",
+    "added_date": "2026-11-09",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-2ea5f6721c9a",
+    "title": "Artificial intelligence tools expand scientists’ impact but contract science’s focus - Nature",
+    "url": "https://www.nature.com/articles/s41586-025-09922-y",
+    "type": "paper",
+    "tags": [
+      "nlp",
+      "research",
+      "paper"
+    ],
+    "description": "Developments in artificial intelligence (AI) have accelerated scientific discovery1.\"). Alongside recent AI-oriented Nobel prizes2.\"),3.\"),4.\"),5.\"),6.\"),7.\"),8.\"),9.\"), these trends establish the role of AI tools in science10.\"). This advancement raises questions about the influence of AI tools on scientists and science as a whole, and highlights a potential conflict between individual and collective benefits11.\"). To evaluate these questions, we used a pretrained language model to identify AI-augmented research, with an F1-score of 0.875 in validation against expert-labelled data. Using a dataset of 41.3 million research papers across the natural sciences and covering distinct eras of AI, here we show an accelerated adoption of AI tools among scientists and consistent professional",
+    "added_date": "2026-11-09",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 10.0
+  },
+  {
+    "id": "auto-3afc3eddcb99",
+    "title": "How AI is Accelerating Discovery | College of Natural Sciences",
+    "url": "https://cns.utexas.edu/news/podcast/how-ai-accelerating-discovery",
+    "type": "tool",
+    "tags": [
+      "machine-learning",
+      "generative-ai",
+      "research",
+      "tool"
+    ],
+    "description": "Researchers in fields as diverse as astronomy, chemistry, neuroscience, biotechnology and public health are now using AI tools to look for patterns in their data, write code, find and summarize existing scientific literature, and even design experiments. Someday, scientific discoveries might even be made entirely by AI. [...] We sat down with two guests for a bird’s eye view of how AI tools and approaches are boosting scientific discovery. Adam Klivans is a professor of computer science and the director of the Machine Learning Lab (MLL), which is a kind of umbrella organization for interdisciplinary AI research across the university. He also co-leads the Institute for Foundations of Machine Learning (IFML), which focuses on the fundamental theories behind AI. And Alex Dimakis is a professo",
+    "added_date": "2026-11-09",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-11d27a9db500",
+    "title": "The Role of Artificial Intelligence in Scientific Research",
+    "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC143482",
+    "type": "tool",
+    "tags": [
+      "research",
+      "tool"
+    ],
+    "description": "Artificial Intelligence (AI) is fundamentally transforming the scientific process across all stages, from hypothesis generation and experimental design to data analysis, peer review and dissemination of results. In many research fields, such as the examined protein structure prediction, materials discovery and computational humanities, AI accelerates discovery, fosters interdisciplinary collaboration and enhances reproducibility, while improving access to advanced analytical and computational capabilities. These developments align with the European Union (EU)’s vision to make AI tools and infrastructure more accessible, strengthening research in areas of strategic importance such as climate change, health, and clean technologies. However, this progress introduces new challenges, including ",
+    "added_date": "2026-11-09",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "JRC"
+    ],
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-945575a6356f",
+    "title": "The GitHub Moment for Education: The Case for Executable Pedagogy",
+    "url": "https://www.linkedin.com/pulse/github-moment-education-case-executable-pedagogy-dr-jim-wagstaff-lhapc",
+    "type": "course",
+    "tags": [
+      "open-source",
+      "course"
+    ],
+    "description": "The second signal is quieter and more technical. Open-TutorAi is an open-source, community-edition AI-powered educational platform hosted on GitHub. Educators, developers, and learning designers can fork it, modify it, deploy it, and contribute back. It is not the finished form of executable pedagogy. It is what the finished form’s ancestors will look like when practitioners write the history of this period. The interesting thing is that it exists at all, that it is actively maintained, and that its contribution graph looks like the early commits of any healthy open-source project. [...] Google (2025). NotebookLM is now available to all education users. Google Workspace Updates blog. Available at  (Accessed July 2026).\n\nGoogle (2025). NotebookLM introduces curated featured notebooks with p",
+    "added_date": "2026-11-09",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-0e7f3998c625",
+    "title": "GitHub as a Supplementary Educational Tool to Improve ...",
+    "url": "https://openresearch.newcastle.edu.au/articles/conference_contribution/GitHub_as_a_Supplementary_Educational_Tool_to_Improve_Online_Collaboration_Communication_Problem-solving_and_Learning-to-learn_Attributes_Implementation_and_Results/29566934/1/files/56277851.pdf",
+    "type": "paper",
+    "tags": [
+      "open-source",
+      "benchmark",
+      "rag",
+      "paper"
+    ],
+    "description": "GitHub integration in a compulsory first-year engineering course, leverage its features to create a flipped classroom environment promoting self-directed learning, and evaluate the effectiveness of this blended approach through both quantitative and qualitative methods. Figure 1 illustrates the systematic framework for developing and evaluating the proposed GitHub-based pedagogy. The process begins with the design of GitHub-based pedagogy for a Year-1 subject, incorporating open-source materials and self-learning resources. The effectiveness of this pedagogical approach is evaluated through pre- and post-course questionnaires, supplemented by analysis of students' coursework and GitHub activity data. Figure 1. Overview of the development and evaluation of the proposed GitHub-based [...] co",
+    "added_date": "2026-11-09",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-b47dbd582ffb",
+    "title": "GitHub - GarethManning/education-agent-skills: 165 evidence-grounded AI skills for teachers, school leaders and EdTech builders—pedagogy, learning science, curriculum, assessment and regeneration. Cla",
+    "url": "https://github.com/GarethManning/education-agent-skills",
+    "type": "course",
+    "tags": [
+      "research",
+      "open-source",
+      "course"
+    ],
+    "description": "## Repository files navigation\n\n# Education Agent Skills Library\n\nSkills License: CC BY-SA 4.0 Last Commit\n\nAn independent open-source library of 165 education skills across 20 domains: practical instructions that help AI agents support lesson planning, assessment, curriculum design and learning. It brings named research and clearly labelled original practitioner frameworks into reusable workflows, with limitations and educator judgement built in. Domains 1–19 support teachers and designers; Domain 20 contains 13 student-facing skills for study interactions. [...] Built by Gareth Manning — educator, curriculum designer, and learning systems designer. 20 years of international education experience across 27 countries.\n\nThe educational skills, documentation, examples, and curriculum material",
+    "added_date": "2026-11-09",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 10.0
+  },
+  {
+    "id": "auto-65a1bd483341",
+    "title": "teacher-training · GitHub Topics · GitHub",
+    "url": "https://github.com/topics/teacher-training",
+    "type": "course",
+    "tags": [
+      "python",
+      "open-source",
+      "course"
+    ],
+    "description": "## Navigation Menu\n\n# teacher-training\n\n## Here are 27 public repositories matching this topic...\n\n### jangtrinh / design-os-pedagogy\n\nAgent Teacher: an evidence-graded pedagogy knowledge library, a local teacher rehearsal on authored fraction cases, and a draft publication pipeline. Python, no model calls.\n\n### parquedaciencia / curso-arduino-parque-da-ciencia\n\nCurso de Arduino para formação de professores, com atividades experimentais de Física desenvolvidas no contexto do Parque da Ciência Newton Freire Maia.\n\n### vladimiracunadev-create / education-pedagogy-learning-sciences-program [...] 🎓 Pedagogía, Docencia y Ciencias del Aprendizaje v2.0.0 · 300 clases en 25 partes · El programa de formación pedagógica más completo en español: aprendizaje, didáctica, inclusión, currículum, evaluaci",
+    "added_date": "2026-11-09",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-ddc7f2fa9975",
+    "title": "project-based-learning · GitHub Topics · GitHub",
+    "url": "https://github.com/topics/project-based-learning",
+    "type": "course",
+    "tags": [
+      "generative-ai",
+      "open-source",
+      "course"
+    ],
+    "description": "### GarethManning / education-agent-skills\n\nStar  968\n\n165 evidence-grounded AI skills for teachers, school leaders and EdTech builders—pedagogy, learning science, curriculum, assessment and regeneration. Claude, Codex and Hermes.\n\neducation edtech adaptive-learning pedagogy curriculum-design inclusive-design retrieval-practice open-educational-resources intelligent-tutoring-system project-based-learning systems-thinking ai-education prompt-engineering ai-literacy regenerative-education agentic-workflow learning-science competency-based-education evidence-based-education historical-thinking\n\n Updated Nov 3, 2026\n TypeScript\n\nbuild-your-own-x-machine-learning\n\n### amitshekhariitbhu / build-your-own-x-machine-learning\n\nStar  779 [...] ### md8-habibullah / top-github-repos-list\n\nStar  151\n\nA ",
+    "added_date": "2026-11-09",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-b94f5f37a398",
+    "title": "evidence-based-education · GitHub Topics · GitHub",
+    "url": "https://github.com/topics/evidence-based-education",
+    "type": "course",
+    "tags": [
+      "generative-ai",
+      "python",
+      "research",
+      "open-source",
+      "rag",
+      "course"
+    ],
+    "description": "education edtech adaptive-learning pedagogy curriculum-design inclusive-design retrieval-practice open-educational-resources intelligent-tutoring-system project-based-learning systems-thinking ai-education prompt-engineering ai-literacy regenerative-education agentic-workflow learning-science competency-based-education evidence-based-education historical-thinking\n\n Updated Nov 3, 2026\n TypeScript\n\n### giovannifrontera / academic-research-prisma-wiki-rag\n\nStar  2\n\nPRISMA systematic review workflow enhanced with Claude Code wiki integration — PDF manual ingestion, knowledge persistence, pre-search wiki context\n\npython open-science rag systematic-review academic-research lancedb mcp-server claude-code evidence-based-education prisma-2020\n\n Updated Sep 30, 2026\n Python [...] Skip to content   ",
+    "added_date": "2026-11-09",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 10.0
+  },
+  {
+    "id": "auto-12ffa702adfb",
+    "title": "Experience using GitHub and AsciiDoc",
+    "url": "https://jise.org/volume30/n1/JISEv30n1p10.pdf",
+    "type": "paper",
+    "tags": [
+      "tutorial",
+      "open-source",
+      "paper"
+    ],
+    "description": "merged into the main repository, rather than giving direct access. 6.2 Pedagogy While pedagogy is not the primary focus of a networking security class, basic pedagogical instruction should have been addressed. Students were never informed about instructional best practices to the detriment of the final tutorial quality. In the future, further emphasis should be placed on defining learning objectives, creating activities that directly support the learning objectives, and developing quality reflection and assessment activities. 6.3 Tutorial Quality The tutorials provided evidence of learning, but it is unlikely that the entire eBook will serve as a resource for other network security classes. Some chapters provided clear learning objectives, focused exercises, and strong reflection [...] clo",
+    "added_date": "2026-11-09",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-55e1730f92b2",
+    "title": "educators · GitHub Topics · GitHub",
+    "url": "https://github.com/topics/educators",
+    "type": "course",
+    "tags": [
+      "python",
+      "open-source",
+      "course"
+    ],
+    "description": "pybryt\n\n### microsoft / pybryt\n\nStar  73\n\nPython library for pedagogical auto-assessment\n\neducators python-library auto-assessment pybryt-library\n\n Updated Aug 24, 2026\n Python\n\n### edwinmah / node-lms\n\nStar  38\n\nA Learning Management System (LMS) that makes it easy to create a sequence of lessons or steps for a single course or assignment\n\njquery markdown node mongodb educators lms\n\n Updated Mar 23, 2017\n JavaScript\n\n### ropenscilabs / rOpenSciEd\n\nStar  33\n\nAn project on education with R from rOpenSci unconf 2018\n\neducation educators unconf18 teaching-science unconf\n\n Updated Jul 18, 2018\n\n### moodle / moodlenet\n\nStar  26\n\nMoodleNet Project [...] ### google / coding-with-chrome\n\nStar  529\n\nAn Open Source Educational IDE.\n\njavascript python robot educators ide python3 chrome-os mbot\n\n Upda",
+    "added_date": "2026-11-09",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-75c8e6331daa",
+    "title": "ProjectDiscovery · GitHub",
+    "url": "https://github.com/projectdiscovery",
+    "type": "video",
+    "tags": [
+      "open-source",
+      "video"
+    ],
+    "description": "## PD Open Source Tools\n\nProjectDiscovery produces a suite of open source tools tailored for offensive security: security engineers, bug bounty hunters, and red teamers. Our toolkit is structured around three distinct layers to optimize your security assessment and penetration testing processes. We also provide utilities and libraries as building blocks for an offensive security or bug bounty hunting program.\n\nTo learn about all of the tools, see our tools documentation or check out this video. You can also find the tools in our various GitHub repositories. A few of our most popular projects include: [...] README.md\n\nOur mission is to Democratize Security.\n\nProjectDiscovery is an open source powered security company. We specialize in detecting new, exploitable vulnerabilities and misconfig",
+    "added_date": "2026-11-09",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-2e1d0ba0c405",
+    "title": "Open Data Discovery · GitHub",
+    "url": "https://github.com/opendatadiscovery",
+    "type": "tutorial",
+    "tags": [
+      "tutorial",
+      "open-source"
+    ],
+    "description": "Skip to content   \n \n \n\n## Navigation Menu\n\nSign in\n\nSign in\n\nSign up\n\nAppearance settings\n\nYou signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert\n\n{{ message }}\n\n@opendatadiscovery\n\n# Open Data Discovery\n\nFirst open-source data discovery and observability platform\n\n 172 followers\n United States of America\n \n\nREADME.md\n\n### Welcome\n\nHi! It is ODD team. We develop an open-source Platfrom, which improves productivity, collaboration, and governance of modern data products and teams.\n\n### Explore the Platform\n\nHomepage | Deployment guide | Specification | Blog posts | YouTube | Slack [...] ### Repositories\n\nSho",
+    "added_date": "2026-11-09",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-0d7f937cc71a",
+    "title": "GitHub - microsoft/discovery: Microsoft Discovery community repository · GitHub",
+    "url": "https://github.com/microsoft/discovery",
+    "type": "tool",
+    "tags": [
+      "research",
+      "open-source",
+      "tool"
+    ],
+    "description": "# Microsoft Discovery community\n\nWelcome to the Microsoft Discovery community — the public home for the Discovery platform, where users, partners, and the product team build together. We're proud to announce that the Microsoft Discovery Discussions forum is now open on the Microsoft Community Hub! Share what you've built, ask questions, file bugs, suggest ideas, and see what other Discovery users are doing across disciplines.\n\n> Microsoft Discovery is an extensible platform that brings together agentic orchestration, advanced reasoning, a graph-based knowledge foundation, and high-performance computing for accelerating scientific research and R&D workflows. [...] > The catalog uses a flat layout — there is no Microsoft-versus-partner folder split. The optional `party` field inside `metadat",
+    "added_date": "2026-11-09",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-f1c8cd22bd00",
+    "title": "Open Source Project Finder – Find Similar GitHub Repositories | Readmecodegen",
+    "url": "https://www.readmecodegen.com/open-source-finder",
+    "type": "tool",
+    "tags": [
+      "open-source",
+      "tool"
+    ],
+    "description": "Support ReadmeCodeGen:Please consider donating financiallyto help manage domain and hosting costs. ❤️\n\n# Open Source Project Finder\n\nFind similar GitHub repositories, discover open source projects, and explore active projects worth contributing to. Search by language, activity, stars, and contribution opportunities.\n\nFilters\n\nConfigure your search filters\n\nHas good first issues\n\nBeginner friendly\n\nActively maintained\n\nGood for contribution\n\nFilters\n\nConfigure your search filters\n\nHas good first issues\n\nBeginner friendly\n\nActively maintained\n\nGood for contribution\n\nTrending Projects\n\n🔍\n\n### Ready to explore?\n\nEnter a search term above to discover amazing open source projects. You can search by technology, project name, or description.\n\n## What is an Open Source Project Finder [...] When you",
+    "added_date": "2026-11-09",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "Readmecodegen Team"
+    ],
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-859269deafb4",
+    "title": "Open source tools | ProjectDiscovery",
+    "url": "https://projectdiscovery.io/open-source",
+    "type": "tool",
+    "tags": [
+      "generative-ai",
+      "research",
+      "open-source",
+      "tool"
+    ],
+    "description": "# Open source\n\nCommand-line tools for finding what an organisation exposes. They map its hosts, probe what answers on them, crawl the endpoints behind those and detect vulnerabilities across the result. The scanners read targets on stdin and write one result per line, so they chain with a pipe. We run them in our own research and products, so they stay maintained.\n\n```\ngo install -v github.com/projectdiscovery/pdtm/cmd/pdtm@latest && pdtm -install-all\n```\n\nBrowse on GitHubRead the docs\n\n## Mapping\n\nMappingstartsfromanorganisationoradomainandendswitharesolvedlistofthehostsunderit.Nosinglesourceiscomplete,soqueryseveralandtaketheunion. [...] # ProjectDiscovery tools: context for an agent Install the toolchain (Go 1.25+): go install -v github.com/projectdiscovery/pdtm/cmd/pdtm@latest && pdtm ",
+    "added_date": "2026-11-09",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-bbc434af0557",
+    "title": "GitHub - discoveryjs/discovery: A framework for ad hoc JSON data analysis, shareable server-less reports and dashboards · GitHub",
+    "url": "https://github.com/discoveryjs/discovery",
+    "type": "video",
+    "tags": [
+      "open-source",
+      "video"
+    ],
+    "description": "## Repository files navigation\n\nDiscovery.js project logo\n\nDiscovery.js project logo\n\n# Discovery\n\nNPM version\nTwitter\n\nNPM version\nTwitter\n\nA framework for ad hoc JSON data analysis, shareable server-less reports and dashboards.\n\nYou also can use Discovery.js as an advanced viewer for a JSON right on the GitHub or as an extension for a browser (Chrome, Edge, Firefox) – JsonDiscovery.\n\nimage\n\n## Built using Discovery.js\n\n## Articles\n\n## Related projects\n\n## License\n\nMIT\n\n## About\n\nA framework for ad hoc JSON data analysis, shareable server-less reports and dashboards\n\n### Topics\n\n### Resources\n\n### Stars\n\n### Watchers\n\n### Forks\n\n## Releases\n\n## Sponsor this project\n\n## Packages\n\n## Used by\n\n## Contributors\n\n## Languages\n\n## Footer\n\n### Footer navigation [...] ## Navigation Menu\n\n## Reposi",
+    "added_date": "2026-11-09",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-771d2c2b9a57",
+    "title": "network-discovery · GitHub Topics · GitHub",
+    "url": "https://github.com/topics/network-discovery",
+    "type": "tool",
+    "tags": [
+      "open-source",
+      "tool"
+    ],
+    "description": "Updated Nov 19, 2024\n Shell\n\n### karam-ajaj / atlas\n\nStar  1.3k\n\nOpen-source tool for network discovery, visualization, and monitoring. Built with Go, FastAPI, and React, supports Docker host scanning.\n\nreact docker golang open-source devops networking docker-swarm container self-hosted network-monitoring docker-monitoring network-visualization devops-tools network-discovery hacktoberfest homelab infrastructure-automation host-discovery fastapi\n\n Updated Jul 5, 2026\n JavaScript\n\n### royhills / arp-scan\n\nStar  1.3k\n\nThe ARP Scanner\n\nc macos linux freebsd openbsd gplv3 arp netbsd libpcap solaris network-discovery libcap\n\n Updated Mar 8, 2025\n C\n\n### schweikert / fping\n\nStar  1.2k\n\nHigh performance ping tool [...] RedTiger-Tools\n\n### loxy0devlp / RedTiger-Tools\n\nStar  753\n\nRedTiger-Tools is a",
+    "added_date": "2026-11-09",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
+  },
+  {
+    "id": "auto-8f5396b1941c",
+    "title": "Explore GitHub · GitHub",
+    "url": "https://github.com/explore",
+    "type": "tool",
+    "tags": [
+      "open-source",
+      "tool"
+    ],
+    "description": "Skip to content   \n \n \n\n## Navigation Menu\n\nSign in\n\nSign in\n\nSign up\n\nAppearance settings\n\nYou signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert\n\n{{ message }}\n\n## Here's what's popular on GitHub today...\n\n## Open Source Fridays\n\n### Discover the world of open source with Open Source Friday\n\nDiscover how your favorite open source projects are created. Live coding and technical insights from the maintainers themselves.\n\nsherlock\n\n## Trending repository\n\n### sherlock-project / sherlock\n\nStar  103k\n\nHunt down social media accounts by username across social networks",
+    "added_date": "2026-11-09",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.5
   }
 ]
