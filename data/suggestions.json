@@ -6470,5 +6470,391 @@
     "archived": false,
     "year": 2026,
     "quality_score": 9.5
+  },
+  {
+    "id": "auto-a0e50ab9ff2c",
+    "title": "Aveni AI Platform: AI for Scientific Discovery | ReelMind",
+    "url": "https://reelmind.ai/blog/aveni-ai-platform-ai-for-scientific-discovery",
+    "type": "video",
+    "tags": [
+      "research",
+      "rag",
+      "video"
+    ],
+    "description": "The **Aveni AI Platform** represents a paradigm shift in **scientific discovery**, leveraging advanced artificial intelligence to accelerate research and innovation. The **Aveni AI Platform** offers unparalleled capabilities in hypothesis generation, experimental design, and data analysis, promising to revolutionize fields from drug discovery to materials science. We will delve into its advanced AI models, its integration with platforms like **ReelMind.ai**, and its potential to shape the future of scientific exploration. 1.1.3 The ability to train and publish custom AI models within the platform fosters a collaborative research ecosystem, allowing scientists to share specialized tools and accelerate discovery across diverse disciplines. 1.2.3 The platform's ability to generate visual narr",
+    "added_date": "2026-11-16",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "ReelMind Team"
+    ],
+    "year": 2026,
+    "quality_score": 8.5
+  },
+  {
+    "id": "auto-c3506cb44553",
+    "title": "GitHub - ai4s-research/awesome-ai-for-science: A curated list of awesome AI tools, libraries, papers, datasets, and frameworks that accelerate scientific discovery — from physics and chemistry to biol",
+    "url": "https://github.com/ai-boost/awesome-ai-for-science",
+    "type": "paper",
+    "tags": [
+      "research",
+      "open-source",
+      "benchmark",
+      "paper"
+    ],
+    "description": "CORAL (arXiv 2026) - Robust, lightweight infrastructure for multi-agent autonomous self-evolution, built for autoresearch; agents run in isolated git worktrees, share knowledge through a common state directory, and are scored by a grader daemon; natively integrated with Claude Code, Codex, Cursor Agent, OpenCode, and Kiro (672+ stars, Apache 2.0)\n Science-Star (USTC AI4Science, 2025) - Open-source platform for building, extending, and experimenting with scientific agents, providing modular agent construction tools and standardized evaluation pipelines for accelerating autonomous scientific discovery research (748+ stars, MIT License) [...] EvoScientist - Self-evolving AI scientist with 6 specialized sub-agents (plan/research/code/debug/analyze/write) and persistent memory, #1 on DeepResear",
+    "added_date": "2026-11-16",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 10.0
+  },
+  {
+    "id": "auto-034b43f33dbc",
+    "title": "Claude Powers AI Research Acceleration: How Generative AI is Transforming Scientific Discovery - UBOS",
+    "url": "https://ubos.tech/news/claude-powers-ai-research-acceleration-how-generative-ai-is-transforming-scientific-discovery",
+    "type": "video",
+    "tags": [
+      "generative-ai",
+      "research",
+      "video"
+    ],
+    "description": "Title: Claude Powers AI Research Acceleration: How Generative AI is Transforming Scientific Discovery - UBOS\nConnect to 1000+ API & Automate your workflows with AI. Empowering large-scale innovation with advanced ML orchestration and **Generative AI** custom integration. # Claude Powers AI Research Acceleration: How Generative AI is Transforming Scientific Discovery. ## Claude AI Accelerates Scientific Research: Real‑World Impact and Future Outlook. **Direct answer:** Claude AI dramatically speeds up scientific discovery by acting as an intelligent research partner that can design experiments, analyze massive datasets, and generate hypotheses in minutes instead of months. By integrating domain‑specific tools, large‑scale knowledge bases, and custom “skills,” Claude now helps researchers ac",
+    "added_date": "2026-11-16",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.5
+  },
+  {
+    "id": "auto-9c33e0ef2c3e",
+    "title": "Merck and Acceleration Collaborate to Revolutionize Scientific Discovery with AI",
+    "url": "https://healthandpharma.net/merck-acceleration-scientific-discovery-open-source-ai",
+    "type": "tool",
+    "tags": [
+      "open-source",
+      "tool"
+    ],
+    "description": "# Merck and Acceleration Collaborate to Revolutionize Scientific Discovery with AI. In a collaborative move towards advancing the frontiers of scientific discovery, Merck has partnered with the Acceleration Consortium to release their AI-driven experimentation planner, BayBE, as an open-source project on GitHub. This joint effort marks a significant contribution to the advancement of self-driving labs and fosters innovation in experimental planning and execution. Merck and the Acceleration Consortium, in partnership with the University of Toronto, have open-sourced their artificial intelligence (AI) driven experimentation planner, Bayesian Back End (BayBE), on GitHub. This move, under an Apache 2.0 license, represents a groundbreaking collaboration that aims to revolutionize scientific dis",
+    "added_date": "2026-11-16",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-9383d4f39f0f",
+    "title": "Artificial intelligence in scientific research: Challenges, opportunities and the imperative of a human-centric synergy",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1751157725000896",
+    "type": "framework",
+    "tags": [
+      "llm",
+      "research",
+      "framework"
+    ],
+    "description": "## Highlights\n\n   •Artificial intelligence facilitates the shift from hypothesis-driven to data-driven research by improving the discovery and synthesis stages.. \n   •Tools such as ChatGPT and Scite.ai simplify literature review, hypothesis generation and citation analysis. \n   •Data quality is critical: poor data can lead to opaque models, impacting reproducibility and reliability. \n   •Explainable AI (XAI) frameworks are emerging to address issues of transparency and interpretability in research. \n   •Human expertise remains essential for validation and to ensure ethically valid and reproducible AI results. \n\n## Abstract",
+    "added_date": "2026-11-16",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 10.0
+  },
+  {
+    "id": "auto-b9dca1a81ca8",
+    "title": "Universal Credit and education course levels - GOV.UK",
+    "url": "https://www.gov.uk/guidance/universal-credit-and-education-course-levels",
+    "type": "course",
+    "tags": [
+      "research",
+      "tutorial",
+      "course"
+    ],
+    "description": "## What counts as advanced education\n\nAdvanced education includes higher education qualifications above A level or equivalent. It typically leads to university-level study.\n\n### England, Wales and Northern Ireland advanced education\n\nExamples include:\n\n university degree\n postgraduate level qualification\n NVQ level 4 or above\n degree apprenticeship\n diploma of higher education (DipHE)\n certificate of higher education (CertHE)\n higher national diploma (HND)\n higher national certificate (HNC)\n foundation degree\n teaching qualification\n graduate diploma\n\n### Scotland advanced education\n\nExamples include: [...] Published:\n:   16 September 2025\n\nLast updated:\n:   16 September 2025 —  See all updates\n\nThis guide gives examples of what types of courses are counted as ‘non-advanced’ and ‘advanced’",
+    "added_date": "2026-11-16",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-5f7b954e2985",
+    "title": "Advanced and non-advanced education",
+    "url": "https://opfs.org.uk/support-and-advice/your-children/my-child-is-turning-16/advanced-non-advanced-education",
+    "type": "course",
+    "tags": [
+      "course"
+    ],
+    "description": "Support and Advice\n Talk to us\n Policy and campaigns\n Get involved\n\nHome • Support and Advice • Your children • My child is turning 16 • Advanced and non-advanced education\n\n# Advanced and non-advanced education\n\nLast updated: 21/03/2025\n\nTrying to figure out if your child is in ‘advanced education’ or ‘non-advanced education’? We’ll break down these two terms to help you understand the differences between them.\n\nLone Parent Helpline\n\nor\n\n## Why does the difference matter?\n\nIt’s important to understand the difference between advanced and non-advanced education because which one your child is enrolled in can affect your benefits. [...] If your child is in full-time non-advanced education, you can usually continue to receive Child Benefit and the Child Element of Universal Credit until they ",
+    "added_date": "2026-11-16",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-a9baeca3a566",
+    "title": "Google Docs Advanced Tutorial",
+    "url": "https://www.youtube.com/watch?v=SZ0NDYToydI",
+    "type": "course",
+    "tags": [
+      "generative-ai",
+      "tutorial",
+      "course"
+    ],
+    "description": "### Transcript\n[0:00] Welcome to our Google Docs advanced course. You're learning with Mo Jones, IT professional and educator. If you\n[0:07] have not taken our beginner course, please feel free to do so. We covered six lessons. For the advanced course\n[0:15] here, we we'll pick up on lesson number seven, which is organizing a document.\n[0:22] In lesson number eight, we will insert and manage a table of contents for a professionally looking document.\n[0:31] We'll include some academic references as well.\n[0:36] We'll also take a look at some advanced collaboration and once we get to lesson number 11, we'll take a look at some advanced\n[0:44] search and navigation, so bookmarks and internal links within our document. And then we'll spend some time just taking a [...] [1:08:21] congratulation",
+    "added_date": "2026-11-16",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-9ac4f2d1bc8b",
+    "title": "Gifted and Talented Education: A Guide for K-12 Schools",
+    "url": "https://edcircuit.com/gifted-education-guide",
+    "type": "course",
+    "tags": [
+      "tutorial",
+      "course"
+    ],
+    "description": "Skip to content\n\nedCircuit\n\nSign inJoin Free\n\nGifted and Advanced Learning·K-12·Education Industry Guides and Reports\n\n# Gifted and Talented Education Guide: Definitions, Gifted Testing, Programs, Acceleration, Twice-Exceptional Students and State Laws\n\nHow schools identify and serve students with advanced abilities, including testing, universal screening, acceleration, twice-exceptional learners and state laws.\n\nListen to this articleRead by an AI voice\n\nedCircuit logo an orange lowercase eBy EdCircuit Staff··32 min read\n\nShare\n\n Facebook\n X\n LinkedIn\n Email\n\nA guide to gifted education for school leaders, gifted coordinators, teachers and families: identification, programs, acceleration, equity and policy. [...] For teachers\n\n Which students in my class learn new material much faster tha",
+    "added_date": "2026-11-16",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "EdCircuit Staff"
+    ],
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-86a416345591",
+    "title": "Online Courses & Certificate Programs | Office of Professional and Continuing Education",
+    "url": "https://continuinged.louisiana.edu/online-courses-certificate-programs",
+    "type": "course",
+    "tags": [
+      "course"
+    ],
+    "description": "Professional, Career and Certification Training\n\nThese advanced courses offer a flexible way to learn and prepare for a new career or advance in your current job. Position yourself for success with a variety of new skills for in-demand occupations and prepare for State and Nationally Recognized Certifications. Work at your own pace, get support from a dedicated Student Advisor (where applicable), and complete in 3 to 6 months or up to a year. Earn a certificate of completion and, when applicable, a voucher to sit for the certification exam. Topics include business, healthcare, technology, industry certifications, and more.\n\n#### Accounting and Finance",
+    "added_date": "2026-11-16",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-4612c987263f",
+    "title": "Advanced Education and the Department of Education | The Foundation for American Innovation",
+    "url": "https://www.thefai.org/posts/advanced-education-and-the-department-of-education",
+    "type": "course",
+    "tags": [
+      "rag",
+      "course"
+    ],
+    "description": "These STEM achievements then benefit the entire nation. America’s continued national security depends on maintaining its military and technological superiority over its adversaries; economic growth and prosperity require boosting productivity, developing new markets, and becoming the global leader in emerging technologies and industries. In each case, these outcomes result from the efforts of each generation’s brilliant minds.\n\nIt is therefore essential that we successfully identify those minds early and support their ability to learn and progress as far as possible. These students deserve “accelerated” or “advanced” education: an education that recognizes and champions their great potential, rather than leaving them bored in an average curriculum. [...] Additionally,the Subcommittee shoul",
+    "added_date": "2026-11-16",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-4f91893fd2ed",
+    "title": "East Harlem Tutorial Program - Childhood Special Education (Advanced Certificate) - School of Education",
+    "url": "https://education.hunter.cuny.edu/academics/graduate-programs/east-harlem-teaching-residency-childhood-special-education-advanced-certificate",
+    "type": "tutorial",
+    "tags": [
+      "tutorial"
+    ],
+    "description": "Advanced Certificate is a program exclusively for graduates of the East Harlem Teaching Residency and other eligible teachers at EHTP Scholars Academies",
+    "added_date": "2026-11-16",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-15faecf430c3",
+    "title": "10 Education Research Articles in 2024 | Waldorf Education | North America",
+    "url": "https://www.waldorfeducation.org/10-education-research-articles-in-2024",
+    "type": "paper",
+    "tags": [
+      "generative-ai",
+      "research",
+      "paper"
+    ],
+    "description": "1. The Power of Play: Investigating Student Success in Kindergarten ClassroomsPlay-based learning helps enhance academic success and bridges gaps caused by early adversity.  \n   Read More\n2. Computer and Tablet Use Linked to Angry Outbursts Among ToddlersExcessive screen time is linked to behavioral challenges, emphasizing the benefits of media-free environments for young children.  \n   Read More\n3. Handwriting But Not Typewriting Leads to Widespread Brain ConnectivityHandwriting fosters brain connectivity patterns critical for learning, unlike typing.  \n   Read More [...] Read More\n7. How Building Knowledge Boosts Literacy and LearningExperiential learning improves literacy and comprehension by grounding abstract concepts in real-world contexts.  \n   Read More\n8. Generative AI Can Harm Le",
+    "added_date": "2026-11-16",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "Rocky Lewis"
+    ],
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-ec62c367c551",
+    "title": "Research in Education",
+    "url": "https://journals.sagepub.com/home/rie",
+    "type": "paper",
+    "tags": [
+      "research",
+      "paper"
+    ],
+    "description": "Research article. First published Apr 13, 2024. Mediating educational technologies: Edtech brokering between schools, academia, governance, and industry.",
+    "added_date": "2026-11-16",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 7.5
+  },
+  {
+    "id": "auto-5be1c1f9d7cc",
+    "title": "International Journal of Evaluation and Research in Education (IJERE)",
+    "url": "https://ijere.iaescore.com/index.php/IJERE",
+    "type": "paper",
+    "tags": [
+      "research",
+      "benchmark",
+      "paper"
+    ],
+    "description": "IJERE has been indexed by SCOPUS, and ScimagoJR. Beginning with issue 1 of volume 13 (2024), this journal will be published as a bimonthly journal (6 issues/year). The journal is published by Institute of Advanced Engineering and Science (IAES).\n\n  \n\nJournal Homepage Image\n\n  \n\nPapers published:  \n(1) report evaluation and research findings;   \n(2) treat conceptual and methodological issues; and/or  \n(3) consider the implications of the above for action; and/or  \n(4) an extensive book reviews section and also occasional reports on educational materials and equipment.\n\nKindly please download the IJERE template in MS Word or Latex\n\nSubmit your manuscripts today! <click in here>\n\nPlease do not hesitate to contact us if you require any further information at email: ijere@iaesjournal.com. [...]",
+    "added_date": "2026-11-16",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-0dec55830ee3",
+    "title": "Education at a Glance 2024",
+    "url": "https://www.oecd.org/en/publications/education-at-a-glance-2024_c00cad36-en.html",
+    "type": "paper",
+    "tags": [
+      "research",
+      "paper"
+    ],
+    "description": "Publications#### Publications  Browse all publications  ##### Publications  Image 63  Reports and research papers Research and working papers with deep dives and findings    Image 64  Policy papers and briefs Policy recommendations and case studies        ##### Featured publications  Image 65  The Climate Action Monitor 2026    Image 66  OECD Pensions Outlook 2026 [...] Publications#### Publications  Browse all publications  ##### Publications  Image 25  Reports and research papers Research and working papers with deep dives and findings    Image 26  Policy papers and briefs Policy recommendations and case studies        ##### Featured publications  Image 27  The Climate Action Monitor 2026    Image 28  OECD Pensions Outlook 2026 [...] Policy paper  Building core literacy, numeracy and dig",
+    "added_date": "2026-11-16",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-7c41c4ac1ab3",
+    "title": "Frontiers in Education",
+    "url": "https://www.frontiersin.org/journals/education",
+    "type": "paper",
+    "tags": [
+      "research",
+      "paper"
+    ],
+    "description": "## Research Topics\n\nSubmission open\n\n### Beyond Training: Transfer to Practice, Digital Innovation and AI in Education\n\nSubmission open\n\n### Environmental Health Education for One Health: Building Competencies for Risk Prevention and Action\n\nSubmission open\n\n### Learning from Errors in Computing and Robotics Education\n\nSubmission open\n\n### Staff and Student Wellbeing in Higher Education: The Role of Institutional Conditions\n\n## Volumes\n\n### Volume 11 - 2026\n\n### Volume 10 - 2025\n\n### Volume 9 - 2024\n\n### Volume 8 - 2023\n\n### Volume 7 - 2022",
+    "added_date": "2026-11-16",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "Metropolis Team"
+    ],
+    "year": 2026,
+    "quality_score": 8.0
+  },
+  {
+    "id": "auto-0685fab73cae",
+    "title": "The Evidence Base on AI in K-12: A November 2026 Review",
+    "url": "https://scale.stanford.edu/ai/evidence-base-review/evidence-base-ai-k12-november-review",
+    "type": "paper",
+    "tags": [
+      "generative-ai",
+      "llm",
+      "research",
+      "paper"
+    ],
+    "description": "| Stadler et al. (2024)  [RCT] [PR] | Students | Using ChatGPT-3.5 vs. Google search to research a scientific topic in a one-time 20-minute session and provide written recommendations. | 91 university students in Germany. | AI chatbots significantly reduced students’ cognitive load while they conducted research and reduced the quality of students’ reasoning and argumentation compared to using a traditional search engine. | [...] Rai, A., Chen, L., Ramesh, B., Breazeal, C., Long, Y., Ampel, B., & Aria, A. (2026). Calibrating LLM tutor initiation to learner expertise: Proactive and reactive support for computational thinking [Working paper]. \n\nRismanchian, S., Uzun, H., Matayoshi, J., Cosyn, E., & Kurd-Misto, E. (2026). Faster completion, less learning: Generative AI reduced study time on ma",
+    "added_date": "2026-11-16",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 9.0
+  },
+  {
+    "id": "auto-22766544f822",
+    "title": "Research Papers in Education, Volume 41, Issue 5 (2026)",
+    "url": "https://www.tandfonline.com/toc/rred20/current",
+    "type": "paper",
+    "tags": [
+      "research",
+      "paper"
+    ],
+    "description": "Explore the current issue of Research Papers in Education, Volume 41, Issue 5, 2026. 2024 Vol 38, 2023. Select to download all citations or PDFs",
+    "added_date": "2026-11-16",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "year": 2026,
+    "quality_score": 8.5
+  },
+  {
+    "id": "auto-87a8ddc56b4c",
+    "title": "Open source projects on GitHub",
+    "url": "https://open-innovation-projects.org/blog/discover-the-best-open-source-projects-on-github-for-collaboration-and-innovation",
+    "type": "tutorial",
+    "tags": [
+      "machine-learning",
+      "tensorflow",
+      "python",
+      "open-source",
+      "tutorial"
+    ],
+    "description": "One of the key advantages of open source projects on GitHub is the transparency it offers. The source code of these projects is available for anyone to inspect, modify, and distribute according to the terms of the project’s open source license.\n\nMany well-known open source projects are hosted on GitHub. Some examples include the Linux operating system, the Python programming language, and the TensorFlow machine learning framework. These projects have large communities of developers actively contributing and maintaining the codebase.\n\n### Benefits of Contributing to Open Source Projects on GitHub [...] ## GitHub Open Source Projects vs. Closed Source Projects\n\nWhen it comes to developing software, there are two main approaches: open source and closed source. Open source projects allow anyon",
+    "added_date": "2026-11-16",
+    "added_by": "agent",
+    "language": "en",
+    "access": "unknown",
+    "archived": false,
+    "authors": [
+      "admin-science"
+    ],
+    "year": 2026,
+    "quality_score": 8.0
   }
 ]
